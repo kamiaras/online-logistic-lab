@@ -1,0 +1,1121 @@
+{
+  "targets": [
+    {
+      "case": "signal_d100_B1000_T1000_s72001",
+      "d": 100,
+      "B": 1000.0,
+      "T": 1000,
+      "seed": 910001,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d100_B1000_T1000_s72001__B1000__sweep_warm_full_m16n4__s910001",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910002,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__lanes_fresh_full_m16n4__s910002",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910005,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910005",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d100_B1000_T1000_s72001",
+      "d": 100,
+      "B": 1000.0,
+      "T": 1000,
+      "seed": 910001,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910001",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d100_B1000_T1000_s72001",
+      "d": 100,
+      "B": 1000.0,
+      "T": 1000,
+      "seed": 910003,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910003",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d100_B1000_T1000_s72001",
+      "d": 100,
+      "B": 1000.0,
+      "T": 1000,
+      "seed": 910001,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d100_B1000_T1000_s72001__B1000__lanes_fresh_full_m16n4__s910001",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910006,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__sweep_fresh_full_m16n4__s910006",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910003,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910003",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d100_B1000_T1000_s72001",
+      "d": 100,
+      "B": 1000.0,
+      "T": 1000,
+      "seed": 910003,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d100_B1000_T1000_s72001__B1000__sweep_warm_full_m16n4__s910003",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910003,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__sweep_fresh_full_m16n4__s910003",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910001,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__sweep_warm_full_m16n4__s910001",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910006,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910006",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d100_B1000_T1000_s72001",
+      "d": 100,
+      "B": 1000.0,
+      "T": 1000,
+      "seed": 910003,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d100_B1000_T1000_s72001__B1000__sweep_fresh_full_m16n4__s910003",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910006,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__lanes_fresh_full_m16n4__s910006",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d100_B1000_T1000_s72001",
+      "d": 100,
+      "B": 1000.0,
+      "T": 1000,
+      "seed": 910002,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d100_B1000_T1000_s72001__B1000__lanes_fresh_full_m16n4__s910002",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910004,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__sweep_fresh_full_m16n4__s910004",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910001,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__lanes_fresh_full_m16n4__s910001",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910006,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__sweep_warm_full_m16n4__s910006",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d100_B1000_T1000_s72001",
+      "d": 100,
+      "B": 1000.0,
+      "T": 1000,
+      "seed": 910002,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d100_B1000_T1000_s72001__B1000__sweep_fresh_full_m16n4__s910002",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910001,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__sweep_fresh_full_m16n4__s910001",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910005,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__sweep_fresh_full_m16n4__s910005",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910004,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__sweep_warm_full_m16n4__s910004",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910003,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__lanes_fresh_full_m16n4__s910003",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d100_B1000_T1000_s72001",
+      "d": 100,
+      "B": 1000.0,
+      "T": 1000,
+      "seed": 910003,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d100_B1000_T1000_s72001__B1000__lanes_fresh_full_m16n4__s910003",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910005,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__sweep_warm_full_m16n4__s910005",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910002,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__sweep_warm_full_m16n4__s910002",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910005,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__lanes_fresh_full_m16n4__s910005",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d100_B1000_T1000_s72001",
+      "d": 100,
+      "B": 1000.0,
+      "T": 1000,
+      "seed": 910001,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d100_B1000_T1000_s72001__B1000__sweep_fresh_full_m16n4__s910001",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910002,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__sweep_fresh_full_m16n4__s910002",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910004,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__lanes_fresh_full_m16n4__s910004",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "fresh",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910003,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__sweep_warm_full_m16n4__s910003",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910004,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910004",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910002,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910002",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d10_B100_T1000_s72001",
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "seed": 910001,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910001",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d100_B1000_T1000_s72001",
+      "d": 100,
+      "B": 1000.0,
+      "T": 1000,
+      "seed": 910002,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910002",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "lanes",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    },
+    {
+      "case": "signal_d100_B1000_T1000_s72001",
+      "d": 100,
+      "B": 1000.0,
+      "T": 1000,
+      "seed": 910002,
+      "rounds": 500,
+      "seconds": 90.0,
+      "stage": "primary",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d100_B1000_T1000_s72001__B1000__sweep_warm_full_m16n4__s910002",
+      "config": {
+        "mode": "practical",
+        "tilts": 16,
+        "burn_in": 4,
+        "transitions": 4,
+        "history_block_size": 128,
+        "layout": "sweep",
+        "persistence": "warm",
+        "acceptance": "full",
+        "capture_checkpoints": [
+          10,
+          50,
+          100,
+          250,
+          500
+        ],
+        "capture_per_round": 2
+      }
+    }
+  ],
+  "source_hashes": {
+    "SHARED_ABLATION_AMENDMENT.md": "564e86430bc513c0cb15ed802e564d8021cc5547b4284591f6a9d76a75faccb7",
+    "experiments/shared_ablation_continue.py": "0bdbe8c3e45949e9ededffd4c9e8afc227b6f419a6e90c1f2211d2c082cbe928",
+    "experiments/shared_ablation.py": "b4ce2660865bf5d55a57c69b6e74ab331287f3c35a1e6001fb7e400323f36919",
+    "experiments/shared_ablation_worker.py": "85dcc3e6c1dbe6aef214bc694f009df7e9bf5f0b949eaa2be3a09ec3a9b23f80",
+    "experiments/shared_ablation_campaign.py": "c955f522d385eeead4b372b90d2cde27b2ce41a7252259f0215abe8453e6ffac",
+    "experiments/common.py": "d176b1757823459eb8ec2383da67cbc4fed44a52f0dcad0c0815c1d05ee32ff7"
+  },
+  "completed_at_start": [
+    "budget__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m64n1__s910003",
+    "primary__signal_d100_B1000_T1000_s72001__B1000__sweep_warm_full_m16n4__s910001",
+    "radius__signal_d10_B100_T1000_s72001__B1__sweep_fresh_full_m16n4__s910002",
+    "budget__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m256n1__s910001",
+    "primary__signal_d10_B100_T1000_s72001__B100__lanes_fresh_full_m16n4__s910002",
+    "primary__signal_d100_B1000_T1000_s72001__B1000__sweep_warm_full_m16n4__s910004",
+    "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_fresh_full_m16n4__s910006",
+    "primary__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910005",
+    "budget__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m64n1__s910002",
+    "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910001",
+    "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910003",
+    "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_fresh_full_m16n4__s910001",
+    "primary__signal_d10_B100_T1000_s72001__B100__sweep_fresh_full_m16n4__s910006",
+    "budget__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m256n1__s910003",
+    "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_fresh_full_m16n4__s910005",
+    "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910004",
+    "primary__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910003",
+    "radius__signal_d10_B100_T1000_s72001__B10__sweep_fresh_full_m16n4__s910003",
+    "radius__signal_d10_B100_T1000_s72001__B10__sweep_fresh_full_m16n4__s910002",
+    "primary__signal_d100_B1000_T1000_s72001__B1000__sweep_warm_full_m16n4__s910003",
+    "budget__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m64n1__s910001",
+    "budget__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m256n1__s910003",
+    "primary__signal_d10_B100_T1000_s72001__B100__sweep_fresh_full_m16n4__s910003",
+    "radius__signal_d10_B100_T1000_s72001__B1000__sweep_fresh_full_m16n4__s910001",
+    "primary__signal_d10_B100_T1000_s72001__B100__sweep_warm_full_m16n4__s910001",
+    "primary__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910006",
+    "primary__signal_d100_B1000_T1000_s72001__B1000__sweep_fresh_full_m16n4__s910003"
+  ]
+}

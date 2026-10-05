@@ -1,0 +1,41 @@
+[
+  {
+    "algorithm": "aioli",
+    "config": {},
+    "d": 10,
+    "B": 100.0,
+    "T": 1000000,
+    "sampler_seed": 161174,
+    "data_seed": 72001,
+    "case_id": "signal_d10_B100_T1000000_s72001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000000_s72001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\long_horizon\\signal_d10_B100_T1000000_s72001__aioli__default",
+    "seconds": 240,
+    "memory_bytes": 2147483648,
+    "stage": "long_horizon",
+    "label": "default"
+  },
+  {
+    "algorithm": "shared",
+    "config": {
+      "mode": "practical",
+      "tilts": 16,
+      "burn_in": 4,
+      "transitions": 4
+    },
+    "d": 10,
+    "B": 100.0,
+    "T": 1000000,
+    "sampler_seed": 161174,
+    "data_seed": 72001,
+    "case_id": "signal_d10_B100_T1000000_s72001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000000_s72001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_long_horizon\\signal_d10_B100_T1000000_s72001__shared__m16n4",
+    "seconds": 240,
+    "memory_bytes": 2147483648,
+    "stage": "shared_long_horizon",
+    "label": "m16n4",
+    "source_stage": "long_horizon",
+    "source_manifest": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\long_horizon\\manifest.json"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "wall_seconds": 16.804255199996987,
+  "attempted": [
+    {
+      "index": 1,
+      "total": 6,
+      "name": "curvature__signal_d10_B100_T1000_s72001__m64n1__s910002",
+      "status": "completed",
+      "round": 500,
+      "seconds": 1.819
+    },
+    {
+      "index": 2,
+      "total": 6,
+      "name": "curvature__signal_d100_B1000_T1000_s72001__m64n1__s910001",
+      "status": "completed",
+      "round": 500,
+      "seconds": 3.423
+    },
+    {
+      "index": 3,
+      "total": 6,
+      "name": "curvature__signal_d10_B100_T1000_s72001__m64n1__s910003",
+      "status": "completed",
+      "round": 500,
+      "seconds": 1.915
+    },
+    {
+      "index": 4,
+      "total": 6,
+      "name": "curvature__signal_d100_B1000_T1000_s72001__m64n1__s910002",
+      "status": "completed",
+      "round": 500,
+      "seconds": 3.924
+    },
+    {
+      "index": 5,
+      "total": 6,
+      "name": "curvature__signal_d10_B100_T1000_s72001__m64n1__s910001",
+      "status": "completed",
+      "round": 500,
+      "seconds": 1.919
+    },
+    {
+      "index": 6,
+      "total": 6,
+      "name": "curvature__signal_d100_B1000_T1000_s72001__m64n1__s910003",
+      "status": "completed",
+      "round": 500,
+      "seconds": 3.725
+    }
+  ]
+}

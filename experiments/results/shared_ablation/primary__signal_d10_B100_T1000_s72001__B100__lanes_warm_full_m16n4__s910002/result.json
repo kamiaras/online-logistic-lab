@@ -1,0 +1,79 @@
+{
+  "status": "completed",
+  "error": null,
+  "round": 500,
+  "configured_horizon": 1000,
+  "fixed_endpoint": 500,
+  "cumulative_loss": 3009.291562539465,
+  "online_seconds": 32.856040800063056,
+  "memory": {
+    "working_set": 33759232,
+    "peak_working_set": 33759232,
+    "private_commit": 55267328,
+    "peak_private_commit": 55267328
+  },
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\Kamiar\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "metrics": {
+    "counters": {
+      "weighted_history_appends": 500,
+      "weighted_history_coordinates": 5000,
+      "cache_appends": 500,
+      "cache_append_rows": 500,
+      "estimated_matmul_flops": 488403440,
+      "skipped_rounds": 1,
+      "predictions": 500,
+      "observations": 500,
+      "sampled_rounds": 499,
+      "prior_initializations": 16,
+      "prior_coordinates": 160,
+      "uniform_draws": 2886981,
+      "tn_proposals": 948912,
+      "tn_rejections": 226942,
+      "normal_offset_rounding_stalls": 0,
+      "normal_draws": 721970,
+      "rqo_proposals": 40245,
+      "roundoff_gap_clamps": 0,
+      "fallback_rows": 10112886,
+      "full_residual_calls": 40245,
+      "direct_tests": 40245,
+      "rqo_rejections": 8309,
+      "rejection_repairs": 8309,
+      "cache_misses": 8292,
+      "gradient_refresh_rows": 2096950,
+      "softplus_elements": 2096950,
+      "tanh_elements": 2096950,
+      "gradient_refreshes": 8309,
+      "rqo_accepts": 31936,
+      "max_proposals_one_move": 3,
+      "proximal_steps": 31936,
+      "burn_in_steps": 1996,
+      "cached_first_accepts": 23644,
+      "recorded_tilts": 7984,
+      "inter_tilt_steps": 29940
+    },
+    "times": {
+      "initialization": 0.016477500001201406,
+      "cache_append": 0.04169039997213986,
+      "predict": 32.81836509999994,
+      "observe": 0.01841340001556091,
+      "conditional_proposal": 13.589715698733926,
+      "full_residual": 7.451709100234439,
+      "direct_test": 7.633874198581907,
+      "gradient_refresh": 0.5329280994046712,
+      "conditional_draw": 22.048492398753297
+    }
+  },
+  "state_bytes": 87696,
+  "guarded_loss": 1012.1000151848609
+}

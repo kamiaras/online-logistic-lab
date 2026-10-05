@@ -1,0 +1,1 @@
+{"status": "cancelled_by_user", "committed_round": 1234, "cumulative_loss": 5427.019451667415, "online_seconds": 1343.2180299998145}

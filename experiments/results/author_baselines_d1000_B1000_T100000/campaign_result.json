@@ -1,0 +1,22 @@
+{
+  "generated_utc": "2026-09-11T18:39:28.126547+00:00",
+  "attempts": [
+    {
+      "algorithm": "author_aioli",
+      "status": "completed",
+      "round": 100000,
+      "online_seconds": 1287.78285589788
+    },
+    {
+      "algorithm": "author_sigmoid",
+      "status": "cancelled_by_user",
+      "round": 1234,
+      "online_seconds": 1343.2180299998145
+    }
+  ],
+  "all_baseline_attempts_terminal": true,
+  "cancelled_by_user": true,
+  "unexpected_error": null,
+  "sources_and_data_unchanged": true,
+  "total_wall_seconds": 2659.3654177999997
+}

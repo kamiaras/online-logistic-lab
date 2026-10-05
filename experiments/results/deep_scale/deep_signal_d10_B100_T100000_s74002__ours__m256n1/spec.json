@@ -1,0 +1,19 @@
+{
+  "algorithm": "ours",
+  "config": {
+    "particles": 256,
+    "transitions": 1
+  },
+  "d": 10,
+  "B": 100.0,
+  "T": 100000,
+  "sampler_seed": 163175,
+  "data_seed": 74002,
+  "case_id": "deep_signal_d10_B100_T100000_s74002",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\deep_signal_d10_B100_T100000_s74002",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_scale\\deep_signal_d10_B100_T100000_s74002__ours__m256n1",
+  "seconds": 120,
+  "memory_bytes": 2147483648,
+  "stage": "deep_scale",
+  "label": "m256n1"
+}

@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "job_verification": {
+    "pid": 24564,
+    "job_member": true,
+    "process_memory_limit": 2147483648,
+    "limit_flags": 8448,
+    "verified_inside_actual_interpreter": true
+  },
+  "status": "completed",
+  "error": null,
+  "failure_phase": null,
+  "round": 2,
+  "committed_round": 2,
+  "recorded_rounds": 2,
+  "configured_horizon": 100000,
+  "target_rounds": 2,
+  "algorithm": "author_aioli",
+  "algorithm_class": "AuthorAIOLI",
+  "d": 1000,
+  "B": 1000.0,
+  "seed": 910001,
+  "native_algorithm_class": "AIOLI",
+  "author_commit": "22c6ec54cd45908c0a39cbfa931a60e55646308f",
+  "author_source": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\research\\author_code_comparison_2026-09-11\\a9a_experiment.py",
+  "config": {
+    "R": 1.0,
+    "lam": 1e-06,
+    "T_inner": 80,
+    "omega_solver": "lbfgs"
+  },
+  "actual_population": null,
+  "cumulative_loss": 1.386294289042098,
+  "online_seconds": 1.1149928999948315,
+  "author_reported_cumulative_loss": 1.386294289042098,
+  "completed_prefix_online_seconds": 1.1149928999948315,
+  "initialization_seconds": 1.0871735999826342,
+  "prediction_seconds": 0.0026264000043738633,
+  "native_prediction_seconds": 0.0025175000191666186,
+  "native_update_seconds": 0.02506750004249625,
+  "adapter_overhead_seconds": 0.00023429995053447783,
+  "update_seconds": 0.025192900007823482,
+  "input_seconds": 0.007069000013871118,
+  "recording_seconds": 0.062160099972970784,
+  "elapsed_seconds": 1.1926327999972273,
+  "cpu_seconds": 1.109375,
+  "memory": {
+    "working_set": 150921216,
+    "peak_working_set": 158871552,
+    "private_commit": 189935616,
+    "peak_private_commit": 197926912
+  },
+  "baseline_memory": {
+    "working_set": 58314752,
+    "peak_working_set": 61419520,
+    "private_commit": 75948032,
+    "peak_private_commit": 80539648
+  },
+  "state_bytes": 8016000,
+  "metrics": {
+    "counters": {
+      "predictions": 2,
+      "observations": 2
+    },
+    "times": {
+      "native_initialization": 0.004430200002389029,
+      "native_predict": 0.0025175000191666186,
+      "stable_prediction_diagnostic": 2.6599998818710446e-05,
+      "native_update": 0.02506750004249625
+    }
+  },
+  "diagnostics": {
+    "algorithm": "author_aioli",
+    "native_class": "AIOLI",
+    "native_source": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\research\\author_code_comparison_2026-09-11\\a9a_experiment.py",
+    "pinned_commit": "22c6ec54cd45908c0a39cbfa931a60e55646308f",
+    "configuration": {
+      "R": 1.0,
+      "lam": 1e-06,
+      "T_inner": 80,
+      "omega_solver": "lbfgs"
+    },
+    "observed_rounds": 2,
+    "last_probability": 0.4999999639611023,
+    "last_stable_logit": -1.4415559057567862e-07,
+    "last_log_probability_positive": -0.6931472526377432,
+    "last_log_probability_negative": -0.6931471084821527,
+    "last_reported_loss": 0.6931471084821527,
+    "last_native_predict_seconds": 0.0010905000090133399,
+    "last_native_update_seconds": 0.012513100024079904,
+    "state_bytes": 8016000,
+    "failed": false,
+    "native_prediction_and_update_unchanged": true,
+    "stable_loss_is_unsmoothed_native_score_diagnostic": true,
+    "author_reported_loss_clips_probability_at": 1e-12,
+    "native_timing_excludes_adapter_diagnostics_and_history_append": true,
+    "counters_scope": "Completed native updates only; interrupted update work is not counted. FLOPs are dense-kernel estimates.",
+    "finite_precision_certificate": false,
+    "metrics": {
+      "counters": {
+        "predictions": 2,
+        "observations": 2
+      },
+      "times": {
+        "native_initialization": 0.004430200002389029,
+        "native_predict": 0.0025175000191666186,
+        "stable_prediction_diagnostic": 2.6599998818710446e-05,
+        "native_update": 0.02506750004249625
+      }
+    }
+  },
+  "diagnostics_error": null,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\Kamiar\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\research\\author_code_comparison_2026-09-11\\dependencies\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    }
+  ],
+  "trajectory": {
+    "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\author_baseline_smoke\\author_aioli\\trajectory.bin",
+    "columns": [
+      "raw_logit",
+      "output_logit",
+      "loss",
+      "online_seconds",
+      "state_bytes"
+    ],
+    "dtype": "little-endian float64",
+    "record_bytes": 40,
+    "committed_bytes": 80,
+    "file_bytes": 80
+  },
+  "author_reported": {
+    "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\author_baseline_smoke\\author_aioli\\author_reported.bin",
+    "columns": [
+      "native_probability",
+      "author_clipped_loss"
+    ],
+    "dtype": "little-endian float64",
+    "record_bytes": 16,
+    "committed_bytes": 32,
+    "file_bytes": 32
+  },
+  "checkpoint_scope": "Use only committed_round complete records in BOTH files; subsequent bytes are uncommitted. Error diagnostics/timing may include an unfinished next round.",
+  "checkpoint_flush_policy": "Flush both binary files before atomic progress update every 5 seconds or 512 rounds and at termination",
+  "timing_scope": "Online time is construction plus adapter predict/observe, including history writes and stable-score diagnostics. Native author function times are separate. Streaming input and recording are excluded.",
+  "primary_prediction": "unclipped score-based logistic loss (stable pre-rounding evaluation); raw_logit equals output_logit",
+  "secondary_prediction": "authors reported probability-clipped loss; native predict_prob is preserved",
+  "prediction_diagnostics_change_native_updates": false,
+  "input_block_rows": 128,
+  "recorder_retains_per_round_history": false,
+  "practical_caps_have_prescribed_regret_certificate": false,
+  "finite_precision_certificate": false
+}

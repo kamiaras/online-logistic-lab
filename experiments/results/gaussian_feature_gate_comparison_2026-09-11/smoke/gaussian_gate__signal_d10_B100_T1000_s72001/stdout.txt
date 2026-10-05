@@ -1,0 +1,1 @@
+{"status": "completed", "committed_round": 8, "cumulative_loss": 5.40858767243735, "online_seconds": 0.003274800081271678}

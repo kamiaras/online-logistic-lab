@@ -1,0 +1,47 @@
+{
+  "wall_seconds": 253.519346999994,
+  "attempted": [
+    {
+      "index": 1,
+      "name": "antithetic__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910001",
+      "status": "completed",
+      "round": 500,
+      "seconds": 33.556
+    },
+    {
+      "index": 2,
+      "name": "antithetic__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910003",
+      "status": "completed",
+      "round": 500,
+      "seconds": 34.142
+    },
+    {
+      "index": 3,
+      "name": "antithetic__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910002",
+      "status": "completed",
+      "round": 500,
+      "seconds": 38.06
+    },
+    {
+      "index": 4,
+      "name": "antithetic__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910001",
+      "status": "completed",
+      "round": 500,
+      "seconds": 50.096
+    },
+    {
+      "index": 5,
+      "name": "antithetic__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910003",
+      "status": "completed",
+      "round": 500,
+      "seconds": 45.685
+    },
+    {
+      "index": 6,
+      "name": "antithetic__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910002",
+      "status": "completed",
+      "round": 500,
+      "seconds": 51.906
+    }
+  ]
+}

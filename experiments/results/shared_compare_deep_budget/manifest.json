@@ -1,0 +1,574 @@
+[
+  {
+    "algorithm": "ours",
+    "config": {
+      "particles": 256,
+      "transitions": 1
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164174,
+    "data_seed": 75001,
+    "case_id": "budget_signal_d100_B1000_T2000_s75001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m256n1",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m256n1"
+  },
+  {
+    "algorithm": "sigmoid",
+    "config": {
+      "particles": 16,
+      "transitions": 16
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164175,
+    "data_seed": 75002,
+    "case_id": "budget_signal_d100_B1000_T2000_s75002",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75002",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m16n16",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m16n16"
+  },
+  {
+    "algorithm": "sigmoid",
+    "config": {
+      "particles": 256,
+      "transitions": 1
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164174,
+    "data_seed": 75001,
+    "case_id": "budget_signal_d100_B1000_T2000_s75001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m256n1",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m256n1"
+  },
+  {
+    "algorithm": "aioli",
+    "config": {},
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164174,
+    "data_seed": 75001,
+    "case_id": "budget_signal_d100_B1000_T2000_s75001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__aioli__default",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "default"
+  },
+  {
+    "algorithm": "ours",
+    "config": {
+      "particles": 4096,
+      "transitions": 1
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164175,
+    "data_seed": 75002,
+    "case_id": "budget_signal_d100_B1000_T2000_s75002",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75002",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m4096n1",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m4096n1"
+  },
+  {
+    "algorithm": "sigmoid",
+    "config": {
+      "particles": 16,
+      "transitions": 256
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164175,
+    "data_seed": 75002,
+    "case_id": "budget_signal_d100_B1000_T2000_s75002",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75002",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m16n256",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m16n256"
+  },
+  {
+    "algorithm": "sigmoid",
+    "config": {
+      "particles": 16,
+      "transitions": 256
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164174,
+    "data_seed": 75001,
+    "case_id": "budget_signal_d100_B1000_T2000_s75001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m16n256",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m16n256"
+  },
+  {
+    "algorithm": "sigmoid",
+    "config": {
+      "particles": 64,
+      "transitions": 64
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164174,
+    "data_seed": 75001,
+    "case_id": "budget_signal_d100_B1000_T2000_s75001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m64n64",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m64n64"
+  },
+  {
+    "algorithm": "ours",
+    "config": {
+      "particles": 1024,
+      "transitions": 1
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164175,
+    "data_seed": 75002,
+    "case_id": "budget_signal_d100_B1000_T2000_s75002",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75002",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m1024n1",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m1024n1"
+  },
+  {
+    "algorithm": "ours",
+    "config": {
+      "particles": 16,
+      "transitions": 256
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164175,
+    "data_seed": 75002,
+    "case_id": "budget_signal_d100_B1000_T2000_s75002",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75002",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m16n256",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m16n256"
+  },
+  {
+    "algorithm": "ours",
+    "config": {
+      "particles": 1024,
+      "transitions": 1
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164174,
+    "data_seed": 75001,
+    "case_id": "budget_signal_d100_B1000_T2000_s75001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m1024n1",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m1024n1"
+  },
+  {
+    "algorithm": "ours",
+    "config": {
+      "particles": 256,
+      "transitions": 1
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164175,
+    "data_seed": 75002,
+    "case_id": "budget_signal_d100_B1000_T2000_s75002",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75002",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m256n1",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m256n1"
+  },
+  {
+    "algorithm": "sigmoid",
+    "config": {
+      "particles": 256,
+      "transitions": 1
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164175,
+    "data_seed": 75002,
+    "case_id": "budget_signal_d100_B1000_T2000_s75002",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75002",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m256n1",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m256n1"
+  },
+  {
+    "algorithm": "sigmoid",
+    "config": {
+      "particles": 64,
+      "transitions": 64
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164175,
+    "data_seed": 75002,
+    "case_id": "budget_signal_d100_B1000_T2000_s75002",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75002",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m64n64",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m64n64"
+  },
+  {
+    "algorithm": "aioli",
+    "config": {},
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164175,
+    "data_seed": 75002,
+    "case_id": "budget_signal_d100_B1000_T2000_s75002",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75002",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__aioli__default",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "default"
+  },
+  {
+    "algorithm": "sigmoid",
+    "config": {
+      "particles": 1024,
+      "transitions": 1
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164175,
+    "data_seed": 75002,
+    "case_id": "budget_signal_d100_B1000_T2000_s75002",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75002",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m1024n1",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m1024n1"
+  },
+  {
+    "algorithm": "sigmoid",
+    "config": {
+      "particles": 256,
+      "transitions": 16
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164175,
+    "data_seed": 75002,
+    "case_id": "budget_signal_d100_B1000_T2000_s75002",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75002",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m256n16",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m256n16"
+  },
+  {
+    "algorithm": "sigmoid",
+    "config": {
+      "particles": 1024,
+      "transitions": 1
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164174,
+    "data_seed": 75001,
+    "case_id": "budget_signal_d100_B1000_T2000_s75001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m1024n1",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m1024n1"
+  },
+  {
+    "algorithm": "ours",
+    "config": {
+      "particles": 64,
+      "transitions": 64
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164175,
+    "data_seed": 75002,
+    "case_id": "budget_signal_d100_B1000_T2000_s75002",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75002",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m64n64",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m64n64"
+  },
+  {
+    "algorithm": "ours",
+    "config": {
+      "particles": 4096,
+      "transitions": 1
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164174,
+    "data_seed": 75001,
+    "case_id": "budget_signal_d100_B1000_T2000_s75001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m4096n1",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m4096n1"
+  },
+  {
+    "algorithm": "ours",
+    "config": {
+      "particles": 16,
+      "transitions": 256
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164174,
+    "data_seed": 75001,
+    "case_id": "budget_signal_d100_B1000_T2000_s75001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m16n256",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m16n256"
+  },
+  {
+    "algorithm": "sigmoid",
+    "config": {
+      "particles": 4096,
+      "transitions": 1
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164175,
+    "data_seed": 75002,
+    "case_id": "budget_signal_d100_B1000_T2000_s75002",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75002",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m4096n1",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m4096n1"
+  },
+  {
+    "algorithm": "ours",
+    "config": {
+      "particles": 256,
+      "transitions": 16
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164175,
+    "data_seed": 75002,
+    "case_id": "budget_signal_d100_B1000_T2000_s75002",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75002",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m256n16",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m256n16"
+  },
+  {
+    "algorithm": "sigmoid",
+    "config": {
+      "particles": 256,
+      "transitions": 16
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164174,
+    "data_seed": 75001,
+    "case_id": "budget_signal_d100_B1000_T2000_s75001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m256n16",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m256n16"
+  },
+  {
+    "algorithm": "ours",
+    "config": {
+      "particles": 256,
+      "transitions": 16
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164174,
+    "data_seed": 75001,
+    "case_id": "budget_signal_d100_B1000_T2000_s75001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m256n16",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m256n16"
+  },
+  {
+    "algorithm": "sigmoid",
+    "config": {
+      "particles": 16,
+      "transitions": 16
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164174,
+    "data_seed": 75001,
+    "case_id": "budget_signal_d100_B1000_T2000_s75001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m16n16",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m16n16"
+  },
+  {
+    "algorithm": "sigmoid",
+    "config": {
+      "particles": 4096,
+      "transitions": 1
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164174,
+    "data_seed": 75001,
+    "case_id": "budget_signal_d100_B1000_T2000_s75001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m4096n1",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m4096n1"
+  },
+  {
+    "algorithm": "ours",
+    "config": {
+      "particles": 64,
+      "transitions": 64
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164174,
+    "data_seed": 75001,
+    "case_id": "budget_signal_d100_B1000_T2000_s75001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m64n64",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "deep_budget",
+    "label": "m64n64"
+  },
+  {
+    "algorithm": "shared",
+    "config": {
+      "mode": "practical",
+      "tilts": 16,
+      "burn_in": 4,
+      "transitions": 4
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164175,
+    "data_seed": 75002,
+    "case_id": "budget_signal_d100_B1000_T2000_s75002",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75002",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\budget_signal_d100_B1000_T2000_s75002__shared__m16n4",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "shared_deep_budget",
+    "label": "m16n4",
+    "source_stage": "deep_budget",
+    "source_manifest": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\manifest.json"
+  },
+  {
+    "algorithm": "shared",
+    "config": {
+      "mode": "practical",
+      "tilts": 16,
+      "burn_in": 4,
+      "transitions": 4
+    },
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "sampler_seed": 164174,
+    "data_seed": 75001,
+    "case_id": "budget_signal_d100_B1000_T2000_s75001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\budget_signal_d100_B1000_T2000_s75001__shared__m16n4",
+    "seconds": 45,
+    "memory_bytes": 2147483648,
+    "stage": "shared_deep_budget",
+    "label": "m16n4",
+    "source_stage": "deep_budget",
+    "source_manifest": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\manifest.json"
+  }
+]

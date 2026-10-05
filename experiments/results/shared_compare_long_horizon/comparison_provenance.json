@@ -1,0 +1,206 @@
+{
+  "prepared_utc": "2026-09-11T02:08:07.850740+00:00",
+  "source_stage": "long_horizon",
+  "combined_stage": "shared_compare_long_horizon",
+  "manifest": {
+    "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_compare_long_horizon\\manifest.json",
+    "exists": true,
+    "sha256": "d4d08b2c2bada43755f662e9d5934c84fce0c3e5aba67ad24086855d9bcb653c"
+  },
+  "cases": {
+    "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_compare_long_horizon\\cases.json",
+    "exists": true,
+    "sha256": "3524839e622ba35d8f21a9b63215cdc7007e587dcd7cbef966e3f890cc6a6087"
+  },
+  "sources": {
+    "archived": {
+      "stage": "long_horizon",
+      "manifest": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\long_horizon\\manifest.json",
+        "exists": true,
+        "sha256": "ee288cc7cb3d4502c14af43f3a4c529a66a3de40d7d46ccb32401930404f2ac0"
+      },
+      "cases": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\long_horizon\\cases.json",
+        "exists": true,
+        "sha256": "3524839e622ba35d8f21a9b63215cdc7007e587dcd7cbef966e3f890cc6a6087"
+      },
+      "environment": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\long_horizon\\environment.json",
+        "exists": true,
+        "sha256": "224bedf7b02b2a498f9c34334472be0f33ede2894de92f681f91053dc976f9b2"
+      },
+      "provenance": [
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\long_horizon\\source_hashes.json",
+          "exists": false,
+          "sha256": null
+        },
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\long_horizon\\provenance.json",
+          "exists": false,
+          "sha256": null
+        },
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\long_horizon\\protocol.json",
+          "exists": false,
+          "sha256": null
+        },
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\long_horizon\\selected_config.json",
+          "exists": false,
+          "sha256": null
+        },
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\long_horizon\\selected_configs.json",
+          "exists": false,
+          "sha256": null
+        }
+      ]
+    },
+    "shared": {
+      "stage": "shared_long_horizon",
+      "manifest": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_long_horizon\\manifest.json",
+        "exists": true,
+        "sha256": "70d4d2a35f07137ec7956d904c0450edeecd5e6678944a4f112a7c08e22261aa"
+      },
+      "cases": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_long_horizon\\cases.json",
+        "exists": true,
+        "sha256": "3524839e622ba35d8f21a9b63215cdc7007e587dcd7cbef966e3f890cc6a6087"
+      },
+      "environment": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_long_horizon\\environment.json",
+        "exists": true,
+        "sha256": "fe6d89735df5f60997167dc91f51ce12a065a639d9eb095d5cdd1608cd13d71c"
+      },
+      "provenance": [
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_long_horizon\\source_hashes.json",
+          "exists": true,
+          "sha256": "8749fd8847e3f7baafdb351a3709f562abb122beaf3c02e5e84208b5317d53fc"
+        },
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_long_horizon\\provenance.json",
+          "exists": false,
+          "sha256": null
+        },
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_long_horizon\\protocol.json",
+          "exists": false,
+          "sha256": null
+        },
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_long_horizon\\selected_config.json",
+          "exists": false,
+          "sha256": null
+        },
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_long_horizon\\selected_configs.json",
+          "exists": false,
+          "sha256": null
+        }
+      ]
+    }
+  },
+  "run_counts": {
+    "archived": 1,
+    "shared": 1,
+    "total": 2
+  },
+  "terminal_status_counts": {
+    "completed": 1,
+    "time_budget": 1
+  },
+  "zero_round_runs": [],
+  "runs": {
+    "archived": [
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\long_horizon\\signal_d10_B100_T1000000_s72001__aioli__default",
+        "algorithm": "aioli",
+        "case_id": "signal_d10_B100_T1000000_s72001",
+        "label": "default",
+        "status": "completed",
+        "completed_rounds": 1000000,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\long_horizon\\signal_d10_B100_T1000000_s72001__aioli__default\\spec.json",
+          "exists": true,
+          "sha256": "477ce0bb98010c5013b3fcf0f9c686defd51ab04599a126b4c68afc607e7b011"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\long_horizon\\signal_d10_B100_T1000000_s72001__aioli__default\\supervisor.json",
+          "exists": true,
+          "sha256": "560c064325d54e0375055fc1f44e43c521b6dbbc4b0f2687a72ccc3aab3faef1"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\long_horizon\\signal_d10_B100_T1000000_s72001__aioli__default\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\long_horizon\\signal_d10_B100_T1000000_s72001__aioli__default\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\long_horizon\\signal_d10_B100_T1000000_s72001__aioli__default\\online_times.bin"
+      }
+    ],
+    "shared": [
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_long_horizon\\signal_d10_B100_T1000000_s72001__shared__m16n4",
+        "algorithm": "shared",
+        "case_id": "signal_d10_B100_T1000000_s72001",
+        "label": "m16n4",
+        "status": "time_budget",
+        "completed_rounds": 1037,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_long_horizon\\signal_d10_B100_T1000000_s72001__shared__m16n4\\spec.json",
+          "exists": true,
+          "sha256": "2e935da227f20fbc1274c9f58dbb7e79a686926c5534bd54059ec791bd594458"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_long_horizon\\signal_d10_B100_T1000000_s72001__shared__m16n4\\supervisor.json",
+          "exists": true,
+          "sha256": "2387db2083bfac82b983f1edfae717ff2e4625fbabb6fc671c192c397d27eb10"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_long_horizon\\signal_d10_B100_T1000000_s72001__shared__m16n4\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_long_horizon\\signal_d10_B100_T1000000_s72001__shared__m16n4\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_long_horizon\\signal_d10_B100_T1000000_s72001__shared__m16n4\\online_times.bin"
+      }
+    ]
+  },
+  "comparator_caches": [
+    {
+      "case_id": "signal_d10_B100_T1000000_s72001",
+      "action": "copied_archived",
+      "archived": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\long_horizon\\signal_d10_B100_T1000000_s72001__comparators.json",
+        "exists": true,
+        "sha256": "0d3b1240d74f27be0dbc7c115bbafa95c1bf20117550f631811773d2754a59b7"
+      },
+      "combined": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_compare_long_horizon\\signal_d10_B100_T1000000_s72001__comparators.json",
+        "exists": true,
+        "sha256": "0d3b1240d74f27be0dbc7c115bbafa95c1bf20117550f631811773d2754a59b7"
+      }
+    }
+  ],
+  "global_provenance": [
+    {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\controls.json",
+      "exists": true,
+      "sha256": "65eb6d1acc874e27d431d4bfa199e989102355529d5764641113be0c0ee2e657"
+    },
+    {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_artifact_audit.json",
+      "exists": true,
+      "sha256": "d537cbb4bdcf1041dccb9d95676891254c93801fb21566a529acddf67eae7605"
+    },
+    {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_controls.json",
+      "exists": false,
+      "sha256": null
+    }
+  ],
+  "source_spec_values_and_raw_paths_unchanged": true,
+  "comparator_cache_policy": "Copy archived cache only if absent; preserve every existing combined cache",
+  "comparison_scope": "Archived timings were measured earlier; combined files do not constitute simultaneous reruns",
+  "numerical_jobs_executed": false
+}

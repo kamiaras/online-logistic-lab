@@ -1,0 +1,16 @@
+{
+  "algorithm": "aioli",
+  "config": {},
+  "d": 10000,
+  "B": 1000.0,
+  "T": 2000,
+  "sampler_seed": 163174,
+  "data_seed": 74001,
+  "case_id": "deep_signal_d10000_B1000_T2000_s74001",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\deep_signal_d10000_B1000_T2000_s74001",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_scale\\deep_signal_d10000_B1000_T2000_s74001__aioli__default",
+  "seconds": 60,
+  "memory_bytes": 2147483648,
+  "stage": "deep_scale",
+  "label": "default"
+}

@@ -1,0 +1,59 @@
+{
+  "decimal_precision": 80,
+  "runs": [
+    {
+      "case_id": "deep_signal_d10_B1e+06_T10000_s74001",
+      "d": 10,
+      "B": 1000000.0,
+      "rounds": 10000,
+      "max_absolute_scalar_residual": 30.594102074210326,
+      "sum_absolute_scalar_residuals": 86.04447316920051,
+      "exact_replay_of_recorded_losses": true,
+      "max_loss_difference": 0.0,
+      "elapsed_seconds": 2.030117900008918,
+      "root_rounding_stalls": 9990,
+      "curvature_underflows": 2900
+    },
+    {
+      "case_id": "deep_signal_d100_B10000_T10000_s74001",
+      "d": 100,
+      "B": 10000.0,
+      "rounds": 10000,
+      "max_absolute_scalar_residual": 5.01260542460213e-05,
+      "sum_absolute_scalar_residuals": 0.0014557589964197643,
+      "exact_replay_of_recorded_losses": true,
+      "max_loss_difference": 0.0,
+      "elapsed_seconds": 7.119596500007901,
+      "root_rounding_stalls": 9834,
+      "curvature_underflows": 1362
+    },
+    {
+      "case_id": "deep_signal_d100_B10000_T10000_s74002",
+      "d": 100,
+      "B": 10000.0,
+      "rounds": 10000,
+      "max_absolute_scalar_residual": 6.79588594145078e-05,
+      "sum_absolute_scalar_residuals": 0.0013839334421741605,
+      "exact_replay_of_recorded_losses": true,
+      "max_loss_difference": 0.0,
+      "elapsed_seconds": 7.5437133999948855,
+      "root_rounding_stalls": 9836,
+      "curvature_underflows": 1202
+    },
+    {
+      "case_id": "deep_signal_d10_B1e+06_T10000_s74002",
+      "d": 10,
+      "B": 1000000.0,
+      "rounds": 10000,
+      "max_absolute_scalar_residual": 47.21024770915081,
+      "sum_absolute_scalar_residuals": 139.99152705226328,
+      "exact_replay_of_recorded_losses": true,
+      "max_loss_difference": 0.0,
+      "elapsed_seconds": 2.062235299992608,
+      "root_rounding_stalls": 9985,
+      "curvature_underflows": 2806
+    }
+  ],
+  "scope": "Offline diagnostic, excluded from measured online runs. The represented q,v are frozen for each residual; matrix rounding and subsequent update perturbations are not certified. Decimal arithmetic is not an interval proof.",
+  "interpretation": "The scalar equation has derivative at least one, so its exact residual bounds scalar root error at the represented statistics. Summing these bounds concerns only direct scalar prediction errors with those statistics frozen."
+}

@@ -1,0 +1,864 @@
+{
+  "prepared_utc": "2026-09-11T02:08:07.561391+00:00",
+  "source_stage": "deep_budget",
+  "combined_stage": "shared_compare_deep_budget",
+  "manifest": {
+    "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_compare_deep_budget\\manifest.json",
+    "exists": true,
+    "sha256": "ad1d3b2d84a098c4e9654aeefbb522bfb56daecf8c49c62052e5e9b535b39081"
+  },
+  "cases": {
+    "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_compare_deep_budget\\cases.json",
+    "exists": true,
+    "sha256": "92592fb50e855c2e4d6ff129b47b2c3e6794f8430a5204749e8f8ce5701bd9f8"
+  },
+  "sources": {
+    "archived": {
+      "stage": "deep_budget",
+      "manifest": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\manifest.json",
+        "exists": true,
+        "sha256": "a53aee0bb0678e5d2c1b7ed0acb7c7e5e083fd91a3894e87b50412602c7b6ee9"
+      },
+      "cases": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\cases.json",
+        "exists": true,
+        "sha256": "92592fb50e855c2e4d6ff129b47b2c3e6794f8430a5204749e8f8ce5701bd9f8"
+      },
+      "environment": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\environment.json",
+        "exists": true,
+        "sha256": "879570b19e37e72272ad56e51e764d5215da4f3e42911a56d98a7dc8fc91d696"
+      },
+      "provenance": [
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\source_hashes.json",
+          "exists": false,
+          "sha256": null
+        },
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\provenance.json",
+          "exists": false,
+          "sha256": null
+        },
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\protocol.json",
+          "exists": false,
+          "sha256": null
+        },
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\selected_config.json",
+          "exists": false,
+          "sha256": null
+        },
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\selected_configs.json",
+          "exists": false,
+          "sha256": null
+        }
+      ]
+    },
+    "shared": {
+      "stage": "shared_deep_budget",
+      "manifest": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\manifest.json",
+        "exists": true,
+        "sha256": "135af4282beb1c53cf78a633b995bd4b35d6101d059832ec845e08b27715eef5"
+      },
+      "cases": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\cases.json",
+        "exists": true,
+        "sha256": "92592fb50e855c2e4d6ff129b47b2c3e6794f8430a5204749e8f8ce5701bd9f8"
+      },
+      "environment": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\environment.json",
+        "exists": true,
+        "sha256": "691c5ce56dc998a0a9dd5b3733f6fa6e99c0d92c57340c634690ed330e207d0c"
+      },
+      "provenance": [
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\source_hashes.json",
+          "exists": true,
+          "sha256": "8749fd8847e3f7baafdb351a3709f562abb122beaf3c02e5e84208b5317d53fc"
+        },
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\provenance.json",
+          "exists": false,
+          "sha256": null
+        },
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\protocol.json",
+          "exists": false,
+          "sha256": null
+        },
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\selected_config.json",
+          "exists": false,
+          "sha256": null
+        },
+        {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\selected_configs.json",
+          "exists": false,
+          "sha256": null
+        }
+      ]
+    }
+  },
+  "run_counts": {
+    "archived": 28,
+    "shared": 2,
+    "total": 30
+  },
+  "terminal_status_counts": {
+    "time_budget": 24,
+    "completed": 6
+  },
+  "zero_round_runs": [],
+  "runs": {
+    "archived": [
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m256n1",
+        "algorithm": "ours",
+        "case_id": "budget_signal_d100_B1000_T2000_s75001",
+        "label": "m256n1",
+        "status": "time_budget",
+        "completed_rounds": 1126,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m256n1\\spec.json",
+          "exists": true,
+          "sha256": "499982f9f240705051fef9d4b82dbf4073ff37afc96de0c7184c8ca90f2c9829"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m256n1\\supervisor.json",
+          "exists": true,
+          "sha256": "339a5248e69f2766a0d1a3139926f43e0911f3f70740cb4865e3a9f5dc948237"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m256n1\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m256n1\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m256n1\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m16n16",
+        "algorithm": "sigmoid",
+        "case_id": "budget_signal_d100_B1000_T2000_s75002",
+        "label": "m16n16",
+        "status": "completed",
+        "completed_rounds": 2000,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m16n16\\spec.json",
+          "exists": true,
+          "sha256": "1d4dd7b59ad4f567d4430570960fec027ec7ef966767dfd6f5d25ace113a8742"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m16n16\\supervisor.json",
+          "exists": true,
+          "sha256": "fc4d17dca81aef5a14e3dbd13b75aeece241878cce97d28f12f52bcd63feb3f9"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m16n16\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m16n16\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m16n16\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m256n1",
+        "algorithm": "sigmoid",
+        "case_id": "budget_signal_d100_B1000_T2000_s75001",
+        "label": "m256n1",
+        "status": "completed",
+        "completed_rounds": 2000,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m256n1\\spec.json",
+          "exists": true,
+          "sha256": "fbe837c74813dd6992ebdc82749fb057abb8ac34512233c0fece4f1fcece8bba"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m256n1\\supervisor.json",
+          "exists": true,
+          "sha256": "c3544b2672a4ee502bac172f4d4cbae3034645e622974347c746fca4341f9082"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m256n1\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m256n1\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m256n1\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__aioli__default",
+        "algorithm": "aioli",
+        "case_id": "budget_signal_d100_B1000_T2000_s75001",
+        "label": "default",
+        "status": "completed",
+        "completed_rounds": 2000,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__aioli__default\\spec.json",
+          "exists": true,
+          "sha256": "f7255b76c50439e4ec4aa057dced0d653bc4c958f2a9ec80c77cdaddc188fc60"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__aioli__default\\supervisor.json",
+          "exists": true,
+          "sha256": "61530302d1aaaee2da3e7b4b640ff525745d575394f121f9a729b2b12bc34b64"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__aioli__default\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__aioli__default\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__aioli__default\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m4096n1",
+        "algorithm": "ours",
+        "case_id": "budget_signal_d100_B1000_T2000_s75002",
+        "label": "m4096n1",
+        "status": "time_budget",
+        "completed_rounds": 243,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m4096n1\\spec.json",
+          "exists": true,
+          "sha256": "f53486051845703ad38d4c46b782bb92a96d6895d14b56c6ac0395b3882e5489"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m4096n1\\supervisor.json",
+          "exists": true,
+          "sha256": "e6f54632d40049f4655429e26e643e2744dfca4e44ffdc01db5775cbc0471700"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m4096n1\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m4096n1\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m4096n1\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m16n256",
+        "algorithm": "sigmoid",
+        "case_id": "budget_signal_d100_B1000_T2000_s75002",
+        "label": "m16n256",
+        "status": "time_budget",
+        "completed_rounds": 423,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m16n256\\spec.json",
+          "exists": true,
+          "sha256": "a33f086177646752b31169a48ec7ecdc63e71827f2788325ba7d280b4cf0da79"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m16n256\\supervisor.json",
+          "exists": true,
+          "sha256": "b34b841179042e7794a4c2ea0b19717d9bc5d5b0bb8f5323a155e49096431463"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m16n256\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m16n256\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m16n256\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m16n256",
+        "algorithm": "sigmoid",
+        "case_id": "budget_signal_d100_B1000_T2000_s75001",
+        "label": "m16n256",
+        "status": "time_budget",
+        "completed_rounds": 423,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m16n256\\spec.json",
+          "exists": true,
+          "sha256": "f9835df8c4841a580e9b5bbfaef8d57fda05dbb41fddcb72447fb75133d46eca"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m16n256\\supervisor.json",
+          "exists": true,
+          "sha256": "0246ec5be29456210f50acd305eca8aecade87f397cb2749f0f6ac7e185947a4"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m16n256\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m16n256\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m16n256\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m64n64",
+        "algorithm": "sigmoid",
+        "case_id": "budget_signal_d100_B1000_T2000_s75001",
+        "label": "m64n64",
+        "status": "time_budget",
+        "completed_rounds": 575,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m64n64\\spec.json",
+          "exists": true,
+          "sha256": "afeef6d5257d0ddc0651d29369525b6cb264a65e127ad06848e6908adf4bc7f6"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m64n64\\supervisor.json",
+          "exists": true,
+          "sha256": "df71b91d65f2584535a66c1f9de37344e438439887aec8363668b3f4f009957c"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m64n64\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m64n64\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m64n64\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m1024n1",
+        "algorithm": "ours",
+        "case_id": "budget_signal_d100_B1000_T2000_s75002",
+        "label": "m1024n1",
+        "status": "time_budget",
+        "completed_rounds": 549,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m1024n1\\spec.json",
+          "exists": true,
+          "sha256": "cbb2ef19d448a18576af62a4a50a3c773c8699e99951472358267f255af02536"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m1024n1\\supervisor.json",
+          "exists": true,
+          "sha256": "8e3a8702b4a33fdbf710854eda415263cec34f44017386bab0c883f98db2d31f"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m1024n1\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m1024n1\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m1024n1\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m16n256",
+        "algorithm": "ours",
+        "case_id": "budget_signal_d100_B1000_T2000_s75002",
+        "label": "m16n256",
+        "status": "time_budget",
+        "completed_rounds": 175,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m16n256\\spec.json",
+          "exists": true,
+          "sha256": "c7a2af09def3efb2c9650b7d9affecd1b9f3ad343d0f2339ca3f8889556b1274"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m16n256\\supervisor.json",
+          "exists": true,
+          "sha256": "818ea897c1f2957770adda8d78d446062dd13990fd4494cf76ebcd4482b8497c"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m16n256\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m16n256\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m16n256\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m1024n1",
+        "algorithm": "ours",
+        "case_id": "budget_signal_d100_B1000_T2000_s75001",
+        "label": "m1024n1",
+        "status": "time_budget",
+        "completed_rounds": 552,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m1024n1\\spec.json",
+          "exists": true,
+          "sha256": "c2d5db134e6b692cfca429d0d8adaea7893006a53f31dcca27a1050948ea9165"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m1024n1\\supervisor.json",
+          "exists": true,
+          "sha256": "4f6f4bfcfbf11ae979e5fabb1364561b754e51fa8bbbe704c3a9e0811ca64514"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m1024n1\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m1024n1\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m1024n1\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m256n1",
+        "algorithm": "ours",
+        "case_id": "budget_signal_d100_B1000_T2000_s75002",
+        "label": "m256n1",
+        "status": "time_budget",
+        "completed_rounds": 1142,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m256n1\\spec.json",
+          "exists": true,
+          "sha256": "9f3c6411513199047eeb82c800f6dcebf1d70b05022e59119554e6ea8c45dbf5"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m256n1\\supervisor.json",
+          "exists": true,
+          "sha256": "36185b5ba50a22090f6fa17fc85655a1367f3f6c946606cc2c2f7d3139136f8b"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m256n1\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m256n1\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m256n1\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m256n1",
+        "algorithm": "sigmoid",
+        "case_id": "budget_signal_d100_B1000_T2000_s75002",
+        "label": "m256n1",
+        "status": "completed",
+        "completed_rounds": 2000,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m256n1\\spec.json",
+          "exists": true,
+          "sha256": "9e0c6409b084987530c1396654d0306056ce4b098b9b45a96bf3f511218102cd"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m256n1\\supervisor.json",
+          "exists": true,
+          "sha256": "6aae783b854f3cc3656928f92243f85e0b362b496f8b7f7c46b837b27711bf08"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m256n1\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m256n1\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m256n1\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m64n64",
+        "algorithm": "sigmoid",
+        "case_id": "budget_signal_d100_B1000_T2000_s75002",
+        "label": "m64n64",
+        "status": "time_budget",
+        "completed_rounds": 580,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m64n64\\spec.json",
+          "exists": true,
+          "sha256": "70bd3f58585a97d02cbd1b587edaaf45120595091d0c26f7de84be2190933003"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m64n64\\supervisor.json",
+          "exists": true,
+          "sha256": "058618cf363cb53c98d22535aac689a7e538ee96877f4279cfd5af42e069ea04"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m64n64\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m64n64\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m64n64\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__aioli__default",
+        "algorithm": "aioli",
+        "case_id": "budget_signal_d100_B1000_T2000_s75002",
+        "label": "default",
+        "status": "completed",
+        "completed_rounds": 2000,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__aioli__default\\spec.json",
+          "exists": true,
+          "sha256": "f2fb9603af22f4b4f9e4642a04e7c801c16da140981edb421e3c87e8f803c3f6"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__aioli__default\\supervisor.json",
+          "exists": true,
+          "sha256": "bc6164ffe0c556d77398bd2965cc6987be5a76f349d49bdcf132f7ebfc3643c0"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__aioli__default\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__aioli__default\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__aioli__default\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m1024n1",
+        "algorithm": "sigmoid",
+        "case_id": "budget_signal_d100_B1000_T2000_s75002",
+        "label": "m1024n1",
+        "status": "time_budget",
+        "completed_rounds": 1150,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m1024n1\\spec.json",
+          "exists": true,
+          "sha256": "d366e822a8facf7d361bb0649ee205bbcabe5b8635ab70067cbff153ca1f6d58"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m1024n1\\supervisor.json",
+          "exists": true,
+          "sha256": "3c9ceb1115b1ca4b14dbb65a67d6f01d1d70cd0ac5dcbd2225a8d63cdf72d321"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m1024n1\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m1024n1\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m1024n1\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m256n16",
+        "algorithm": "sigmoid",
+        "case_id": "budget_signal_d100_B1000_T2000_s75002",
+        "label": "m256n16",
+        "status": "time_budget",
+        "completed_rounds": 583,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m256n16\\spec.json",
+          "exists": true,
+          "sha256": "6d6dee13af9f430192128e4fbf86e2a9e33465527f9cfee9ee4138c0f6e5b170"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m256n16\\supervisor.json",
+          "exists": true,
+          "sha256": "ec37e999afb9156e422b34557a5bb3c9c2eb9424dd516d2620cb93682f5ef158"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m256n16\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m256n16\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m256n16\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m1024n1",
+        "algorithm": "sigmoid",
+        "case_id": "budget_signal_d100_B1000_T2000_s75001",
+        "label": "m1024n1",
+        "status": "time_budget",
+        "completed_rounds": 1222,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m1024n1\\spec.json",
+          "exists": true,
+          "sha256": "4bc5a8ecfe87c19d79b329e4051808d71542b7c6a9c462c2017b8529f00685f2"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m1024n1\\supervisor.json",
+          "exists": true,
+          "sha256": "d3c9ae5e673a67bc69542b0b01f6eb6a20649dd6739d4ad8b8e9bd516391e104"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m1024n1\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m1024n1\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m1024n1\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m64n64",
+        "algorithm": "ours",
+        "case_id": "budget_signal_d100_B1000_T2000_s75002",
+        "label": "m64n64",
+        "status": "time_budget",
+        "completed_rounds": 247,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m64n64\\spec.json",
+          "exists": true,
+          "sha256": "55014a008f6e4e819c5200e1a70b73763221c5544ed58c5ebf2e0ec0b472114b"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m64n64\\supervisor.json",
+          "exists": true,
+          "sha256": "3dcea0719ef11e5389a185394069bd5932565f366e8fd1ea46adb1303aed347e"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m64n64\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m64n64\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m64n64\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m4096n1",
+        "algorithm": "ours",
+        "case_id": "budget_signal_d100_B1000_T2000_s75001",
+        "label": "m4096n1",
+        "status": "time_budget",
+        "completed_rounds": 244,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m4096n1\\spec.json",
+          "exists": true,
+          "sha256": "7dc3f650f7ea2d6e3c7295a87d82d46b452f7b2ec44d5a80a4c7a245bb694d90"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m4096n1\\supervisor.json",
+          "exists": true,
+          "sha256": "efd3b95187d5578d6083754966babd47ef3104d88c656fb1ca98a5ca4d7a136a"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m4096n1\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m4096n1\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m4096n1\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m16n256",
+        "algorithm": "ours",
+        "case_id": "budget_signal_d100_B1000_T2000_s75001",
+        "label": "m16n256",
+        "status": "time_budget",
+        "completed_rounds": 175,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m16n256\\spec.json",
+          "exists": true,
+          "sha256": "b928cfc5d1c114107b7028573f9661044d27a06764978849115a11f61a505b51"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m16n256\\supervisor.json",
+          "exists": true,
+          "sha256": "6fdcf5e2ab3f0ac062a27917c6a045b5f6142ecf2936959a3164c118c92dbd3a"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m16n256\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m16n256\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m16n256\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m4096n1",
+        "algorithm": "sigmoid",
+        "case_id": "budget_signal_d100_B1000_T2000_s75002",
+        "label": "m4096n1",
+        "status": "time_budget",
+        "completed_rounds": 593,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m4096n1\\spec.json",
+          "exists": true,
+          "sha256": "2515b8bddca99c56827395d120ee6bfd7c8c3a2d25b9194f1abcdc9bf27212a9"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m4096n1\\supervisor.json",
+          "exists": true,
+          "sha256": "a36651b233d8a440e3140f968c340c110e9c1da5c0fefe6c053dc5745e75387c"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m4096n1\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m4096n1\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__sigmoid__m4096n1\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m256n16",
+        "algorithm": "ours",
+        "case_id": "budget_signal_d100_B1000_T2000_s75002",
+        "label": "m256n16",
+        "status": "time_budget",
+        "completed_rounds": 247,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m256n16\\spec.json",
+          "exists": true,
+          "sha256": "1cc5e245517d2411bd64d6dddfcf4cfbf549d1a648290a61d9e3356367a0a008"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m256n16\\supervisor.json",
+          "exists": true,
+          "sha256": "d76cedd6056c80eaf1183dc266ed1f0a0ae294e43542be1e902b08ef4c34e264"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m256n16\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m256n16\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__ours__m256n16\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m256n16",
+        "algorithm": "sigmoid",
+        "case_id": "budget_signal_d100_B1000_T2000_s75001",
+        "label": "m256n16",
+        "status": "time_budget",
+        "completed_rounds": 585,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m256n16\\spec.json",
+          "exists": true,
+          "sha256": "fcd51c268c2cc5463dfe7df1e78c015561a71923336d2af7470cbe7f175db63b"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m256n16\\supervisor.json",
+          "exists": true,
+          "sha256": "2ff22a24d591a83275320f11ecc4d924fd4ca8f260c9d612b11586120a6ae1dd"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m256n16\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m256n16\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m256n16\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m256n16",
+        "algorithm": "ours",
+        "case_id": "budget_signal_d100_B1000_T2000_s75001",
+        "label": "m256n16",
+        "status": "time_budget",
+        "completed_rounds": 246,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m256n16\\spec.json",
+          "exists": true,
+          "sha256": "fa72f8da207f786a7842f6f4652e219bb33633f2d435a01fa3f20f8fc29c35f7"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m256n16\\supervisor.json",
+          "exists": true,
+          "sha256": "4a0374576fab2f76f85deb58637b5eea10d2e99f0debfc7c317fea9113fe2053"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m256n16\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m256n16\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m256n16\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m16n16",
+        "algorithm": "sigmoid",
+        "case_id": "budget_signal_d100_B1000_T2000_s75001",
+        "label": "m16n16",
+        "status": "completed",
+        "completed_rounds": 2000,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m16n16\\spec.json",
+          "exists": true,
+          "sha256": "c2f56983f2b128329b0d696d9163e4c3735fb40655a83434c5ebd90ac76cdbcb"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m16n16\\supervisor.json",
+          "exists": true,
+          "sha256": "139023e1ea696412b3dcface4ab4924aaf47bfc39759df4c849507f3dbc64061"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m16n16\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m16n16\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m16n16\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m4096n1",
+        "algorithm": "sigmoid",
+        "case_id": "budget_signal_d100_B1000_T2000_s75001",
+        "label": "m4096n1",
+        "status": "time_budget",
+        "completed_rounds": 592,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m4096n1\\spec.json",
+          "exists": true,
+          "sha256": "9ca625a726680001b66ba461f6475eba9fdf6b22c1d271490fdf0b9b98458aaa"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m4096n1\\supervisor.json",
+          "exists": true,
+          "sha256": "ce55569c15696ad0f00530f0901744b44fc3fd5fce1256aa7181459b08083c1c"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m4096n1\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m4096n1\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__sigmoid__m4096n1\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m64n64",
+        "algorithm": "ours",
+        "case_id": "budget_signal_d100_B1000_T2000_s75001",
+        "label": "m64n64",
+        "status": "time_budget",
+        "completed_rounds": 247,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m64n64\\spec.json",
+          "exists": true,
+          "sha256": "8211ac5cae59f4599638e4524fb7af23d8e9b34214c6cde12ee674fac4ab640a"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m64n64\\supervisor.json",
+          "exists": true,
+          "sha256": "d71381d6f163bb84fdd2cf19618a252167b0e691e4b427f1e3f87250401da7a3"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m64n64\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m64n64\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m64n64\\online_times.bin"
+      }
+    ],
+    "shared": [
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\budget_signal_d100_B1000_T2000_s75002__shared__m16n4",
+        "algorithm": "shared",
+        "case_id": "budget_signal_d100_B1000_T2000_s75002",
+        "label": "m16n4",
+        "status": "time_budget",
+        "completed_rounds": 201,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\budget_signal_d100_B1000_T2000_s75002__shared__m16n4\\spec.json",
+          "exists": true,
+          "sha256": "77d88c1eec6f0c68f0ea12129af6dc6c9e89b992e549cc4ffe3e9a8561a0b236"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\budget_signal_d100_B1000_T2000_s75002__shared__m16n4\\supervisor.json",
+          "exists": true,
+          "sha256": "dd2aa83c3c438724b077734e90cbaa72eea4df718fd81538fb521b3b7d8a6a15"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\budget_signal_d100_B1000_T2000_s75002__shared__m16n4\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\budget_signal_d100_B1000_T2000_s75002__shared__m16n4\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\budget_signal_d100_B1000_T2000_s75002__shared__m16n4\\online_times.bin"
+      },
+      {
+        "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\budget_signal_d100_B1000_T2000_s75001__shared__m16n4",
+        "algorithm": "shared",
+        "case_id": "budget_signal_d100_B1000_T2000_s75001",
+        "label": "m16n4",
+        "status": "time_budget",
+        "completed_rounds": 203,
+        "termination": null,
+        "returncode": 0,
+        "spec": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\budget_signal_d100_B1000_T2000_s75001__shared__m16n4\\spec.json",
+          "exists": true,
+          "sha256": "027b915d78deb36e33765202b91dd795d69f043d988383a204e8f6d9b2aef304"
+        },
+        "supervisor": {
+          "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\budget_signal_d100_B1000_T2000_s75001__shared__m16n4\\supervisor.json",
+          "exists": true,
+          "sha256": "8b450f31c645974b86032037144f3b39ca42b2ec33d1b0d864fe6330491501cd"
+        },
+        "result_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\budget_signal_d100_B1000_T2000_s75001__shared__m16n4\\result.json",
+        "losses_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\budget_signal_d100_B1000_T2000_s75001__shared__m16n4\\losses.bin",
+        "times_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_deep_budget\\budget_signal_d100_B1000_T2000_s75001__shared__m16n4\\online_times.bin"
+      }
+    ]
+  },
+  "comparator_caches": [
+    {
+      "case_id": "budget_signal_d100_B1000_T2000_s75001",
+      "action": "copied_archived",
+      "archived": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__comparators.json",
+        "exists": true,
+        "sha256": "817a6ce99e468be1996a91e11bab413ac6de7b7d5837bb2f1de8161895be54dd"
+      },
+      "combined": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_compare_deep_budget\\budget_signal_d100_B1000_T2000_s75001__comparators.json",
+        "exists": true,
+        "sha256": "817a6ce99e468be1996a91e11bab413ac6de7b7d5837bb2f1de8161895be54dd"
+      }
+    },
+    {
+      "case_id": "budget_signal_d100_B1000_T2000_s75002",
+      "action": "copied_archived",
+      "archived": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75002__comparators.json",
+        "exists": true,
+        "sha256": "21c7169f826936416003585db6a6bb6926876939280dc4a7316ec7b842191916"
+      },
+      "combined": {
+        "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_compare_deep_budget\\budget_signal_d100_B1000_T2000_s75002__comparators.json",
+        "exists": true,
+        "sha256": "21c7169f826936416003585db6a6bb6926876939280dc4a7316ec7b842191916"
+      }
+    }
+  ],
+  "global_provenance": [
+    {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\controls.json",
+      "exists": true,
+      "sha256": "65eb6d1acc874e27d431d4bfa199e989102355529d5764641113be0c0ee2e657"
+    },
+    {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_artifact_audit.json",
+      "exists": true,
+      "sha256": "d537cbb4bdcf1041dccb9d95676891254c93801fb21566a529acddf67eae7605"
+    },
+    {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_controls.json",
+      "exists": false,
+      "sha256": null
+    }
+  ],
+  "source_spec_values_and_raw_paths_unchanged": true,
+  "comparator_cache_policy": "Copy archived cache only if absent; preserve every existing combined cache",
+  "comparison_scope": "Archived timings were measured earlier; combined files do not constitute simultaneous reruns",
+  "numerical_jobs_executed": false
+}

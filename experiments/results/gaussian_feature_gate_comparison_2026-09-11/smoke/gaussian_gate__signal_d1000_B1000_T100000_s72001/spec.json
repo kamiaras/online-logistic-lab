@@ -1,0 +1,20 @@
+{
+  "stage": "smoke",
+  "case": "signal_d1000_B1000_T100000_s72001",
+  "d": 1000,
+  "B": 1000.0,
+  "T": 100000,
+  "rounds": 8,
+  "data_seed": 72001,
+  "seed": 910001,
+  "algorithm": "gaussian_gate",
+  "config": {
+    "R": 1.0,
+    "matrix_backend": "inverse"
+  },
+  "seconds": 30.0,
+  "memory_bytes": 2147483648,
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d1000_B1000_T100000_s72001",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\smoke\\gaussian_gate__signal_d1000_B1000_T100000_s72001",
+  "stop_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\STOP_REQUESTED"
+}

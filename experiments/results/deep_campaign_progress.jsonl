@@ -1,0 +1,49 @@
+{"phase": "await_existing_scale", "status": "waiting", "utc": "2026-09-10T21:20:26.241388+00:00"}
+{"phase": "await_existing_scale", "status": "completed", "utc": "2026-09-10T21:50:16.676484+00:00"}
+{"phase": "frontier_planner_checks", "status": "started", "utc": "2026-09-10T21:50:16.677478+00:00"}
+{"phase": "frontier_planner_checks", "status": "completed", "utc": "2026-09-10T21:50:17.125662+00:00", "seconds": 0.4529999999940628, "returncode": 0}
+{"phase": "history_probe_small_checks", "status": "started", "utc": "2026-09-10T21:50:17.125662+00:00"}
+{"phase": "history_probe_small_checks", "status": "completed", "utc": "2026-09-10T21:50:18.486480+00:00", "seconds": 1.3589999999967404, "returncode": 0}
+{"phase": "actual_memory_frontiers", "status": "started", "utc": "2026-09-10T21:50:18.487483+00:00"}
+{"phase": "actual_memory_frontiers", "status": "completed", "utc": "2026-09-10T21:52:56.551384+00:00", "seconds": 158.0630000000092, "returncode": 0}
+{"phase": "history_ours_1536", "status": "started", "utc": "2026-09-10T21:52:56.551384+00:00"}
+{"phase": "history_ours_1536", "status": "completed", "utc": "2026-09-10T21:53:00.683133+00:00", "seconds": 4.139999999999418, "returncode": 0}
+{"phase": "history_sigmoid_1536", "status": "started", "utc": "2026-09-10T21:53:00.684136+00:00"}
+{"phase": "history_sigmoid_1536", "status": "completed", "utc": "2026-09-10T21:53:03.110787+00:00", "seconds": 2.4219999999913853, "returncode": 0}
+{"phase": "history_ours_1856", "status": "started", "utc": "2026-09-10T21:53:03.111784+00:00"}
+{"phase": "history_ours_1856", "status": "completed", "utc": "2026-09-10T21:53:08.238077+00:00", "seconds": 5.125, "returncode": 0}
+{"phase": "history_sigmoid_1856", "status": "started", "utc": "2026-09-10T21:53:08.238077+00:00"}
+{"phase": "history_sigmoid_1856", "status": "completed", "utc": "2026-09-10T21:53:11.059496+00:00", "seconds": 2.8280000000086147, "returncode": 0}
+{"phase": "history_ours_1920", "status": "started", "utc": "2026-09-10T21:53:11.059496+00:00"}
+{"phase": "history_ours_1920", "status": "completed", "utc": "2026-09-10T21:53:16.277459+00:00", "seconds": 5.2189999999973224, "returncode": 0}
+{"phase": "history_sigmoid_1920", "status": "started", "utc": "2026-09-10T21:53:16.277459+00:00"}
+{"phase": "history_sigmoid_1920", "status": "completed", "utc": "2026-09-10T21:53:19.206594+00:00", "seconds": 2.922000000005937, "returncode": 0}
+{"phase": "history_ours_1968", "status": "started", "utc": "2026-09-10T21:53:19.206594+00:00"}
+{"phase": "history_ours_1968", "status": "completed", "utc": "2026-09-10T21:53:24.827700+00:00", "seconds": 5.625, "returncode": 0}
+{"phase": "history_sigmoid_1968", "status": "started", "utc": "2026-09-10T21:53:24.829027+00:00"}
+{"phase": "history_sigmoid_1968", "status": "completed", "utc": "2026-09-10T21:53:27.748181+00:00", "seconds": 2.9219999999913853, "returncode": 0}
+{"phase": "history_ours_2000", "status": "started", "utc": "2026-09-10T21:53:27.748181+00:00"}
+{"phase": "history_ours_2000", "status": "completed", "utc": "2026-09-10T21:53:33.392620+00:00", "seconds": 5.64100000000326, "returncode": 0}
+{"phase": "history_sigmoid_2000", "status": "started", "utc": "2026-09-10T21:53:33.392620+00:00"}
+{"phase": "history_sigmoid_2000", "status": "completed", "utc": "2026-09-10T21:53:36.312515+00:00", "seconds": 2.9210000000020955, "returncode": 0}
+{"phase": "history_ours_2048", "status": "started", "utc": "2026-09-10T21:53:36.313507+00:00"}
+{"phase": "history_ours_2048", "status": "completed", "utc": "2026-09-10T21:53:41.839204+00:00", "seconds": 5.531999999991967, "returncode": 0}
+{"phase": "history_sigmoid_2048", "status": "started", "utc": "2026-09-10T21:53:41.840203+00:00"}
+{"phase": "history_sigmoid_2048", "status": "completed", "utc": "2026-09-10T21:53:44.864902+00:00", "seconds": 3.014999999999418, "returncode": 0}
+{"phase": "prepare_budget", "status": "started", "utc": "2026-09-10T21:53:44.864902+00:00"}
+{"phase": "prepare_budget", "status": "completed", "utc": "2026-09-10T21:53:45.085800+00:00", "seconds": 0.21900000001187436, "returncode": 0}
+{"phase": "sampling_budget_sensitivity", "status": "started", "utc": "2026-09-10T21:53:45.086799+00:00"}
+{"phase": "sampling_budget_sensitivity", "status": "completed", "utc": "2026-09-10T22:13:01.271184+00:00", "seconds": 1156.1879999999946, "returncode": 0}
+{"phase": "prepare_long", "status": "started", "utc": "2026-09-10T22:13:01.271184+00:00"}
+{"phase": "prepare_long", "status": "completed", "utc": "2026-09-10T22:13:12.580909+00:00", "seconds": 11.312000000005355, "returncode": 0}
+{"phase": "ten_million_rounds", "status": "started", "utc": "2026-09-10T22:13:12.582409+00:00"}
+{"phase": "ten_million_rounds", "status": "completed", "utc": "2026-09-10T22:39:10.111983+00:00", "seconds": 1557.5469999999914, "returncode": 0}
+{"phase": "paired_prefix_comparisons", "status": "started", "utc": "2026-09-10T22:39:10.113374+00:00"}
+{"phase": "paired_prefix_comparisons", "status": "completed", "utc": "2026-09-10T22:39:11.180480+00:00", "seconds": 1.062000000005355, "returncode": 0}
+{"phase": "comparators_deep_scale", "status": "started", "utc": "2026-09-10T22:39:11.181568+00:00"}
+{"phase": "comparators_deep_scale", "status": "completed", "utc": "2026-09-10T22:39:51.254751+00:00", "seconds": 40.078999999997905, "returncode": 0}
+{"phase": "comparators_deep_budget", "status": "started", "utc": "2026-09-10T22:39:51.254751+00:00"}
+{"phase": "comparators_deep_budget", "status": "completed", "utc": "2026-09-10T22:39:52.978602+00:00", "seconds": 1.7179999999934807, "returncode": 0}
+{"phase": "comparators_deep_long", "status": "started", "utc": "2026-09-10T22:39:52.981762+00:00"}
+{"phase": "comparators_deep_long", "status": "completed", "utc": "2026-09-10T22:40:06.781562+00:00", "seconds": 13.797000000005937, "returncode": 0}
+{"phase": "all_measurements_and_basic_analysis", "status": "completed", "utc": "2026-09-10T22:40:06.781562+00:00"}

@@ -1,0 +1,2 @@
+{"algorithm": "author_aioli", "status": "completed", "round": 100000, "online_seconds": 1287.78285589788}
+{"algorithm": "author_sigmoid", "status": "cancelled_by_user", "round": 1234, "online_seconds": 1343.2180299998145}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "signal_d2_B1_T30_s70001",
+    "family": "signal",
+    "d": 2,
+    "B": 1.0,
+    "T": 30,
+    "data_seed": 70001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d10_B1000_T50_s70002",
+    "family": "signal",
+    "d": 10,
+    "B": 1000.0,
+    "T": 50,
+    "data_seed": 70002,
+    "B_generator": 3.0
+  }
+]

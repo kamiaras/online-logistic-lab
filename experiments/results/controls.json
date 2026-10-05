@@ -1,0 +1,215 @@
+{
+  "hard_memory_limit_control": {
+    "limit_bytes": 67108864,
+    "requested_bytes": 268435456,
+    "returncode": 1,
+    "allocation_rejected": true,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nMemoryError\n"
+  },
+  "event_counter_overhead_control": [
+    {
+      "algorithm": "aioli",
+      "rep": 0,
+      "event_counters_enabled": true,
+      "seconds": 0.03259839999373071
+    },
+    {
+      "algorithm": "aioli",
+      "rep": 0,
+      "event_counters_enabled": false,
+      "seconds": 0.032987900005537085
+    },
+    {
+      "algorithm": "aioli",
+      "rep": 1,
+      "event_counters_enabled": false,
+      "seconds": 0.03201860000262968
+    },
+    {
+      "algorithm": "aioli",
+      "rep": 1,
+      "event_counters_enabled": true,
+      "seconds": 0.03365969999867957
+    },
+    {
+      "algorithm": "aioli",
+      "rep": 2,
+      "event_counters_enabled": true,
+      "seconds": 0.03266900000744499
+    },
+    {
+      "algorithm": "aioli",
+      "rep": 2,
+      "event_counters_enabled": false,
+      "seconds": 0.031335799998487346
+    },
+    {
+      "algorithm": "aioli",
+      "rep": 3,
+      "event_counters_enabled": false,
+      "seconds": 0.031019000001833774
+    },
+    {
+      "algorithm": "aioli",
+      "rep": 3,
+      "event_counters_enabled": true,
+      "seconds": 0.03299580000748392
+    },
+    {
+      "algorithm": "aioli",
+      "rep": 4,
+      "event_counters_enabled": true,
+      "seconds": 0.03221259999554604
+    },
+    {
+      "algorithm": "aioli",
+      "rep": 4,
+      "event_counters_enabled": false,
+      "seconds": 0.03080269999918528
+    },
+    {
+      "algorithm": "ours",
+      "rep": 0,
+      "event_counters_enabled": true,
+      "seconds": 0.2229593000083696
+    },
+    {
+      "algorithm": "ours",
+      "rep": 0,
+      "event_counters_enabled": false,
+      "seconds": 0.22015700000338256
+    },
+    {
+      "algorithm": "ours",
+      "rep": 1,
+      "event_counters_enabled": false,
+      "seconds": 0.21757910000451375
+    },
+    {
+      "algorithm": "ours",
+      "rep": 1,
+      "event_counters_enabled": true,
+      "seconds": 0.227251400006935
+    },
+    {
+      "algorithm": "ours",
+      "rep": 2,
+      "event_counters_enabled": true,
+      "seconds": 0.2258272000035504
+    },
+    {
+      "algorithm": "ours",
+      "rep": 2,
+      "event_counters_enabled": false,
+      "seconds": 0.2138872000068659
+    },
+    {
+      "algorithm": "ours",
+      "rep": 3,
+      "event_counters_enabled": false,
+      "seconds": 0.21445110000786372
+    },
+    {
+      "algorithm": "ours",
+      "rep": 3,
+      "event_counters_enabled": true,
+      "seconds": 0.22585509999771602
+    },
+    {
+      "algorithm": "ours",
+      "rep": 4,
+      "event_counters_enabled": true,
+      "seconds": 0.22161510000296403
+    },
+    {
+      "algorithm": "ours",
+      "rep": 4,
+      "event_counters_enabled": false,
+      "seconds": 0.2096455999999307
+    },
+    {
+      "algorithm": "sigmoid",
+      "rep": 0,
+      "event_counters_enabled": true,
+      "seconds": 0.06794429999717977
+    },
+    {
+      "algorithm": "sigmoid",
+      "rep": 0,
+      "event_counters_enabled": false,
+      "seconds": 0.06557400000747293
+    },
+    {
+      "algorithm": "sigmoid",
+      "rep": 1,
+      "event_counters_enabled": false,
+      "seconds": 0.06491819999064319
+    },
+    {
+      "algorithm": "sigmoid",
+      "rep": 1,
+      "event_counters_enabled": true,
+      "seconds": 0.06686269999772776
+    },
+    {
+      "algorithm": "sigmoid",
+      "rep": 2,
+      "event_counters_enabled": true,
+      "seconds": 0.06656999999540858
+    },
+    {
+      "algorithm": "sigmoid",
+      "rep": 2,
+      "event_counters_enabled": false,
+      "seconds": 0.06463530000473838
+    },
+    {
+      "algorithm": "sigmoid",
+      "rep": 3,
+      "event_counters_enabled": false,
+      "seconds": 0.06611650000559166
+    },
+    {
+      "algorithm": "sigmoid",
+      "rep": 3,
+      "event_counters_enabled": true,
+      "seconds": 0.06693620000442024
+    },
+    {
+      "algorithm": "sigmoid",
+      "rep": 4,
+      "event_counters_enabled": true,
+      "seconds": 0.06634360000316519
+    },
+    {
+      "algorithm": "sigmoid",
+      "rep": 4,
+      "event_counters_enabled": false,
+      "seconds": 0.06553569999232423
+    }
+  ],
+  "overhead_scope": "Only Metrics.inc disabled; phase timers, validation, Python and common harness remain. Alternating paired order; no speed significance claim.",
+  "algorithm_source_sha256": {
+    "aioli.py": "edc9bddc0198c2b0bdb13e536196eaaeead5a1559ad0ee3b7e0e27bf3668ae47",
+    "analyze.py": "46b2ae2b80de70bead5165226ab90dbfea5db4b9b24a0572f9bd701ccd28c8ca",
+    "common.py": "d176b1757823459eb8ec2383da67cbc4fed44a52f0dcad0c0815c1d05ee32ff7",
+    "comparator.py": "9b0cc6e981ada6ba2063211086c5699f24f9b7cdf357bd7db2ad9ae426e97048",
+    "controls.py": "8fc80686e07846b87afd455b2369a313449f4acb8e8edea974c5d370d16c3618",
+    "data.py": "8ecd2fecdf6a5e454e9240363321fa1e79d180a38d7bf998a45a053afadceaa1",
+    "feasibility.py": "205d5089d8fdbff49d0386349e656b5fe9944ee303bbdb9059ed874fd9a5dfab",
+    "memory.py": "eb03ae55073b3f5c75a927d479304e395604fe55a5b7fe3ccd1f4e096c680eec",
+    "prepare.py": "e252ba6f251fce3b5d6324c362c40ac27fe3e64d2fb2c1043fe27c4ff265d0dd",
+    "proximal.py": "9188584f588cb589004fe21ae3fc9eb2f7dc5a0c021d1edd07d70e9b36afb7af",
+    "report.py": "dd0b76647686728e513f71dadbdcc7fb6388a1362ef98dc860bbaf10833d1ffb",
+    "runner.py": "b09372090952e13ac326a072c1ce041e87a0062f2afa0277189ab74bea2defab",
+    "sigmoid.py": "de41cb603de2371c8ee1b65775c3cd9e0013ca8b0ab20fddf823c0bf4356a9d8",
+    "test_aioli.py": "80915d26d75303ffcb3f7c4f85bce5d61972819f8e3091d817f09bb1852ac5f8",
+    "test_common_data.py": "a88a1a890ca132d9cc421d062b5a2c6cbe4b7858d90dfa70f0783176d71f8981",
+    "test_comparator.py": "6eb51d9de9debb3c6b75847136eaa50f0a02774f2439c3ff97f1f402840a6585",
+    "test_proximal.py": "2477ed43ed1956aa82568cd29221e841d03b2776b3bf0e4d71e5cb6a14d586a3",
+    "test_sigmoid.py": "5c3c6aa486b8452912f8cc39798043817a23e11dc719f7e129827a8a06ea058f",
+    "worker.py": "587784debfc284f120e23959e0cb39056827f0f17953c79ea6ffe2c882d14d77",
+    "__init__.py": "c424983e60b53ab2d7557d986b34e52118cdc223f2cac0f00a500a3c4af6e120"
+  }
+}

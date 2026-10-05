@@ -1,0 +1,19 @@
+{
+  "case": {
+    "d": 1000,
+    "B": 1000.0,
+    "T": 500,
+    "family": "signal",
+    "data_seed": 911201,
+    "B_generator": 3.0
+  },
+  "sha256_interleaved_blocks": "16be12ef20c89209eeca01d3b6fe5aacf4b546a784439496aa1240f518443a82",
+  "block_size": 128,
+  "feature_norm_min": 0.9999999999999997,
+  "feature_norm_max": 1.0,
+  "generating_score_rms": 1.4999999999999998,
+  "positive_fraction": 0.534,
+  "disk_bytes": 4000500,
+  "dtype_X": "little-endian float64",
+  "dtype_y": "int8"
+}

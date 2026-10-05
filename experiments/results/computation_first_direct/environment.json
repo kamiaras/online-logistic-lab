@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "logical_cpus": 16,
+  "memory_total": 16458444800,
+  "worker_blas_threads": 1,
+  "workers_at_once": 1,
+  "private_commit_cap": 2147483648
+}

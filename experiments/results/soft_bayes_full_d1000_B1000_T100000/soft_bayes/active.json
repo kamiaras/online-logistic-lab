@@ -1,0 +1,10 @@
+{
+  "status": "cancelled_by_user",
+  "actual_worker_pid": 33352,
+  "supervisor_pid": 7356,
+  "process_wall_seconds": 474.7383901999856,
+  "monitored_peak_private": 63549440,
+  "monitored_peak_rss": 33890304,
+  "completed_rounds": 1,
+  "terminal": true
+}

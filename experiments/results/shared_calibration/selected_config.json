@@ -1,0 +1,114 @@
+{
+  "config": {
+    "mode": "practical",
+    "tilts": 16,
+    "burn_in": 4,
+    "transitions": 4
+  },
+  "label": "m16n4",
+  "common_prefixes": {
+    "rare_flip_d100_B10_T1000_s71004": 21,
+    "isotropic_d1000_B1000_T1000_s71003": 13,
+    "signal_d10_B10_T1000_s71001": 23,
+    "signal_d100_B100_T1000_s71002": 16
+  },
+  "selection": {
+    "label": "m16n4",
+    "mean_loss_per_round": 71.4042260079466,
+    "dataset_values": [
+      3.256917242173922,
+      256.079459167377,
+      1.9959248878269076,
+      24.284602734408566
+    ]
+  },
+  "scores": [
+    {
+      "label": "m16n1",
+      "mean_loss_per_round": 101.87662102202958,
+      "dataset_values": [
+        2.594198867742081,
+        369.68038121187357,
+        2.2724304108993683,
+        32.959473597603306
+      ]
+    },
+    {
+      "label": "m64n4",
+      "mean_loss_per_round": 77.46032560096414,
+      "dataset_values": [
+        1.4914031463505009,
+        257.85531993673914,
+        0.6927140826878536,
+        49.80186523807906
+      ]
+    },
+    {
+      "label": "m16n16",
+      "mean_loss_per_round": 77.48769939669369,
+      "dataset_values": [
+        1.237258743873998,
+        257.85157989744073,
+        1.0838016787185325,
+        49.778157266741445
+      ]
+    },
+    {
+      "label": "m64n1",
+      "mean_loss_per_round": 71.41880418343874,
+      "dataset_values": [
+        3.261354862177568,
+        256.0784415131151,
+        2.040358921002289,
+        24.295061437460078
+      ]
+    },
+    {
+      "label": "m256n1",
+      "mean_loss_per_round": 77.46292872656952,
+      "dataset_values": [
+        1.4957884847366718,
+        257.8567777088393,
+        0.6903266403845187,
+        49.808822072317604
+      ]
+    },
+    {
+      "label": "m16n4",
+      "mean_loss_per_round": 71.4042260079466,
+      "dataset_values": [
+        3.256917242173922,
+        256.079459167377,
+        1.9959248878269076,
+        24.284602734408566
+      ]
+    }
+  ],
+  "grid": [
+    [
+      16,
+      1
+    ],
+    [
+      16,
+      4
+    ],
+    [
+      16,
+      16
+    ],
+    [
+      64,
+      1
+    ],
+    [
+      64,
+      4
+    ],
+    [
+      256,
+      1
+    ]
+  ],
+  "protocol": "Six predeclared configurations; four existing held-out calibration datasets; mean per-round loss at within-dataset all-grid common prefix. m denotes correlated tilt states, not independent particles; N caps both initial and later mixing."
+}

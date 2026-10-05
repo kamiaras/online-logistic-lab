@@ -1,0 +1,16 @@
+{
+  "algorithm": "aioli",
+  "config": {},
+  "d": 100,
+  "B": 100.0,
+  "T": 1000,
+  "sampler_seed": 161175,
+  "data_seed": 72002,
+  "case_id": "isotropic_d100_B100_T1000_s72002",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\isotropic_d100_B100_T1000_s72002",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\screen\\isotropic_d100_B100_T1000_s72002__aioli__default",
+  "seconds": 15,
+  "memory_bytes": 2147483648,
+  "stage": "screen",
+  "label": "default"
+}

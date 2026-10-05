@@ -1,0 +1,23 @@
+{
+  "algorithm": "shared",
+  "config": {
+    "mode": "practical",
+    "tilts": 4,
+    "burn_in": 1,
+    "transitions": 1
+  },
+  "d": 2,
+  "B": 1.0,
+  "T": 30,
+  "sampler_seed": 159174,
+  "data_seed": 70001,
+  "case_id": "signal_d2_B1_T30_s70001",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d2_B1_T30_s70001",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_smoke\\signal_d2_B1_T30_s70001__shared__m4n1",
+  "seconds": 15,
+  "memory_bytes": 2147483648,
+  "stage": "shared_smoke",
+  "label": "m4n1",
+  "source_stage": "smoke",
+  "source_manifest": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\smoke\\manifest.json"
+}

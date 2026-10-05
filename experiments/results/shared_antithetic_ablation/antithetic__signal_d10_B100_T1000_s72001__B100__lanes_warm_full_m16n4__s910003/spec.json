@@ -1,0 +1,32 @@
+{
+  "case": "signal_d10_B100_T1000_s72001",
+  "d": 10,
+  "B": 100.0,
+  "T": 1000,
+  "seed": 910003,
+  "rounds": 500,
+  "seconds": 90.0,
+  "stage": "antithetic",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_antithetic_ablation\\antithetic__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910003",
+  "config": {
+    "mode": "practical",
+    "tilts": 16,
+    "burn_in": 4,
+    "transitions": 4,
+    "history_block_size": 128,
+    "layout": "lanes",
+    "persistence": "warm",
+    "acceptance": "full",
+    "capture_checkpoints": [
+      10,
+      50,
+      100,
+      250,
+      500
+    ],
+    "capture_per_round": 2,
+    "prior_pairing": "opposite_midpoints"
+  },
+  "control_output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\primary__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910003"
+}

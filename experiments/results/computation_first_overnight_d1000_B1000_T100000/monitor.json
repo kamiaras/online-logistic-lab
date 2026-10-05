@@ -1,0 +1,9 @@
+{
+  "transitions": 1,
+  "target_rounds": 100000,
+  "automation_id": "overnight-d1000-benchmark-result",
+  "online_time_guard_seconds": 43200,
+  "no_active_model_polling": true,
+  "check_interval_hours": 8,
+  "practical_lanes": 16
+}

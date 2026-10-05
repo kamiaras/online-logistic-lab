@@ -1,0 +1,26 @@
+{
+  "label": "history kernel probe, not online regret experiment",
+  "algorithm": "ours",
+  "d": 1000,
+  "B": 1.0,
+  "history_rows": 200704,
+  "algorithm_config": {
+    "particles": 2,
+    "transitions": 1,
+    "max_state_bytes": 2214592512,
+    "max_particles": 100000
+  },
+  "advisory_constructor_overrides": {
+    "max_state_bytes": 2214592512,
+    "max_particles": 100000
+  },
+  "requested_history_mib": 1536.0,
+  "particles": 2,
+  "seconds": 120.0,
+  "memory_bytes": 2147483648,
+  "data_seed": 20260910,
+  "sampler_seed": 93071,
+  "stream_rows": 32,
+  "input_buffer_bytes": 2097152,
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\history_frontier_deep\\ours_1536"
+}

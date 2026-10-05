@@ -1,0 +1,18 @@
+{
+  "algorithm": "aioli",
+  "config": {
+    "matrix_backend": "inverse"
+  },
+  "d": 5000,
+  "B": 100.0,
+  "T": 1000,
+  "sampler_seed": 161174,
+  "data_seed": 72001,
+  "case_id": "signal_d5000_B100_T1000_s72001",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d5000_B100_T1000_s72001",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\matrix_control\\signal_d5000_B100_T1000_s72001__aioli__inverse",
+  "seconds": 15,
+  "memory_bytes": 2147483648,
+  "stage": "matrix_control",
+  "label": "inverse"
+}

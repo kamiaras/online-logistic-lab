@@ -1,0 +1,17 @@
+{
+  "algorithm": "aioli",
+  "config": {},
+  "d": 10,
+  "B": 100.0,
+  "T": 1000,
+  "sampler_seed": 162177,
+  "data_seed": 73004,
+  "case_id": "signal_d10_B100_T1000_s73004",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s73004",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\confirmation\\signal_d10_B100_T1000_s73004__aioli__default",
+  "seconds": 15,
+  "memory_bytes": 2147483648,
+  "stage": "confirmation",
+  "label": "default",
+  "stop_after_round": 500
+}

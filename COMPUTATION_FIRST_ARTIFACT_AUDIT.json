@@ -1,0 +1,1574 @@
+{
+  "generated_utc": "2026-09-11T04:20:40.296607+00:00",
+  "passed": true,
+  "errors": [],
+  "error_count": 0,
+  "scope": "Read-only validation; no worker, comparator fit or test execution",
+  "planned_manifest_cells": 123,
+  "terminal_attempts": 98,
+  "unstarted_original_cells": 25,
+  "stages": {
+    "shared_ablation": {
+      "planned": 75,
+      "expected_attempts": 50,
+      "actual_attempts": 50,
+      "unstarted": 25,
+      "statuses": {
+        "completed": 47,
+        "time_budget": 3,
+        "not_started": 25
+      },
+      "runs": [
+        {
+          "id": "budget__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m64n1__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "c84f526e067940435c91419146228fc58a9f1aaa8b4e07379dd975569dadae97",
+          "trajectory_sha256": "be9be46eb61f4f3fdfc9b4e09fea9bfc61733cdec7f7812ada633a6e10fc232f"
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__sweep_warm_full_m16n4__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "4e8b27154dd3ce66f3e1860ce2d5df960432356133da7001117900394fb30b79",
+          "trajectory_sha256": "dbbf0418bbed9d5108f3128fdeb1aeb89da44ee3eb88cf68a12d1f464a9ab0bb"
+        },
+        {
+          "id": "radius__signal_d10_B100_T1000_s72001__B1__sweep_fresh_full_m16n4__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 250,
+          "trajectory_valid": true,
+          "result_sha256": "f4e7c666f5d0cc6c6e08603018314e45acceb4f2b9792a83f96297929f102a5b",
+          "trajectory_sha256": "93a3cbc3a5232a04b0674af286b398ed216d6627f4b52a0f2427f75ea522bb66"
+        },
+        {
+          "id": "budget__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m256n1__s910001",
+          "status": "time_budget",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 231,
+          "trajectory_valid": true,
+          "result_sha256": "ed3c6f9d1392be5538c98da58727ca5b603f05faabd3bd9c3d2f26ad3fedb0f4",
+          "trajectory_sha256": "9375fc6e307ae2bf95af11037b80c0267f84973487240388af1e26dcc2fdbf47"
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__lanes_fresh_full_m16n4__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "78f29790051a56401bf028700aa9f153da3e91c89da3762ce00458743725a97b",
+          "trajectory_sha256": "0bd728332714de9363eeec5447aca8172ca320d93f2a15c1bd0faaa14579fe94"
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__sweep_warm_full_m16n4__s910004",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "4038ac7e904fbb650883fbd033a85b68b657babf559cbd1c566251a7efee0b83",
+          "trajectory_sha256": "b71d61c4b0874defc0a6b4d15a99373bdff7b7a82fe57f2d4b5a6201555a737e"
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_fresh_full_m16n4__s910006",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "4d63ca261b3daf616d189f6cd84145ae997df4cfbe4ab02d48677766b571c3b0",
+          "trajectory_sha256": "8cc2def79154382d4dbd807839963fa238d8d15f01f776ce4bfca961c994e02d"
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910005",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "8e31cbf066004715fc6bfb7a6f95416b7ed549bd71bb551725df493b8c6e4ac9",
+          "trajectory_sha256": "c2797fcb2859952f788a201d2622e9a4fa512123b6ff7333a3aba1e2c9045284"
+        },
+        {
+          "id": "budget__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m64n1__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "f91bbb17e0a84901ecdd7469082df5b0781c080229ce8e6b31fa1ba14ee648ef",
+          "trajectory_sha256": "8e77f108c2999ea15c7588c1397d5e19601f82d2e3258989adf6ad72a8555fa8"
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "281bfd6fa52de96417bed85b0a1b9cc71b9462fbc330752968bdf2e48d64f1e3",
+          "trajectory_sha256": "36525b76b1cffc6f55664af5698779bf59b94f24714f35884cecab59db6e65ea"
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "f68ce886f917b2e7048805f77e81e1e11b67274af29eaae48085d6c217d48ab2",
+          "trajectory_sha256": "0d09bec8cdcc86fbabd0ce7786a72ac8d962ef52e7f2c6b327a5120b2d13d388"
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_fresh_full_m16n4__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "f57de9ecc5ca7efe9a583ba8fb5d2dae38d75368c92f9b37cffaa70ff43769ac",
+          "trajectory_sha256": "9f4f5c9420c32cbded1798ced4d38fcd651d770b279ab4f4471f00d161ea36a8"
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__sweep_fresh_full_m16n4__s910006",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "fecad8a130a8b5179435d64d0e745399006114b677dfa704a5e3f934f44e06ea",
+          "trajectory_sha256": "fde4d94f16d4838e11700770a13fecde1d4a27cdc5839732218ca0dd29824574"
+        },
+        {
+          "id": "budget__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m256n1__s910003",
+          "status": "time_budget",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 266,
+          "trajectory_valid": true,
+          "result_sha256": "6ba77dc3d7c9247aff553031a099263e00ba9a74f7644c0a862aaad7f8c70430",
+          "trajectory_sha256": "5ef1c0231d57c59a5deb0854ccb98838b26fb0a29d0ed62b45eb3034b2e8671d"
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_fresh_full_m16n4__s910005",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "a128cb6d6da318766f275fcdf6ccdff9e23896ffb90c0a49a7d68b62d88bbd31",
+          "trajectory_sha256": "371909521aea293f1bd824bcd30f002fcdaeb6322d736002b5944f1708bf7162"
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910004",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "329c1dd1b4b15913fe1cf39cd08c3848349b339729dd237fbaa2659a9a8d6471",
+          "trajectory_sha256": "d31b5782f6077bd01baf4654356896382045c922cccf2de242e3916361ce1971"
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "37d8659b0961608984df7314f84833ffb6068ae8a239c995394682be15deba3f",
+          "trajectory_sha256": "9cece2cc1205bf3c9dd64fc5ab58b05dde84586f3087f7c59f3c0a30980ab6d9"
+        },
+        {
+          "id": "radius__signal_d10_B100_T1000_s72001__B10__sweep_fresh_full_m16n4__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 250,
+          "trajectory_valid": true,
+          "result_sha256": "4d9487bd94006f088dde8c100d8c214606b1c63808cf91bfb9c512d93e9b07df",
+          "trajectory_sha256": "48cc53b2bc101bb14991ce373481f0642e3b7305802fcc21c4ba6674008a8dcb"
+        },
+        {
+          "id": "radius__signal_d10_B100_T1000_s72001__B10__sweep_fresh_full_m16n4__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 250,
+          "trajectory_valid": true,
+          "result_sha256": "1dc24cbb931d9e549ea4c95477d74a135de15799d8fd1b097764768048713fec",
+          "trajectory_sha256": "7fd78f675b5a9d19a7db8aebd22875c4c95238c21b00d132ca204dbd60193083"
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__sweep_warm_full_m16n4__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "ddd30b55979a79a5bc4192958a316468ceb095670e6d24aa3548c189568bd1bc",
+          "trajectory_sha256": "1fc334e269080bda83dbb9bb4f3eeb11f7ed4e816a3e473473ab316b76a0445f"
+        },
+        {
+          "id": "budget__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m64n1__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "4c7615fc0858defd22847acc5027e23d37f558a88b7d573e1d90be30f7ab593a",
+          "trajectory_sha256": "7ee6a7f8f63c6c7dd8df14b8bb25f5a429c349aaabab738b2b5dc96b7808c1e0"
+        },
+        {
+          "id": "budget__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m256n1__s910003",
+          "status": "time_budget",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 201,
+          "trajectory_valid": true,
+          "result_sha256": "dc783b9850067e6499594c5e6b890403b09e7434742732488ba682322b170996",
+          "trajectory_sha256": "8eed60a0cd20480698317ef82b85506a83d88232b852ca2ed7fbb22f8e60639f"
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__sweep_fresh_full_m16n4__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "2129c09a5e1758d4726db1c0491b201d131bec84bcaf1b34269f60a8699e8002",
+          "trajectory_sha256": "ee169af2a67c5a29bda6ff32970eba3a22e1f5da2c114dd6214846ac03424886"
+        },
+        {
+          "id": "radius__signal_d10_B100_T1000_s72001__B1000__sweep_fresh_full_m16n4__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 250,
+          "trajectory_valid": true,
+          "result_sha256": "ec213a297f7ef0e4b17a73e24066a78df4489633b935a9ceb25f6c1fb978195f",
+          "trajectory_sha256": "81edd9be966266f001b7ff1f1f1d1e9cada8eef3495cd1a8ee994d45cf1ee992"
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__sweep_warm_full_m16n4__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "72b225dee394dcb743a7eb0167a842a82dca6fe7bca8a81a639d83941ea8641d",
+          "trajectory_sha256": "69b418b2f37bffff4732cd4d09b177217f3ba7a1d4047aa5c2560ac12d3f1c6c"
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910006",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "5bd39f3c5c614f43a6ffc6a277d41e6091e14c6c7cf99f6c06e9d8317e8af9d5",
+          "trajectory_sha256": "2ebebebc4e023ef309d3fc835346069f3716fc112148d13067e19463688ca3ac"
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__sweep_fresh_full_m16n4__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "dd0d6bbd8772bd9020cc2349273184e952039c0e521c204ab8471a2ff032da0f",
+          "trajectory_sha256": "eeee207170f44812ba26ee0861c8b8c4ad4e81e1e5d1cef8d640619abe1ea557"
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__lanes_fresh_full_m16n4__s910006",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "42322e18fcb0a06b4ba61e6f22c6973cbfce6c277b8f6fdc98dd8c60ef15419c",
+          "trajectory_sha256": "42654f60690f7e6ea34b665eb46f676ae3ea7fc91e5cdf6a26a754c928f4e72f"
+        },
+        {
+          "id": "acceptance__signal_d100_B1000_T1000_s72001__B1000__sweep_fresh_poisson_m16n4__s910001",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_fresh_full_m16n4__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "63e11a86f354a00c32daa8eba625c6f3566fd0f13731c5098282d9b9aedb9ac2",
+          "trajectory_sha256": "35c9013a813b86afc8b375e90c8f5f4defca30c6eae71fbb3d97012416d954eb"
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__sweep_fresh_full_m16n4__s910004",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "f2e1235fba5a3eb5ab22a7e48bffd3ad82fd24d67417a42f7b59a5ab5c464051",
+          "trajectory_sha256": "24354131a4afd6a76c05ee7ecb0c247f04cc02b4f491cd159b927cfd4d816627"
+        },
+        {
+          "id": "acceptance__signal_d100_B1000_T1000_s72001__B1000__sweep_fresh_poisson_m16n4__s910002",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "radius__signal_d10_B100_T1000_s72001__B10__sweep_fresh_full_m16n4__s910001",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "budget__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m64n1__s910003",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__lanes_fresh_full_m16n4__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "9ed0896ca3f4d49241472cdba92a8230f525ff8ff20a9d29239e86bff9f610dc",
+          "trajectory_sha256": "eb479972343f1c998de4445e209ca50b0300e8a5e27f519bab0ee4c96ae60726"
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__sweep_warm_full_m16n4__s910006",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "57717641f48eaa4992a554a59baf6f517bd749fb21934659ec7588c615509695",
+          "trajectory_sha256": "341cfc15793adae07c792e418ed00a3fd7c6bb2b58b05d56241c2cb55d1e548e"
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__sweep_fresh_full_m16n4__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "86b0ba03a5d83ab02e8b54b881e7692b7fd8d1944c9b3d3eccf8aaf79c81866a",
+          "trajectory_sha256": "594996bc5076e615a647678f4a0d6fb3992a7ffb864efbae4d3d06dc555d4519"
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__sweep_fresh_full_m16n4__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "bc05257f3bdd2e4438641b8670540cec4542a8b6ab0ac2c477ba1a00ac4add77",
+          "trajectory_sha256": "6b8f8201ba944dc100a0db0e73803a667a3ec4c694e905e4e1423d368a1577de"
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__sweep_fresh_full_m16n4__s910005",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "ea9d5e3cd2502d5e4987e8ea88be1e480ae5bb33414af841a8a6cccd46e851a5",
+          "trajectory_sha256": "f09a37491189c47748d85160575829bf33d4f090b568beaecd09309828fec2e8"
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__sweep_warm_full_m16n4__s910004",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "5ec23e7b81d03a31bdff889b06f26e91ff538c8e6988e924627bafe7977b5e17",
+          "trajectory_sha256": "6310f9610eee493794536e10a1545c32975c3b3276cd3c1afd2731fe3e457ab1"
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__sweep_fresh_full_m16n4__s910005",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__sweep_warm_full_m16n4__s910005",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "budget__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m256n1__s910002",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "acceptance__signal_d100_B1000_T1000_s72001__B1000__sweep_fresh_poisson_m16n4__s910003",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__sweep_fresh_full_m16n4__s910004",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "radius__signal_d10_B100_T1000_s72001__B1000__sweep_fresh_full_m16n4__s910002",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__lanes_fresh_full_m16n4__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "4e21c5b6e9989c797a2aea81c58ba30afb7e89034585e469d47df672d0a3c842",
+          "trajectory_sha256": "7bb05489cae9c4f2a3e7dae80b86c4eab0bf997c6bad40e01ec91d53a917e7f0"
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_fresh_full_m16n4__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "b5005cd68def98f7d8b625082824bcd179dc267e5853c08fb794b874d83922e0",
+          "trajectory_sha256": "e6b9986d483c254b6975d4134a43c5f071be412c59231f7ae9ac6b3af2844fd0"
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910005",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "budget__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m256n1__s910002",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "radius__signal_d10_B100_T1000_s72001__B1__sweep_fresh_full_m16n4__s910001",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "radius__signal_d10_B100_T1000_s72001__B1000__sweep_fresh_full_m16n4__s910003",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__sweep_warm_full_m16n4__s910006",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910006",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__sweep_warm_full_m16n4__s910005",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "b0771eae4f6527b3ba10d60db4f47f4d83c3831c09dc6da3277c085998d3d851",
+          "trajectory_sha256": "9f3758b7f8d1e980f8313bc38e503d7f82ef7484b79f28d4501c9498440bb5f3"
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__sweep_warm_full_m16n4__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "8bd47cc977b63eb0a033238d804a6c9874240444db670c9ae4f4773d8deb2640",
+          "trajectory_sha256": "1d23913a0ee65e2e0e34205663db6701c327c17c56870970de6ff8e65ff67544"
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__lanes_fresh_full_m16n4__s910005",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "4f0e3f6c091a8e13886a2b3a037a2189fdbb467000e06575ec07502cbf4b89c4",
+          "trajectory_sha256": "2faf6711cfe77442b2525f685f0e5a1918aaab8ad66e89fd7fc7575f3785d011"
+        },
+        {
+          "id": "radius__signal_d10_B100_T1000_s72001__B1__sweep_fresh_full_m16n4__s910003",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__sweep_fresh_full_m16n4__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "9737f2aedc4922785680b982807e9a7e3c173e8284c3a7c76e3a6344adfdd051",
+          "trajectory_sha256": "fc939feef425f4afaeafb0695f92e089c56cc6a601b8f8a7915fd3aa3f59a85e"
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__sweep_fresh_full_m16n4__s910006",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "budget__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m64n1__s910001",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "acceptance__signal_d10_B100_T1000_s72001__B100__sweep_fresh_poisson_m16n4__s910002",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__sweep_fresh_full_m16n4__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "e508b3820462f6c7bbc628494b81e1d453e07c695140d75c6bd688dc08e4a06d",
+          "trajectory_sha256": "c5e19543c7c0ab27d613b5256397f2056e929943875f6cf067a04e4fd4786b29"
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__lanes_fresh_full_m16n4__s910004",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "b2bf36693eb9f57092beb9dff79842e6580f3eaf2e90c74c96ea12e2ebec179b",
+          "trajectory_sha256": "300e0c562bd126fd2b7d649626b9b9dac2ad5e1a984f9233dce985cbd68b5875"
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__sweep_warm_full_m16n4__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "a9e58b5f5f72dfe74c1338ab4ce69b1bf1cd8dd3ad2cd74d642f0b6e6e9cb574",
+          "trajectory_sha256": "24daf06cf83755e9ab76afd9e81acfd7445d4b7d7ef923a69c31a922919927c0"
+        },
+        {
+          "id": "budget__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m256n1__s910001",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910004",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "279c0604b3fba6ee622761d4d9a9898f3640f180c7695de12cd2d0181634f57f",
+          "trajectory_sha256": "beaada2402811160243e9efc3bb4d970aee996ec7237d6bceef52a6c1a5288f6"
+        },
+        {
+          "id": "acceptance__signal_d10_B100_T1000_s72001__B100__sweep_fresh_poisson_m16n4__s910003",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "budget__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m64n1__s910002",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "506b03955c26e2c67352e85e19cc30af55034aab3195e96f89d6cb09191257c2",
+          "trajectory_sha256": "08487050c0046781a1db191cc249e5aff27beab6ffa3ad0d74edde32508124db"
+        },
+        {
+          "id": "acceptance__signal_d10_B100_T1000_s72001__B100__sweep_fresh_poisson_m16n4__s910001",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "primary__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "fe61cb2a7c40346d84074d04563d47fc04baf9bd88f3fc1253a33bf61bdeaa79",
+          "trajectory_sha256": "9405b4c560c02074656a7645545e7d14b876c9b6141b10758bb3064f44690398"
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "7b9fc84965c1dbd11634466a3ddf0a0c30c2b957ef3703ce158c90a0652b43f3",
+          "trajectory_sha256": "a5bb94d6d9e5f1f2b61ab8a37a47b3fe6fffbfefc701276e8d1bb937fa9e67ef"
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__lanes_fresh_full_m16n4__s910004",
+          "status": "not_started",
+          "terminal_supervisor": false,
+          "trajectory_rounds": 0,
+          "trajectory_valid": false,
+          "result_sha256": null,
+          "trajectory_sha256": null
+        },
+        {
+          "id": "primary__signal_d100_B1000_T1000_s72001__B1000__sweep_warm_full_m16n4__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "9c668e2f56b5ce26200298106cddec11e6c16af86482cf21d3d77ebc1f06500f",
+          "trajectory_sha256": "db2af7acf078520939b0d04e35b71e70a75246ad9f486492ad79edd18165e991"
+        }
+      ],
+      "source_integrity": {
+        "before_after_equal": true,
+        "current_source_data_matches": {
+          "experiments/shared_tangent.py": true,
+          "experiments/shared_tangent_primitives.py": true,
+          "experiments/proximal.py": true,
+          "experiments/data.py": true,
+          "experiments/sigmoid.py": true,
+          "experiments/aioli.py": true
+        },
+        "documented_metadata_exceptions": [],
+        "before_file_sha256": "24c36ab3d012ac28a90b7eb9cfff2aa7408e3a9717315c6941b655ba9186a7d9",
+        "after_file_sha256": "24c36ab3d012ac28a90b7eb9cfff2aa7408e3a9717315c6941b655ba9186a7d9"
+      }
+    },
+    "shared_antithetic_ablation": {
+      "planned": 6,
+      "expected_attempts": 6,
+      "actual_attempts": 6,
+      "unstarted": 0,
+      "statuses": {
+        "completed": 6
+      },
+      "runs": [
+        {
+          "id": "antithetic__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "093669459fb63787395f8854e3ff828a868065d64eda68c1ebe60ef7e6de2c4c",
+          "trajectory_sha256": "f0dc2b466c750f26076f532f3decdde174becbaee6dd002770260e92053684dd"
+        },
+        {
+          "id": "antithetic__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "7037b45eba0bb904d47e4b3604f0ff76660bae46531fe4bd009cbe95787a0dc0",
+          "trajectory_sha256": "dfe18c1488522ab979a46c5effc23cb8ef17881a0f9d5973eaed700d2ee6d914"
+        },
+        {
+          "id": "antithetic__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m16n4__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "f86738e4efae3074717139fc28e97cf4f525f26da81460d8a7367f2553d58401",
+          "trajectory_sha256": "ded64c1a186630beebf5bd78a70584eb9632463816da48b5334c466339963b7e"
+        },
+        {
+          "id": "antithetic__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "9356f3df43ef693a75f0bf908a4400c0e12f8d36692184fe64a2d5f43f6f9b53",
+          "trajectory_sha256": "65ee57603ff16061fd344dcf8027873424b6516725b7af48ceafa9c6c54352c4"
+        },
+        {
+          "id": "antithetic__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "74c38540c2fc39f3b272b4dd7491f1c341b56356bb70c50de9a233fde944f0b6",
+          "trajectory_sha256": "a35b9891396ec3e83f65a2e90ddd73cc02a6419991926795cf7754912718e580"
+        },
+        {
+          "id": "antithetic__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "cc7f65967282c53236719caf1836d41e0834ad8917ec4b435d9b0db680c84ccc",
+          "trajectory_sha256": "fb3d3c763b83eed0e86d964ec0ea3aa6437c5462c7a963bed913b259cbdaa836"
+        }
+      ],
+      "source_integrity": {
+        "before_after_equal": true,
+        "current_source_data_matches": {
+          "experiments/shared_tangent.py": true,
+          "experiments/shared_tangent_primitives.py": true,
+          "experiments/proximal.py": true,
+          "experiments/data.py": true,
+          "experiments/sigmoid.py": true,
+          "experiments/aioli.py": true,
+          "experiments/shared_ablation.py": true,
+          "experiments/shared_ablation_worker.py": true,
+          "experiments/shared_ablation_campaign.py": true,
+          "experiments/shared_antithetic_ablation.py": true,
+          "experiments/shared_antithetic_worker.py": true,
+          "experiments/shared_antithetic_campaign.py": true,
+          "experiments/common.py": true
+        },
+        "documented_metadata_exceptions": [],
+        "before_file_sha256": "cc20b37b7cd6d82812ac3210ad5fdf6a58b7bb8fbebbdf8f1af21a1dadb5bcaf",
+        "after_file_sha256": "cc20b37b7cd6d82812ac3210ad5fdf6a58b7bb8fbebbdf8f1af21a1dadb5bcaf"
+      }
+    },
+    "batched_performance": {
+      "planned": 18,
+      "expected_attempts": 18,
+      "actual_attempts": 18,
+      "unstarted": 0,
+      "statuses": {
+        "completed": 18
+      },
+      "runs": [
+        {
+          "id": "full__signal_d100_B1000_T1000_s72001__m16n4__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "b780ce9b656de0f44b730db88d8fed82714026d9c791a236d1bc98186c6882be",
+          "trajectory_sha256": "519cb2c4c6a430af10ec8a3a9a0527968bd1e48057f53a4a456835141dea9db5"
+        },
+        {
+          "id": "full__signal_d100_B1000_T1000_s72001__m16n4__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "982f0b262a92189d75827f29f60ed74abe1aa7161ccb7e47db70e7ce514b1428",
+          "trajectory_sha256": "9c8b99dacbfdade15c73839a2c6ea751edad6eeed084fa35babb5924a905ddcd"
+        },
+        {
+          "id": "full__signal_d10_B100_T1000_s72001__m16n4__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "338c748787361868bdbccdd8b196f125d73258b75f6b70bfb29fec74f9cd794d",
+          "trajectory_sha256": "79d47f12fce491d790ef61df0843384d523a28185cfb21c6ca8d6c1872ebd45a"
+        },
+        {
+          "id": "full__signal_d10_B100_T1000_s72001__m16n4__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "57165838a82f3961f51a01ac8202f9d0356688a95ac4c862f9e6a832a50e0b8c",
+          "trajectory_sha256": "45c576874edb3152d0e9376354250cdaf93dd73adf2fb880c72404b364c047cf"
+        },
+        {
+          "id": "full__signal_d10_B100_T1000_s72001__m16n4__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "aaed9fe986710c249a3c65590c287d8efe7c30e36a16c959aea64451fac1b63e",
+          "trajectory_sha256": "b13c2b9be7dbf717ff859bdfed50613b0b1c8fd355828b90a4e46a59268bd617"
+        },
+        {
+          "id": "full__signal_d100_B1000_T1000_s72001__m16n4__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "28fbbcc7af9746e096082dc7b311bd1daf75b8ce702eeed1c26a02f22a88442c",
+          "trajectory_sha256": "7495e2562a7a9735aba0c953c1a92d4a898d1b3cbd8043d491da20472bc17dac"
+        },
+        {
+          "id": "full__signal_d10_B100_T1000_s72001__m64n1__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "108e60c7bac779e60219eb90414bbda467f1977cbb617806a2217582bd0f8e9d",
+          "trajectory_sha256": "d44fb9292f2188ad6f144930aff6ec7f2745ff4e1c536e992b95189046f21449"
+        },
+        {
+          "id": "full__signal_d100_B1000_T1000_s72001__m64n1__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "f847cd0287d34692cc238b1e7bedc4118eb2ea764161c6c479d0454f57ac878c",
+          "trajectory_sha256": "b511a020b90c704626ac8a4e80cb4a036c68721f89994f464fb6c19b4c693d45"
+        },
+        {
+          "id": "full__signal_d10_B100_T1000_s72001__m64n1__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "aafe9ef15d3fba5141ec6cb1dc8bed9f153e766fc7805e5330df4bf834c77e4e",
+          "trajectory_sha256": "e100388caa3dda61f78b41254ef64982bcbcbbcc384f637845c700de3a981eea"
+        },
+        {
+          "id": "full__signal_d100_B1000_T1000_s72001__m64n1__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "2a4936f27cc744bace37cbc204a69921c067f6ebcf36ca5e54dcc6f0c8f2f1f3",
+          "trajectory_sha256": "220c44e97ee23980397d2177c70a27050671e0f664afd3331903cd02fb66f4b4"
+        },
+        {
+          "id": "full__signal_d10_B100_T1000_s72001__m64n1__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "6522ce3927a97ccb7100e47f62ddc83db531a9730eec58432fd0a3acb931b72b",
+          "trajectory_sha256": "3783924372a329dacfb55423a11566c01fb28a2086b6c72524fe749c88aa9d38"
+        },
+        {
+          "id": "full__signal_d100_B1000_T1000_s72001__m64n1__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "8eb4326bc434d7a64ea59c27468ec350522987240b16d21ff058e42e6d595fe8",
+          "trajectory_sha256": "ce55ae1101863c96766df7ab90888b4c87185d37b675435d356d5525e063ec98"
+        },
+        {
+          "id": "full__signal_d10_B100_T1000_s72001__m256n1__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "53942e39d21fc40ad9b26b74bc3f71f43cbb127c2db6bf46de8f977bc6a257ba",
+          "trajectory_sha256": "9c4177a66895343096dd322c1f8d7bb5fc10a488d8cbf516bbd2d7b68f47dfc2"
+        },
+        {
+          "id": "full__signal_d100_B1000_T1000_s72001__m256n1__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "83ee1f5a1f3e0060e91aea14831be838c03293636bceb12ce21cbb7791be7469",
+          "trajectory_sha256": "1124255b55f03b21c638a3819e1b866c90f83e425b94a2e0b3a857b47681eaa3"
+        },
+        {
+          "id": "full__signal_d100_B1000_T1000_s72001__m256n1__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "51fa585fcb13d0418a37aae80d4b83797ef82d19b31471e446e3ab9b8d414c7a",
+          "trajectory_sha256": "5b9c58df4457061924807b6c2917d008d52bd74affa8f2ecd1c94ff3fab52bc3"
+        },
+        {
+          "id": "full__signal_d100_B1000_T1000_s72001__m256n1__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "8f1a624d9c1cf2f2420b16bb767dae0867749675b36cd4032416c72b963b370f",
+          "trajectory_sha256": "1fa1e0af460c0faa7e669e37ca9cdec2c15a950bb1d6c3fa1782ee1a006fa24b"
+        },
+        {
+          "id": "full__signal_d10_B100_T1000_s72001__m256n1__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "d5b12bbf3fc19062097ebabb152c10175810d641df6aed552b73105767222828",
+          "trajectory_sha256": "8a5d3a94ab1723b4388d5cb06535d407b6bb2d3dca405e7e9f4309e712d2aa31"
+        },
+        {
+          "id": "full__signal_d10_B100_T1000_s72001__m256n1__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "af4ac216b408db4c5e322028df4a58bda4a95e2d9daeafc8bdc26a23526cbe24",
+          "trajectory_sha256": "cce12e241998b7e6a8d972aaef1dd1c89c9348f7b10c41aa57401b911bdddbde"
+        }
+      ],
+      "source_integrity": {
+        "before_after_equal": true,
+        "current_source_data_matches": {
+          "experiments/shared_tangent.py": true,
+          "experiments/shared_tangent_primitives.py": true,
+          "experiments/proximal.py": true,
+          "experiments/data.py": true,
+          "experiments/sigmoid.py": true,
+          "experiments/aioli.py": true,
+          "experiments/persistent_log_odds.py": true,
+          "experiments/batched_persistent_log_odds.py": true,
+          "experiments/batched_performance_worker.py": true,
+          "experiments/batched_performance_campaign.py": true,
+          "experiments/common.py": true
+        },
+        "documented_metadata_exceptions": [],
+        "before_file_sha256": "85a39295b54be9103f7443c27587bad62e3d71127932efac08b0b32eb0fa5e23",
+        "after_file_sha256": "85a39295b54be9103f7443c27587bad62e3d71127932efac08b0b32eb0fa5e23"
+      }
+    },
+    "curvature_performance": {
+      "planned": 6,
+      "expected_attempts": 6,
+      "actual_attempts": 6,
+      "unstarted": 0,
+      "statuses": {
+        "completed": 6
+      },
+      "runs": [
+        {
+          "id": "curvature__signal_d10_B100_T1000_s72001__m64n1__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "0fca29fe623b9bc5eaf38ed59e7d04104d81a79ff831a9919ebc6b90fc3d59c3",
+          "trajectory_sha256": "2b52a5c1ef71dade6121b11a4bedbe8731debb078387e8021cbc46b29ceda448"
+        },
+        {
+          "id": "curvature__signal_d100_B1000_T1000_s72001__m64n1__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "b30117a001bd53fdf05a817909efd5345e44bda7fb4f5c61e4586966d76b5cd3",
+          "trajectory_sha256": "4fd8bd208b7402806368a9cec8d7d1148efb6b4b4e0cf28dffff8e870315bee9"
+        },
+        {
+          "id": "curvature__signal_d10_B100_T1000_s72001__m64n1__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "c897baab1dcb6896a2146721ab5a7b4dfcac2cbe92c9a5ac9e7a9434f0f881f1",
+          "trajectory_sha256": "a686174f493da422e62d25d7d2bc7e8c0d9d245045f1eae5b663cc4fdb892862"
+        },
+        {
+          "id": "curvature__signal_d100_B1000_T1000_s72001__m64n1__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "e7c4a91f0ede4b84bd554f0d16836773d5c8e28442a2d3c755e1c93da3c5bd9b",
+          "trajectory_sha256": "7ec688d35c4a90e1821413b312234d6ddf74664cdb630637321ee51493790311"
+        },
+        {
+          "id": "curvature__signal_d10_B100_T1000_s72001__m64n1__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "5d3c3555fe9eede6403c734d5ca3a4a83c4c52343b26fd91f5b843dcc0fe8428",
+          "trajectory_sha256": "7f14371b6db4211d4105e791aa7589db3860260626cb44e9d7fa114c1ed7d896"
+        },
+        {
+          "id": "curvature__signal_d100_B1000_T1000_s72001__m64n1__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "82dad24aee81ece5b833701cc87cbec1c36c9db1502d9e921d11378ce7e3b850",
+          "trajectory_sha256": "55077f5339cd958bafe80b693beb3da16d3d41781611a0c170f7f874c2d57e3f"
+        }
+      ],
+      "source_integrity": {
+        "before_after_equal": true,
+        "current_source_data_matches": {
+          "experiments/shared_tangent.py": true,
+          "experiments/shared_tangent_primitives.py": true,
+          "experiments/proximal.py": true,
+          "experiments/data.py": true,
+          "experiments/sigmoid.py": true,
+          "experiments/aioli.py": true,
+          "experiments/persistent_log_odds.py": true,
+          "experiments/batched_persistent_log_odds.py": true,
+          "experiments/batched_performance_worker.py": true,
+          "experiments/batched_performance_campaign.py": true,
+          "experiments/common.py": true,
+          "experiments/curvature_persistent_log_odds.py": false
+        },
+        "documented_metadata_exceptions": [
+          {
+            "file": "experiments/curvature_persistent_log_odds.py",
+            "verified": true,
+            "measured_sha256": "191bd20ec2298526112fefa8fbc83a694aefcba37c85ee2b9c95acfdb8a08402",
+            "current_sha256": "79fee1137bc84eb6c92764256b2fcfd538de7351671eb67296f4b0b46b2272bd",
+            "archived_source": "experiments\\source_snapshots\\curvature_performance\\curvature_persistent_log_odds.py",
+            "reason": "Exactly one added preflight memory_representation metadata field; byte reconstruction verified",
+            "provenance_sha256": "1dcfb48337dbe159a8ddc5f819a683ca59f633d97c6bd46214167353876c5f7f"
+          }
+        ],
+        "before_file_sha256": "19f12bfe80d3ee753b4cf9a9da105fd2b13193f317e78c9ed55d61b27a59dda0",
+        "after_file_sha256": "19f12bfe80d3ee753b4cf9a9da105fd2b13193f317e78c9ed55d61b27a59dda0"
+      }
+    },
+    "computation_followup": {
+      "planned": 18,
+      "expected_attempts": 18,
+      "actual_attempts": 18,
+      "unstarted": 0,
+      "statuses": {
+        "completed": 18
+      },
+      "runs": [
+        {
+          "id": "current16__signal_d100_B1000_T1000_s72001__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "b2f5219b68e96d8a2ccfe0675ffa5340077f78f46d49115d74453d05bfe22c25",
+          "trajectory_sha256": "76d6f3b511c5f185f16a8c2de369dc9ea0cc768406a11a47192b07e0b9121f93"
+        },
+        {
+          "id": "original256__signal_d100_B1000_T1000_s72001__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "d41e38d58c147dba4060b4febbb77e6eab369ea56c76a207c6af7eef33ea921d",
+          "trajectory_sha256": "e8907a7305836b9d353f5a78a8291cab93e22e9f667cafa751b270a53203c0aa"
+        },
+        {
+          "id": "legacy16__signal_d100_B1000_T1000_s72001__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "b171ed06804388fad8e239ba141b5b414940787d777dc50f7b1bda9db2d1137b",
+          "trajectory_sha256": "6afb7c58d638c2b1f4a33d91d4281b3940d0fc03f21547a1b9dd3405d9841101"
+        },
+        {
+          "id": "current16__signal_d100_B1000_T1000_s72001__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "920cbe78bfe0b9b88ed6ae0b946d75ff5d8688600940e2f9e4f3c7f883db7a5c",
+          "trajectory_sha256": "c5d59c58401760d0d9eea4ab05ecf7c25e341f56f7e315b861201f6ba4509805"
+        },
+        {
+          "id": "current16__signal_d10_B100_T1000_s72001__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "a220e61da67001db6e98b6b08d6d4e06bec79a4485e6d8a83758d706421ddf0c",
+          "trajectory_sha256": "fe6e8e0ba26e3f15c983b03cd6a8969e8cb776fdbf85d2c7a51548df5b3ae3d0"
+        },
+        {
+          "id": "original256__signal_d100_B1000_T1000_s72001__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "9c5e7f0da7f03462c1c0554df5b87c06d6829314a8970dab3baf7557dfb15498",
+          "trajectory_sha256": "cddd06b57fd1a0ca1c5dd39a8a8e4d31ad9e5edaff8b6093e1e6c1ca39fadebe"
+        },
+        {
+          "id": "original256__signal_d10_B100_T1000_s72001__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "50ece1dc693c043407d001bc542e0cbfd84d30fc87416430fa784dbce75b6ffa",
+          "trajectory_sha256": "f1a4a069a62faf30dd8738a2e13d5797b47355e91c0f0579841298377ca94864"
+        },
+        {
+          "id": "legacy16__signal_d10_B100_T1000_s72001__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "eeb10f11bac2056c3234390783c4bbeb301d664fda0c57ac0802fc798cfca434",
+          "trajectory_sha256": "4203a7837991f1ae19e6bb6a609e7cc85b0085e847c66404b60460b182324a8a"
+        },
+        {
+          "id": "legacy16__signal_d100_B1000_T1000_s72001__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "cbd8e78c446eed03ebec5a506463ad28979307104e451c730a3f99af3dd72d66",
+          "trajectory_sha256": "63489c5ef3ec3cdf9509ff6af311a130209944558b09c85bcc2e16944c9b8a76"
+        },
+        {
+          "id": "legacy16__signal_d10_B100_T1000_s72001__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "3dfe80498629cb36bfb5cac19ed622012a17f691696f1b0cab8eed61f40e4dce",
+          "trajectory_sha256": "3551fc99f17acab3a352c8b44ad257e237669654d8a8d86594a6eaae4fc0c0fc"
+        },
+        {
+          "id": "current16__signal_d10_B100_T1000_s72001__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "0be96e9873fd8d599a216f1dcd720c9fbb490d9ab664cd5ef1cbc399cc194011",
+          "trajectory_sha256": "5580fbfdd710711c22479bd88d64eabd46f14717ea2be78151a640b49d32eaf1"
+        },
+        {
+          "id": "legacy16__signal_d100_B1000_T1000_s72001__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "2828bc9e9d67483bf9bd3752128ef1d1b57386fc2ebf8a1840396156e581d0d0",
+          "trajectory_sha256": "fe64813590ca2e3af09d861879ff8a1ec9368391906687f5120cac0b0b128ead"
+        },
+        {
+          "id": "legacy16__signal_d10_B100_T1000_s72001__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "fb3c6c77a732cda8d11166a54ad0dfa182309de19db69bb6a0844f88f9e0ae37",
+          "trajectory_sha256": "9d957249813fe359e0fbef39ebf4cf6ffd61d0f2fdd1e917194e0cc00bb13fb1"
+        },
+        {
+          "id": "original256__signal_d100_B1000_T1000_s72001__s910001",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "6bc17a1766af4b3571d4806c0b640876cf2923c432863aefef0a8e77b3094f10",
+          "trajectory_sha256": "eac4a936f829dadf18d3f4efd782c624cc6fe78efec0678fc56d01e14560e6b1"
+        },
+        {
+          "id": "original256__signal_d10_B100_T1000_s72001__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "e2df091c427be4f25015cdc12976aa5ca517d6ff7227516da9814fc074066180",
+          "trajectory_sha256": "47b5504e82026d80351eb24dc73dd9495599c230a412c904b44878796067cfb0"
+        },
+        {
+          "id": "current16__signal_d100_B1000_T1000_s72001__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "bfd0f03feee795c3dfc65cbe6bb3d43bdfdaccdec1af943f3141b34b00ac7785",
+          "trajectory_sha256": "1537e9386db7c82ff6e47c9c114bd697e0096eaf1ca79252e389dad57388d4fc"
+        },
+        {
+          "id": "current16__signal_d10_B100_T1000_s72001__s910002",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "fccd49a3ff110d8a859f6baf44fd3c1d2b08eb5cb47899978ceb2c9dc4536ca6",
+          "trajectory_sha256": "f9a2aeeb72c8d9e4324103f09749bce706b564ed1260d20ca3aa6a5458238232"
+        },
+        {
+          "id": "original256__signal_d10_B100_T1000_s72001__s910003",
+          "status": "completed",
+          "terminal_supervisor": true,
+          "trajectory_rounds": 500,
+          "trajectory_valid": true,
+          "result_sha256": "60bb1b4212644d34f256624383c93400edda1d7f5c532aecd09b35922dc566df",
+          "trajectory_sha256": "7c8a0bd7b321afef33369580e8d2747c2d3f849e2a770fad588328e2aaef4a4d"
+        }
+      ],
+      "source_integrity": {
+        "before_after_equal": true,
+        "current_source_data_matches": {
+          "experiments/computation_followup.py": true,
+          "experiments/computation_followup_worker.py": true,
+          "experiments/computation_followup_campaign.py": true,
+          "experiments/curvature_persistent_log_odds.py": true,
+          "experiments/batched_persistent_log_odds.py": true,
+          "experiments/persistent_log_odds.py": true,
+          "experiments/shared_tangent.py": true,
+          "experiments/shared_tangent_primitives.py": true,
+          "experiments/proximal.py": true,
+          "experiments/common.py": true,
+          "experiments/data.py": true,
+          "experiments/memory.py": true
+        },
+        "documented_metadata_exceptions": [],
+        "before_file_sha256": "891a7b46d12c123c0af11a86b41da8dbee363b38ff450fe6586eba4b042548a0",
+        "after_file_sha256": "891a7b46d12c123c0af11a86b41da8dbee363b38ff450fe6586eba4b042548a0"
+      },
+      "data_integrity": {
+        "before_after_equal": true,
+        "current_source_data_matches": {
+          "experiments\\data\\signal_d100_B1000_T1000_s72001\\X.bin": true,
+          "experiments\\data\\signal_d100_B1000_T1000_s72001\\y.bin": true,
+          "experiments\\data\\signal_d10_B100_T1000_s72001\\X.bin": true,
+          "experiments\\data\\signal_d10_B100_T1000_s72001\\y.bin": true
+        },
+        "documented_metadata_exceptions": [],
+        "before_file_sha256": "4f6d73b2a9af712a04e7cc77d124216b92b08deb145d69ecd0f32e0abe1eadf1",
+        "after_file_sha256": "4f6d73b2a9af712a04e7cc77d124216b92b08deb145d69ecd0f32e0abe1eadf1"
+      }
+    }
+  },
+  "historical_current_hashes_match": {
+    "experiments/shared_tangent.py": true,
+    "experiments/shared_tangent_primitives.py": true,
+    "experiments/proximal.py": true,
+    "experiments/data.py": true,
+    "experiments/sigmoid.py": true,
+    "experiments/aioli.py": true
+  },
+  "data": {
+    "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72001": {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72001",
+      "metadata": {
+        "case": {
+          "id": "signal_d100_B1000_T1000_s72001",
+          "family": "signal",
+          "d": 100,
+          "B": 1000.0,
+          "T": 1000,
+          "data_seed": 72001,
+          "B_generator": 3.0
+        },
+        "sha256_interleaved_blocks": "66f1465ba44bf2c9b2a777e90b28b89fd97ab651eab66dcb12c6b01a233041a2",
+        "block_size": 128,
+        "feature_norm_min": 0.9999999999999997,
+        "feature_norm_max": 1.0,
+        "generating_score_rms": 1.5,
+        "positive_fraction": 0.509,
+        "disk_bytes": 801000,
+        "dtype_X": "little-endian float64",
+        "dtype_y": "int8"
+      },
+      "errors": [],
+      "computed_interleaved_sha256": "66f1465ba44bf2c9b2a777e90b28b89fd97ab651eab66dcb12c6b01a233041a2",
+      "recorded_hash_matches": true,
+      "X_sha256": "00f1e15970adc5b8ee73c4b766adb9eaaa47dc357a184beb2bd3698ddbaffaff",
+      "y_sha256": "8fded2e90b7862db0f7c47c0dae9bb08118361b79464783301f0874e4beb8d09"
+    },
+    "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001": {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+      "metadata": {
+        "case": {
+          "id": "signal_d10_B100_T1000_s72001",
+          "family": "signal",
+          "d": 10,
+          "B": 100.0,
+          "T": 1000,
+          "data_seed": 72001,
+          "B_generator": 3.0
+        },
+        "sha256_interleaved_blocks": "86d740eac20848225150b67c8b2f5fbbe7ff6a92b12186ba2e0edd1ea34b35ff",
+        "block_size": 128,
+        "feature_norm_min": 0.9999999999999997,
+        "feature_norm_max": 1.0,
+        "generating_score_rms": 1.4999999999999998,
+        "positive_fraction": 0.511,
+        "disk_bytes": 81000,
+        "dtype_X": "little-endian float64",
+        "dtype_y": "int8"
+      },
+      "errors": [],
+      "computed_interleaved_sha256": "86d740eac20848225150b67c8b2f5fbbe7ff6a92b12186ba2e0edd1ea34b35ff",
+      "recorded_hash_matches": true,
+      "X_sha256": "69728e2e83ac552148097cbf5a33fad7e6b59df44eac827ee325aaea0cab86d6",
+      "y_sha256": "354fd1841a159d24d1ba7ea103cd5dbeb334517cf2058a86308793db186b63db"
+    }
+  },
+  "amended_primary": {
+    "targets": 36,
+    "valid_500_round_trajectories": 36
+  },
+  "curvature_full_exact_pairs": [
+    {
+      "curvature": "curvature__signal_d10_B100_T1000_s72001__m64n1__s910002",
+      "full": "full__signal_d10_B100_T1000_s72001__m64n1__s910002",
+      "exact": {
+        "logits": true,
+        "guarded_logits": true,
+        "skipped": true,
+        "lanes": true,
+        "transitions": true,
+        "moves": true,
+        "proposals": true,
+        "gradient_refresh_rows": true
+      },
+      "saved_rows": 4426396,
+      "saved_rows_at_endpoints": {
+        "100": 148658,
+        "250": 1029415,
+        "500": 4426396
+      }
+    },
+    {
+      "curvature": "curvature__signal_d100_B1000_T1000_s72001__m64n1__s910001",
+      "full": "full__signal_d100_B1000_T1000_s72001__m64n1__s910001",
+      "exact": {
+        "logits": true,
+        "guarded_logits": true,
+        "skipped": true,
+        "lanes": true,
+        "transitions": true,
+        "moves": true,
+        "proposals": true,
+        "gradient_refresh_rows": true
+      },
+      "saved_rows": 3972635,
+      "saved_rows_at_endpoints": {
+        "100": 205720,
+        "250": 749895,
+        "500": 3972635
+      }
+    },
+    {
+      "curvature": "curvature__signal_d10_B100_T1000_s72001__m64n1__s910003",
+      "full": "full__signal_d10_B100_T1000_s72001__m64n1__s910003",
+      "exact": {
+        "logits": true,
+        "guarded_logits": true,
+        "skipped": true,
+        "lanes": true,
+        "transitions": true,
+        "moves": true,
+        "proposals": true,
+        "gradient_refresh_rows": true
+      },
+      "saved_rows": 4496300,
+      "saved_rows_at_endpoints": {
+        "100": 154817,
+        "250": 1091675,
+        "500": 4496300
+      }
+    },
+    {
+      "curvature": "curvature__signal_d100_B1000_T1000_s72001__m64n1__s910002",
+      "full": "full__signal_d100_B1000_T1000_s72001__m64n1__s910002",
+      "exact": {
+        "logits": true,
+        "guarded_logits": true,
+        "skipped": true,
+        "lanes": true,
+        "transitions": true,
+        "moves": true,
+        "proposals": true,
+        "gradient_refresh_rows": true
+      },
+      "saved_rows": 4462545,
+      "saved_rows_at_endpoints": {
+        "100": 168352,
+        "250": 874773,
+        "500": 4462545
+      }
+    },
+    {
+      "curvature": "curvature__signal_d10_B100_T1000_s72001__m64n1__s910001",
+      "full": "full__signal_d10_B100_T1000_s72001__m64n1__s910001",
+      "exact": {
+        "logits": true,
+        "guarded_logits": true,
+        "skipped": true,
+        "lanes": true,
+        "transitions": true,
+        "moves": true,
+        "proposals": true,
+        "gradient_refresh_rows": true
+      },
+      "saved_rows": 4500221,
+      "saved_rows_at_endpoints": {
+        "100": 150500,
+        "250": 1061376,
+        "500": 4500221
+      }
+    },
+    {
+      "curvature": "curvature__signal_d100_B1000_T1000_s72001__m64n1__s910003",
+      "full": "full__signal_d100_B1000_T1000_s72001__m64n1__s910003",
+      "exact": {
+        "logits": true,
+        "guarded_logits": true,
+        "skipped": true,
+        "lanes": true,
+        "transitions": true,
+        "moves": true,
+        "proposals": true,
+        "gradient_refresh_rows": true
+      },
+      "saved_rows": 3970442,
+      "saved_rows_at_endpoints": {
+        "100": 175774,
+        "250": 832531,
+        "500": 3970442
+      }
+    }
+  ],
+  "arithmetic_ledgers": [
+    {
+      "file": "CURVATURE_SUMMARY_ARITHMETIC_LEDGER.json",
+      "rows_checked": 6,
+      "sha256": "19d2f314f595d769680ac6b88030064e1473278348f8f07e15dea93128650e6c",
+      "paired_full_measurement": true,
+      "comparison": "six separately measured common-stream full/curvature pairs"
+    },
+    {
+      "file": "COMPUTATION_FIRST_ARITHMETIC_LEDGER.json",
+      "rows_checked": 6,
+      "sha256": "69d115a5cd452e48eb42052045ae7bc1bfcd8eafb163ecd9b997036abbd7c814",
+      "paired_full_measurement": false,
+      "comparison": "counterfactual common-stream full evaluator; not separately timed in follow-up"
+    }
+  ],
+  "tests": {
+    "files": [
+      {
+        "file": "experiments\\test_persistent_log_odds.py",
+        "functions": 16,
+        "statically_declared_cases": 16,
+        "sha256": "2dc6428086f143d55b71c83e832dabcff194aabab29ecf3f78389ebb183f3504"
+      },
+      {
+        "file": "experiments\\test_shared_antithetic_ablation.py",
+        "functions": 2,
+        "statically_declared_cases": 2,
+        "sha256": "8bd7e15be9b4d22baa5c6957ce20820b60656ce17984db7af73e59e1ff569ae0"
+      },
+      {
+        "file": "experiments\\test_shared_ablation_analysis.py",
+        "functions": 3,
+        "statically_declared_cases": 3,
+        "sha256": "12b1c5cedf8e6c54f0eb9e0181b1e3ec12797b82ed8550f4828e73fdc7b33089"
+      },
+      {
+        "file": "experiments\\test_batched_persistent_log_odds.py",
+        "functions": 8,
+        "statically_declared_cases": 8,
+        "sha256": "28e9e9d7f00931a4ff5e97aa98c6f5c82ecc071bc2a41cad186be8d0fc0eacd7"
+      },
+      {
+        "file": "experiments\\test_curvature_persistent_log_odds.py",
+        "functions": 8,
+        "statically_declared_cases": 8,
+        "sha256": "0bea4f9a676903d3c465211460fbb06af36db6540487733dde7db2439e6da07f"
+      },
+      {
+        "file": "experiments\\test_computation_followup.py",
+        "functions": 3,
+        "statically_declared_cases": 5,
+        "sha256": "5dcc86636ccc633955d1bfc83d025e0255b54d55b893e659fe6b012b34cd1e4a"
+      },
+      {
+        "file": "experiments\\test_computation_first_log_odds.py",
+        "functions": 5,
+        "statically_declared_cases": 6,
+        "sha256": "3c0e0f1ae2abc6ad6f5bd37bb12f65eef6980dfd00178a73a55ea45d18879da4"
+      }
+    ],
+    "statically_declared_cases": 48,
+    "prior_execution_report": {
+      "prior_root_reported_passes": 37,
+      "followup_agent_reported_passes": 5,
+      "selected_class_root_reported_passes": 6,
+      "total_reported_passes": 48,
+      "selected_class_command": "python -m pytest experiments/test_computation_first_log_odds.py -q",
+      "selected_class_reported_exit_code": 0,
+      "selected_class_reported_seconds": 0.3,
+      "source": "Parent and implementation-agent messages reporting their tool executions",
+      "independently_reexecuted_by_this_audit": false,
+      "machine_execution_log_created": false
+    },
+    "limitation": "AST enumeration validates present declarations, not whether or when tests executed. Prior pass counts retain conversational provenance."
+  },
+  "selected_implementation": {
+    "file": "experiments/computation_first_log_odds.py",
+    "sha256": "b2175338e16054ffb680ea4e9c81a87697a3e041d486011570922497a4ae568e",
+    "tests_sha256": "3c0e0f1ae2abc6ad6f5bd37bb12f65eef6980dfd00178a73a55ea45d18879da4",
+    "step": "inveta=lambda+2*d*E",
+    "practical_defaults": {
+      "lanes": 16,
+      "transitions": 1
+    },
+    "static_review": "Counts, uniform bound, budgets, memory constraints, zero-R handling and practical equivalence audited independently",
+    "production_measurements_of_this_new_class": 0,
+    "measured_equivalent_control": "LegacyStepCurvatureLogOdds practical16/1; selected class additionally supports matching prescribed counts"
+  },
+  "interpretation": "Practical caps have no prescribed regret certificate. Exact-real operation bounds and observed float paths are distinct from finite-bit certification. Follow-up selection occurred after initial performance effects."
+}

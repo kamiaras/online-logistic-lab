@@ -1,0 +1,88 @@
+{
+  "round": 1000,
+  "cumulative_loss": 906.1506964319861,
+  "online_seconds": 0.7395122003945289,
+  "elapsed_seconds": 0.7804623999982141,
+  "cpu_seconds": 0.78125,
+  "prediction_seconds": 0.06625430028361734,
+  "update_seconds": 0.673184600105742,
+  "initialization_seconds": 7.330000516958535e-05,
+  "input_seconds": 0.012379399995552376,
+  "memory": {
+    "working_set": 57352192,
+    "peak_working_set": 60624896,
+    "private_commit": 109117440,
+    "peak_private_commit": 109117440
+  },
+  "state_bytes": 80800,
+  "metrics": {
+    "counters": {
+      "matrix_initializations": 1,
+      "estimated_scalar_flops": 31462050,
+      "triangular_solves": 2000,
+      "estimated_matmul_flops": 20000000,
+      "dot_products": 2000,
+      "root_iterations": 33795,
+      "root_evaluations": 34795,
+      "tanh_elements": 34795,
+      "predictions": 1000,
+      "cholesky_rank1_updates": 1000,
+      "cholesky_rotations": 100000,
+      "sufficient_statistic_updates": 1000,
+      "sigmoid_elements": 2000,
+      "observations": 1000
+    },
+    "times": {
+      "predict": 0.06548450015543494,
+      "observe": 0.6617597998993006
+    }
+  },
+  "diagnostics": {
+    "matrix_backend": "cholesky",
+    "rounds_observed": 1000,
+    "regularizer_lambda": 0.0001,
+    "feature_radius": 1.0,
+    "bisections": 36,
+    "prescribed_bisections": 36,
+    "uses_prescribed_bisection_budget": true,
+    "last_q": 134.9330325636939,
+    "last_v": 48.589443710067954,
+    "last_scalar_root_residual": 2.1630808255679312e-11,
+    "max_abs_logit": 5.4341109140215025,
+    "finite_precision_certified": false,
+    "flop_counts_are_estimates": true,
+    "state_bytes_scope": "owned persistent ndarray storage"
+  },
+  "rng_state": null,
+  "status": "completed",
+  "error": null,
+  "baseline_memory": {
+    "working_set": 56844288,
+    "peak_working_set": 60624896,
+    "private_commit": 75497472,
+    "peak_private_commit": 79986688
+  },
+  "configured_horizon": 1000,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\Kamiar\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ]
+}

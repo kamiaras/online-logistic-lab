@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "prepared_utc": "2026-09-11T21:11:40.039993+00:00",
+  "requested_parameters": {
+    "d": 1000,
+    "B": 1000.0,
+    "T": 100000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  "online_seconds_per_method": 10800.0,
+  "workers_at_once": 1,
+  "blas_threads": 1,
+  "hard_private_commit_bytes": 2147483648,
+  "order": [
+    "soft_bayes",
+    "author_aioli"
+  ],
+  "runs": [
+    {
+      "d": 1000,
+      "B": 1000.0,
+      "T": 100000,
+      "rounds": 100000,
+      "seconds": 10800.0,
+      "memory_bytes": 2147483648,
+      "data_seed": 72001,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d1000_B1000_T100000_s72001",
+      "data_hashes": {
+        "X.bin": "4871fc928a2abbc87b4d6d0a7a75b9a4afb54ab0687da69b0672a3a205dfbbf0",
+        "y.bin": "6509979a4af44fb402eaacea4afaaf77463f516561abe3430108b5c352f82991",
+        "data.json": "6e3180f758c8adf4f58201bfedc1da39158d0492613df32098fd5f15bf5488ea"
+      },
+      "case_id": "signal_d1000_B1000_T100000_s72001",
+      "stop_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_full_d1000_B1000_T100000\\STOP_REQUESTED",
+      "algorithm": "soft_bayes",
+      "label": "prescribed",
+      "seed": 912301,
+      "config": {
+        "mode": "prescribed",
+        "R": 1.0,
+        "max_total_moves": null,
+        "max_state_bytes": 1610612736
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_full_d1000_B1000_T100000\\soft_bayes"
+    },
+    {
+      "d": 1000,
+      "B": 1000.0,
+      "T": 100000,
+      "rounds": 100000,
+      "seconds": 10800.0,
+      "memory_bytes": 2147483648,
+      "data_seed": 72001,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d1000_B1000_T100000_s72001",
+      "data_hashes": {
+        "X.bin": "4871fc928a2abbc87b4d6d0a7a75b9a4afb54ab0687da69b0672a3a205dfbbf0",
+        "y.bin": "6509979a4af44fb402eaacea4afaaf77463f516561abe3430108b5c352f82991",
+        "data.json": "6e3180f758c8adf4f58201bfedc1da39158d0492613df32098fd5f15bf5488ea"
+      },
+      "case_id": "signal_d1000_B1000_T100000_s72001",
+      "stop_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_full_d1000_B1000_T100000\\STOP_REQUESTED",
+      "algorithm": "author_aioli",
+      "label": "released_aioli",
+      "seed": 910001,
+      "config": {
+        "R": 1.0,
+        "lam": 1e-06,
+        "T_inner": 80,
+        "omega_solver": "lbfgs"
+      },
+      "author_commit": "22c6ec54cd45908c0a39cbfa931a60e55646308f",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_full_d1000_B1000_T100000\\author_aioli"
+    }
+  ],
+  "preflight": {
+    "d": 1000,
+    "B": 1000.0,
+    "T": 100000,
+    "R": 1.0,
+    "mode": "prescribed",
+    "prescribed": {
+      "m": 100000,
+      "lam": 1e-06,
+      "kappa": 999999.9999999995,
+      "H": 47.66113977221501,
+      "A": 4999949999999989.0,
+      "log_A": 36.14820430729478,
+      "J": 8,
+      "N_max": 2383033158113,
+      "log_N_max": 28.49939522838912,
+      "expected_charged_operations_bound": 2.5418893258494006e+33,
+      "log_expected_charged_operations_bound": 76.91821570240478,
+      "theoretical_cells": 100016128,
+      "neutral": false
+    },
+    "actual_samples": 100000,
+    "actual_max_transitions": 2383033158113,
+    "estimated_total_moves": 23830093277814188700000,
+    "max_total_moves": null,
+    "estimated_state_bytes": 800290048,
+    "history_block_size": 1000,
+    "memory_representation": "raw feature history plus scalar/vector summaries",
+    "feasible": true,
+    "budget_reasons": [],
+    "floating_point_certificate": false,
+    "exact_primitive_operation_counter": false,
+    "section_10_global_operation_cap_implemented": false,
+    "round_two": {
+      "previous_energy": 0.25,
+      "transitions_per_sample": 23830642,
+      "samples": 100000,
+      "total_transitions": 2383064200000,
+      "first_feature_nonzero": true
+    }
+  },
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d1000_B1000_T100000_s72001",
+  "data_hashes": {
+    "X.bin": "4871fc928a2abbc87b4d6d0a7a75b9a4afb54ab0687da69b0672a3a205dfbbf0",
+    "y.bin": "6509979a4af44fb402eaacea4afaaf77463f516561abe3430108b5c352f82991",
+    "data.json": "6e3180f758c8adf4f58201bfedc1da39158d0492613df32098fd5f15bf5488ea"
+  },
+  "dataset_metadata": {
+    "case": {
+      "id": "signal_d1000_B1000_T100000_s72001",
+      "family": "signal",
+      "d": 1000,
+      "B": 1000.0,
+      "T": 100000,
+      "data_seed": 72001,
+      "B_generator": 3.0
+    },
+    "sha256_interleaved_blocks": "860b62a7017ba9814e181ef1bc7cb582dfc53baafe734236b24efb210cffe14c",
+    "block_size": 128,
+    "feature_norm_min": 0.9999999999999998,
+    "feature_norm_max": 1.0,
+    "generating_score_rms": 1.5000000000000002,
+    "positive_fraction": 0.49914,
+    "disk_bytes": 800100000,
+    "dtype_X": "little-endian float64",
+    "dtype_y": "int8"
+  },
+  "protocol": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\SOFT_BAYES_LARGE_RUN_PLAN.md"
+}

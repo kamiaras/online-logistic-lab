@@ -1,0 +1,11 @@
+[
+  {
+    "id": "long_signal_d10_B1000_T10000000_s76001",
+    "family": "signal",
+    "d": 10,
+    "B": 1000.0,
+    "T": 10000000,
+    "data_seed": 76001,
+    "B_generator": 3.0
+  }
+]

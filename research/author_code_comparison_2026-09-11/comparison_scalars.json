@@ -1,0 +1,12 @@
+{
+  "sigmoid_snapshot_round": 14046,
+  "recorded_step_size": 4.503065374535802e-06,
+  "acceptance_rate": 0.9999988857001341,
+  "ours_prediction_floor": 0.05555555555555555,
+  "ours_max_one_round_loss": 2.8903717578961645,
+  "author_reported_loss_cap_approx": 27.631021115928547,
+  "author_minimum_proposal_variance_over_ours": 11.103547437428498,
+  "active_proposals_ours_expected": 128.0,
+  "active_proposals_author_main": 240,
+  "active_proposals_author_B1000_if_cap_raised": 3600
+}

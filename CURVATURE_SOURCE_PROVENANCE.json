@@ -1,0 +1,12 @@
+{
+  "measured_file": "experiments\\curvature_persistent_log_odds.py",
+  "measured_sha256": "191bd20ec2298526112fefa8fbc83a694aefcba37c85ee2b9c95acfdb8a08402",
+  "current_sha256": "79fee1137bc84eb6c92764256b2fcfd538de7351671eb67296f4b0b46b2272bd",
+  "archived_measured_source": "experiments\\source_snapshots\\curvature_performance\\curvature_persistent_log_odds.py",
+  "change": "One preflight metadata field: memory_representation. No sampling, count, timing or arithmetic code changed.",
+  "added_line": "memory_representation=\"raw features, paired states, lane tangents and eight diagonal curvature summaries\",",
+  "reconstruction": "Removed the documented metadata-only patch and verified the resulting bytes against both recorded campaign hashes.",
+  "patch_timestamp_utc": "2026-09-11T03:54:31.848Z",
+  "patch_log": "rollout-2026-09-10T15-57-17-01a08d8a-29e7-76c2-b3a9-f061d04e9bfc.jsonl",
+  "byte_verified": true
+}

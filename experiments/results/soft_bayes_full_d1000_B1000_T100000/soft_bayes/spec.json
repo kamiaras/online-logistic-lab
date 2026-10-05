@@ -1,0 +1,27 @@
+{
+  "d": 1000,
+  "B": 1000.0,
+  "T": 100000,
+  "rounds": 100000,
+  "seconds": 10800.0,
+  "memory_bytes": 2147483648,
+  "data_seed": 72001,
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d1000_B1000_T100000_s72001",
+  "data_hashes": {
+    "X.bin": "4871fc928a2abbc87b4d6d0a7a75b9a4afb54ab0687da69b0672a3a205dfbbf0",
+    "y.bin": "6509979a4af44fb402eaacea4afaaf77463f516561abe3430108b5c352f82991",
+    "data.json": "6e3180f758c8adf4f58201bfedc1da39158d0492613df32098fd5f15bf5488ea"
+  },
+  "case_id": "signal_d1000_B1000_T100000_s72001",
+  "stop_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_full_d1000_B1000_T100000\\STOP_REQUESTED",
+  "algorithm": "soft_bayes",
+  "label": "prescribed",
+  "seed": 912301,
+  "config": {
+    "mode": "prescribed",
+    "R": 1.0,
+    "max_total_moves": null,
+    "max_state_bytes": 1610612736
+  },
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_full_d1000_B1000_T100000\\soft_bayes"
+}

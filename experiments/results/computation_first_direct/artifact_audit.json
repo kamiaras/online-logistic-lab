@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "declared_runs": 24,
+  "statuses": {
+    "completed": 24
+  },
+  "terminal_runs": 24,
+  "completed_endpoint_runs": 24,
+  "successful_endpoint_runs": 24,
+  "all_declared_endpoints_completed": true,
+  "finite_precision_certificate": false
+}

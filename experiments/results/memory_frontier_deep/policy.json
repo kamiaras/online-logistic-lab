@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "stage": "memory_frontier_deep",
+  "axes": [
+    {
+      "name": "aioli_dimension",
+      "algorithm": "aioli",
+      "parameter": "dimension",
+      "start": 8000,
+      "maximum": 32768,
+      "fixed_dimension": 128,
+      "minimum": 128,
+      "growth": 2
+    },
+    {
+      "name": "ours_particles",
+      "algorithm": "ours",
+      "parameter": "particles",
+      "start": 131072,
+      "maximum": 8388608,
+      "fixed_dimension": 128,
+      "minimum": 1,
+      "growth": 2
+    },
+    {
+      "name": "sigmoid_particles",
+      "algorithm": "sigmoid",
+      "parameter": "particles",
+      "start": 131072,
+      "maximum": 8388608,
+      "fixed_dimension": 128,
+      "minimum": 1,
+      "growth": 2
+    },
+    {
+      "name": "ours_dimension",
+      "algorithm": "ours",
+      "parameter": "dimension",
+      "start": 50000,
+      "maximum": 800000,
+      "fixed_dimension": 128,
+      "minimum": 1000,
+      "growth": 2
+    },
+    {
+      "name": "sigmoid_dimension",
+      "algorithm": "sigmoid",
+      "parameter": "dimension",
+      "start": 50000,
+      "maximum": 800000,
+      "fixed_dimension": 128,
+      "minimum": 1000,
+      "growth": 2
+    }
+  ],
+  "B": 1000.0,
+  "T": 4,
+  "rounds": 2,
+  "seconds_per_worker": 30.0,
+  "max_probes": 40,
+  "refinements_per_axis": 3,
+  "relative_tolerance": 0.1,
+  "memory_bytes": 2147483648,
+  "measured_workers_are_sequential": true,
+  "sampler_dimension_axes": {
+    "ours": {
+      "particles": 256,
+      "transitions": 1
+    },
+    "sigmoid": {
+      "particles": 16,
+      "transitions": 16
+    }
+  },
+  "particle_axis_transition_budget": 1,
+  "no_artificial_allocation_probe": true,
+  "time_censored_probes_are_not_memory_failures": true,
+  "advisory_proximal_preflight_overridden_but_os_limit_unchanged": true,
+  "wall_budget_scope": "this invocation, including data preparation",
+  "not_a_regret_or_statistical_comparison": true
+}

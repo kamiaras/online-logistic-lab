@@ -1,0 +1,23 @@
+{
+  "algorithm": "shared",
+  "config": {
+    "mode": "practical",
+    "tilts": 16,
+    "burn_in": 4,
+    "transitions": 4
+  },
+  "d": 100,
+  "B": 10.0,
+  "T": 1000,
+  "sampler_seed": 160177,
+  "data_seed": 71004,
+  "case_id": "rare_flip_d100_B10_T1000_s71004",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\rare_flip_d100_B10_T1000_s71004",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_calibration\\rare_flip_d100_B10_T1000_s71004__shared__m16n4",
+  "seconds": 8,
+  "memory_bytes": 2147483648,
+  "stage": "shared_calibration",
+  "label": "m16n4",
+  "source_stage": "calibration",
+  "source_manifest": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\calibration\\manifest.json"
+}

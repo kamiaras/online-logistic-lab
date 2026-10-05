@@ -1,0 +1,210 @@
+{
+  "setting": {
+    "B": 100,
+    "d": 10,
+    "T": 1000,
+    "evaluation_round": 500,
+    "family": "signal",
+    "B_generator": 3
+  },
+  "sampler_repetitions_per_dataset": 3,
+  "aioli_repetitions_per_dataset": 1,
+  "comparisons": [
+    {
+      "first": "ours",
+      "second": "sigmoid",
+      "datasets": 10,
+      "mean_paired_regret_difference_per_round": 1.1455532331810028,
+      "standard_error_across_dataset_clusters": 0.09219567400144134,
+      "approximate_95_percent_t_interval": [
+        0.936992128859634,
+        1.3541143375023714
+      ],
+      "first_lower_loss_datasets": 0,
+      "dataset_details": [
+        {
+          "data_seed": 73001,
+          "common_round": 500,
+          "mean_loss_difference_per_round": 1.249130596573977
+        },
+        {
+          "data_seed": 73002,
+          "common_round": 500,
+          "mean_loss_difference_per_round": 0.8556105235192943
+        },
+        {
+          "data_seed": 73003,
+          "common_round": 500,
+          "mean_loss_difference_per_round": 1.1494359745580875
+        },
+        {
+          "data_seed": 73004,
+          "common_round": 500,
+          "mean_loss_difference_per_round": 1.3481136911608818
+        },
+        {
+          "data_seed": 73005,
+          "common_round": 500,
+          "mean_loss_difference_per_round": 1.1809027702550674
+        },
+        {
+          "data_seed": 73006,
+          "common_round": 500,
+          "mean_loss_difference_per_round": 0.7857240534777576
+        },
+        {
+          "data_seed": 73007,
+          "common_round": 500,
+          "mean_loss_difference_per_round": 0.7184113089149404
+        },
+        {
+          "data_seed": 73008,
+          "common_round": 500,
+          "mean_loss_difference_per_round": 1.6906787837957253
+        },
+        {
+          "data_seed": 73009,
+          "common_round": 500,
+          "mean_loss_difference_per_round": 1.211851685081836
+        },
+        {
+          "data_seed": 73010,
+          "common_round": 500,
+          "mean_loss_difference_per_round": 1.265672944472462
+        }
+      ],
+      "interval_scope": "Approximate Student-t interval across independent data seeds after averaging sampler repetitions; no multiple-comparison correction or time-uniform guarantee."
+    },
+    {
+      "first": "ours",
+      "second": "aioli",
+      "datasets": 10,
+      "mean_paired_regret_difference_per_round": 0.2086260663004965,
+      "standard_error_across_dataset_clusters": 0.07567792548664719,
+      "approximate_95_percent_t_interval": [
+        0.037430705095168715,
+        0.37982142750582426
+      ],
+      "first_lower_loss_datasets": 3,
+      "dataset_details": [
+        {
+          "data_seed": 73001,
+          "common_round": 500,
+          "mean_loss_difference_per_round": 0.3532806983258574
+        },
+        {
+          "data_seed": 73002,
+          "common_round": 500,
+          "mean_loss_difference_per_round": -0.0758484814171283
+        },
+        {
+          "data_seed": 73003,
+          "common_round": 500,
+          "mean_loss_difference_per_round": 0.39155420177078093
+        },
+        {
+          "data_seed": 73004,
+          "common_round": 500,
+          "mean_loss_difference_per_round": 0.24962012955834934
+        },
+        {
+          "data_seed": 73005,
+          "common_round": 500,
+          "mean_loss_difference_per_round": 0.16196844346058792
+        },
+        {
+          "data_seed": 73006,
+          "common_round": 500,
+          "mean_loss_difference_per_round": -0.06596368543006026
+        },
+        {
+          "data_seed": 73007,
+          "common_round": 500,
+          "mean_loss_difference_per_round": -0.10306438051625211
+        },
+        {
+          "data_seed": 73008,
+          "common_round": 500,
+          "mean_loss_difference_per_round": 0.5840288829407845
+        },
+        {
+          "data_seed": 73009,
+          "common_round": 500,
+          "mean_loss_difference_per_round": 0.14081851263272616
+        },
+        {
+          "data_seed": 73010,
+          "common_round": 500,
+          "mean_loss_difference_per_round": 0.44986634167931916
+        }
+      ],
+      "interval_scope": "Approximate Student-t interval across independent data seeds after averaging sampler repetitions; no multiple-comparison correction or time-uniform guarantee."
+    },
+    {
+      "first": "sigmoid",
+      "second": "aioli",
+      "datasets": 10,
+      "mean_paired_regret_difference_per_round": -0.9369271668805063,
+      "standard_error_across_dataset_clusters": 0.040641876603718215,
+      "approximate_95_percent_t_interval": [
+        -1.0288654791491683,
+        -0.8449888546118444
+      ],
+      "first_lower_loss_datasets": 10,
+      "dataset_details": [
+        {
+          "data_seed": 73001,
+          "common_round": 500,
+          "mean_loss_difference_per_round": -0.8958498982481197
+        },
+        {
+          "data_seed": 73002,
+          "common_round": 500,
+          "mean_loss_difference_per_round": -0.9314590049364226
+        },
+        {
+          "data_seed": 73003,
+          "common_round": 500,
+          "mean_loss_difference_per_round": -0.7578817727873066
+        },
+        {
+          "data_seed": 73004,
+          "common_round": 500,
+          "mean_loss_difference_per_round": -1.0984935616025324
+        },
+        {
+          "data_seed": 73005,
+          "common_round": 500,
+          "mean_loss_difference_per_round": -1.0189343267944793
+        },
+        {
+          "data_seed": 73006,
+          "common_round": 500,
+          "mean_loss_difference_per_round": -0.8516877389078179
+        },
+        {
+          "data_seed": 73007,
+          "common_round": 500,
+          "mean_loss_difference_per_round": -0.8214756894311925
+        },
+        {
+          "data_seed": 73008,
+          "common_round": 500,
+          "mean_loss_difference_per_round": -1.1066499008549409
+        },
+        {
+          "data_seed": 73009,
+          "common_round": 500,
+          "mean_loss_difference_per_round": -1.0710331724491096
+        },
+        {
+          "data_seed": 73010,
+          "common_round": 500,
+          "mean_loss_difference_per_round": -0.8158066027931427
+        }
+      ],
+      "interval_scope": "Approximate Student-t interval across independent data seeds after averaging sampler repetitions; no multiple-comparison correction or time-uniform guarantee."
+    }
+  ],
+  "target": "Loss/regret per round at the predeclared fixed 500-round prefix, with algorithm horizon parameter T=1000."
+}

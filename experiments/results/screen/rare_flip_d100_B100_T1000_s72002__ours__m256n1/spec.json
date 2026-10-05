@@ -1,0 +1,19 @@
+{
+  "algorithm": "ours",
+  "config": {
+    "particles": 256,
+    "transitions": 1
+  },
+  "d": 100,
+  "B": 100.0,
+  "T": 1000,
+  "sampler_seed": 161175,
+  "data_seed": 72002,
+  "case_id": "rare_flip_d100_B100_T1000_s72002",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\rare_flip_d100_B100_T1000_s72002",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\screen\\rare_flip_d100_B100_T1000_s72002__ours__m256n1",
+  "seconds": 15,
+  "memory_bytes": 2147483648,
+  "stage": "screen",
+  "label": "m256n1"
+}

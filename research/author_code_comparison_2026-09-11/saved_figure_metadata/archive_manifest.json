@@ -1,0 +1,54 @@
+{
+  "commit": "22c6ec54cd45908c0a39cbfa931a60e55646308f",
+  "files": [
+    {
+      "path": "figs_online_mala_comparable/a9a_train_B_sweep_aioli_ew_n1000_meta.json",
+      "url": "https://raw.githubusercontent.com/FedericoDiGennaro/Efficient-LogReg-with-Mixture-of-Sigmoids/22c6ec54cd45908c0a39cbfa931a60e55646308f/figs_online_mala_comparable/a9a_train_B_sweep_aioli_ew_n1000_meta.json",
+      "bytes": 399,
+      "sha256": "156abebfa1f02516455cb9ea42f243757283ccb43b1cf784ab0e221461f96ea5"
+    },
+    {
+      "path": "figs_online_mala_comparable/a9a_train_unreg_ogd_ons_online_mala_comparable_meta.json",
+      "url": "https://raw.githubusercontent.com/FedericoDiGennaro/Efficient-LogReg-with-Mixture-of-Sigmoids/22c6ec54cd45908c0a39cbfa931a60e55646308f/figs_online_mala_comparable/a9a_train_unreg_ogd_ons_online_mala_comparable_meta.json",
+      "bytes": 2086,
+      "sha256": "740561b5376fefd80fd65a34d331b47d29978a7b19b2e8c3d70a21effe2c80d1"
+    },
+    {
+      "path": "figs_online_mala_comparable/w8a_train_B_sweep_aioli_ew_n1000_meta.json",
+      "url": "https://raw.githubusercontent.com/FedericoDiGennaro/Efficient-LogReg-with-Mixture-of-Sigmoids/22c6ec54cd45908c0a39cbfa931a60e55646308f/figs_online_mala_comparable/w8a_train_B_sweep_aioli_ew_n1000_meta.json",
+      "bytes": 399,
+      "sha256": "e81dda51eaffa32429c1833c268e59e9546213ac6954bcbe8a859bff3374b7a9"
+    },
+    {
+      "path": "figs_online_mala_comparable/w8a_train_unreg_ogd_ons_online_mala_comparable_meta.json",
+      "url": "https://raw.githubusercontent.com/FedericoDiGennaro/Efficient-LogReg-with-Mixture-of-Sigmoids/22c6ec54cd45908c0a39cbfa931a60e55646308f/figs_online_mala_comparable/w8a_train_unreg_ogd_ons_online_mala_comparable_meta.json",
+      "bytes": 2090,
+      "sha256": "dde7e0cfdf9fc4d09f1539f5b5e1df1088864f85060850ac81437e8852bf1005"
+    },
+    {
+      "path": "figs_online_mala_comparable/ijcnn1_train_B_sweep_aioli_ew_n1000_meta.json",
+      "url": "https://raw.githubusercontent.com/FedericoDiGennaro/Efficient-LogReg-with-Mixture-of-Sigmoids/22c6ec54cd45908c0a39cbfa931a60e55646308f/figs_online_mala_comparable/ijcnn1_train_B_sweep_aioli_ew_n1000_meta.json",
+      "bytes": 402,
+      "sha256": "aa1b7e6afc4288e05c8a8b5ddb9a52fd49f886e7ac1997d864df6f15843469f0"
+    },
+    {
+      "path": "figs_online_mala_comparable/ijcnn1_train_unreg_ogd_ons_online_mala_comparable_meta.json",
+      "url": "https://raw.githubusercontent.com/FedericoDiGennaro/Efficient-LogReg-with-Mixture-of-Sigmoids/22c6ec54cd45908c0a39cbfa931a60e55646308f/figs_online_mala_comparable/ijcnn1_train_unreg_ogd_ons_online_mala_comparable_meta.json",
+      "bytes": 2097,
+      "sha256": "4902b313884c2cbce68268cf73d9aa05e2dc7b4c1f42ad3a951b70d9f583fba0"
+    },
+    {
+      "path": "replot_b_sweep_all3.py",
+      "url": "https://raw.githubusercontent.com/FedericoDiGennaro/Efficient-LogReg-with-Mixture-of-Sigmoids/22c6ec54cd45908c0a39cbfa931a60e55646308f/replot_b_sweep_all3.py",
+      "bytes": 3041,
+      "sha256": "9ffe6072ad18bae602136107e2fec27b59911bd1927cf9bce81e1ce2d7a292eb"
+    },
+    {
+      "path": "replot_tuned_only_avg_logloss.py",
+      "url": "https://raw.githubusercontent.com/FedericoDiGennaro/Efficient-LogReg-with-Mixture-of-Sigmoids/22c6ec54cd45908c0a39cbfa931a60e55646308f/replot_tuned_only_avg_logloss.py",
+      "bytes": 5999,
+      "sha256": "b731c60179eb95ed578801e877c45d6e045b29fbf22908a838d5ef6167c4aac9"
+    }
+  ],
+  "npz_downloaded": false
+}

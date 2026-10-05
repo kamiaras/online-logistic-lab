@@ -1,0 +1,20 @@
+{
+  "algorithm": "sigmoid",
+  "config": {
+    "particles": 16,
+    "transitions": 16
+  },
+  "d": 10,
+  "B": 100.0,
+  "T": 1000,
+  "sampler_seed": 21162187,
+  "data_seed": 73008,
+  "case_id": "signal_d10_B100_T1000_s73008",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s73008",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\confirmation\\signal_d10_B100_T1000_s73008__sigmoid__m16n16_rep1",
+  "seconds": 15,
+  "memory_bytes": 2147483648,
+  "stage": "confirmation",
+  "label": "m16n16_rep1",
+  "stop_after_round": 500
+}

@@ -1,0 +1,23 @@
+{
+  "case": "signal_d1000_B1000_T100000_s72001",
+  "d": 1000,
+  "B": 1000.0,
+  "T": 100000,
+  "rounds": 100000,
+  "seed": 910001,
+  "data_seed": 72001,
+  "config": {},
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d1000_B1000_T100000_s72001",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\large_regret_d1000_B1000_T100000\\aioli",
+  "seconds": 43200.0,
+  "memory_bytes": 2147483648,
+  "trajectory_columns": [
+    "raw_logit",
+    "output_logit",
+    "loss",
+    "online_seconds",
+    "state_bytes"
+  ],
+  "algorithm": "aioli",
+  "reused_completed_run": false
+}

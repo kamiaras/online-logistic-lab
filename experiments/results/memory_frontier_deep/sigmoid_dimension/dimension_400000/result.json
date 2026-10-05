@@ -1,0 +1,117 @@
+{
+  "round": 0,
+  "cumulative_loss": 0.0,
+  "online_seconds": 0.0839688000123715,
+  "elapsed_seconds": 0.1123243000038201,
+  "cpu_seconds": 0.09375,
+  "prediction_seconds": 0.0027226999955018982,
+  "update_seconds": 0.0006032000092091039,
+  "initialization_seconds": 0.0806429000076605,
+  "input_seconds": 0.010129300004336983,
+  "memory": {
+    "working_set": 124346368,
+    "peak_working_set": 159428608,
+    "private_commit": 143237120,
+    "peak_private_commit": 178528256
+  },
+  "state_bytes": 54400000,
+  "metrics": {
+    "counters": {
+      "normal_draws": 6400000,
+      "prior_particles": 16,
+      "predictions": 1,
+      "sigmoid_elements": 32,
+      "estimated_matmul_flops": 12800000
+    },
+    "times": {
+      "initialization": 0.08062389999395236,
+      "refresh": 3.7999998312443495e-06,
+      "prediction": 0.00244609999936074
+    }
+  },
+  "diagnostics": {
+    "algorithm": "expected_loss_sigmoid_mala",
+    "configuration": {
+      "particles": 16,
+      "transitions": 16,
+      "bridges": 1,
+      "step_multiplier": 0.5,
+      "lazy": true,
+      "history_block_size": 1024
+    },
+    "schedule_certified": false,
+    "schedule_note": "Empirical fixed budget; universal MALA theorem constants are unspecified.",
+    "step_size_rule": "step_multiplier / (sqrt(d) * (B^-2 + sum_past_norm2/4))",
+    "observed_rounds": 0,
+    "pending_prediction": true,
+    "bridge_steps_per_trajectory": [
+      16
+    ],
+    "total_steps_per_trajectory_per_refresh": 16,
+    "last_step_size": null,
+    "minimum_step_size": null,
+    "maximum_step_size": null,
+    "last_logit": -0.45198512374305744,
+    "acceptance_rate": null,
+    "accepted_zero_displacement": 0,
+    "mean_squared_displacement_per_trial": null,
+    "max_squared_displacement": null,
+    "displacement_squares_finite": true,
+    "displacement_note": "Actual float64 moves; mean includes rejected and lazy zero moves. Acceptance is not a mixing diagnostic.",
+    "state_bytes": 54400000,
+    "state_bytes_scope": "Persistent owned ndarray buffers; includes history allocation capacity.",
+    "potential_time_is_within_refresh": true,
+    "counters": {
+      "normal_draws": 6400000,
+      "prior_particles": 16,
+      "predictions": 1,
+      "sigmoid_elements": 32,
+      "estimated_matmul_flops": 12800000
+    },
+    "times": {
+      "initialization": 0.08062389999395236,
+      "refresh": 3.7999998312443495e-06,
+      "prediction": 0.00244609999936074
+    }
+  },
+  "rng_state": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 223958676386441854586306231833182426354,
+      "inc": 182119651132199831367622557874520923693
+    },
+    "has_uint32": 0,
+    "uinteger": 0
+  },
+  "status": "memory_error",
+  "error": "MemoryError((1024, 400000), dtype('float64'))",
+  "baseline_memory": {
+    "working_set": 56930304,
+    "peak_working_set": 60313600,
+    "private_commit": 75890688,
+    "peak_private_commit": 79724544
+  },
+  "configured_horizon": 4,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\Kamiar\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ]
+}

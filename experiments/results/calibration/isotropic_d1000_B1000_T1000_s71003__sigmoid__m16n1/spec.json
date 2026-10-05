@@ -1,0 +1,19 @@
+{
+  "algorithm": "sigmoid",
+  "config": {
+    "particles": 16,
+    "transitions": 1
+  },
+  "d": 1000,
+  "B": 1000.0,
+  "T": 1000,
+  "sampler_seed": 160176,
+  "data_seed": 71003,
+  "case_id": "isotropic_d1000_B1000_T1000_s71003",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\isotropic_d1000_B1000_T1000_s71003",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\calibration\\isotropic_d1000_B1000_T1000_s71003__sigmoid__m16n1",
+  "seconds": 8,
+  "memory_bytes": 2147483648,
+  "stage": "calibration",
+  "label": "m16n1"
+}

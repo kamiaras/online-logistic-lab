@@ -1,0 +1,20 @@
+{
+  "algorithm": "ours",
+  "config": {
+    "particles": 256,
+    "transitions": 1
+  },
+  "d": 10,
+  "B": 100.0,
+  "T": 1000,
+  "sampler_seed": 162183,
+  "data_seed": 73010,
+  "case_id": "signal_d10_B100_T1000_s73010",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s73010",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\confirmation\\signal_d10_B100_T1000_s73010__ours__m256n1_rep0",
+  "seconds": 15,
+  "memory_bytes": 2147483648,
+  "stage": "confirmation",
+  "label": "m256n1_rep0",
+  "stop_after_round": 500
+}

@@ -1,0 +1,14 @@
+{
+  "primary_metric": "regret at identical horizons",
+  "reuse_selected": true,
+  "automation_id": "overnight-d1000-benchmark-result",
+  "target_rounds": 100000,
+  "check_interval_hours": 8,
+  "algorithms": [
+    "selected",
+    "ours",
+    "sigmoid",
+    "aioli"
+  ],
+  "per_method_online_guard_seconds": 43200
+}

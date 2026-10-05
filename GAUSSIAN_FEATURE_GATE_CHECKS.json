@@ -1,0 +1,127 @@
+{
+  "relative_quadrature": {
+    "cases": 144,
+    "max_observed_relative_error": 0.0019634781803622436,
+    "minimum_smoothing_slack": 0.0,
+    "grids": [
+      {
+        "T": 1,
+        "intervals": 63,
+        "degree": 6,
+        "nodes_per_integral": 441
+      },
+      {
+        "T": 10,
+        "intervals": 74,
+        "degree": 8,
+        "nodes_per_integral": 666
+      },
+      {
+        "T": 1000,
+        "intervals": 92,
+        "degree": 11,
+        "nodes_per_integral": 1104
+      },
+      {
+        "T": 1000000,
+        "intervals": 112,
+        "degree": 16,
+        "nodes_per_integral": 1904
+      }
+    ],
+    "passed": true
+  },
+  "fixed_anchor_gate": {
+    "cases": 96,
+    "max_probability_residual": 3.3306690738754696e-16,
+    "passed": true
+  },
+  "global_logistic_lower_surrogate": {
+    "cases": 5000,
+    "minimum_slack": -3.310196946077969e-16,
+    "passed": true
+  },
+  "finite_gate_mirror_and_regret": {
+    "settings": [
+      {
+        "d": 1,
+        "B": 0.1,
+        "rounds": 16,
+        "largest_checked_regret": 0.3516761966518622,
+        "bound": 2.019820356052946
+      },
+      {
+        "d": 1,
+        "B": 1.0,
+        "rounds": 16,
+        "largest_checked_regret": 0.6680748333119038,
+        "bound": 3.386294361119891
+      },
+      {
+        "d": 1,
+        "B": 10.0,
+        "rounds": 16,
+        "largest_checked_regret": -23.258873047618806,
+        "bound": 34.49359146745466
+      },
+      {
+        "d": 3,
+        "B": 0.1,
+        "rounds": 16,
+        "largest_checked_regret": 0.14738140958816182,
+        "bound": 2.0199396377046765
+      },
+      {
+        "d": 3,
+        "B": 1.0,
+        "rounds": 16,
+        "largest_checked_regret": 0.885465876665176,
+        "bound": 3.7260924347106856
+      },
+      {
+        "d": 3,
+        "B": 10.0,
+        "rounds": 16,
+        "largest_checked_regret": 4.241066502546821,
+        "bound": 66.49951943927427
+      },
+      {
+        "d": 7,
+        "B": 0.1,
+        "rounds": 16,
+        "largest_checked_regret": 0.1120198114314448,
+        "bound": 2.019974070863259
+      },
+      {
+        "d": 7,
+        "B": 1.0,
+        "rounds": 16,
+        "largest_checked_regret": 1.2265007314529974,
+        "bound": 3.8694394967433166
+      },
+      {
+        "d": 7,
+        "B": 10.0,
+        "rounds": 16,
+        "largest_checked_regret": 0.6323865571847058,
+        "bound": 100.5763304936914
+      }
+    ],
+    "max_mirror_gradient_residual": 5.037438050571718e-16,
+    "max_radius_bound_excess": 0.0,
+    "passed": true
+  },
+  "scalar_covariance_kl_minimum": {
+    "cases": 27,
+    "max_relative_argmin_residual": 4.625738347918684e-08,
+    "passed": true
+  },
+  "scope": "Supplementary numerical/algebra checks only; not proof by testing, a performance benchmark, or a finite-bit certificate.",
+  "script_sha256": "0ffff416cefbbe00ee8b36401b399d81e3841fb21882f5d56e05679343d43f36",
+  "source_sha256": {
+    "GAUSSIAN_FEATURE_GATE_COMPLETE.md": "ebd559518d0a60e2e4d6ccbd943e0322ff96d4f99ad824b65b6264126a07bc7a",
+    "GAUSSIAN_FEATURE_GATE_REPRESENTATION_AUDIT.md": "f9148306329c6076c5e3f567d2b43f3ab4aa9786c6151bc56f67335d8d0c9570",
+    "GAUSSIAN_FEATURE_GATE_REGRET_AUDIT.md": "540f8cb4803e545b76119d9a1341ee32508c40193c3fe07e0a6093e8f3b0625c"
+  },
+  "provenance_note": "Audit hashes refreshed after final editorial review; the checked algorithm and check script were unchanged."
+}

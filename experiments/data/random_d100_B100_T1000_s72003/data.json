@@ -1,0 +1,20 @@
+{
+  "case": {
+    "id": "random_d100_B100_T1000_s72003",
+    "family": "random",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  "sha256_interleaved_blocks": "7b8665b92a14cfd63ea264a9b5ceb14117069b58ab355f464ecdfc30a28dcc0b",
+  "block_size": 128,
+  "feature_norm_min": 0.9999999999999997,
+  "feature_norm_max": 1.0,
+  "generating_score_rms": 0.3070072868241552,
+  "positive_fraction": 0.492,
+  "disk_bytes": 801000,
+  "dtype_X": "little-endian float64",
+  "dtype_y": "int8"
+}

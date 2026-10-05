@@ -1,0 +1,19 @@
+{
+  "algorithm": "sigmoid",
+  "config": {
+    "particles": 16,
+    "transitions": 16
+  },
+  "d": 100,
+  "B": 10000.0,
+  "T": 10000,
+  "sampler_seed": 163174,
+  "data_seed": 74001,
+  "case_id": "deep_signal_d100_B10000_T10000_s74001",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\deep_signal_d100_B10000_T10000_s74001",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_scale\\deep_signal_d100_B10000_T10000_s74001__sigmoid__m16n16",
+  "seconds": 60,
+  "memory_bytes": 2147483648,
+  "stage": "deep_scale",
+  "label": "m16n16"
+}

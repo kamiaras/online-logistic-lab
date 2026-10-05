@@ -1,0 +1,27 @@
+{
+  "target_rounds": 100000,
+  "fixed_regret_endpoints": [
+    1000,
+    10000,
+    50000,
+    100000
+  ],
+  "online_seconds_per_method": 43200.0,
+  "order": [
+    "author_aioli",
+    "author_sigmoid"
+  ],
+  "reused_selected_run": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_overnight_d1000_B1000_T100000",
+  "workers_at_once": 1,
+  "blas_threads": 1,
+  "hard_private_commit_bytes": 2147483648,
+  "primary_metric": "unclipped score-based loss and regret at identical prefixes",
+  "secondary_metric": "authors reported probability-clipped loss and regret",
+  "author_commit": "22c6ec54cd45908c0a39cbfa931a60e55646308f",
+  "new16_reused_not_rerun": true,
+  "prior_campaign_cancelled": "experiments/results/large_regret_d1000_B1000_T100000/cancellation.json",
+  "author_aioli_is_sigmoid_authors_baseline": true,
+  "aioli_source_inconsistencies_preserved": true,
+  "sigmoid_B_cap_bypassed_to_preserve_requested_B": 1000,
+  "sigmoid_B_sweep_steps_at_requested_B": 300
+}

@@ -1,0 +1,25 @@
+{
+  "d": 10,
+  "B": 10.0,
+  "T": 50,
+  "rounds": 50,
+  "case_id": "signal_d10_B10_T50_s911202",
+  "stage": "prescribed",
+  "seconds": 20.0,
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B10_T50_s911202",
+  "data_hashes": {
+    "X.bin": "260116cfd758e0fd587756fb57a26fa3c3c3a3bc50d3e9376fa0d520decd8c0a",
+    "y.bin": "2790958f53c656c5a2e86ea31af6ad8cab9cf1fbed4a057870a999773fdd356f",
+    "data.json": "ab0043e52ab1158f0bfd09be83ad26386abe37ec9546b5b4b092c18a7112aedb"
+  },
+  "id": "signal_d10_B10_T50_s911202__prescribed__s912302",
+  "label": "prescribed",
+  "seed": 912302,
+  "algorithm": "soft_bayes",
+  "config": {
+    "mode": "prescribed",
+    "max_total_moves": null
+  },
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B10_T50_s911202__prescribed__s912302",
+  "memory_bytes": 2147483648
+}

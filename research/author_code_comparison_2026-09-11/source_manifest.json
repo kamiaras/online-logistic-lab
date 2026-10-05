@@ -1,0 +1,78 @@
+{
+  "repository": "https://github.com/FedericoDiGennaro/Efficient-LogReg-with-Mixture-of-Sigmoids",
+  "commit": "22c6ec54cd45908c0a39cbfa931a60e55646308f",
+  "files": [
+    {
+      "file": "a9a_experiment.py",
+      "url": "https://raw.githubusercontent.com/FedericoDiGennaro/Efficient-LogReg-with-Mixture-of-Sigmoids/22c6ec54cd45908c0a39cbfa931a60e55646308f/a9a_experiment.py",
+      "bytes": 24350,
+      "sha256": "2632499867210720d9b0156678994597ce3cd5c09a079b692cebf5de706ab9cc"
+    },
+    {
+      "file": "b_sweep_aioli_ew.py",
+      "url": "https://raw.githubusercontent.com/FedericoDiGennaro/Efficient-LogReg-with-Mixture-of-Sigmoids/22c6ec54cd45908c0a39cbfa931a60e55646308f/b_sweep_aioli_ew.py",
+      "bytes": 8837,
+      "sha256": "067f9e4c7b82554be051d71b14fd4a8915f6ea825cae56237f7fe1483547a3d5"
+    },
+    {
+      "file": "libsvm_datasets.py",
+      "url": "https://raw.githubusercontent.com/FedericoDiGennaro/Efficient-LogReg-with-Mixture-of-Sigmoids/22c6ec54cd45908c0a39cbfa931a60e55646308f/libsvm_datasets.py",
+      "bytes": 5244,
+      "sha256": "9699e6a275cbd6263a55fc99b7d357ec8b81307177453b894e271d6b767a03e0"
+    },
+    {
+      "file": "README.md",
+      "url": "https://raw.githubusercontent.com/FedericoDiGennaro/Efficient-LogReg-with-Mixture-of-Sigmoids/22c6ec54cd45908c0a39cbfa931a60e55646308f/README.md",
+      "bytes": 1859,
+      "sha256": "453a4c06abfa1f7c003f3e8445af7e3704da3beb1b488c427c15f561e319d7a3"
+    },
+    {
+      "file": "requirements.txt",
+      "url": "https://raw.githubusercontent.com/FedericoDiGennaro/Efficient-LogReg-with-Mixture-of-Sigmoids/22c6ec54cd45908c0a39cbfa931a60e55646308f/requirements.txt",
+      "bytes": 36,
+      "sha256": "3e34ca43ee2aad4292f19a083ca4b009620f92b15243aa1394df34b5b763556e"
+    }
+  ],
+  "executed_author_code": false,
+  "local_files": [
+    {
+      "file": "experiments\\sigmoid.py",
+      "sha256": "de41cb603de2371c8ee1b65775c3cd9e0013ca8b0ab20fddf823c0bf4356a9d8"
+    },
+    {
+      "file": "experiments\\aioli.py",
+      "sha256": "edc9bddc0198c2b0bdb13e536196eaaeead5a1559ad0ee3b7e0e27bf3668ae47"
+    },
+    {
+      "file": "experiments\\common.py",
+      "sha256": "d176b1757823459eb8ec2383da67cbc4fed44a52f0dcad0c0815c1d05ee32ff7"
+    }
+  ],
+  "large_sigmoid_spec": {
+    "case": "signal_d1000_B1000_T100000_s72001",
+    "d": 1000,
+    "B": 1000.0,
+    "T": 100000,
+    "rounds": 100000,
+    "seed": 910001,
+    "data_seed": 72001,
+    "config": {
+      "particles": 16,
+      "transitions": 16
+    },
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d1000_B1000_T100000_s72001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\large_regret_d1000_B1000_T100000\\sigmoid",
+    "seconds": 43200.0,
+    "memory_bytes": 2147483648,
+    "trajectory_columns": [
+      "raw_logit",
+      "output_logit",
+      "loss",
+      "online_seconds",
+      "state_bytes"
+    ],
+    "algorithm": "sigmoid",
+    "reused_completed_run": false
+  },
+  "comparison_scope": "Source-level comparison. No author algorithms executed and no measured sources changed."
+}

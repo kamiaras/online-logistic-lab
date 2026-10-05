@@ -1,0 +1,20 @@
+{
+  "case": {
+    "id": "isotropic_d100_B100_T1000_s72002",
+    "family": "isotropic",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  "sha256_interleaved_blocks": "38f91b9f795841fff35fe1a006438135609bd04c2c852e5892de44dcb3f8ab4c",
+  "block_size": 128,
+  "feature_norm_min": 0.9999999999999997,
+  "feature_norm_max": 1.0,
+  "generating_score_rms": 0.2818671589170815,
+  "positive_fraction": 0.47,
+  "disk_bytes": 801000,
+  "dtype_X": "little-endian float64",
+  "dtype_y": "int8"
+}

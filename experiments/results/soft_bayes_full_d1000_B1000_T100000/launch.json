@@ -1,0 +1,11 @@
+{
+  "target_rounds": 100000,
+  "online_seconds_per_method": 10800,
+  "launcher_pid": 9504,
+  "automatic_report": "REPORT.md",
+  "methods": [
+    "soft_bayes",
+    "author_aioli"
+  ],
+  "launched_utc": "2026-09-11T21:14:22.4211633Z"
+}

@@ -1,0 +1,161 @@
+{
+  "status": "all_checks_passed",
+  "seed": 9112602,
+  "scope": "Supplementary finite algebra and scalar integration checks, not performance experiments or a finite-bit certificate. Comparator linear programs verify proof objects and are not part of the learner.",
+  "script_sha256": "82831dfbab89bbfea5826750b05faa77eeef9258466aabcdccb35fac6b416d0d",
+  "checks": {
+    "exact_binary_frames": [
+      {
+        "d": 1,
+        "N": 2,
+        "L": 4,
+        "minimum_tested_absolute_projection": 1.0,
+        "fourth_moment_max_residual": 0.0
+      },
+      {
+        "d": 2,
+        "N": 4,
+        "L": 8,
+        "minimum_tested_absolute_projection": 0.7648572753633396,
+        "fourth_moment_max_residual": 1.3322676295501878e-15
+      },
+      {
+        "d": 3,
+        "N": 8,
+        "L": 16,
+        "minimum_tested_absolute_projection": 0.7879164798145257,
+        "fourth_moment_max_residual": 1.3322676295501878e-15
+      },
+      {
+        "d": 4,
+        "N": 16,
+        "L": 32,
+        "minimum_tested_absolute_projection": 0.7567652308952741,
+        "fourth_moment_max_residual": 1.7763568394002505e-15
+      },
+      {
+        "d": 6,
+        "N": 32,
+        "L": 64,
+        "minimum_tested_absolute_projection": 0.7886315474434182,
+        "fourth_moment_max_residual": 1.7763568394002505e-15
+      },
+      {
+        "d": 8,
+        "N": 128,
+        "L": 256,
+        "minimum_tested_absolute_projection": 0.7909843790491433,
+        "fourth_moment_max_residual": 1.7763568394002505e-15
+      },
+      {
+        "d": 10,
+        "N": 256,
+        "L": 512,
+        "minimum_tested_absolute_projection": 0.7432597412066582,
+        "fourth_moment_max_residual": 1.7763568394002505e-15
+      },
+      {
+        "d": 12,
+        "N": 256,
+        "L": 512,
+        "minimum_tested_absolute_projection": 0.7773664351634539,
+        "fourth_moment_max_residual": 1.7763568394002505e-15
+      },
+      {
+        "d": 16,
+        "N": 1024,
+        "L": 2048,
+        "minimum_tested_absolute_projection": 0.8009205912063881,
+        "fourth_moment_max_residual": 1.3322676295501878e-15
+      }
+    ],
+    "proof_only_atom_representations_and_tuple_law": [
+      {
+        "d": 2,
+        "KL_to_uniform": 0.43470637365791065,
+        "mean_max_error": 2.220446049250313e-16,
+        "second_moment_max_error": 3.725367189918785e-17
+      },
+      {
+        "d": 3,
+        "KL_to_uniform": 0.47438556589590275,
+        "mean_max_error": 1.1102230246251565e-16,
+        "second_moment_max_error": 2.0341776897543738e-16
+      },
+      {
+        "d": 4,
+        "KL_to_uniform": 0.5832428961671617,
+        "mean_max_error": 2.220446049250313e-16,
+        "second_moment_max_error": 1.0170888448771869e-16
+      },
+      {
+        "d": 8,
+        "KL_to_uniform": 0.6603164683811308,
+        "mean_max_error": 3.3306690738754696e-16,
+        "second_moment_max_error": 8.881784197001252e-15
+      }
+    ],
+    "polynomial_component_count": {
+      "parameter_cases": 75,
+      "passed": true
+    },
+    "restricted_omd_minimum_and_prediction_dominance": [
+      {
+        "d": 1,
+        "diagonal_minimum_residual": 4.336808689942018e-19,
+        "isotropic_minimum_residual": 3.5778671692021646e-17
+      },
+      {
+        "d": 3,
+        "diagonal_minimum_residual": 3.469446951953614e-18,
+        "isotropic_minimum_residual": 9.71445146547012e-17
+      },
+      {
+        "d": 10,
+        "diagonal_minimum_residual": 5.551115123125783e-17,
+        "isotropic_minimum_residual": 5.551115123125783e-17
+      }
+    ],
+    "relative_quadrature_extreme_means": {
+      "cases": 84,
+      "largest_node_count": 18285,
+      "maximum_absolute_log_probability_error": 0.004268894569264603,
+      "largest_fraction_of_allowed_error": 0.008537789138529206,
+      "mean_range": [
+        -1000,
+        1000
+      ],
+      "variance_range": [
+        0,
+        10
+      ]
+    },
+    "spherical_lower_bound_constants": [
+      {
+        "d": 3,
+        "comparator_expected_loss": 0.0148391113483439,
+        "proved_upper_bound": 0.0625
+      },
+      {
+        "d": 4,
+        "comparator_expected_loss": 0.01635785845774291,
+        "proved_upper_bound": 0.0625
+      },
+      {
+        "d": 10,
+        "comparator_expected_loss": 0.018908153123037546,
+        "proved_upper_bound": 0.0625
+      },
+      {
+        "d": 100,
+        "comparator_expected_loss": 0.020330914069183477,
+        "proved_upper_bound": 0.0625
+      },
+      {
+        "d": 1000,
+        "comparator_expected_loss": 0.020469015650916886,
+        "proved_upper_bound": 0.0625
+      }
+    ]
+  }
+}

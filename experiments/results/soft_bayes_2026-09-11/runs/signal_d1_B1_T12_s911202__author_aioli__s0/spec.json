@@ -1,0 +1,22 @@
+{
+  "d": 1,
+  "B": 1.0,
+  "T": 12,
+  "rounds": 12,
+  "case_id": "signal_d1_B1_T12_s911202",
+  "stage": "prescribed",
+  "seconds": 20.0,
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1_B1_T12_s911202",
+  "data_hashes": {
+    "X.bin": "fed0591b9ef68aca08e5aedff67a6f5bfb81ecb8adb762fa4db6ed491880e147",
+    "y.bin": "d1bd41ecb544ca505fb7d92c576502fcde7e3316c3721940a486f01d7ef67845",
+    "data.json": "38989c636d77d36f032da0670c7eb6ca96c7d9010f8427bf91ed44863b0ac709"
+  },
+  "id": "signal_d1_B1_T12_s911202__author_aioli__s0",
+  "label": "author_aioli",
+  "seed": 0,
+  "algorithm": "author_aioli",
+  "config": {},
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1_B1_T12_s911202__author_aioli__s0",
+  "memory_bytes": 2147483648
+}

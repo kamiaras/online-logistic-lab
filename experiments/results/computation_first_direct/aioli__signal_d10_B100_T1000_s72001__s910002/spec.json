@@ -1,0 +1,15 @@
+{
+  "case": "signal_d10_B100_T1000_s72001",
+  "d": 10,
+  "B": 100.0,
+  "T": 1000,
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+  "method": "aioli",
+  "config": {},
+  "seed": 910002,
+  "data_seed": 72001,
+  "rounds": 500,
+  "seconds": 90.0,
+  "memory_bytes": 2147483648,
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\aioli__signal_d10_B100_T1000_s72001__s910002"
+}

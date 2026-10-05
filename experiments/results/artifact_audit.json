@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "stages": {
+    "calibration": {
+      "runs": 56,
+      "statuses": {
+        "completed": 31,
+        "time_budget": 25
+      }
+    },
+    "prescribed": {
+      "runs": 3,
+      "statuses": {
+        "completed": 3
+      }
+    },
+    "screen": {
+      "runs": 189,
+      "statuses": {
+        "completed": 94,
+        "time_budget": 95
+      }
+    },
+    "confirmation": {
+      "runs": 70,
+      "statuses": {
+        "evaluation_completed": 70
+      }
+    },
+    "long_horizon": {
+      "runs": 1,
+      "statuses": {
+        "completed": 1
+      }
+    },
+    "tempered": {
+      "runs": 2,
+      "statuses": {
+        "time_budget": 2
+      }
+    },
+    "matrix_control": {
+      "runs": 2,
+      "statuses": {
+        "time_budget": 2
+      }
+    }
+  },
+  "core_matches_control_snapshot": {
+    "aioli.py": true,
+    "common.py": true,
+    "proximal.py": true,
+    "sigmoid.py": true,
+    "data.py": true
+  },
+  "note": "Artifact checks only; not a new numerical benchmark or floating-point proof."
+}

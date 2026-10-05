@@ -1,0 +1,18 @@
+{
+  "checks": [
+    {
+      "algorithm": "author_aioli",
+      "two_trace_losses_verified": true,
+      "one_thread": true,
+      "actual_job_verified": true
+    },
+    {
+      "algorithm": "author_sigmoid",
+      "two_trace_losses_verified": true,
+      "one_thread": true,
+      "actual_job_verified": true
+    }
+  ],
+  "pinned_author_sources_unchanged": true,
+  "direct_parity_tests_passed": 5
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "signal_d8000_B1000_T4_s78001",
+    "family": "signal",
+    "d": 8000,
+    "B": 1000.0,
+    "B_generator": 3.0,
+    "T": 4,
+    "data_seed": 78001
+  },
+  {
+    "id": "signal_d128_B1000_T4_s78001",
+    "family": "signal",
+    "d": 128,
+    "B": 1000.0,
+    "B_generator": 3.0,
+    "T": 4,
+    "data_seed": 78001
+  },
+  {
+    "id": "signal_d50000_B1000_T4_s78001",
+    "family": "signal",
+    "d": 50000,
+    "B": 1000.0,
+    "B_generator": 3.0,
+    "T": 4,
+    "data_seed": 78001
+  },
+  {
+    "id": "signal_d16000_B1000_T4_s78001",
+    "family": "signal",
+    "d": 16000,
+    "B": 1000.0,
+    "B_generator": 3.0,
+    "T": 4,
+    "data_seed": 78001
+  },
+  {
+    "id": "signal_d100000_B1000_T4_s78001",
+    "family": "signal",
+    "d": 100000,
+    "B": 1000.0,
+    "B_generator": 3.0,
+    "T": 4,
+    "data_seed": 78001
+  },
+  {
+    "id": "signal_d200000_B1000_T4_s78001",
+    "family": "signal",
+    "d": 200000,
+    "B": 1000.0,
+    "B_generator": 3.0,
+    "T": 4,
+    "data_seed": 78001
+  },
+  {
+    "id": "signal_d150000_B1000_T4_s78001",
+    "family": "signal",
+    "d": 150000,
+    "B": 1000.0,
+    "B_generator": 3.0,
+    "T": 4,
+    "data_seed": 78001
+  },
+  {
+    "id": "signal_d400000_B1000_T4_s78001",
+    "family": "signal",
+    "d": 400000,
+    "B": 1000.0,
+    "B_generator": 3.0,
+    "T": 4,
+    "data_seed": 78001
+  },
+  {
+    "id": "signal_d125000_B1000_T4_s78001",
+    "family": "signal",
+    "d": 125000,
+    "B": 1000.0,
+    "B_generator": 3.0,
+    "T": 4,
+    "data_seed": 78001
+  },
+  {
+    "id": "signal_d300000_B1000_T4_s78001",
+    "family": "signal",
+    "d": 300000,
+    "B": 1000.0,
+    "B_generator": 3.0,
+    "T": 4,
+    "data_seed": 78001
+  },
+  {
+    "id": "signal_d137500_B1000_T4_s78001",
+    "family": "signal",
+    "d": 137500,
+    "B": 1000.0,
+    "B_generator": 3.0,
+    "T": 4,
+    "data_seed": 78001
+  },
+  {
+    "id": "signal_d250000_B1000_T4_s78001",
+    "family": "signal",
+    "d": 250000,
+    "B": 1000.0,
+    "B_generator": 3.0,
+    "T": 4,
+    "data_seed": 78001
+  },
+  {
+    "id": "signal_d225000_B1000_T4_s78001",
+    "family": "signal",
+    "d": 225000,
+    "B": 1000.0,
+    "B_generator": 3.0,
+    "T": 4,
+    "data_seed": 78001
+  },
+  {
+    "id": "signal_d12000_B1000_T4_s78001",
+    "family": "signal",
+    "d": 12000,
+    "B": 1000.0,
+    "B_generator": 3.0,
+    "T": 4,
+    "data_seed": 78001
+  },
+  {
+    "id": "signal_d14000_B1000_T4_s78001",
+    "family": "signal",
+    "d": 14000,
+    "B": 1000.0,
+    "B_generator": 3.0,
+    "T": 4,
+    "data_seed": 78001
+  },
+  {
+    "id": "signal_d15000_B1000_T4_s78001",
+    "family": "signal",
+    "d": 15000,
+    "B": 1000.0,
+    "B_generator": 3.0,
+    "T": 4,
+    "data_seed": 78001
+  }
+]

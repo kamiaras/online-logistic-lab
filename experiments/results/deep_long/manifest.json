@@ -1,0 +1,18 @@
+[
+  {
+    "algorithm": "aioli",
+    "config": {},
+    "d": 10,
+    "B": 1000.0,
+    "T": 10000000,
+    "sampler_seed": 165174,
+    "data_seed": 76001,
+    "case_id": "long_signal_d10_B1000_T10000000_s76001",
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\long_signal_d10_B1000_T10000000_s76001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_long\\long_signal_d10_B1000_T10000000_s76001__aioli__default",
+    "seconds": 2100,
+    "memory_bytes": 2147483648,
+    "stage": "deep_long",
+    "label": "default"
+  }
+]

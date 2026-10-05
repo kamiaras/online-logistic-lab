@@ -1,0 +1,20 @@
+{
+  "case": {
+    "id": "coordinate_d100_B100_T1000_s72003",
+    "family": "coordinate",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  "sha256_interleaved_blocks": "fb25146c928e5a06a2817f21918f7f124d6d8d319fd0d3053cb7144997b78d9b",
+  "block_size": 128,
+  "feature_norm_min": 1.0,
+  "feature_norm_max": 1.0,
+  "generating_score_rms": 0.29488858034805526,
+  "positive_fraction": 0.486,
+  "disk_bytes": 801000,
+  "dtype_X": "little-endian float64",
+  "dtype_y": "int8"
+}

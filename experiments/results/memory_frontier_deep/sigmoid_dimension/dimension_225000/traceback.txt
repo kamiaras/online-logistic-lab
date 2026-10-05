@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\worker.py", line 67, in run
+    score=float(a.predict(x))
+                ^^^^^^^^^^^^
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\sigmoid.py", line 216, in predict
+    self._mala_step(step_size, last_weight=weight)
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\sigmoid.py", line 165, in _mala_step
+    ratio = mala_log_acceptance(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\sigmoid.py", line 29, in mala_log_acceptance
+    + 0.5 * np.sum(delta * gradient_sum, axis=-1)
+                   ~~~~~~^~~~~~~~~~~~~~
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 20.6 MiB for an array with shape (12, 225000) and data type float64

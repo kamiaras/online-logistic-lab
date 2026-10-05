@@ -1,0 +1,20 @@
+{
+  "case": "signal_d100_B1000_T1000_s72001",
+  "d": 100,
+  "B": 1000.0,
+  "T": 1000,
+  "seed": 910001,
+  "rounds": 500,
+  "seconds": 90.0,
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72001",
+  "backend": "curvature",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\curvature_performance\\curvature__signal_d100_B1000_T1000_s72001__m64n1__s910001",
+  "sequential_control": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_antithetic_ablation\\antithetic__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910001",
+  "config": {
+    "mode": "practical",
+    "lanes": 64,
+    "transitions": 1,
+    "particle_batch": 64,
+    "history_block_size": 128
+  }
+}

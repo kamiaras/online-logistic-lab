@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-09-11T13:45:38.796552+00:00",
+  "status": "passed",
+  "run_directory": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_overnight_d1000_B1000_T100000",
+  "checks": {
+    "trajectory_bytes": true,
+    "same_data_identity": true,
+    "label_count_and_values": true,
+    "finite_all_records": true,
+    "positive_nondecreasing_times": true,
+    "integer_nondecreasing_state": true,
+    "label_recomputed_loss": true,
+    "prescribed_actual_output_guard": true,
+    "first_round_exact_half": true,
+    "loss_sum_matches_result": true,
+    "final_times_match": true,
+    "online_timing_components": true,
+    "complete_terminal": true,
+    "all_round_counts": true,
+    "spec_consistency": true,
+    "supervisor_result_identity": true,
+    "progress_result_identity": true,
+    "trajectory_metadata": true,
+    "native_practical_16_by_1": true,
+    "native_round_counts": true,
+    "rejection_ledger": true,
+    "nonnegative_native_counters": true,
+    "no_recorded_numerical_failure": true,
+    "actual_interpreter_hard_job_cap": true,
+    "single_blas_thread": true,
+    "peak_memory_under_cap": true,
+    "state_bytes_consistency": true,
+    "online_time_within_guard": true,
+    "bounded_stream_recording": true,
+    "limitations_retained": true
+  },
+  "failed_checks": [],
+  "details": {
+    "label_recomputed_loss": {
+      "max_absolute_error": 0.0
+    },
+    "prescribed_actual_output_guard": {
+      "max_absolute_error": 0.0,
+      "clipped_rounds": 0,
+      "max_guard_excess": -2.0794415416798357
+    },
+    "loss_sum_matches_result": {
+      "recomputed_sum": 149683.9968788253,
+      "recorded_sum": 149683.9968788253,
+      "difference": 0.0
+    },
+    "online_timing_components": {
+      "sum": 13373.839856100836,
+      "recorded": 13373.839856100836
+    }
+  },
+  "summary": {
+    "rounds": 100000,
+    "trajectory_records": 100000,
+    "trajectory_bytes": 4000000,
+    "label_bytes_read": 100000,
+    "cumulative_loss": 149683.9968788253,
+    "online_seconds": 13373.839856100836,
+    "process_wall_seconds": 13388.671537599992,
+    "peak_private_bytes": 893706240,
+    "peak_private_MiB": 852.3046875,
+    "final_state_bytes": 802208000,
+    "peak_persistent_state_bytes": 802216000,
+    "native_moves": 1599984,
+    "rqo_proposals": 1607515,
+    "rqo_rejections": 7531,
+    "clipped_rounds": 0,
+    "recorded_curvature_underflows": 100000,
+    "recorded_roundoff_gap_clamps": 524
+  },
+  "scope": {
+    "trajectory_and_labels_independently_checked": true,
+    "feature_matrix_opened": false,
+    "source_or_feature_hashes_recomputed": false,
+    "comparator_fitted": false,
+    "source_and_data_integrity": "Supervisor reports unchanged; root performs independent full integrity validation.",
+    "native_counts": "Cross-checked final diagnostic ledger against the declared schedule; no independent per-round move trace exists.",
+    "not_a_floating_point_or_prescribed_regret_certificate": true
+  }
+}

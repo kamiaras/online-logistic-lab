@@ -1,0 +1,15 @@
+{
+  "experiments/soft_bayes_worker.py": "ff161c98c3899cc03ac1029c5577714e5ddfad29fcd554780f479aa07092bc41",
+  "experiments/soft_bayes_supervisor.py": "c62769894a5881e90954cfb473c42bfa6f710b43227826003b7bd16931492725",
+  "experiments/soft_bayes.py": "ff71605a3597652fa0ab9283d59d66673d779c7296732c0170e4e318ce1c48ac",
+  "experiments/author_baselines.py": "db5e7cebbde540f59f2209b5251b534c7541cd09996ec54818ae4d07c684945f",
+  "SOFT_BAYES_COMPLETE.md": "a95bd46c1c544fcb6797a255754e30d2ee6471d3d24e44ea51e3d4df8b245b2b",
+  "experiments/common.py": "d176b1757823459eb8ec2383da67cbc4fed44a52f0dcad0c0815c1d05ee32ff7",
+  "experiments/proximal.py": "9188584f588cb589004fe21ae3fc9eb2f7dc5a0c021d1edd07d70e9b36afb7af",
+  "experiments/soft_bayes_campaign.py": "5b1570d26387de1efdff8fd0aa5e8098e637746a6c62806716152ead0be298d3",
+  "SOFT_BAYES_EXPERIMENT_PLAN.md": "217df820ea1af3b2bb8845bc2910c1d628a671df899ffc203967849f67d0e975",
+  "experiments/data.py": "8ecd2fecdf6a5e454e9240363321fa1e79d180a38d7bf998a45a053afadceaa1",
+  "experiments/memory.py": "eb03ae55073b3f5c75a927d479304e395604fe55a5b7fe3ccd1f4e096c680eec",
+  "experiments/worker_job.py": "65b9776869395e1e7b520d2b20400e96cca6d1a46370aed4687b535cbd80b51b",
+  "research/author_code_comparison_2026-09-11/a9a_experiment.py": "2632499867210720d9b0156678994597ce3cd5c09a079b692cebf5de706ab9cc"
+}

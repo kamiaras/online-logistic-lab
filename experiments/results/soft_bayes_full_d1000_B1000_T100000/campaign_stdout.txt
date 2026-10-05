@@ -1,0 +1,2 @@
+Starting soft_bayes
+{'algorithm': 'soft_bayes', 'status': 'cancelled_by_user', 'completed_rounds': 1, 'process_wall_seconds': 474.7383901999856}

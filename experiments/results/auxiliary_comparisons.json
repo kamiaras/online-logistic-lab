@@ -1,0 +1,70 @@
+{
+  "matrix": [
+    {
+      "common_round": 1640,
+      "first_run": "signal_d1000_B1000_T10000_s72001__aioli__inverse",
+      "second_run": "signal_d1000_B1000_T10000_s72001__aioli__default",
+      "first_minus_second_cumulative_loss": -7.493598797037038e-10,
+      "maximum_absolute_round_loss_difference": 7.622158459952288e-11,
+      "first_online_seconds_at_common": 9.098867100052303,
+      "second_online_seconds_at_common": 15.00444909989892,
+      "first_completed_rounds": 2759,
+      "second_completed_rounds": 1640,
+      "first_peak_private_MiB": 97.3984375,
+      "second_peak_private_MiB": 113.89453125,
+      "note": "Same fixed data and shared prefix; regret difference equals loss difference.",
+      "first_backend": "inverse",
+      "second_backend": "cholesky"
+    },
+    {
+      "common_round": 116,
+      "first_run": "signal_d5000_B100_T1000_s72001__aioli__inverse",
+      "second_run": "signal_d5000_B100_T1000_s72001__aioli__default",
+      "first_minus_second_cumulative_loss": -1.1637920782625599e-07,
+      "maximum_absolute_round_loss_difference": 4.990419810724234e-08,
+      "first_online_seconds_at_common": 15.008799399976851,
+      "second_online_seconds_at_common": 10.779133099858882,
+      "first_completed_rounds": 116,
+      "second_completed_rounds": 162,
+      "first_peak_private_MiB": 650.83203125,
+      "second_peak_private_MiB": 307.5234375,
+      "note": "Same fixed data and shared prefix; regret difference equals loss difference.",
+      "first_backend": "inverse",
+      "second_backend": "cholesky"
+    }
+  ],
+  "tempered": [
+    {
+      "common_round": 935,
+      "first_run": "signal_d10_B10_T1000_s71001__sigmoid__m16n20bridge20",
+      "second_run": "signal_d10_B10_T1000_s71001__sigmoid__m16n16",
+      "first_minus_second_cumulative_loss": -0.12381494695986647,
+      "maximum_absolute_round_loss_difference": 0.37855131478640835,
+      "first_online_seconds_at_common": 8.002006700349739,
+      "second_online_seconds_at_common": 6.5590784997621085,
+      "first_completed_rounds": 935,
+      "second_completed_rounds": 1000,
+      "first_peak_private_MiB": 75.359375,
+      "second_peak_private_MiB": 76.05859375,
+      "note": "Same fixed data and shared prefix; regret difference equals loss difference.",
+      "first_schedule": "20 bridges / 20 total lazy steps",
+      "second_schedule": "1 bridge / 16 total lazy steps"
+    },
+    {
+      "common_round": 765,
+      "first_run": "rare_flip_d100_B10_T1000_s71004__sigmoid__m16n20bridge20",
+      "second_run": "rare_flip_d100_B10_T1000_s71004__sigmoid__m16n16",
+      "first_minus_second_cumulative_loss": -5.719015398022298,
+      "maximum_absolute_round_loss_difference": 0.1426178570538561,
+      "first_online_seconds_at_common": 8.012429099544534,
+      "second_online_seconds_at_common": 6.745472699549282,
+      "first_completed_rounds": 765,
+      "second_completed_rounds": 853,
+      "first_peak_private_MiB": 76.62890625,
+      "second_peak_private_MiB": 75.92578125,
+      "note": "Same fixed data and shared prefix; regret difference equals loss difference.",
+      "first_schedule": "20 bridges / 20 total lazy steps",
+      "second_schedule": "1 bridge / 16 total lazy steps"
+    }
+  ]
+}

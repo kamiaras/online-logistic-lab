@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\worker.py", line 67, in run
+    score=float(a.predict(x))
+                ^^^^^^^^^^^^
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\proximal.py", line 424, in predict
+    th = self._conditional_draw(Y, x, .5+self.tilts[lo:hi], schedule)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\proximal.py", line 392, in _conditional_draw
+    env = self._conditional_center(Y, x, p, schedule)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\proximal.py", line 363, in _conditional_center
+    center=v-g/schedule["mu"])
+           ~^~~~~~~~~~~~~~~~~
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 67.1 MiB for an array with shape (64, 137500) and data type float64

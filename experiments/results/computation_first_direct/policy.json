@@ -1,0 +1,15 @@
+{
+  "rounds": 500,
+  "online_seconds_per_run": 90.0,
+  "external_grace_seconds": 20.0,
+  "wall_budget_seconds": 600.0,
+  "order_seed": 914906,
+  "expected_runs": 24,
+  "sampler_seeds": [
+    910001,
+    910002,
+    910003
+  ],
+  "paired_fixed_datasets": 2,
+  "data_selection_scope": "Previously explored fixed datasets; descriptive rerun, not held-out confirmation"
+}

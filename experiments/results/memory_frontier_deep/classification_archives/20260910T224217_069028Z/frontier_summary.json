@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "stage": "memory_frontier_deep",
+  "attempts": 28,
+  "memory_limit_bytes": 2147483648,
+  "axes": [
+    {
+      "axis": "aioli_dimension",
+      "algorithm": "aioli",
+      "parameter": "dimension",
+      "attempts": 2,
+      "largest_completed_probe": 8000,
+      "smallest_memory_failure": null,
+      "largest_reported_initialized": 8000,
+      "smallest_initialization_memory_failure": null,
+      "observed_bracket": null,
+      "observed_nonmonotonicity": false,
+      "time_censored_probes": 0,
+      "next_probe": null,
+      "refinement_assumes_approximate_memory_monotonicity": true
+    },
+    {
+      "axis": "ours_particles",
+      "algorithm": "ours",
+      "parameter": "particles",
+      "attempts": 7,
+      "largest_completed_probe": 655360,
+      "smallest_memory_failure": 720896,
+      "largest_reported_initialized": 655360,
+      "smallest_initialization_memory_failure": 720896,
+      "observed_bracket": [
+        655360,
+        720896
+      ],
+      "observed_nonmonotonicity": false,
+      "time_censored_probes": 0,
+      "next_probe": null,
+      "refinement_assumes_approximate_memory_monotonicity": true
+    },
+    {
+      "axis": "sigmoid_particles",
+      "algorithm": "sigmoid",
+      "parameter": "particles",
+      "attempts": 6,
+      "largest_completed_probe": 360448,
+      "smallest_memory_failure": 393216,
+      "largest_reported_initialized": 524288,
+      "smallest_initialization_memory_failure": null,
+      "observed_bracket": [
+        360448,
+        393216
+      ],
+      "observed_nonmonotonicity": false,
+      "time_censored_probes": 0,
+      "next_probe": null,
+      "refinement_assumes_approximate_memory_monotonicity": true
+    },
+    {
+      "axis": "ours_dimension",
+      "algorithm": "ours",
+      "parameter": "dimension",
+      "attempts": 6,
+      "largest_completed_probe": 125000,
+      "smallest_memory_failure": 137500,
+      "largest_reported_initialized": 200000,
+      "smallest_initialization_memory_failure": null,
+      "observed_bracket": [
+        125000,
+        137500
+      ],
+      "observed_nonmonotonicity": false,
+      "time_censored_probes": 0,
+      "next_probe": null,
+      "refinement_assumes_approximate_memory_monotonicity": true
+    },
+    {
+      "axis": "sigmoid_dimension",
+      "algorithm": "sigmoid",
+      "parameter": "dimension",
+      "attempts": 7,
+      "largest_completed_probe": 200000,
+      "smallest_memory_failure": 225000,
+      "largest_reported_initialized": 400000,
+      "smallest_initialization_memory_failure": null,
+      "observed_bracket": [
+        200000,
+        225000
+      ],
+      "observed_nonmonotonicity": false,
+      "time_censored_probes": 0,
+      "next_probe": null,
+      "refinement_assumes_approximate_memory_monotonicity": true
+    }
+  ],
+  "elapsed_this_invocation": 157.69227719999617,
+  "status": "frontiers_finished",
+  "records_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\frontier_records.jsonl",
+  "manifest_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\manifest.json",
+  "interpretation": "Observed short-probe brackets, not universal capacity thresholds or regret results."
+}

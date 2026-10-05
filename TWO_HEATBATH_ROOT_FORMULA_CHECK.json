@@ -1,0 +1,34 @@
+{
+  "M": 1060.8638324357557,
+  "whole_path_TV_allocation": 1.882084007366759e-06,
+  "equal_heatbaths": {
+    "gap": 0.4,
+    "warm_events": 1065,
+    "occupation_expected_events": 505.0,
+    "total_expected_events": 1570.0,
+    "per_block_expected_calls": 785.0,
+    "per_call_TV_budget": 5.99389811263299e-10,
+    "used_per_call_TV": 5e-10,
+    "whole_path_TV_bound": 1.7260420036833795e-06
+  },
+  "affine_at_new_tolerance": {
+    "TV": 5e-10,
+    "gaussian_expected_bound": 5.725811206097741,
+    "gaussian_cap": 131,
+    "zG": 8.931290763082073,
+    "B1": 1.8698213188873765,
+    "B0": 122.35441987934371,
+    "row_expected_bound": 66409.8164376122
+  },
+  "scalar_at_new_tolerance": {
+    "proposal_cap": 57,
+    "exhaustion_TV_upper_bound": 1.936450320449034e-10,
+    "original_tail_TV_upper_bound": 1.57e-26
+  },
+  "exact_tail_at_new_tolerance": {
+    "proposal_cap": 23
+  },
+  "aggregation_reference": 5563.33555152518,
+  "new_regret_bound": 6549.5651958263425,
+  "scope": "Conditional proved schedules and deterministic arithmetic, not observed runtime or a full T^2 theorem."
+}

@@ -1,0 +1,74 @@
+{
+  "status": "all_checks_passed",
+  "seed": 9112026,
+  "scope": "Supplementary numerical algebra and tiny-sequence checks; not performance experiments, proof replacement, or a floating-point certificate.",
+  "script_sha256": "2cee9c79e79d8263d0ad002cd02be1977fac20644c22b368e2d8c1f93082e108",
+  "checks": {
+    "global_quadratic_3000_cases": {
+      "minimum_slack": 8.22488498780985e-06
+    },
+    "scalar_gaussian_evidence_48_cases": {
+      "minimum_log_slack": -6.793495404555107e-17,
+      "minimum_stronger_log_slack": -6.793495404555107e-17
+    },
+    "covariance_minimum_and_rank_one_identity": {
+      "inverse_residual": 2.220446049250313e-16,
+      "minimum_value_residual": 1.1102230246251565e-16,
+      "perturbations_checked": 50
+    },
+    "lifted_bregman_equals_joint_kl": {
+      "residual": 6.661338147750939e-16
+    },
+    "tiny_sequences_144_total_rounds": [
+      {
+        "scenario": "label_switch",
+        "d": 2,
+        "T": 48,
+        "n": 3,
+        "K": 16,
+        "actual_loss": 35.123786616827275,
+        "virtual_loss": 35.675914662510465,
+        "regret_to_fixed_u": 0.34493322448930996,
+        "grid_bound": 3.950081012672438,
+        "minimum_prediction_dominance_slack": 0.004858119105992764,
+        "evidence_telescoping_residual": 2.1316282072803006e-14,
+        "determinant_telescoping_residual": 5.551115123125783e-16
+      },
+      {
+        "scenario": "seeded_labels",
+        "d": 2,
+        "T": 48,
+        "n": 3,
+        "K": 16,
+        "actual_loss": 32.02086475781858,
+        "virtual_loss": 32.51731810303128,
+        "regret_to_fixed_u": 1.263767156295593,
+        "grid_bound": 3.949045146672942,
+        "minimum_prediction_dominance_slack": 0.004254918159195653,
+        "evidence_telescoping_residual": 0.0,
+        "determinant_telescoping_residual": 8.326672684688674e-16
+      },
+      {
+        "scenario": "adaptive_labels",
+        "d": 2,
+        "T": 48,
+        "n": 3,
+        "K": 16,
+        "actual_loss": 35.127009191908606,
+        "virtual_loss": 35.659726626444105,
+        "regret_to_fixed_u": 0.582742860005979,
+        "grid_bound": 3.94798844618504,
+        "minimum_prediction_dominance_slack": 0.008258882778621635,
+        "evidence_telescoping_residual": 1.4210854715202004e-14,
+        "determinant_telescoping_residual": 5.551115123125783e-16
+      }
+    ],
+    "actual_covariance_loss_nonconvexity": {
+      "analytical_second_derivative_at_zero": -0.03515625,
+      "one_sided_finite_difference": -0.03514087043576808
+    },
+    "parameter_bound_24_cases": {
+      "passed": true
+    }
+  }
+}

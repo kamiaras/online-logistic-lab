@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "case_id": "signal_d10_B10000_T1000_s72001",
+      "rounds": 1000,
+      "max_absolute_scalar_residual": 0.0002426784155081978,
+      "sum_absolute_scalar_residuals": 0.0004935898407374776,
+      "seconds": 0.223371700005373,
+      "root_rounding_stalls": 977,
+      "curvature_underflows": 122
+    },
+    {
+      "case_id": "signal_d10_B10000_T1000_s72002",
+      "rounds": 1000,
+      "max_absolute_scalar_residual": 0.0001447651103714923,
+      "sum_absolute_scalar_residuals": 0.0003537726456276306,
+      "seconds": 0.21225200001208577,
+      "root_rounding_stalls": 971,
+      "curvature_underflows": 130
+    },
+    {
+      "case_id": "signal_d10_B10000_T1000_s72003",
+      "rounds": 1000,
+      "max_absolute_scalar_residual": 0.0001467482821309582,
+      "sum_absolute_scalar_residuals": 0.00043787614731874034,
+      "seconds": 0.21111380000365898,
+      "root_rounding_stalls": 978,
+      "curvature_underflows": 124
+    }
+  ],
+  "precision_decimal_digits": 80,
+  "interpretation": "For each represented q,v, phi is increasing with derivative at least 1, so |phi(z)| bounds distance to its exact scalar root. The sum bounds direct scalar-prediction loss perturbations with those statistics frozen, not the effect of altered subsequent updates.",
+  "scope": "Offline diagnostic. Decimal rounding is not interval arithmetic; Cholesky/statistic rounding and curvature underflow are not certified by this check."
+}

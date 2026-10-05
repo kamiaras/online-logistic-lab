@@ -1,0 +1,74 @@
+{
+  "seed": 20260910,
+  "scope": "Supplementary algebra and acceptance-law checks; no full algorithm benchmark or finite-bit certificate.",
+  "capped_coin": [
+    {
+      "C": 0.2,
+      "residual": 0.1,
+      "cap": 1,
+      "draws": 200000,
+      "observed_acceptance": 0.90461,
+      "exact_acceptance": 0.9048374180359595,
+      "tolerance": 0.003941902296531626
+    },
+    {
+      "C": 4.0,
+      "residual": 1.0,
+      "cap": 2,
+      "draws": 200000,
+      "observed_acceptance": 0.368225,
+      "exact_acceptance": 0.36787944117144233,
+      "tolerance": 0.006474771899245701
+    },
+    {
+      "C": 10.0,
+      "residual": 7.0,
+      "cap": 3,
+      "draws": 200000,
+      "observed_acceptance": 0.00084,
+      "exact_acceptance": 0.0009118819655545162,
+      "tolerance": 0.00040995565020181447
+    },
+    {
+      "C": 8.0,
+      "residual": 0.0,
+      "cap": 2,
+      "draws": 200000,
+      "observed_acceptance": 1.0,
+      "exact_acceptance": 1.0,
+      "tolerance": 5e-06
+    },
+    {
+      "C": 4.0,
+      "residual": 4.0,
+      "cap": 2,
+      "draws": 200000,
+      "observed_acceptance": 0.018185,
+      "exact_acceptance": 0.01831563888873418,
+      "tolerance": 0.0018040085399879846
+    }
+  ],
+  "history_encoding": {
+    "max_absolute_decode_error": 1.0935696792557792e-14,
+    "two_stage_probability_error": 6.938893903907228e-18
+  },
+  "one_loop_curvature_and_counts": {
+    "cases": 48,
+    "maximum_certified_residual_ratio": 0.000877624542019004,
+    "maximum_gamma_to_actual_minimum_curvature": 1.0000000000000018,
+    "maximum_new_to_old_inverse_step_energy": 1.0,
+    "maximum_actual_moves_to_analytic_bound": 0.9995079609346097,
+    "c0": 0.6967434036193949
+  },
+  "one_dimensional_log_odds_bound": {
+    "cases": 36,
+    "method": "20,001-point trapezoid checks only"
+  },
+  "manuscript_checks": {
+    "equations": 87,
+    "inline_pairs": 638,
+    "display_pairs": 154,
+    "no_bad_controls": true
+  },
+  "status": "all checks passed"
+}

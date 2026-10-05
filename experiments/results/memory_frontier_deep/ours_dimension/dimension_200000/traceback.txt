@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\worker.py", line 67, in run
+    score=float(a.predict(x))
+                ^^^^^^^^^^^^
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\proximal.py", line 421, in predict
+    th = self.theta[lo:hi].copy()
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 97.7 MiB for an array with shape (64, 200000) and data type float64

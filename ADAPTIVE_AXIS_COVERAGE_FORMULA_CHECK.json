@@ -1,0 +1,42 @@
+{
+  "parameters": {
+    "d": 1000,
+    "T": 100000,
+    "delta": 0.001,
+    "R": 1.0,
+    "lambda": 0.001
+  },
+  "mean_noise_Gram_bound": 9.98003992015968e-05,
+  "fallback_initializer_log_chi_bound": 8518.193211416235,
+  "per_forecast_fallback_event_upper_bound": 1.3422839209765895e+26,
+  "observable_exact_axis_mean_magnitude_threshold": 0.002002002002002002,
+  "table": [
+    {
+      "residual_threshold": 0.00016,
+      "noise_threshold_ratio": 1.6032000000000004,
+      "log_all_prefix_failure_bound": -8.41290502796007,
+      "all_prefix_failure_bound": 0.00022198404945833223,
+      "hessian_comparison": 0.803883864861816,
+      "coordinate_gap_bound": 0.000803883864861816,
+      "expected_fallback_events_over_horizon_upper_bound": 2.9796562030119135e+27
+    },
+    {
+      "residual_threshold": 0.00025,
+      "noise_threshold_ratio": 2.5050000000000003,
+      "log_all_prefix_failure_bound": -72.46482755682172,
+      "all_prefix_failure_bound": 3.380066618742231e-32,
+      "hessian_comparison": 0.757464374963667,
+      "coordinate_gap_bound": 0.000757464374963667,
+      "expected_fallback_events_over_horizon_upper_bound": 0.45370090741674046
+    },
+    {
+      "residual_threshold": 0.0003,
+      "noise_threshold_ratio": 3.0060000000000002,
+      "log_all_prefix_failure_bound": -123.07573132184953,
+      "all_prefix_failure_bound": 3.539069005742542e-54,
+      "hessian_comparison": 0.7358647281023128,
+      "coordinate_gap_bound": 0.0007358647281023128,
+      "expected_fallback_events_over_horizon_upper_bound": 4.75043542163482e-23
+    }
+  ]
+}

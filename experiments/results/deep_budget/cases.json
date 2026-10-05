@@ -1,0 +1,20 @@
+[
+  {
+    "id": "budget_signal_d100_B1000_T2000_s75001",
+    "family": "signal",
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "data_seed": 75001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "budget_signal_d100_B1000_T2000_s75002",
+    "family": "signal",
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "data_seed": 75002,
+    "B_generator": 3.0
+  }
+]

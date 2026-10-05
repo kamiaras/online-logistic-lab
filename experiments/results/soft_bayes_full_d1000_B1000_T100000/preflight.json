@@ -1,0 +1,41 @@
+{
+  "d": 1000,
+  "B": 1000.0,
+  "T": 100000,
+  "R": 1.0,
+  "mode": "prescribed",
+  "prescribed": {
+    "m": 100000,
+    "lam": 1e-06,
+    "kappa": 999999.9999999995,
+    "H": 47.66113977221501,
+    "A": 4999949999999989.0,
+    "log_A": 36.14820430729478,
+    "J": 8,
+    "N_max": 2383033158113,
+    "log_N_max": 28.49939522838912,
+    "expected_charged_operations_bound": 2.5418893258494006e+33,
+    "log_expected_charged_operations_bound": 76.91821570240478,
+    "theoretical_cells": 100016128,
+    "neutral": false
+  },
+  "actual_samples": 100000,
+  "actual_max_transitions": 2383033158113,
+  "estimated_total_moves": 23830093277814188700000,
+  "max_total_moves": null,
+  "estimated_state_bytes": 800290048,
+  "history_block_size": 1000,
+  "memory_representation": "raw feature history plus scalar/vector summaries",
+  "feasible": true,
+  "budget_reasons": [],
+  "floating_point_certificate": false,
+  "exact_primitive_operation_counter": false,
+  "section_10_global_operation_cap_implemented": false,
+  "round_two": {
+    "previous_energy": 0.25,
+    "transitions_per_sample": 23830642,
+    "samples": 100000,
+    "total_transitions": 2383064200000,
+    "first_feature_nonzero": true
+  }
+}

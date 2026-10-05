@@ -1,0 +1,2 @@
+{"status": "starting", "spec": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_overnight_d1000_B1000_T100000\\spec.json", "estimated_state_bytes": 802434048}
+{"status": "completed", "process_wall_seconds": 13388.671537599992, "monitored_peak_private": 893706240, "sources_and_data_unchanged": true, "round": 100000}

@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "job_verification": {
+    "pid": 24508,
+    "job_member": true,
+    "process_memory_limit": 2147483648,
+    "limit_flags": 8448,
+    "verified_inside_actual_interpreter": true
+  },
+  "status": "completed",
+  "error": null,
+  "failure_phase": null,
+  "round": 100000,
+  "committed_round": 100000,
+  "recorded_rounds": 100000,
+  "configured_horizon": 100000,
+  "target_rounds": 100000,
+  "algorithm": "aioli",
+  "algorithm_class": "AIOLI",
+  "d": 1000,
+  "B": 1000.0,
+  "seed": 910001,
+  "config": {},
+  "actual_population": null,
+  "cumulative_loss": 719230.2714030427,
+  "online_seconds": 847.7098620010656,
+  "completed_prefix_online_seconds": 847.7098620010656,
+  "initialization_seconds": 0.0010741000005509704,
+  "prediction_seconds": 40.92023129799054,
+  "update_seconds": 806.7885566030745,
+  "input_seconds": 0.48036079993471503,
+  "recording_seconds": 2.318051397043746,
+  "elapsed_seconds": 850.8866829999897,
+  "cpu_seconds": 849.171875,
+  "memory": {
+    "working_set": 64098304,
+    "peak_working_set": 66330624,
+    "private_commit": 117211136,
+    "peak_private_commit": 119513088
+  },
+  "baseline_memory": {
+    "working_set": 55369728,
+    "peak_working_set": 60723200,
+    "private_commit": 75005952,
+    "peak_private_commit": 79859712
+  },
+  "state_bytes": 8008000,
+  "metrics": {
+    "counters": {
+      "matrix_initializations": 1,
+      "estimated_scalar_flops": 299446929450,
+      "triangular_solves": 200000,
+      "estimated_matmul_flops": 200000000000,
+      "dot_products": 200000,
+      "root_iterations": 5437345,
+      "root_evaluations": 5537345,
+      "tanh_elements": 5537345,
+      "predictions": 100000,
+      "cholesky_rank1_updates": 99431,
+      "cholesky_rotations": 99431000,
+      "sufficient_statistic_updates": 100000,
+      "sigmoid_elements": 200000,
+      "observations": 100000,
+      "root_rounding_stalls": 72018,
+      "curvature_underflows": 560
+    },
+    "times": {
+      "predict": 40.79529060414643,
+      "observe": 804.8105351960694
+    }
+  },
+  "diagnostics": {
+    "matrix_backend": "cholesky",
+    "rounds_observed": 100000,
+    "regularizer_lambda": 1e-06,
+    "feature_radius": 1.0,
+    "bisections": 56,
+    "prescribed_bisections": 56,
+    "uses_prescribed_bisection_budget": true,
+    "last_q": 180.3213666456536,
+    "last_v": 15.490400238147078,
+    "last_scalar_root_residual": 7.494005416219807e-16,
+    "max_abs_logit": 2624.5750245207428,
+    "finite_precision_certified": false,
+    "flop_counts_are_estimates": true,
+    "state_bytes_scope": "owned persistent ndarray storage"
+  },
+  "diagnostics_error": null,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\Kamiar\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "trajectory": {
+    "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\large_regret_d1000_B1000_T100000\\aioli\\trajectory.bin",
+    "columns": [
+      "raw_logit",
+      "output_logit",
+      "loss",
+      "online_seconds",
+      "state_bytes"
+    ],
+    "dtype": "little-endian float64",
+    "record_bytes": 40,
+    "committed_bytes": 4000000,
+    "file_bytes": 4000000
+  },
+  "checkpoint_scope": "Use only committed_round complete records; subsequent file bytes are uncommitted. Error diagnostics/timing may include an unfinished next round.",
+  "checkpoint_flush_policy": "Flush before atomic progress update every 5 seconds or 512 rounds and at termination",
+  "timing_scope": "Construction plus predict/observe; streaming input and recording excluded from online time",
+  "primary_prediction": "Actual native predict output; raw_logit equals output_logit; no recorder clipping",
+  "input_block_rows": 128,
+  "recorder_retains_per_round_history": false,
+  "practical_caps_have_prescribed_regret_certificate": false,
+  "finite_precision_certificate": false
+}

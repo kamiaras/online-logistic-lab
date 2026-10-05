@@ -1,0 +1,15 @@
+{
+  "status": "cancelled_by_user",
+  "completed": [
+    {
+      "algorithm": "soft_bayes",
+      "status": "cancelled_by_user",
+      "completed_rounds": 1,
+      "process_wall_seconds": 474.7383901999856
+    }
+  ],
+  "unstarted_methods": [
+    "author_aioli"
+  ],
+  "updated_utc": "2026-09-11T21:22:19.232053+00:00"
+}

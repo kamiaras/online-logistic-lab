@@ -1,0 +1,17 @@
+{
+  "experiments/shared_tangent.py": "5ad659add48535ca16ed429ef1df2647eb52c01140c79c0a85de43b1d3ce2393",
+  "experiments/shared_tangent_primitives.py": "b8853808be771fafbb526e84dd873832480d0095f0c1a3c4947559d16f4fc55a",
+  "experiments/proximal.py": "9188584f588cb589004fe21ae3fc9eb2f7dc5a0c021d1edd07d70e9b36afb7af",
+  "experiments/data.py": "8ecd2fecdf6a5e454e9240363321fa1e79d180a38d7bf998a45a053afadceaa1",
+  "experiments/sigmoid.py": "de41cb603de2371c8ee1b65775c3cd9e0013ca8b0ab20fddf823c0bf4356a9d8",
+  "experiments/aioli.py": "edc9bddc0198c2b0bdb13e536196eaaeead5a1559ad0ee3b7e0e27bf3668ae47",
+  "INTEGRATED_LOG_ODDS_COMPLETE.md": "ca183007c578da6185d6cdac9b5b863cfc580b38d82e2efdbdde9bce1bd47b39",
+  "experiments/shared_ablation.py": "b4ce2660865bf5d55a57c69b6e74ab331287f3c35a1e6001fb7e400323f36919",
+  "experiments/shared_ablation_worker.py": "85dcc3e6c1dbe6aef214bc694f009df7e9bf5f0b949eaa2be3a09ec3a9b23f80",
+  "experiments/shared_ablation_campaign.py": "c955f522d385eeead4b372b90d2cde27b2ce41a7252259f0215abe8453e6ffac",
+  "experiments/shared_antithetic_ablation.py": "5fd0022a2c89c2e5cc84446a3229b11ac64c7195ae16823de7fa91fef9712d9a",
+  "experiments/shared_antithetic_worker.py": "7364d4dbd22c7803abdc595e067908624bd7f1c02233c2dafca9c3bb475d825c",
+  "experiments/shared_antithetic_campaign.py": "3aba4865f2393cddee41d1ea9ad058fa375ad2c88461f79b708749332f9e7cdb",
+  "SHARED_ANTITHETIC_ABLATION_PLAN.md": "71edeaeb4f3eef761513ee5496228ee9c47ed90361b21f4bac491e9ece7ae565",
+  "experiments/common.py": "d176b1757823459eb8ec2383da67cbc4fed44a52f0dcad0c0815c1d05ee32ff7"
+}

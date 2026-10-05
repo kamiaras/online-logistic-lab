@@ -1,0 +1,45 @@
+{
+  "status": "cancelled_by_user",
+  "reason": "User requested replacement by sigmoid authors released MALA and AIOLI code",
+  "utc": "2026-09-11T17:40:57.628085+00:00",
+  "terminated_processes": [
+    {
+      "pid": 29340,
+      "cmdline": [
+        "C:\\Users\\Kamiar\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "experiments.large_regret_campaign",
+        "--output",
+        "experiments/results/large_regret_d1000_B1000_T100000",
+        "--seconds",
+        "43200"
+      ]
+    },
+    {
+      "pid": 21664,
+      "cmdline": [
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\.venv\\Scripts\\python.exe",
+        "-m",
+        "experiments.large_regret_campaign",
+        "--output",
+        "experiments/results/large_regret_d1000_B1000_T100000",
+        "--seconds",
+        "43200"
+      ]
+    },
+    {
+      "pid": 30884,
+      "cmdline": [
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\.venv\\Scripts\\python.exe",
+        "-m",
+        "experiments.large_regret_worker",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\large_regret_d1000_B1000_T100000\\sigmoid\\spec.json",
+        "--gate"
+      ]
+    }
+  ],
+  "sigmoid_committed_round": 14219,
+  "sigmoid_saved_online_seconds": 7584.3337041953055,
+  "original256_unstarted": true,
+  "raw_results_preserved": true
+}

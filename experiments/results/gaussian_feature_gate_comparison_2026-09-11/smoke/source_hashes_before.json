@@ -1,0 +1,16 @@
+{
+  "GAUSSIAN_FEATURE_GATE_COMPLETE.md": "ebd559518d0a60e2e4d6ccbd943e0322ff96d4f99ad824b65b6264126a07bc7a",
+  "GAUSSIAN_FEATURE_GATE_EXPERIMENT_PLAN.md": "391ef32805400da0b34f48142eda588967b3fe5b3f2daf9884c7b6a48bf4aed7",
+  "experiments\\gaussian_feature_gate.py": "a9fa0fbeb3088daf954a3a31a66f116325a42c70ec99b2dcb158fd8d9e0689c7",
+  "experiments\\gaussian_gate_worker.py": "47a4db8f822725ac09a2e2c732840dc5f6b9acff276ac6f129a5d9a32079b9de",
+  "experiments\\gaussian_gate_supervisor.py": "d853cf26923fd3f34538477be8236367e0c518b967cdef4d831a9e1b67e6e1f3",
+  "experiments\\gaussian_gate_campaign.py": "e4f79e1d14c846ac422f248eada4dcb19ba8e900dc89c0b11b8bc64e19ebe09c",
+  "experiments\\aioli.py": "edc9bddc0198c2b0bdb13e536196eaaeead5a1559ad0ee3b7e0e27bf3668ae47",
+  "experiments\\author_baselines.py": "db5e7cebbde540f59f2209b5251b534c7541cd09996ec54818ae4d07c684945f",
+  "experiments\\common.py": "d176b1757823459eb8ec2383da67cbc4fed44a52f0dcad0c0815c1d05ee32ff7",
+  "experiments\\data.py": "8ecd2fecdf6a5e454e9240363321fa1e79d180a38d7bf998a45a053afadceaa1",
+  "experiments\\memory.py": "eb03ae55073b3f5c75a927d479304e395604fe55a5b7fe3ccd1f4e096c680eec",
+  "experiments\\worker_job.py": "65b9776869395e1e7b520d2b20400e96cca6d1a46370aed4687b535cbd80b51b",
+  "research\\author_code_comparison_2026-09-11\\a9a_experiment.py": "2632499867210720d9b0156678994597ce3cd5c09a079b692cebf5de706ab9cc",
+  "research\\author_code_comparison_2026-09-11\\libsvm_datasets.py": "9699e6a275cbd6263a55fc99b7d357ec8b81307177453b894e271d6b767a03e0"
+}

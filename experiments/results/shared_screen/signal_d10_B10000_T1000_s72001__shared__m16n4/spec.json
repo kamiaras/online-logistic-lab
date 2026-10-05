@@ -1,0 +1,23 @@
+{
+  "algorithm": "shared",
+  "config": {
+    "mode": "practical",
+    "tilts": 16,
+    "burn_in": 4,
+    "transitions": 4
+  },
+  "d": 10,
+  "B": 10000.0,
+  "T": 1000,
+  "sampler_seed": 161174,
+  "data_seed": 72001,
+  "case_id": "signal_d10_B10000_T1000_s72001",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B10000_T1000_s72001",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_screen\\signal_d10_B10000_T1000_s72001__shared__m16n4",
+  "seconds": 15,
+  "memory_bytes": 2147483648,
+  "stage": "shared_screen",
+  "label": "m16n4",
+  "source_stage": "screen",
+  "source_manifest": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\screen\\manifest.json"
+}

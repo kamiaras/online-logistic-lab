@@ -1,0 +1,122 @@
+{
+  "purpose": "Numerical spot checks only; the theorems are proved analytically in the manuscripts.",
+  "populationCases": 175,
+  "populationFailures": [],
+  "maxIdealErrorBudget": 0.999623341978036,
+  "comparatorConstantApprox": 0.6977826300846549,
+  "triangleConstantApprox": 0.7169055128041153,
+  "comparatorSpotChecks": [
+    {
+      "alpha": 1,
+      "u": 0,
+      "third": -4.0051367708565905e-17,
+      "adjustedMinusI": 0,
+      "varianceExcess": 0
+    },
+    {
+      "alpha": 1,
+      "u": 0.25,
+      "third": -0.11863014572918384,
+      "adjustedMinusI": 0,
+      "varianceExcess": -0.019747134504121133
+    },
+    {
+      "alpha": 1,
+      "u": 0.5,
+      "third": -0.21344136513058237,
+      "adjustedMinusI": 0,
+      "varianceExcess": -0.07801384418131352
+    },
+    {
+      "alpha": 1,
+      "u": 1,
+      "third": -0.25994939377840964,
+      "adjustedMinusI": 0,
+      "varianceExcess": -0.2953338530415397
+    },
+    {
+      "alpha": 2,
+      "u": 0,
+      "third": 9.509687724538204e-17,
+      "adjustedMinusI": 1.1102230246251565e-16,
+      "varianceExcess": 0
+    },
+    {
+      "alpha": 2,
+      "u": 0.25,
+      "third": -0.02811883112543565,
+      "adjustedMinusI": -0.0064380498448525225,
+      "varianceExcess": -0.0073448407973176755
+    },
+    {
+      "alpha": 2,
+      "u": 0.5,
+      "third": -0.05748572984997377,
+      "adjustedMinusI": -0.02582390849143612,
+      "varianceExcess": -0.030553735182195618
+    },
+    {
+      "alpha": 2,
+      "u": 1,
+      "third": -0.10289482943237682,
+      "adjustedMinusI": -0.10314432964043496,
+      "varianceExcess": -0.13611952455134063
+    },
+    {
+      "alpha": 10,
+      "u": 0,
+      "third": 1.2924657875695276e-19,
+      "adjustedMinusI": 2.220446049250313e-16,
+      "varianceExcess": 4.163336342344337e-17
+    },
+    {
+      "alpha": 10,
+      "u": 0.25,
+      "third": -8.3637563347283e-8,
+      "adjustedMinusI": -0.009312158171285723,
+      "varianceExcess": -4.8372683664199556e-8
+    },
+    {
+      "alpha": 10,
+      "u": 0.5,
+      "third": -0.000003528151659853984,
+      "adjustedMinusI": -0.039411254741912094,
+      "varianceExcess": -0.000002460458253250586
+    },
+    {
+      "alpha": 10,
+      "u": 1,
+      "third": -0.0007729689682542951,
+      "adjustedMinusI": -0.1969959731111911,
+      "varianceExcess": -0.0008580353396912543
+    },
+    {
+      "alpha": 100,
+      "u": 0,
+      "third": -1.3498483276492105e-19,
+      "adjustedMinusI": 0,
+      "varianceExcess": 0
+    },
+    {
+      "alpha": 100,
+      "u": 0.25,
+      "third": 6.938893903907228e-17,
+      "adjustedMinusI": -0.009312173569589466,
+      "varianceExcess": -1.9081958235744878e-17
+    },
+    {
+      "alpha": 100,
+      "u": 0.5,
+      "third": 7.216449660063518e-16,
+      "adjustedMinusI": -0.039412305219935995,
+      "varianceExcess": -8.933825901280557e-16
+    },
+    {
+      "alpha": 100,
+      "u": 1,
+      "third": -5.329070518200751e-15,
+      "adjustedMinusI": -0.1977826300846407,
+      "varianceExcess": 2.2707530300536405e-15
+    }
+  ]
+}

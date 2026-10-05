@@ -1,0 +1,13 @@
+{
+  "event_radius_squared": 1523.375,
+  "ball_radius_squared": 1600,
+  "log_Gaussian_event_lower_bound": -1275.2787081321646,
+  "log_conditioned_normalizer_upper_bound": 96.03023443780481,
+  "log_normalized_twentieth_moment_lower_bound": 1177.8366031117384,
+  "balanced_scalar_central_normalizer_upper_bound": 1.095440733431425,
+  "unbalanced_scalar_central_normalizer_upper_bound": 1.1220480445387597,
+  "weighted_S2_bound": 40.00006833060011,
+  "weighted_S3_bound": 1.600008246783022,
+  "weighted_cubic_skew_bound": 1.7510416666666668e-05,
+  "scope": "Deterministic angular-moment obstruction and strict analytic arithmetic. No expected-runtime lower bound or typical-noise claim."
+}

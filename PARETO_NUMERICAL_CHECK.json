@@ -1,0 +1,29 @@
+{
+  "scope": "Analytic bound evaluation only; no learning benchmark or measured runtime.",
+  "parameters": {
+    "d": 1000,
+    "T": 100000,
+    "B": 1000,
+    "R": 1,
+    "epsilon": 0.001,
+    "delta": 0.001
+  },
+  "standardBounds": {
+    "HT": 12.090146129863335,
+    "clippedOGD": 97011574469910980,
+    "combined": 2573770.580726964,
+    "AIOLI_finite": 9441999.064250829,
+    "AIOLI_K": 56,
+    "half_lookahead": 158114.88300841898,
+    "neutral": 69314.71805599453,
+    "A1": 5563.33555152518,
+    "posterior_q202": 6549.5651958263425,
+    "tempered_eta_half": 10434.563920090563,
+    "epsilon_third": 15043.208211974206
+  },
+  "canonicalAIOLIOptimized": {
+    "s": 105733.85085708978,
+    "lambda": 0.10573385085708978,
+    "regret": 217480.21649201345
+  }
+}

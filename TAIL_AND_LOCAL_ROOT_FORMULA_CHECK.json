@@ -1,0 +1,38 @@
+{
+  "exact_saturation_tail": {
+    "all_positive_prefix_probability": 0.8469758853683539,
+    "uniform_threshold": 7.837484657421094,
+    "rate_bound_at_7_838": 0.4997434252488372,
+    "acceptance_budget_at_7_838": 0.06770060168103821,
+    "gaussian_bound_at_7_838": 1.0700448908733806,
+    "row_bound_at_7_838": 0.5347478989350815,
+    "uniform_gaussian_bound": 1.6487212707001282,
+    "uniform_row_bound": 0.8243606353500641,
+    "TV_1e9_gaussian_cap": 23
+  },
+  "local_tail_examples": [
+    {
+      "dimension": 1,
+      "radius": 7,
+      "tail_integral": 3.270701631853091e-12,
+      "posterior_tail_bound": 8.89068881452705e-12,
+      "expected_exact_trials": 2.7182818291862674,
+      "expected_local_gaussians": 2.7182818291773767,
+      "TV_1e9_gaussian_cap": 59
+    },
+    {
+      "dimension": 1000,
+      "radius": 40,
+      "tail_integral": 1.9302333466597914e-30,
+      "posterior_tail_bound": 5.2469182309109996e-30,
+      "expected_exact_trials": 2.718281828459045,
+      "expected_local_gaussians": 2.718281828459045,
+      "TV_1e9_gaussian_cap": 59
+    }
+  ],
+  "local_K_examples": [
+    0.41753887879705265,
+    0.4842160777833342
+  ],
+  "scope": "Deterministic bound arithmetic only, not an implementation or learning benchmark."
+}

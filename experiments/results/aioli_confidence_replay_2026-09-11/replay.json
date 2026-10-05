@@ -1,0 +1,321 @@
+{
+  "status": "passed",
+  "rounds": 100000,
+  "protocol": "AIOLI_INSPIRED_REPLAY_PLAN.md",
+  "exploratory": true,
+  "held_out_confirmation": false,
+  "full_online_rerun": false,
+  "scopes": "Replay completed guarded logits, chronological labels, no sampler feedback",
+  "scales": [
+    1.0,
+    0.0,
+    0.5,
+    0.25,
+    0.125,
+    0.0625,
+    0.03125,
+    0.015625,
+    0.0078125,
+    0.00390625
+  ],
+  "initial_weights": [
+    0.5,
+    0.25,
+    0.03125,
+    0.03125,
+    0.03125,
+    0.03125,
+    0.03125,
+    0.03125,
+    0.03125,
+    0.03125
+  ],
+  "checkpoints": [
+    {
+      "rounds": 1000,
+      "cumulative_loss": {
+        "ours": 674.6398771451888,
+        "released_aioli": 693.1344087812892,
+        "confidence": 675.3330166317577
+      },
+      "mean_loss": {
+        "ours": 0.6746398771451888,
+        "released_aioli": 0.6931344087812892,
+        "confidence": 0.6753330166317577
+      },
+      "neutral_mean_loss": 0.6931471805599453,
+      "fixed_scale_mean_losses": [
+        0.6746398771451888,
+        0.6931471805599322,
+        0.6836536197390941,
+        0.6883403624498888,
+        0.6907287582970923,
+        0.6919342158900266,
+        0.692539759825578,
+        0.6928432355919849,
+        0.6929951494257137,
+        0.6930711503302625
+      ],
+      "confidence_weights": [
+        0.9999923060381346,
+        4.585079971945364e-09,
+        7.607781064573202e-06,
+        7.011832106409138e-08,
+        6.435234416928364e-09,
+        1.927705963263338e-09,
+        1.0520984991736168e-09,
+        7.767093806311504e-10,
+        6.672417467607123e-10,
+        6.184099052083195e-10
+      ],
+      "mixture_identity_error": 4.547473508864641e-13,
+      "base_bound_slack": 7.693991051382909e-06,
+      "neutral_bound_slack": 19.20045828930745
+    },
+    {
+      "rounds": 10000,
+      "cumulative_loss": {
+        "ours": 5400.541777893328,
+        "released_aioli": 6930.211738024462,
+        "confidence": 5401.234925073887
+      },
+      "mean_loss": {
+        "ours": 0.5400541777893327,
+        "released_aioli": 0.6930211738024462,
+        "confidence": 0.5401234925073887
+      },
+      "neutral_mean_loss": 0.6931471805599453,
+      "fixed_scale_mean_losses": [
+        0.5400541777893327,
+        0.6931471805600546,
+        0.5934657117452492,
+        0.6370771441515694,
+        0.6635236845067604,
+        0.6779363069424573,
+        0.685441836012965,
+        0.689269523440517,
+        0.6912021052940498,
+        0.6921730812195305
+      ],
+      "confidence_weights": [
+        1.0,
+        0.0,
+        6.800413908131853e-234,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mixture_identity_error": 9.094947017729282e-13,
+      "base_bound_slack": 9.094947017729282e-13,
+      "neutral_bound_slack": 1531.6231748866858
+    },
+    {
+      "rounds": 50000,
+      "cumulative_loss": {
+        "ours": 40956.531478282704,
+        "released_aioli": 34625.729818220076,
+        "confidence": 26387.253626999252
+      },
+      "mean_loss": {
+        "ours": 0.8191306295656541,
+        "released_aioli": 0.6925145963644015,
+        "confidence": 0.527745072539985
+      },
+      "neutral_mean_loss": 0.6931471805599453,
+      "fixed_scale_mean_losses": [
+        0.8191306295656541,
+        0.693147180559146,
+        0.5613024083478543,
+        0.5276757578219279,
+        0.5756454023110661,
+        0.6246770975279602,
+        0.6564063099339024,
+        0.6741453102582853,
+        0.6834880718242533,
+        0.6882780630593837
+      ],
+      "confidence_weights": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mixture_identity_error": 6.184563972055912e-11,
+      "base_bound_slack": 14569.97099846401,
+      "neutral_bound_slack": 8271.491695359127
+    },
+    {
+      "rounds": 100000,
+      "cumulative_loss": {
+        "ours": 149683.99687882644,
+        "released_aioli": 69189.56855125065,
+        "confidence": 52971.63096633113
+      },
+      "mean_loss": {
+        "ours": 1.4968399687882643,
+        "released_aioli": 0.6918956855125065,
+        "confidence": 0.5297163096633113
+      },
+      "neutral_mean_loss": 0.6931471805599453,
+      "fixed_scale_mean_losses": [
+        1.4968399687882643,
+        0.6931471805587225,
+        0.8266807925757386,
+        0.564998429696985,
+        0.529681652304287,
+        0.5767684126035052,
+        0.6252804616686385,
+        0.6567194430064993,
+        0.6743048063054192,
+        0.6835685564847069
+      ],
+      "confidence_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mixture_identity_error": 3.637978807091713e-10,
+      "base_bound_slack": 96713.05905967587,
+      "neutral_bound_slack": 16344.47338402451
+    }
+  ],
+  "baseline_mean_abs_logits": {
+    "ours": 7.873615047887539,
+    "released_aioli": 0.003961645876405852
+  },
+  "baseline_max_abs_logits": {
+    "ours": 15.828075208927014,
+    "released_aioli": 0.007910589636984433
+  },
+  "strict_sign_accuracy": {
+    "ours": 0.81584,
+    "released_aioli": 0.81707
+  },
+  "max_saved_loss_error": 0.0,
+  "max_mixture_identity_error": 3.637978807091713e-10,
+  "replay_wall_seconds": 2.0091206999786664,
+  "checks": {
+    "input_source_hashes_unchanged": true,
+    "saved_losses_match": true,
+    "telescoping_identity_matches": true,
+    "base_bound_at_checkpoints": true,
+    "neutral_bound_at_checkpoints": true,
+    "no_sampler_or_feature_data_loaded": true
+  },
+  "inputs": {
+    "ours": {
+      "path": "experiments\\results\\computation_first_overnight_d1000_B1000_T100000\\trajectory.bin",
+      "sha256": "6dfe9bcfe134d8d6896bec51ee04a5eb2f9d994435264408da2c0953657d2ffc"
+    },
+    "released_aioli": {
+      "path": "experiments\\results\\author_baselines_d1000_B1000_T100000\\author_aioli\\trajectory.bin",
+      "sha256": "0fcb2f3da13ff3db466094c63f7b5856b7cf18ba4e1451826ad2783de31a6a0f"
+    },
+    "labels": {
+      "path": "experiments\\data\\signal_d1000_B1000_T100000_s72001\\y.bin",
+      "sha256": "6509979a4af44fb402eaacea4afaaf77463f516561abe3430108b5c352f82991"
+    },
+    "confidence_source": {
+      "path": "experiments\\online_confidence.py",
+      "sha256": "cc983919f30480a504002af7cc92774ca96607367f9dd28248e003d11c31ba89"
+    },
+    "replay_source": {
+      "path": "experiments\\aioli_confidence_replay.py",
+      "sha256": "039100b3cc0ef27452a287579650e3e4e4bb8019e026a5c3b766e9f5302f5685"
+    },
+    "protocol": {
+      "path": "AIOLI_INSPIRED_REPLAY_PLAN.md",
+      "sha256": "9fce9706db264b3d98fcf6a78b7061e22926a3709280a9df95306c7c4d9fda8f"
+    },
+    "selected_source": {
+      "path": "experiments\\computation_first_log_odds.py",
+      "sha256": "b2175338e16054ffb680ea4e9c81a87697a3e041d486011570922497a4ae568e"
+    },
+    "author_source": {
+      "path": "research\\author_code_comparison_2026-09-11\\a9a_experiment.py",
+      "sha256": "2632499867210720d9b0156678994597ce3cd5c09a079b692cebf5de706ab9cc"
+    }
+  },
+  "trace": {
+    "file": "confidence_trajectory.bin",
+    "columns": [
+      "confidence_logit",
+      "loss"
+    ],
+    "dtype": "little-endian float64",
+    "sha256": "b5dbd5c01163b98ba5307be8c21c9d5076153af74bc86683bfe5803b11227a01"
+  },
+  "final_confidence": {
+    "scales": [
+      1.0,
+      0.0,
+      0.5,
+      0.25,
+      0.125,
+      0.0625,
+      0.03125,
+      0.015625,
+      0.0078125,
+      0.00390625
+    ],
+    "initial_weights": [
+      0.5,
+      0.25,
+      0.03125,
+      0.03125,
+      0.03125,
+      0.03125,
+      0.03125,
+      0.03125,
+      0.03125,
+      0.03125
+    ],
+    "log_weights": [
+      -96713.05905967526,
+      -16344.473384039185,
+      -29699.914027145638,
+      -3531.677739270045,
+      0.0,
+      -4708.676029922237,
+      -9559.880936435226,
+      -12703.77907022087,
+      -14462.315400114268,
+      -15388.690418042686
+    ],
+    "weights": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rounds": 100000,
+    "cumulative_loss": 52971.63096633113,
+    "exact_arithmetic_base_loss_overhead": 0.6931471805599453,
+    "exact_arithmetic_neutral_loss_overhead": 1.3862943611198906,
+    "extra_sampler_moves": 0,
+    "floating_point_certificate": false
+  }
+}

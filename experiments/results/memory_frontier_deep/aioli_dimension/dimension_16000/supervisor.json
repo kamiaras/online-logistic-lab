@@ -1,0 +1,15 @@
+{
+  "process_wall_seconds": 0.6105389000003925,
+  "returncode": 1,
+  "termination": null,
+  "monitored_peak_rss": 4366336,
+  "monitored_peak_private": 806912,
+  "hard_process_commit_limit": 2147483648,
+  "os_hard_limit_active": true,
+  "worker": {
+    "round": 0,
+    "cumulative_loss": 0,
+    "online_seconds": 0,
+    "status": "abnormal_exit"
+  }
+}

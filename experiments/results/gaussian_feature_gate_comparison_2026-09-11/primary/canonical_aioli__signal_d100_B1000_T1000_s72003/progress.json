@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "job_verification": {
+    "pid": 35756,
+    "job_member": true,
+    "process_memory_limit": 2147483648,
+    "limit_flags": 8448,
+    "verified_inside_actual_interpreter": true
+  },
+  "status": "completed",
+  "error": null,
+  "failure_phase": null,
+  "round": 500,
+  "committed_round": 500,
+  "recorded_rounds": 500,
+  "configured_horizon": 1000,
+  "target_rounds": 500,
+  "algorithm": "canonical_aioli",
+  "algorithm_class": "AIOLI",
+  "native_algorithm_class": null,
+  "d": 100,
+  "B": 1000.0,
+  "seed": 910001,
+  "config": {
+    "R": 1.0,
+    "matrix_backend": "inverse"
+  },
+  "author_commit": null,
+  "author_source": null,
+  "actual_population": null,
+  "cumulative_loss": 8541.24435858233,
+  "online_seconds": 0.051516200706828386,
+  "author_reported_cumulative_loss": null,
+  "completed_prefix_online_seconds": 0.051516200706828386,
+  "initialization_seconds": 0.000128800020320341,
+  "prediction_seconds": 0.022544200357515365,
+  "update_seconds": 0.02884320032899268,
+  "native_prediction_seconds": 0.0,
+  "native_update_seconds": 0.0,
+  "adapter_overhead_seconds": null,
+  "input_seconds": 0.002027899958193302,
+  "recording_seconds": 0.05107750045135617,
+  "elapsed_seconds": 0.42926540001644753,
+  "cpu_seconds": 0.40625,
+  "memory": {
+    "working_set": 57020416,
+    "peak_working_set": 60297216,
+    "private_commit": 76029952,
+    "peak_private_commit": 79335424
+  },
+  "baseline_memory": {
+    "working_set": 29986816,
+    "peak_working_set": 29986816,
+    "private_commit": 52768768,
+    "peak_private_commit": 52768768
+  },
+  "state_bytes": 80800,
+  "metrics": {
+    "counters": {
+      "matrix_initializations": 1,
+      "estimated_scalar_flops": 15318096,
+      "matrix_vector_products": 500,
+      "estimated_matmul_flops": 10000000,
+      "dot_products": 1000,
+      "root_iterations": 24452,
+      "root_evaluations": 24952,
+      "tanh_elements": 24952,
+      "predictions": 500,
+      "inverse_rank1_updates": 492,
+      "sufficient_statistic_updates": 500,
+      "sigmoid_elements": 1000,
+      "observations": 500,
+      "curvature_underflows": 8
+    },
+    "times": {
+      "predict": 0.022133599850349128,
+      "observe": 0.022984200448263437
+    }
+  },
+  "diagnostics": {
+    "matrix_backend": "inverse",
+    "rounds_observed": 500,
+    "regularizer_lambda": 1e-06,
+    "feature_radius": 1.0,
+    "bisections": 49,
+    "prescribed_bisections": 49,
+    "uses_prescribed_bisection_budget": true,
+    "last_q": 3051.0376430026718,
+    "last_v": 747.9247487487667,
+    "last_scalar_root_residual": 1.0144107776000055e-12,
+    "max_abs_logit": 3066.421269803617,
+    "finite_precision_certified": false,
+    "flop_counts_are_estimates": true,
+    "state_bytes_scope": "owned persistent ndarray storage"
+  },
+  "diagnostics_error": null,
+  "nonfinite_diagnostics_replaced_with_null": [],
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\Kamiar\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "trajectory": {
+    "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\primary\\canonical_aioli__signal_d100_B1000_T1000_s72003\\trajectory.bin",
+    "columns": [
+      "raw_logit",
+      "output_logit",
+      "loss",
+      "online_seconds",
+      "state_bytes",
+      "author_clipped_loss",
+      "covariance_variance"
+    ],
+    "dtype": "little-endian float64",
+    "record_bytes": 56,
+    "committed_bytes": 28000,
+    "file_bytes": 28000
+  },
+  "checkpoint_scope": "Only committed_round complete records are published. Later bytes are uncommitted. Error timing/diagnostics may include an unfinished next round.",
+  "checkpoint_flush_policy": "Flush trajectory before atomic progress every 64 rounds or 5 seconds and on termination",
+  "timing_scope": "Online time is algorithm construction plus predict/observe. Numerical-library/module imports, input streaming, and recording are excluded. Native author function times are separate subsets.",
+  "primary_prediction": "Actual returned output logit with stable logistic loss; gate raw_logit is its canonical base score, other raw_logit equals output_logit",
+  "covariance_variance_scope": "Prediction-time coordinate variance tau for GaussianFeatureGate; NaN binary sentinel for other methods",
+  "author_clipped_loss_scope": "Unchanged author's separately probability-clipped loss; NaN binary sentinel for other methods",
+  "input_block_rows": 128,
+  "recorder_retains_per_round_history": false,
+  "prediction_diagnostics_change_native_updates": false,
+  "practical_caps_have_prescribed_regret_certificate": false,
+  "finite_precision_certificate": false
+}

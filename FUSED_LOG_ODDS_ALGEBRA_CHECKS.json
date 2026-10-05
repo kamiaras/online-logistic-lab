@@ -1,0 +1,17 @@
+{
+  "purpose": "Deterministic floating-point spot checks of algebra and explicit scalar bounds; these do not replace proofs or certify floating-point execution of the algorithm.",
+  "scalar_identity": {
+    "cases": 54,
+    "max_abs_residual": 1.7763568394002505e-15
+  },
+  "conditional_remainder_cancellation": {
+    "cases": 81,
+    "max_abs_residual": 2.1649348980190553e-15
+  },
+  "transition_and_population_bounds": {
+    "cases": 120,
+    "min_transition_bound_slack": 0.42603526070285147,
+    "max_population_to_uniform_bound_ratio": 0.9997037914691943
+  },
+  "passed": true
+}

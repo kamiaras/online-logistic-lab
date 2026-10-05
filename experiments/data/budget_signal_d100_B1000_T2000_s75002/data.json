@@ -1,0 +1,20 @@
+{
+  "case": {
+    "id": "budget_signal_d100_B1000_T2000_s75002",
+    "family": "signal",
+    "d": 100,
+    "B": 1000.0,
+    "T": 2000,
+    "data_seed": 75002,
+    "B_generator": 3.0
+  },
+  "sha256_interleaved_blocks": "4bb04aa8b33651176c08411a5938651f94b6b927b0c6c16e337108f4e1ad80b4",
+  "block_size": 128,
+  "feature_norm_min": 0.9999999999999997,
+  "feature_norm_max": 1.0,
+  "generating_score_rms": 1.5,
+  "positive_fraction": 0.4955,
+  "disk_bytes": 1602000,
+  "dtype_X": "little-endian float64",
+  "dtype_y": "int8"
+}

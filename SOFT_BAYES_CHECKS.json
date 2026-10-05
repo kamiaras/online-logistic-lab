@@ -1,0 +1,108 @@
+{
+  "status": "passed",
+  "groups": 6,
+  "seed": 9112606,
+  "script": "research/check_soft_bayes.py",
+  "script_sha256": "84bdf32adca2e8eb8462d8dc0a64cd3ec5747a86d2a3671cc7da9de7605412d0",
+  "scope": "Supplementary finite numerical checks of identities and bounds; not a mathematical proof, finite-bit certificate, timing benchmark, or convergence experiment.",
+  "checks": {
+    "soft_average_finite_expectations": {
+      "passed": true,
+      "binomial_cases": 66,
+      "independent_discrete_cases": 160,
+      "smallest_positive_p": 1e-300,
+      "maximum_relative_binomial_reciprocal_residual": 4.851674617611934e-14,
+      "maximum_binomial_expected_log_loss_minus_bound": 1.1102230246251565e-16,
+      "maximum_arbitrary_discrete_reciprocal_minus_endpoint_chord": -0.00018927902861753942,
+      "maximum_same_mean_discrete_expected_log_loss_minus_bound": -0.0031586897178474405,
+      "method": "Exact enumeration of finite distributions in float64; no Monte Carlo confidence claim."
+    },
+    "joint_maximum_score_sensitivity": {
+      "passed": true,
+      "cases": 1000,
+      "maximum_gradient_one_norm": 0.49343860396170247,
+      "maximum_loss_difference_minus_maximum_score_difference": -4.169190836903258e-08
+    },
+    "conditional_residual_and_trace_certificate": {
+      "passed": true,
+      "random_feature_matrix_cases": 240,
+      "minimum_scaled_rejection_residual": 1.9210209610740168e-10,
+      "minimum_scaled_matrix_upper_bound_margin": -8.304771585521421e-18,
+      "maximum_relative_fixed_point_residual_identity_error": 1.8498068395152978e-16,
+      "maximum_scaled_residual_contraction_excess": 2.14974829685088e-17,
+      "maximum_residual_norm_over_sqrt_mu_after_k_rejections": 0.9785952202711833,
+      "maximum_certified_expected_quadratic_rejection_cost": 0.48161089529350143,
+      "implementation_note": "Matrices are formed here only for checking proof identities; the algorithm stores their trace only."
+    },
+    "uniform_only_normal_density": {
+      "passed": true,
+      "maximum_log_density_cancellation_residual": 1.887379141862766e-15,
+      "integrated_acceptance_probability": 0.7601734505331404,
+      "closed_form_acceptance_probability": 0.7601734505331404,
+      "quadrature_reported_absolute_error": 6.76728032671326e-14,
+      "expected_trials": 1.3154892469589137
+    },
+    "gaussian_kl_variance_cancellation": {
+      "passed": true,
+      "cases": 384,
+      "maximum_relative_KL_plus_smoothness_cancellation_error": 1.0149627255269626e-14,
+      "maximum_covariance_precision_trace_error": 2.4868995751603507e-14
+    },
+    "explicit_schedule_and_work_bound": {
+      "passed": true,
+      "parameter_energy_dimension_cases": 1890,
+      "T_grid": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        32,
+        100
+      ],
+      "B_grid": [
+        1e-09,
+        0.1,
+        1.0,
+        10.0,
+        1000000000.0
+      ],
+      "R_grid": [
+        0.0,
+        1e-09,
+        0.1,
+        1.0,
+        10.0,
+        1000000000.0
+      ],
+      "energy_profiles": [
+        "zero_energy",
+        "maximum_energy",
+        "random_energy"
+      ],
+      "maximum_relative_excess_for_log_lower_bound": 2.1219661450144279e-16,
+      "maximum_relative_rounded_N_excess": 3.6667461982695474e-16,
+      "maximum_relative_explicit_work_sum_excess": 2.6990002840547526e-16,
+      "maximum_mixing_bound_minus_allocated_budget": 1.7763568394002505e-15,
+      "maximum_combined_soft_average_and_mixing_budget": 0.995130634400173,
+      "largest_evaluated_explicit_operation_bound": 2.5221306022859414e+50,
+      "note": "Huge transition counts are evaluated algebraically only; no sampler or online trajectory is run."
+    }
+  },
+  "reviewed_manuscript": {
+    "path": "SOFT_BAYES_COMPLETE.md",
+    "sha256": "a95bd46c1c544fcb6797a255754e30d2ee6471d3d24e44ea51e3d4df8b245b2b",
+    "analytical_review_status": "passed",
+    "reviewed_sections": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "9",
+      "10"
+    ],
+    "review_scope": "Algorithm causality and independence, normal helper, exact adaptive rejection, residual and trace bounds, measurable bounded couplings, explicit work and memory, and deterministic-budget control.",
+    "limitations": "Analytical review at ordinary calculus and probability foundations; supplementary numerical tests do not prove diffusion couplings or certify floating-point regret."
+  }
+}

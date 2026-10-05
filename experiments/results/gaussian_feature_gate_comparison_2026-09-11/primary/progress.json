@@ -1,0 +1,142 @@
+{
+  "status": "running",
+  "current": {
+    "stage": "primary",
+    "case": "signal_d100_B1000_T1000_s72003",
+    "d": 100,
+    "B": 1000.0,
+    "T": 1000,
+    "rounds": 500,
+    "data_seed": 72003,
+    "seed": 910001,
+    "algorithm": "author_sigmoid",
+    "config": {
+      "n_particles": 12,
+      "step_size": 0.01,
+      "mala_steps_per_round": 300,
+      "grad_clip": 50.0,
+      "adapt_step": true,
+      "target_accept": 0.57,
+      "rm_gamma0": 0.5,
+      "rm_gamma_decay": 0.25,
+      "step_size_min": 0.0001,
+      "step_size_max": 1.0,
+      "mala_window": null
+    },
+    "seconds": 90.0,
+    "memory_bytes": 2147483648,
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72003",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\primary\\author_sigmoid__signal_d100_B1000_T1000_s72003",
+    "stop_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\STOP_REQUESTED"
+  },
+  "attempts": [
+    {
+      "algorithm": "gaussian_gate",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\primary\\gaussian_gate__signal_d100_B1000_T1000_s72001",
+      "status": "completed",
+      "round": 500,
+      "online_seconds": 0.142917700111866,
+      "cumulative_loss": 4739.580435285965
+    },
+    {
+      "algorithm": "gaussian_gate",
+      "case": "signal_d10_B100_T1000_s72002",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\primary\\gaussian_gate__signal_d10_B100_T1000_s72002",
+      "status": "completed",
+      "round": 500,
+      "online_seconds": 0.13841829990269616,
+      "cumulative_loss": 692.3205130021443
+    },
+    {
+      "algorithm": "author_aioli",
+      "case": "signal_d100_B1000_T1000_s72002",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\primary\\author_aioli__signal_d100_B1000_T1000_s72002",
+      "status": "completed",
+      "round": 500,
+      "online_seconds": 2.144481599883875,
+      "cumulative_loss": 346.570861583863
+    },
+    {
+      "algorithm": "author_aioli",
+      "case": "signal_d10_B100_T1000_s72003",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\primary\\author_aioli__signal_d10_B100_T1000_s72003",
+      "status": "completed",
+      "round": 500,
+      "online_seconds": 1.8398490998370107,
+      "cumulative_loss": 346.2436018818623
+    },
+    {
+      "algorithm": "author_aioli",
+      "case": "signal_d10_B100_T1000_s72002",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\primary\\author_aioli__signal_d10_B100_T1000_s72002",
+      "status": "completed",
+      "round": 500,
+      "online_seconds": 1.7991752000816632,
+      "cumulative_loss": 346.24292035883326
+    },
+    {
+      "algorithm": "gaussian_gate",
+      "case": "signal_d10_B100_T1000_s72003",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\primary\\gaussian_gate__signal_d10_B100_T1000_s72003",
+      "status": "completed",
+      "round": 500,
+      "online_seconds": 0.1662589000479784,
+      "cumulative_loss": 608.162917500956
+    },
+    {
+      "algorithm": "canonical_aioli",
+      "case": "signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\primary\\canonical_aioli__signal_d10_B100_T1000_s72001",
+      "status": "completed",
+      "round": 500,
+      "online_seconds": 0.038511999970069155,
+      "cumulative_loss": 632.4520080169314
+    },
+    {
+      "algorithm": "author_sigmoid",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\primary\\author_sigmoid__signal_d100_B1000_T1000_s72001",
+      "status": "completed",
+      "round": 500,
+      "online_seconds": 69.74928749998799,
+      "cumulative_loss": 7297.231636200547
+    },
+    {
+      "algorithm": "canonical_aioli",
+      "case": "signal_d100_B1000_T1000_s72002",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\primary\\canonical_aioli__signal_d100_B1000_T1000_s72002",
+      "status": "completed",
+      "round": 500,
+      "online_seconds": 0.048275600507622585,
+      "cumulative_loss": 7396.714758794758
+    },
+    {
+      "algorithm": "canonical_aioli",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\primary\\canonical_aioli__signal_d100_B1000_T1000_s72001",
+      "status": "completed",
+      "round": 500,
+      "online_seconds": 0.04666360019473359,
+      "cumulative_loss": 4739.580435285965
+    },
+    {
+      "algorithm": "author_aioli",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\primary\\author_aioli__signal_d100_B1000_T1000_s72001",
+      "status": "completed",
+      "round": 500,
+      "online_seconds": 2.1409072992682923,
+      "cumulative_loss": 346.5704053700165
+    },
+    {
+      "algorithm": "canonical_aioli",
+      "case": "signal_d100_B1000_T1000_s72003",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\primary\\canonical_aioli__signal_d100_B1000_T1000_s72003",
+      "status": "completed",
+      "round": 500,
+      "online_seconds": 0.051516200706828386,
+      "cumulative_loss": 8541.24435858233
+    }
+  ]
+}

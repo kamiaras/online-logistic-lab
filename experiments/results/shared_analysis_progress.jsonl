@@ -1,0 +1,7 @@
+{"stage": "prescribed", "status": "analyzed", "elapsed_seconds": 0.19149820000166073}
+{"stage": "screen", "status": "analyzed", "elapsed_seconds": 7.222312099998817}
+{"stage": "deep_scale", "status": "analyzed", "elapsed_seconds": 11.622707699993043}
+{"stage": "confirmation", "status": "analyzed", "elapsed_seconds": 13.271454199988511}
+{"stage": "deep_budget", "status": "analyzed", "elapsed_seconds": 13.669238000002224}
+{"stage": "long_horizon", "status": "analyzed", "elapsed_seconds": 13.824196100002155}
+{"stage": "deep_long", "status": "analyzed", "elapsed_seconds": 14.12196779999067}

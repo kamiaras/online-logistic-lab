@@ -1,0 +1,1595 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "raw_worker_artifacts_modified": false,
+  "policy_modified": false,
+  "classification_version": 2,
+  "original_measurement_source_hashes": {
+    "aioli.py": "edc9bddc0198c2b0bdb13e536196eaaeead5a1559ad0ee3b7e0e27bf3668ae47",
+    "proximal.py": "9188584f588cb589004fe21ae3fc9eb2f7dc5a0c021d1edd07d70e9b36afb7af",
+    "sigmoid.py": "de41cb603de2371c8ee1b65775c3cd9e0013ca8b0ab20fddf823c0bf4356a9d8",
+    "common.py": "d176b1757823459eb8ec2383da67cbc4fed44a52f0dcad0c0815c1d05ee32ff7",
+    "runner.py": "b09372090952e13ac326a072c1ce041e87a0062f2afa0277189ab74bea2defab",
+    "worker.py": "43d48d13c6915129076b5e28cdf322568d5f31dc67041eb57fd0eeba1fed9280",
+    "memory.py": "eb03ae55073b3f5c75a927d479304e395604fe55a5b7fe3ccd1f4e096c680eec",
+    "data.py": "8ecd2fecdf6a5e454e9240363321fa1e79d180a38d7bf998a45a053afadceaa1",
+    "memory_frontier.py": "5927e8ddbd7fd83c7cb37e49190c2096bc17b6fe4ea0115ce994e57da23b8f8e"
+  },
+  "authorized_resume_source_hashes": {
+    "aioli.py": "edc9bddc0198c2b0bdb13e536196eaaeead5a1559ad0ee3b7e0e27bf3668ae47",
+    "proximal.py": "9188584f588cb589004fe21ae3fc9eb2f7dc5a0c021d1edd07d70e9b36afb7af",
+    "sigmoid.py": "de41cb603de2371c8ee1b65775c3cd9e0013ca8b0ab20fddf823c0bf4356a9d8",
+    "common.py": "d176b1757823459eb8ec2383da67cbc4fed44a52f0dcad0c0815c1d05ee32ff7",
+    "runner.py": "b09372090952e13ac326a072c1ce041e87a0062f2afa0277189ab74bea2defab",
+    "worker.py": "43d48d13c6915129076b5e28cdf322568d5f31dc67041eb57fd0eeba1fed9280",
+    "memory.py": "eb03ae55073b3f5c75a927d479304e395604fe55a5b7fe3ccd1f4e096c680eec",
+    "data.py": "8ecd2fecdf6a5e454e9240363321fa1e79d180a38d7bf998a45a053afadceaa1",
+    "memory_frontier.py": "4b32e6ebd381cc2281aa112d3b6a09aced4bba40af321600fe9fb3e051206419"
+  },
+  "repairs": [
+    {
+      "utc": "20260910T224217_069028Z",
+      "archive": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\classification_archives\\20260910T224217_069028Z",
+      "records": 28,
+      "classification_changes": 1,
+      "changes": [
+        {
+          "sequence": 1,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\aioli_dimension\\dimension_8000",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 2,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_131072",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 3,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_131072",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 4,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_50000",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 5,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_50000",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 6,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\aioli_dimension\\dimension_16000",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": true
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "unavailable"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": true
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": true
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "unavailable"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": false
+            },
+            "stderr_path": {
+              "old": null,
+              "new": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\aioli_dimension\\dimension_16000\\stderr.txt"
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": true
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "outcome": {
+              "old": "other_failure",
+              "new": "memory_failure"
+            },
+            "online_seconds": {
+              "old": 0,
+              "new": null
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": [
+                "OpenBLAS error: Memory allocation still failed after 10 retries, giving up."
+              ]
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "supervisor_monitor_only"
+            },
+            "stderr_text_sha256": {
+              "old": null,
+              "new": "3a62245e44692949bb3f5abbfb43b2340c8b07d6d88758937e45480622dcb256"
+            }
+          },
+          "classification_changed": true
+        },
+        {
+          "sequence": 7,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_262144",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 8,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_262144",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 9,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_100000",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 10,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_100000",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 11,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_524288",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 12,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_524288",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 13,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_200000",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 14,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_200000",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 15,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_1048576",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 16,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_393216",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 17,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_150000",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 18,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_400000",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 19,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_786432",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 20,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_327680",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 21,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_125000",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 22,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_300000",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 23,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_655360",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 24,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_360448",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 25,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_137500",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 26,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_250000",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 27,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_720896",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        },
+        {
+          "sequence": 28,
+          "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_225000",
+          "changed_fields": {
+            "native_allocation_failure": {
+              "old": null,
+              "new": false
+            },
+            "state_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "native_failure_phase_not_inferred": {
+              "old": null,
+              "new": false
+            },
+            "memory_peak_is_lower_bound": {
+              "old": null,
+              "new": false
+            },
+            "timing_measurement_status": {
+              "old": null,
+              "new": "final_snapshot"
+            },
+            "worker_final_snapshot_available": {
+              "old": null,
+              "new": true
+            },
+            "completed_rounds_censored": {
+              "old": null,
+              "new": false
+            },
+            "worker_checkpoint_available": {
+              "old": null,
+              "new": false
+            },
+            "native_allocation_evidence": {
+              "old": null,
+              "new": []
+            },
+            "classification_version": {
+              "old": null,
+              "new": 2
+            },
+            "memory_peak_source": {
+              "old": null,
+              "new": "worker_final_and_supervisor_monitor"
+            }
+          },
+          "classification_changed": false
+        }
+      ],
+      "old_records_sha256": "79c66b88bad2c6a0c35312174e0270a9ade4bf5d38a6f8338828e0b62a1639bb",
+      "new_records_sha256": "1a890f98b8576c3b3414e6ef0c06de81e8e786b4b5ba57016d5074181f560c3a",
+      "raw_evidence_sha256": {
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\aioli_dimension\\dimension_8000\\spec.json": "e8d74b290e82eeda07fd02a62561baf3a51d3a9d4cfbb3396b2bafc7b3c01fd2",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\aioli_dimension\\dimension_8000\\supervisor.json": "9a37eb07d03caa995855d56004969d7bd5405365a2bf4f07a70f71f973f3ff52",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\aioli_dimension\\dimension_8000\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_131072\\spec.json": "fd5d18ffb28adc692fcae0fa7ea7a747f8fbeca1b2c80d652f937f68c37460df",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_131072\\supervisor.json": "f1c806af44d6c710dbe25a4a27520ce1fa12ed05efbdc60876446482a4cef47a",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_131072\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_131072\\spec.json": "0d88ae738f83b5312e1d3e2a55533580e971827a1e969f25fcbadeb110728f17",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_131072\\supervisor.json": "cbbcb38930e61b18c6e8f6dd3df10f9e230b6b5f29ff7c61e2f469fa451510c5",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_131072\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_50000\\spec.json": "9fab758c4bbb60fa78aa1b97d8035820055882484fbba6079e1174a88ee66ddc",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_50000\\supervisor.json": "472bcd1f341882813026a9f3e3051bebdcd3f1702961141f4654a8d699b84b91",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_50000\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_50000\\spec.json": "4fec6fb39158a6322ae2d842d372f87c49c0d1313763133935c64a4066d09ea9",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_50000\\supervisor.json": "768eaafd66c27d398449739247f41050ffa039de4f26c47ee24ac2eefd29571f",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_50000\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\aioli_dimension\\dimension_16000\\spec.json": "c4203a0e3c0cd845bb4358173e3f76b9273b448beb381f5cf9a80a24e9eeb149",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\aioli_dimension\\dimension_16000\\supervisor.json": "a5ddc481e220d33598c982bff0ba82b02d76370e0d29757eac5d13cd7c1b977f",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\aioli_dimension\\dimension_16000\\stderr.txt": "3a62245e44692949bb3f5abbfb43b2340c8b07d6d88758937e45480622dcb256",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_262144\\spec.json": "4565eb9ae060847ef2f8b1daa780e7e17842707802f218203addb2b16db71c6e",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_262144\\supervisor.json": "e190c254305bed0c1133d8134d1f7f9b9823e1b6f66c44ec3bfe8ca9051bcef8",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_262144\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_262144\\spec.json": "a66e25e634900892693658401271ab3616d3111ceaf4194363c0347713cd1a62",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_262144\\supervisor.json": "540b708fdce2a72e63c08c5f405ffa39e3ef1dada4b114644eda19788cbfa596",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_262144\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_100000\\spec.json": "6df9e28da065892eb60057e9484cf56d2ae107bad6552e3493a04ba560ce0a79",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_100000\\supervisor.json": "53d453107fadc97b49dc71e7cabd71dc34390d4d2feb453b0b3cdc9c586d4997",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_100000\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_100000\\spec.json": "a021785d5a494220d97c9cac13667de88d74fe6304289bc9b1749b479db2301c",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_100000\\supervisor.json": "68c0ad0c44d61ad6f3ed7e79e7c857ddfa96cdda0d8c3700d0af33d7c0612031",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_100000\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_524288\\spec.json": "cfbf2a37fe5a97a28834d6dfdd9c30cf74ba77933275f78ad4f9b60bac4a1cc5",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_524288\\supervisor.json": "96ed82ba5c20ab7f61c981b7c3501c037e57c1be4073204243ca7cecfd0110d9",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_524288\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_524288\\spec.json": "97a97b7e4a137d4df9975e2fde56825bca4878af737b6cca781160baec35aa5a",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_524288\\supervisor.json": "55eacb042ce67c0be74bc78cc233fbf368ab79d2d7e176c9de1850ab03a76744",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_524288\\traceback.txt": "e3343c74d47f00630c64091c0609f34066f802e404d4f73fba8533677d21bdc9",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_524288\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_200000\\spec.json": "b940e316fd24a53696b603e22a3c65a187b9bafdcd504e31f47797c1b470cd92",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_200000\\supervisor.json": "4dbfbef73b54f17f742f04dd9bddd57510265e6c9998beedd39694a93928c596",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_200000\\traceback.txt": "51c0a93083b788e60bf35d85635188f85a8b840b8c3e6f11cdd41efb0ff7667f",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_200000\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_200000\\spec.json": "f9072cfa848d826441dcdca551b1ce959560885fe064733472276bfaaa975a31",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_200000\\supervisor.json": "94223174f7f7c94b5c904c51646f5cd037238c561c06c3b4cfdd8c4aae3a3ee8",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_200000\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_1048576\\spec.json": "85c51eb8f805cae9b28532ebd957d623ef8959d85d1304f898869e98177d8778",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_1048576\\supervisor.json": "c4bf745e5ff1a5a8decc4f84fbe07a22978f5f8e821c7df69ad389f1e7621a55",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_1048576\\traceback.txt": "a3e2e9e051bd48b9492c65e78a97bf9f3b149c424fca0a80fa903b37e365bf3b",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_1048576\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_393216\\spec.json": "905b86799f297c93d8f98f96fd9a0d761beccb53766f73f2ac51a5b1d326b3ef",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_393216\\supervisor.json": "51c9cd5dc55b953df8cc1488f026c652be6a555201a6ffff4d1b553281c9ea98",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_393216\\traceback.txt": "a9b93d0d2a3b24e8b63bdea24ab0ab735dd7ecf60562a1c13e653884b86def4a",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_393216\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_150000\\spec.json": "ca40b183efd0ab92a37397f75f5c6acb4d67a244e78e446d022054c9ecf04ec8",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_150000\\supervisor.json": "083d3eab16cfc84129d10453fdc75eb0c9d05bd43e575d9a581a18ff487d2e54",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_150000\\traceback.txt": "06e58630146580e38f2772785e737f7ac201ad4abb41a038fb6d91d41e554c7a",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_150000\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_400000\\spec.json": "2c55d87ab96620c01f98fac0510800f1dbe6cab417605111ea845d54239b2d94",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_400000\\supervisor.json": "e301ff92e737a48f74f32144bab90493c6f89ba443b429bddd78ee90baee42ab",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_400000\\traceback.txt": "6a42ca14ba6649d3fda365ecfc82f18076a010aaf4d37b112354ac6de1ccd5b6",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_400000\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_786432\\spec.json": "f810c03f7828645d01c622eebe9a2ceb333ca49299a9dfffc00b13b97543bcdb",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_786432\\supervisor.json": "d46444f6fba6ebec12f970b5bccfc845302fcf469f154aefa92bf97f62904388",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_786432\\traceback.txt": "c84e66eba3733114df00d07adcd89ef9cb4dc75d1472f8f52c15b0141786ae42",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_786432\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_327680\\spec.json": "22f6a537f319cbdc3403792a53072ce30507d3f14b367d1498da70eacacb42ba",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_327680\\supervisor.json": "02e663e663f9f3a9d366748d28b2bfdd8020c27528613c404d514596b5d8f3cc",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_327680\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_125000\\spec.json": "2a2f8333e79f229f742292183b2be870aa059de0b7c76060e5e5b028d04f2d7c",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_125000\\supervisor.json": "6cd990851864d19de34d5431083c5d8b42e860949bda802192c11bdc1a3537d3",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_125000\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_300000\\spec.json": "7b9f16248f5aedc0a1c956b431c23e11ac8c4de4d51fc0003f5d14f0a3a8a9b6",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_300000\\supervisor.json": "9e915f4cd8f3affd89ebfa531d0caf310279db0f824d9fd881df529ebef6e6b5",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_300000\\traceback.txt": "1f0b5f1c898f6c8f032bb27962dc1f02ee1e6c9a228813e3d7a31a64b4f46aa1",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_300000\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_655360\\spec.json": "3a8e8357342ed05730b6f913ba865f200f66fcc3dfc01c95eb321f8e9c1d39b2",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_655360\\supervisor.json": "f4d6211b81dfa923e803d59d1eda509747e5239417d1706ed96fb632f82719d0",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_655360\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_360448\\spec.json": "7d0c7831cb7bd3d9df4b789e40708e6da9248c79130ee9d026a3d6b904bb9f12",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_360448\\supervisor.json": "6c896e1490524ffc1b3ef52b1261845d56e68d7eee9b6d94e29d66563ba30c4c",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_360448\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_137500\\spec.json": "03a1c0b4d57d16449c606a6f18bc306b5112f78b7cacee5271f3c49f3055b7f9",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_137500\\supervisor.json": "9599b8846d3005982a36eb4e634160b5f4458d710c4aaac0bf3707f6de1a7597",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_137500\\traceback.txt": "e381921ce63f0c7c0605d0565b1aef78bb79585c3c8ca17ced820d040bde16de",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_137500\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_250000\\spec.json": "387b0e049587a6523d16d50976894ea454b76179fb1d4e49094259cd39af3af9",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_250000\\supervisor.json": "fa9321a05ebc0b9b4aec829c86bf6ce4a7944c97e2ac62e23f98ae071089fd45",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_250000\\traceback.txt": "e27ad2bd840b1283d83d37f5c42d9fd5d39d7109227a319147ea8fd1f896836f",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_250000\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_720896\\spec.json": "cfa93e5c345e9afc1f0920ba6ddfd9b07102b2db25bd254b8c013a162698bd54",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_720896\\supervisor.json": "b36b8c09c3a5288317729af8d232ebbe333bd015a40a6599f4ee9a7c0005808c",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_720896\\traceback.txt": "1fcdd0e5a98685078a72a57b5eda138c89f83b2ed1ccdf325b76d633d1ee654a",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_720896\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_225000\\spec.json": "771f2a7bc133ec4b5dc76416f060e97f03a031e4892e60df1c72db92971427b6",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_225000\\supervisor.json": "efc88a5e7dfa230f1c5bc676fa99bcf231f86cd0d6c2a2a2a59ac9a178f46e36",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_225000\\traceback.txt": "810fd85faaef8391834004a15a26bf143d87668641d2964ed3a6dbe1119c1dc6",
+        "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_225000\\stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "module_source_sha256": "4b32e6ebd381cc2281aa112d3b6a09aced4bba40af321600fe9fb3e051206419",
+      "module_source_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\classification_archives\\20260910T224217_069028Z\\memory_frontier.py",
+      "archived_policy_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\classification_archives\\20260910T224217_069028Z\\policy.json",
+      "verified_specifications_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\classification_archives\\20260910T224217_069028Z\\verified_specifications.json",
+      "recorded_specs_verified_unchanged": 28,
+      "changed_source_modules": [
+        "memory_frontier.py"
+      ],
+      "source_review_note": "Module changes reviewed for native-failure classification, censoring, and audited resume; automated validation checks concrete recorded/future probe specifications, not source equivalence.",
+      "machine_proof_of_source_equivalence": false
+    }
+  ]
+}

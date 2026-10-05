@@ -1,0 +1,19 @@
+{
+  "case": "signal_d10_B100_T1000_s72001",
+  "d": 10,
+  "B": 100.0,
+  "T": 1000,
+  "seed": 910001,
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+  "method": "legacy16",
+  "rounds": 500,
+  "seconds": 90.0,
+  "config": {
+    "mode": "practical",
+    "transitions": 1,
+    "particle_batch": 64,
+    "lanes": 16,
+    "history_block_size": 128
+  },
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_followup\\legacy16__signal_d10_B100_T1000_s72001__s910001"
+}

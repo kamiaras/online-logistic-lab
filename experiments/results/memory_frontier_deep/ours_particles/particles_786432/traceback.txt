@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\worker.py", line 48, in run
+    a = cls(d=d, B=B, T=T, seed=spec['sampler_seed'], config=spec.get('config', {}))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\proximal.py", line 303, in __init__
+    self.theta = self.B*truncated_standard_normal(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\proximal.py", line 103, in truncated_standard_normal
+    result = np.empty(aa.size)
+             ^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 768. MiB for an array with shape (100663296,) and data type float64

@@ -1,0 +1,132 @@
+{
+  "cubature": {
+    "moment_errors": [
+      1.3877787807814457e-17,
+      5.551115123125783e-17,
+      6.661338147750939e-17,
+      8.326672684688674e-17
+    ],
+    "maximum_upper_bound_violation": 0.0
+  },
+  "projection_and_gradient": {
+    "maximum_projection_normal_violation": 2.6645352591003757e-15,
+    "gradient_finite_difference_error": 5.562768023992248e-10
+  },
+  "two_cell_comparator": {
+    "mean_error": 1.1443916996305594e-16,
+    "covariance_bound_violation": 0.0
+  },
+  "experiments": [
+    {
+      "dimension": 1,
+      "components": 2,
+      "rounds": 40,
+      "sequence": "positive",
+      "learner_loss": 9.301149489767042,
+      "comparator_loss": 12.530467500728909,
+      "regret": -3.229318010961867,
+      "ideal_fit_theorem_bound_without_error_allowance": 11.071283391709564,
+      "conservative_error_allowance_for_executed_degrees": 101.80954312581677,
+      "bound_with_executed_degree_error_allowance": 112.88082651752634,
+      "first_prediction": 0.5,
+      "last_prediction": 0.8539743593561224,
+      "max_inner_iterations": 7,
+      "max_reported_optimization_gap": 9.517685338840873e-09,
+      "final_weights": [
+        1.954081684023055e-10,
+        0.9999999998045919
+      ],
+      "final_scales": [
+        0.09650994465859492,
+        0.4434239949936984
+      ],
+      "qualification": "Practical cubature degrees; not the theorem's full accuracy schedule."
+    },
+    {
+      "dimension": 1,
+      "components": 2,
+      "rounds": 40,
+      "sequence": "reversal",
+      "learner_loss": 28.90046749233484,
+      "comparator_loss": 27.725887222397784,
+      "regret": 1.1745802699370564,
+      "ideal_fit_theorem_bound_without_error_allowance": 11.071283391709564,
+      "conservative_error_allowance_for_executed_degrees": 101.8095431510176,
+      "bound_with_executed_degree_error_allowance": 112.88082654272716,
+      "first_prediction": 0.5,
+      "last_prediction": 0.5127354727534223,
+      "max_inner_iterations": 8,
+      "max_reported_optimization_gap": 9.354215418849115e-09,
+      "final_weights": [
+        0.5000000000379483,
+        0.4999999999620517
+      ],
+      "final_scales": [
+        0.5196930370850411,
+        0.5197033840589478
+      ],
+      "qualification": "Practical cubature degrees; not the theorem's full accuracy schedule."
+    },
+    {
+      "dimension": 1,
+      "components": 2,
+      "rounds": 40,
+      "sequence": "adversarial",
+      "learner_loss": 28.68190986055912,
+      "comparator_loss": 27.725887222397784,
+      "regret": 0.9560226381613361,
+      "ideal_fit_theorem_bound_without_error_allowance": 11.071283391709564,
+      "conservative_error_allowance_for_executed_degrees": 101.80954301213858,
+      "bound_with_executed_degree_error_allowance": 112.88082640384815,
+      "first_prediction": 0.5,
+      "last_prediction": 0.5127335273133599,
+      "max_inner_iterations": 7,
+      "max_reported_optimization_gap": 9.598435500166782e-09,
+      "final_weights": [
+        0.5000000000378844,
+        0.49999999996211564
+      ],
+      "final_scales": [
+        0.5196930375390957,
+        0.5197033788927883
+      ],
+      "qualification": "Practical cubature degrees; not the theorem's full accuracy schedule."
+    },
+    {
+      "dimension": 2,
+      "components": 3,
+      "rounds": 24,
+      "sequence": "adversarial",
+      "learner_loss": 18.29336174100656,
+      "comparator_loss": 16.635532333438686,
+      "regret": 1.6578294075678741,
+      "ideal_fit_theorem_bound_without_error_allowance": 14.749486129462227,
+      "conservative_error_allowance_for_executed_degrees": 151.5934665544044,
+      "bound_with_executed_degree_error_allowance": 166.3429526838666,
+      "first_prediction": 0.5018987920010405,
+      "last_prediction": 0.532128334774975,
+      "max_inner_iterations": 8,
+      "max_reported_optimization_gap": 9.134587692948017e-09,
+      "final_weights": [
+        0.08172240231665011,
+        0.755205980046653,
+        0.16307161763669695
+      ],
+      "final_scales": [
+        0.7534724490553011,
+        1.0,
+        0.9918156987214519
+      ],
+      "qualification": "Practical cubature degrees; not the theorem's full accuracy schedule."
+    }
+  ],
+  "conservative_schedule_example": {
+    "epsilon": 2.3715744977953837e-07,
+    "optimization_tolerance": 1.1857872488976918e-07,
+    "fit_degree": 42166081,
+    "prediction_degree": 5161,
+    "fit_nodes": 888989256698403,
+    "prediction_nodes": 13325703
+  },
+  "status": "Numerical checks passed; ordinary floating point, not interval arithmetic."
+}

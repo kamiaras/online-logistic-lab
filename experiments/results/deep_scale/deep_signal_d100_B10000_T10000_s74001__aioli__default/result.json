@@ -1,0 +1,90 @@
+{
+  "round": 10000,
+  "cumulative_loss": 718974.0513521744,
+  "online_seconds": 6.541114801206277,
+  "elapsed_seconds": 6.6557729999913136,
+  "cpu_seconds": 6.640625,
+  "prediction_seconds": 0.6565840011171531,
+  "update_seconds": 5.884451400081161,
+  "initialization_seconds": 7.940000796224922e-05,
+  "input_seconds": 0.007384200012893416,
+  "memory": {
+    "working_set": 57544704,
+    "peak_working_set": 60379136,
+    "private_commit": 109539328,
+    "peak_private_commit": 109539328
+  },
+  "state_bytes": 80800,
+  "metrics": {
+    "counters": {
+      "matrix_initializations": 1,
+      "estimated_scalar_flops": 274893930,
+      "triangular_solves": 20000,
+      "estimated_matmul_flops": 200000000,
+      "dot_products": 20000,
+      "root_iterations": 546933,
+      "root_evaluations": 556933,
+      "tanh_elements": 556933,
+      "predictions": 10000,
+      "cholesky_rank1_updates": 8629,
+      "cholesky_rotations": 862900,
+      "sufficient_statistic_updates": 10000,
+      "sigmoid_elements": 20000,
+      "observations": 10000,
+      "root_rounding_stalls": 9834,
+      "curvature_underflows": 1362
+    },
+    "times": {
+      "predict": 0.6491030998440692,
+      "observe": 5.776369499246357
+    }
+  },
+  "diagnostics": {
+    "matrix_backend": "cholesky",
+    "rounds_observed": 10000,
+    "regularizer_lambda": 1e-08,
+    "feature_radius": 1.0,
+    "bisections": 66,
+    "prescribed_bisections": 66,
+    "uses_prescribed_bisection_budget": true,
+    "last_q": 1778.1181755006457,
+    "last_v": 395.8489721545008,
+    "last_scalar_root_residual": 1.354472090042691e-14,
+    "max_abs_logit": 19371.046659770018,
+    "finite_precision_certified": false,
+    "flop_counts_are_estimates": true,
+    "state_bytes_scope": "owned persistent ndarray storage"
+  },
+  "rng_state": null,
+  "status": "completed",
+  "error": null,
+  "baseline_memory": {
+    "working_set": 57139200,
+    "peak_working_set": 60379136,
+    "private_commit": 75919360,
+    "peak_private_commit": 79785984
+  },
+  "configured_horizon": 10000,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\Kamiar\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ]
+}

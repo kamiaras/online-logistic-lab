@@ -1,0 +1,19 @@
+{
+  "algorithm": "sigmoid",
+  "config": {
+    "particles": 4,
+    "transitions": 4
+  },
+  "d": 10,
+  "B": 1000.0,
+  "T": 50,
+  "sampler_seed": 159175,
+  "data_seed": 70002,
+  "case_id": "signal_d10_B1000_T50_s70002",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B1000_T50_s70002",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\smoke\\signal_d10_B1000_T50_s70002__sigmoid__m4n4",
+  "seconds": 15,
+  "memory_bytes": 2147483648,
+  "stage": "smoke",
+  "label": "m4n4"
+}

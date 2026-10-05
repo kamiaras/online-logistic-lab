@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\worker.py", line 48, in run
+    a = cls(d=d, B=B, T=T, seed=spec['sampler_seed'], config=spec.get('config', {}))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\aioli.py", line 114, in __init__
+    self.L = np.zeros((self.d, self.d), order="F")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 18.6 GiB for an array with shape (50000, 50000) and data type float64

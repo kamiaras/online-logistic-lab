@@ -1,0 +1,569 @@
+[
+  {
+    "id": "signal_d100_B1_T1000_s72001",
+    "family": "signal",
+    "d": 100,
+    "B": 1.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d100_B10_T1000_s72001",
+    "family": "signal",
+    "d": 100,
+    "B": 10.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d100_B100_T1000_s72001",
+    "family": "signal",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d100_B1000_T1000_s72001",
+    "family": "signal",
+    "d": 100,
+    "B": 1000.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d10_B100_T1000_s72001",
+    "family": "signal",
+    "d": 10,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d500_B100_T1000_s72001",
+    "family": "signal",
+    "d": 500,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d1000_B100_T1000_s72001",
+    "family": "signal",
+    "d": 1000,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d10_B10_T10000_s72001",
+    "family": "signal",
+    "d": 10,
+    "B": 10.0,
+    "T": 10000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d10_B10_T100000_s72001",
+    "family": "signal",
+    "d": 10,
+    "B": 10.0,
+    "T": 100000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "isotropic_d100_B100_T1000_s72001",
+    "family": "isotropic",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "separable_d100_B100_T1000_s72001",
+    "family": "separable",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "rare_flip_d100_B100_T1000_s72001",
+    "family": "rare_flip",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "correlated_d100_B100_T1000_s72001",
+    "family": "correlated",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "coordinate_d100_B100_T1000_s72001",
+    "family": "coordinate",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "shift_d100_B100_T1000_s72001",
+    "family": "shift",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "random_d100_B100_T1000_s72001",
+    "family": "random",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d1000_B1000_T10000_s72001",
+    "family": "signal",
+    "d": 1000,
+    "B": 1000.0,
+    "T": 10000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d5000_B100_T1000_s72001",
+    "family": "signal",
+    "d": 5000,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d10_B10000_T1000_s72001",
+    "family": "signal",
+    "d": 10,
+    "B": 10000.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d10_B100_T1000000_s72001",
+    "family": "signal",
+    "d": 10,
+    "B": 100.0,
+    "T": 1000000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "strong_signal_d100_B1000_T1000_s72001",
+    "family": "signal",
+    "d": 100,
+    "B": 1000.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 1000.0
+  },
+  {
+    "id": "signal_d100_B1_T1000_s72002",
+    "family": "signal",
+    "d": 100,
+    "B": 1.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d100_B10_T1000_s72002",
+    "family": "signal",
+    "d": 100,
+    "B": 10.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d100_B100_T1000_s72002",
+    "family": "signal",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d100_B1000_T1000_s72002",
+    "family": "signal",
+    "d": 100,
+    "B": 1000.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d10_B100_T1000_s72002",
+    "family": "signal",
+    "d": 10,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d500_B100_T1000_s72002",
+    "family": "signal",
+    "d": 500,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d1000_B100_T1000_s72002",
+    "family": "signal",
+    "d": 1000,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d10_B10_T10000_s72002",
+    "family": "signal",
+    "d": 10,
+    "B": 10.0,
+    "T": 10000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d10_B10_T100000_s72002",
+    "family": "signal",
+    "d": 10,
+    "B": 10.0,
+    "T": 100000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "isotropic_d100_B100_T1000_s72002",
+    "family": "isotropic",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "separable_d100_B100_T1000_s72002",
+    "family": "separable",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "rare_flip_d100_B100_T1000_s72002",
+    "family": "rare_flip",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "correlated_d100_B100_T1000_s72002",
+    "family": "correlated",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "coordinate_d100_B100_T1000_s72002",
+    "family": "coordinate",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "shift_d100_B100_T1000_s72002",
+    "family": "shift",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "random_d100_B100_T1000_s72002",
+    "family": "random",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d1000_B1000_T10000_s72002",
+    "family": "signal",
+    "d": 1000,
+    "B": 1000.0,
+    "T": 10000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d5000_B100_T1000_s72002",
+    "family": "signal",
+    "d": 5000,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d10_B10000_T1000_s72002",
+    "family": "signal",
+    "d": 10,
+    "B": 10000.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d10_B100_T1000000_s72002",
+    "family": "signal",
+    "d": 10,
+    "B": 100.0,
+    "T": 1000000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "strong_signal_d100_B1000_T1000_s72002",
+    "family": "signal",
+    "d": 100,
+    "B": 1000.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 1000.0
+  },
+  {
+    "id": "signal_d100_B1_T1000_s72003",
+    "family": "signal",
+    "d": 100,
+    "B": 1.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d100_B10_T1000_s72003",
+    "family": "signal",
+    "d": 100,
+    "B": 10.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d100_B100_T1000_s72003",
+    "family": "signal",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d100_B1000_T1000_s72003",
+    "family": "signal",
+    "d": 100,
+    "B": 1000.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d10_B100_T1000_s72003",
+    "family": "signal",
+    "d": 10,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d500_B100_T1000_s72003",
+    "family": "signal",
+    "d": 500,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d1000_B100_T1000_s72003",
+    "family": "signal",
+    "d": 1000,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d10_B10_T10000_s72003",
+    "family": "signal",
+    "d": 10,
+    "B": 10.0,
+    "T": 10000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d10_B10_T100000_s72003",
+    "family": "signal",
+    "d": 10,
+    "B": 10.0,
+    "T": 100000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "isotropic_d100_B100_T1000_s72003",
+    "family": "isotropic",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "separable_d100_B100_T1000_s72003",
+    "family": "separable",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "rare_flip_d100_B100_T1000_s72003",
+    "family": "rare_flip",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "correlated_d100_B100_T1000_s72003",
+    "family": "correlated",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "coordinate_d100_B100_T1000_s72003",
+    "family": "coordinate",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "shift_d100_B100_T1000_s72003",
+    "family": "shift",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "random_d100_B100_T1000_s72003",
+    "family": "random",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d1000_B1000_T10000_s72003",
+    "family": "signal",
+    "d": 1000,
+    "B": 1000.0,
+    "T": 10000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d5000_B100_T1000_s72003",
+    "family": "signal",
+    "d": 5000,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d10_B10000_T1000_s72003",
+    "family": "signal",
+    "d": 10,
+    "B": 10000.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "signal_d10_B100_T1000000_s72003",
+    "family": "signal",
+    "d": 10,
+    "B": 100.0,
+    "T": 1000000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  {
+    "id": "strong_signal_d100_B1000_T1000_s72003",
+    "family": "signal",
+    "d": 100,
+    "B": 1000.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 1000.0
+  }
+]

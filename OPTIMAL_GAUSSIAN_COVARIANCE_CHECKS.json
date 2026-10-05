@@ -1,0 +1,7 @@
+{
+  "bracketing_max_violation": 0.0,
+  "max_quadrature_error_over_delta": 0.029417018099444192,
+  "max_finite_gate_error_over_theorem_allowance": 0.01055304581570482,
+  "full_covariance_precision_residual": 1.28573367230711e-14,
+  "scope": "Supplementary double precision algebra checks, not a finite-bit certificate or online experiment."
+}

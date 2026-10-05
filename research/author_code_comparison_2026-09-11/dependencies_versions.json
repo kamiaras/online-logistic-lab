@@ -1,0 +1,9 @@
+{
+  "sklearn": "1.9.1",
+  "joblib": "1.6.0",
+  "narwhals": "2.26.0",
+  "cloudpickle": "3.1.2",
+  "numpy": "2.3.5",
+  "scipy": "1.18.1",
+  "threadpoolctl": "3.6.0"
+}

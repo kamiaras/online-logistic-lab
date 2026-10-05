@@ -1,0 +1,19 @@
+{
+  "algorithm": "sigmoid",
+  "config": {
+    "particles": 64,
+    "transitions": 4
+  },
+  "d": 100,
+  "B": 100.0,
+  "T": 1000,
+  "sampler_seed": 160175,
+  "data_seed": 71002,
+  "case_id": "signal_d100_B100_T1000_s71002",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B100_T1000_s71002",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\calibration\\signal_d100_B100_T1000_s71002__sigmoid__m64n4",
+  "seconds": 8,
+  "memory_bytes": 2147483648,
+  "stage": "calibration",
+  "label": "m64n4"
+}

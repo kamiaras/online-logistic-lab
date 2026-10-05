@@ -1,0 +1,3939 @@
+{
+  "schema_version": 1,
+  "manifest": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\manifest.json",
+  "manifest_sha256": "24ef21d9c4b62b1130b12c9eab58c355fdd9e1b8c2301d9297161e21808fb2a3",
+  "report_source_sha256": "57b44d4f272999d2d21abc28e8d1a1f4b4b9864f117eafadfe8d68efec0726b0",
+  "passed": true,
+  "checked_attempts": 51,
+  "checks": [
+    {
+      "check": "manifest_attempt_count",
+      "passed": true
+    },
+    {
+      "check": "manifest_unique_ids",
+      "passed": true
+    },
+    {
+      "check": "released_author_source_hash",
+      "passed": true
+    },
+    {
+      "check": "dataset_hashes:signal_d1_B1_T12_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_metadata:signal_d1_B1_T12_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_file_sizes:signal_d1_B1_T12_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_values:signal_d1_B1_T12_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_generator_radius:signal_d1_B1_T12_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_hashes:signal_d1_B1_T12_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_metadata:signal_d1_B1_T12_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_file_sizes:signal_d1_B1_T12_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_values:signal_d1_B1_T12_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_generator_radius:signal_d1_B1_T12_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_hashes:signal_d10_B1_T20_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_metadata:signal_d10_B1_T20_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_file_sizes:signal_d10_B1_T20_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_values:signal_d10_B1_T20_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_generator_radius:signal_d10_B1_T20_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_hashes:signal_d10_B1_T20_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_metadata:signal_d10_B1_T20_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_file_sizes:signal_d10_B1_T20_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_values:signal_d10_B1_T20_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_generator_radius:signal_d10_B1_T20_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_hashes:signal_d10_B10_T50_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_metadata:signal_d10_B10_T50_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_file_sizes:signal_d10_B10_T50_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_values:signal_d10_B10_T50_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_generator_radius:signal_d10_B10_T50_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_hashes:signal_d10_B10_T50_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_metadata:signal_d10_B10_T50_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_file_sizes:signal_d10_B10_T50_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_values:signal_d10_B10_T50_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_generator_radius:signal_d10_B10_T50_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_hashes:signal_d10_B100_T500_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_metadata:signal_d10_B100_T500_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_file_sizes:signal_d10_B100_T500_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_values:signal_d10_B100_T500_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_generator_radius:signal_d10_B100_T500_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_hashes:signal_d10_B100_T500_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_metadata:signal_d10_B100_T500_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_file_sizes:signal_d10_B100_T500_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_values:signal_d10_B100_T500_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_generator_radius:signal_d10_B100_T500_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_hashes:signal_d100_B1000_T500_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_metadata:signal_d100_B1000_T500_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_file_sizes:signal_d100_B1000_T500_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_values:signal_d100_B1000_T500_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_generator_radius:signal_d100_B1000_T500_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_hashes:signal_d100_B1000_T500_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_metadata:signal_d100_B1000_T500_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_file_sizes:signal_d100_B1000_T500_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_values:signal_d100_B1000_T500_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_generator_radius:signal_d100_B1000_T500_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_hashes:signal_d1000_B1000_T500_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_metadata:signal_d1000_B1000_T500_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_file_sizes:signal_d1000_B1000_T500_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_values:signal_d1000_B1000_T500_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_generator_radius:signal_d1000_B1000_T500_s911201",
+      "passed": true
+    },
+    {
+      "check": "dataset_hashes:signal_d1000_B1000_T500_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_metadata:signal_d1000_B1000_T500_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_file_sizes:signal_d1000_B1000_T500_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_values:signal_d1000_B1000_T500_s911202",
+      "passed": true
+    },
+    {
+      "check": "dataset_generator_radius:signal_d1000_B1000_T500_s911202",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B1_T20_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B1_T20_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B1_T20_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B1_T20_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B1_T20_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B1_T20_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B1_T20_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B1_T20_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B1_T20_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B1_T20_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B1_T20_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B1_T20_s911201__prescribed__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B1_T20_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d10_B1_T20_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d10_B1_T20_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B1_T20_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B10_T50_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B10_T50_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B10_T50_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B10_T50_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B10_T50_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B10_T50_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B10_T50_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B10_T50_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B10_T50_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B10_T50_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B10_T50_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B10_T50_s911202__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B10_T50_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "native_reported_loss:signal_d10_B10_T50_s911202__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 3.3306690738754696e-16
+      }
+    },
+    {
+      "check": "author_state_and_source:signal_d10_B10_T50_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B10_T50_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d1_B1_T12_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d1_B1_T12_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d1_B1_T12_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d1_B1_T12_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d1_B1_T12_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d1_B1_T12_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d1_B1_T12_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d1_B1_T12_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d1_B1_T12_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d1_B1_T12_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d1_B1_T12_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d1_B1_T12_s911201__prescribed__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d1_B1_T12_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d1_B1_T12_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d1_B1_T12_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d1_B1_T12_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B10_T50_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B10_T50_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B10_T50_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B10_T50_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B10_T50_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B10_T50_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B10_T50_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B10_T50_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B10_T50_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B10_T50_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B10_T50_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B10_T50_s911201__prescribed__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B10_T50_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d10_B10_T50_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d10_B10_T50_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B10_T50_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B1_T20_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B1_T20_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B1_T20_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B1_T20_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B1_T20_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B1_T20_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B1_T20_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B1_T20_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B1_T20_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B1_T20_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B1_T20_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B1_T20_s911201__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B1_T20_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "native_reported_loss:signal_d10_B1_T20_s911201__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 3.3306690738754696e-16
+      }
+    },
+    {
+      "check": "author_state_and_source:signal_d10_B1_T20_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B1_T20_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d1_B1_T12_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d1_B1_T12_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d1_B1_T12_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d1_B1_T12_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d1_B1_T12_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d1_B1_T12_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d1_B1_T12_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d1_B1_T12_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d1_B1_T12_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d1_B1_T12_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d1_B1_T12_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d1_B1_T12_s911201__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d1_B1_T12_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "native_reported_loss:signal_d1_B1_T12_s911201__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 2.220446049250313e-16
+      }
+    },
+    {
+      "check": "author_state_and_source:signal_d1_B1_T12_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d1_B1_T12_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d1_B1_T12_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d1_B1_T12_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d1_B1_T12_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d1_B1_T12_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d1_B1_T12_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d1_B1_T12_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d1_B1_T12_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d1_B1_T12_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d1_B1_T12_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d1_B1_T12_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d1_B1_T12_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d1_B1_T12_s911202__prescribed__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d1_B1_T12_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d1_B1_T12_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d1_B1_T12_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d1_B1_T12_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B10_T50_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B10_T50_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B10_T50_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B10_T50_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B10_T50_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B10_T50_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B10_T50_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B10_T50_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B10_T50_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B10_T50_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B10_T50_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B10_T50_s911201__prescribed__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B10_T50_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d10_B10_T50_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d10_B10_T50_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B10_T50_s911201__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B1_T20_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B1_T20_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B1_T20_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B1_T20_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B1_T20_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B1_T20_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B1_T20_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B1_T20_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B1_T20_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B1_T20_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B1_T20_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B1_T20_s911201__prescribed__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B1_T20_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d10_B1_T20_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d10_B1_T20_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B1_T20_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B10_T50_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B10_T50_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B10_T50_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B10_T50_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B10_T50_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B10_T50_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B10_T50_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B10_T50_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B10_T50_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B10_T50_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B10_T50_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B10_T50_s911201__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B10_T50_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "native_reported_loss:signal_d10_B10_T50_s911201__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 4.440892098500626e-16
+      }
+    },
+    {
+      "check": "author_state_and_source:signal_d10_B10_T50_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B10_T50_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B1_T20_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B1_T20_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B1_T20_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B1_T20_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B1_T20_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B1_T20_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B1_T20_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B1_T20_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B1_T20_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B1_T20_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B1_T20_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B1_T20_s911202__prescribed__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B1_T20_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d10_B1_T20_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d10_B1_T20_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B1_T20_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B1_T20_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B1_T20_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B1_T20_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B1_T20_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B1_T20_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B1_T20_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B1_T20_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B1_T20_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B1_T20_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B1_T20_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B1_T20_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B1_T20_s911202__prescribed__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B1_T20_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d10_B1_T20_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d10_B1_T20_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B1_T20_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B10_T50_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B10_T50_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B10_T50_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B10_T50_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B10_T50_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B10_T50_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B10_T50_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B10_T50_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B10_T50_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B10_T50_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B10_T50_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B10_T50_s911202__prescribed__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B10_T50_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d10_B10_T50_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d10_B10_T50_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B10_T50_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B1_T20_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B1_T20_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B1_T20_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B1_T20_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B1_T20_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B1_T20_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B1_T20_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B1_T20_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B1_T20_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B1_T20_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B1_T20_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B1_T20_s911202__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B1_T20_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "native_reported_loss:signal_d10_B1_T20_s911202__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 2.220446049250313e-16
+      }
+    },
+    {
+      "check": "author_state_and_source:signal_d10_B1_T20_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B1_T20_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d1_B1_T12_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d1_B1_T12_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d1_B1_T12_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d1_B1_T12_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d1_B1_T12_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d1_B1_T12_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d1_B1_T12_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d1_B1_T12_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d1_B1_T12_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d1_B1_T12_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d1_B1_T12_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d1_B1_T12_s911202__prescribed__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d1_B1_T12_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d1_B1_T12_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d1_B1_T12_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d1_B1_T12_s911202__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B10_T50_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B10_T50_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B10_T50_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B10_T50_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B10_T50_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B10_T50_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B10_T50_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B10_T50_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B10_T50_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B10_T50_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B10_T50_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B10_T50_s911202__prescribed__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B10_T50_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d10_B10_T50_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d10_B10_T50_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B10_T50_s911202__prescribed__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d1_B1_T12_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d1_B1_T12_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d1_B1_T12_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d1_B1_T12_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d1_B1_T12_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d1_B1_T12_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d1_B1_T12_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d1_B1_T12_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d1_B1_T12_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d1_B1_T12_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d1_B1_T12_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d1_B1_T12_s911201__prescribed__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d1_B1_T12_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d1_B1_T12_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d1_B1_T12_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d1_B1_T12_s911201__prescribed__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d1_B1_T12_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d1_B1_T12_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d1_B1_T12_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d1_B1_T12_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d1_B1_T12_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d1_B1_T12_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d1_B1_T12_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d1_B1_T12_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d1_B1_T12_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d1_B1_T12_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d1_B1_T12_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d1_B1_T12_s911202__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d1_B1_T12_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "native_reported_loss:signal_d1_B1_T12_s911202__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 2.220446049250313e-16
+      }
+    },
+    {
+      "check": "author_state_and_source:signal_d1_B1_T12_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d1_B1_T12_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d100_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d100_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d100_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d100_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d100_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d100_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d100_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d100_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d100_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d100_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d100_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d100_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d100_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d100_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d100_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d100_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B100_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B100_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B100_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B100_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B100_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B100_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B100_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B100_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B100_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B100_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B100_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B100_T500_s911202__practical_m16n1__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B100_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d10_B100_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d10_B100_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B100_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d1000_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d1000_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d1000_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d1000_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d1000_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d1000_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d1000_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d1000_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d1000_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d1000_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d1000_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d1000_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d1000_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d1000_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d1000_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d1000_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d100_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d100_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d100_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d100_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d100_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d100_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d100_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d100_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d100_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d100_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d100_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d100_B1000_T500_s911202__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d100_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "native_reported_loss:signal_d100_B1000_T500_s911202__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 4.440892098500626e-16
+      }
+    },
+    {
+      "check": "author_state_and_source:signal_d100_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d100_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d100_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d100_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d100_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d100_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d100_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d100_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d100_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d100_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d100_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d100_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d100_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d100_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d100_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d100_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d100_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d100_B1000_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B100_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B100_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B100_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B100_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B100_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B100_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B100_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B100_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B100_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B100_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B100_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B100_T500_s911201__practical_m64n4__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B100_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d10_B100_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d10_B100_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B100_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B100_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B100_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B100_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B100_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B100_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B100_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B100_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B100_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B100_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B100_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B100_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B100_T500_s911201__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B100_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "native_reported_loss:signal_d10_B100_T500_s911201__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 4.440892098500626e-16
+      }
+    },
+    {
+      "check": "author_state_and_source:signal_d10_B100_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B100_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d1000_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d1000_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d1000_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d1000_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d1000_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d1000_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d1000_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d1000_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d1000_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d1000_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d1000_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d1000_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d1000_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d1000_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d1000_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d1000_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d100_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d100_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d100_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d100_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d100_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d100_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d100_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d100_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d100_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d100_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d100_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d100_B1000_T500_s911201__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d100_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "native_reported_loss:signal_d100_B1000_T500_s911201__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 4.440892098500626e-16
+      }
+    },
+    {
+      "check": "author_state_and_source:signal_d100_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d100_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d100_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d100_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d100_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d100_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d100_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d100_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d100_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d100_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d100_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d100_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d100_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d100_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d100_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d100_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d100_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d100_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d100_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d100_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d100_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d100_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d100_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d100_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d100_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d100_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d100_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d100_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d100_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d100_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d100_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d100_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d100_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d100_B1000_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B100_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B100_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B100_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B100_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B100_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B100_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B100_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B100_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B100_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B100_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B100_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B100_T500_s911202__practical_m16n1__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B100_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d10_B100_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d10_B100_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B100_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d1000_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d1000_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d1000_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d1000_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d1000_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d1000_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d1000_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d1000_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d1000_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d1000_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d1000_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d1000_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d1000_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d1000_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d1000_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d1000_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d1000_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d1000_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d1000_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d1000_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d1000_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d1000_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d1000_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d1000_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d1000_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d1000_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d1000_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d1000_B1000_T500_s911202__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d1000_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "native_reported_loss:signal_d1000_B1000_T500_s911202__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 4.440892098500626e-16
+      }
+    },
+    {
+      "check": "author_state_and_source:signal_d1000_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d1000_B1000_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d100_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d100_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d100_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d100_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d100_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d100_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d100_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d100_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d100_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d100_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d100_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d100_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d100_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d100_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d100_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d100_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B100_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B100_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B100_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B100_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B100_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B100_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B100_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B100_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B100_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B100_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B100_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B100_T500_s911202__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B100_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "native_reported_loss:signal_d10_B100_T500_s911202__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 4.440892098500626e-16
+      }
+    },
+    {
+      "check": "author_state_and_source:signal_d10_B100_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B100_T500_s911202__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d100_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d100_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d100_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d100_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d100_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d100_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d100_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d100_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d100_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d100_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d100_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d100_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d100_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d100_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d100_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d100_B1000_T500_s911202__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d1000_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d1000_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d1000_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d1000_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d1000_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d1000_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d1000_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d1000_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d1000_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d1000_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d1000_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d1000_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d1000_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d1000_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d1000_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d1000_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B100_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B100_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B100_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B100_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B100_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B100_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B100_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B100_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B100_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B100_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B100_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B100_T500_s911202__practical_m64n4__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B100_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d10_B100_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d10_B100_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B100_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d1000_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d1000_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d1000_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d1000_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d1000_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d1000_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d1000_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d1000_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d1000_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d1000_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d1000_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d1000_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d1000_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d1000_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d1000_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d1000_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d100_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d100_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d100_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d100_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d100_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d100_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d100_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d100_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d100_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d100_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d100_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d100_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d100_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d100_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d100_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d100_B1000_T500_s911201__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d1000_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d1000_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d1000_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d1000_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d1000_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d1000_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d1000_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d1000_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d1000_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d1000_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d1000_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d1000_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d1000_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d1000_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d1000_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d1000_B1000_T500_s911202__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d1000_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d1000_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d1000_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d1000_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d1000_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d1000_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d1000_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d1000_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d1000_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d1000_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d1000_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d1000_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d1000_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d1000_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d1000_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d1000_B1000_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B100_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B100_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B100_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B100_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B100_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B100_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B100_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B100_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B100_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B100_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B100_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B100_T500_s911201__practical_m16n1__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B100_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d10_B100_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d10_B100_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B100_T500_s911201__practical_m16n1__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d100_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d100_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d100_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d100_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d100_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d100_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d100_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d100_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d100_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d100_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d100_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d100_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d100_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d100_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d100_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d100_B1000_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B100_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B100_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B100_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B100_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B100_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B100_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B100_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B100_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B100_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B100_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B100_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B100_T500_s911202__practical_m64n4__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B100_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d10_B100_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d10_B100_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B100_T500_s911202__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d1000_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d1000_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d1000_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d1000_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d1000_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d1000_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d1000_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d1000_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d1000_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d1000_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d1000_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d1000_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d1000_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d1000_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d1000_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d1000_B1000_T500_s911202__practical_m64n4__s912302",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d1000_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d1000_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d1000_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d1000_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d1000_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d1000_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d1000_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d1000_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d1000_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d1000_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d1000_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d1000_B1000_T500_s911201__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d1000_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "native_reported_loss:signal_d1000_B1000_T500_s911201__author_aioli__s0",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 4.440892098500626e-16
+      }
+    },
+    {
+      "check": "author_state_and_source:signal_d1000_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d1000_B1000_T500_s911201__author_aioli__s0",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B100_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B100_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B100_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B100_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B100_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B100_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B100_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B100_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B100_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B100_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B100_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B100_T500_s911201__practical_m16n1__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B100_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d10_B100_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d10_B100_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B100_T500_s911201__practical_m16n1__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B100_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B100_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B100_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B100_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B100_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B100_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B100_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B100_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B100_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B100_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B100_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B100_T500_s911201__practical_m64n4__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B100_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d10_B100_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d10_B100_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B100_T500_s911201__practical_m64n4__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d10_B100_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d10_B100_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d10_B100_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d10_B100_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d10_B100_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d10_B100_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d10_B100_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d10_B100_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d10_B100_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d10_B100_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d10_B100_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d10_B100_T500_s911201__prescribed_resource__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d10_B100_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d10_B100_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d10_B100_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d10_B100_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d100_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d100_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d100_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d100_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d100_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d100_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d100_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d100_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d100_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d100_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d100_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d100_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d100_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d100_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d100_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d100_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "specification:signal_d1000_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "input_identity:signal_d1000_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "sources_unchanged:signal_d1000_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "current_source_identity:signal_d1000_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "hard_cap:signal_d1000_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_worker_and_thread:signal_d1000_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "terminal_status:signal_d1000_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_bounds:signal_d1000_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "completed_status:signal_d1000_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_schema:signal_d1000_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "trajectory_values:signal_d1000_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "stable_loss:signal_d1000_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true,
+      "detail": {
+        "max_absolute_residual": 0.0
+      }
+    },
+    {
+      "check": "committed_total:signal_d1000_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "non_author_sentinel:signal_d1000_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "uncapped_rejection_and_schedule:signal_d1000_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "prefix_time:signal_d1000_B1000_T500_s911201__prescribed_resource__s912301",
+      "passed": true
+    },
+    {
+      "check": "one_source_version_per_measured_file",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B1_T20_s911201__n20",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d1_B1_T12_s911201__n12",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B10_T50_s911201__n3",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d1_B1_T12_s911202__n12",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B1_T20_s911202__n20",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B10_T50_s911202__n3",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d100_B1000_T500_s911201__n500",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B100_T500_s911202__n452",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d1000_B1000_T500_s911201__n7",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d100_B1000_T500_s911201__n74",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B100_T500_s911201__n110",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d1000_B1000_T500_s911201__n101",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d100_B1000_T500_s911202__n500",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B100_T500_s911202__n443",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d1000_B1000_T500_s911202__n98",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d100_B1000_T500_s911202__n73",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d1000_B1000_T500_s911202__n7",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B100_T500_s911202__n104",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d1000_B1000_T500_s911201__n10",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d100_B1000_T500_s911201__n76",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d1000_B1000_T500_s911202__n102",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d1000_B1000_T500_s911201__n103",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B100_T500_s911201__n500",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d100_B1000_T500_s911202__n76",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B100_T500_s911202__n111",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d1000_B1000_T500_s911202__n9",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B100_T500_s911201__n454",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B100_T500_s911201__n100",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B100_T500_s911201__n1",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d100_B1000_T500_s911201__n1",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d1000_B1000_T500_s911201__n1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_equal_prefix:1:1.0:12:prescribed",
+      "passed": true
+    },
+    {
+      "check": "aggregate_equal_prefix:10:1.0:20:prescribed",
+      "passed": true
+    },
+    {
+      "check": "aggregate_equal_prefix:10:10.0:50:prescribed",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B100_T500_s911201__n443",
+      "passed": true
+    },
+    {
+      "check": "aggregate_equal_prefix:10:100.0:500:practical_m16n1",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B100_T500_s911202__n100",
+      "passed": true
+    },
+    {
+      "check": "aggregate_equal_prefix:10:100.0:500:practical_m64n4",
+      "passed": true
+    },
+    {
+      "check": "aggregate_equal_prefix:10:100.0:500:prescribed_resource",
+      "passed": true
+    },
+    {
+      "check": "aggregate_equal_prefix:100:1000.0:500:practical_m16n1",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d100_B1000_T500_s911201__n73",
+      "passed": true
+    },
+    {
+      "check": "aggregate_equal_prefix:100:1000.0:500:practical_m64n4",
+      "passed": true
+    },
+    {
+      "check": "aggregate_equal_prefix:100:1000.0:500:prescribed_resource",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d1000_B1000_T500_s911201__n98",
+      "passed": true
+    },
+    {
+      "check": "aggregate_equal_prefix:1000:1000.0:500:practical_m16n1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_equal_prefix:1000:1000.0:500:practical_m64n4",
+      "passed": true
+    },
+    {
+      "check": "aggregate_equal_prefix:1000:1000.0:500:prescribed_resource",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B10_T50_s911202__n50",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B10_T50_s911201__n50",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d1000_B1000_T500_s911202__n500",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d10_B100_T500_s911202__n500",
+      "passed": true
+    },
+    {
+      "check": "comparator_valid:signal_d1000_B1000_T500_s911201__n500",
+      "passed": true
+    },
+    {
+      "check": "summary_written",
+      "passed": true
+    }
+  ],
+  "statuses": {
+    "completed": 25,
+    "time_budget": 23,
+    "external_wall_budget": 3
+  },
+  "numerical_comparator_certificate": "float64 first-order gap; not interval arithmetic",
+  "scope": "Committed data/source/recording/resource audit, not a proof of sampler mixing or finite-bit regret",
+  "elapsed_seconds": 6.029035799991107
+}

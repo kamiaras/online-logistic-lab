@@ -1,0 +1,12 @@
+{
+  "launcher_pid": 3448,
+  "per_method_online_seconds": 43200,
+  "output": "experiments/results/author_baselines_d1000_B1000_T100000",
+  "target_rounds": 100000,
+  "algorithms": [
+    "author_aioli",
+    "author_sigmoid"
+  ],
+  "launched_utc": "2026-09-11T17:55:07.9652599Z",
+  "reused_new16_run": "experiments/results/computation_first_overnight_d1000_B1000_T100000"
+}

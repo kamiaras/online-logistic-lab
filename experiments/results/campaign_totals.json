@@ -1,0 +1,67 @@
+[
+  {
+    "stage": "calibration",
+    "runs": 56,
+    "online_seconds": 311.8005791014584,
+    "process_wall_seconds": 347.4313963999448,
+    "statuses": {
+      "completed": 31,
+      "time_budget": 25
+    }
+  },
+  {
+    "stage": "prescribed",
+    "runs": 3,
+    "online_seconds": 0.554057199973613,
+    "process_wall_seconds": 2.529880399990361,
+    "statuses": {
+      "completed": 3
+    }
+  },
+  {
+    "stage": "screen",
+    "runs": 189,
+    "online_seconds": 1949.2335590003058,
+    "process_wall_seconds": 2078.976803599973,
+    "statuses": {
+      "completed": 94,
+      "time_budget": 95
+    }
+  },
+  {
+    "stage": "confirmation",
+    "runs": 70,
+    "online_seconds": 278.5589717015391,
+    "process_wall_seconds": 324.7480204999447,
+    "statuses": {
+      "evaluation_completed": 70
+    }
+  },
+  {
+    "stage": "long_horizon",
+    "runs": 1,
+    "online_seconds": 159.6437966083031,
+    "process_wall_seconds": 169.27831829999923,
+    "statuses": {
+      "completed": 1
+    }
+  },
+  {
+    "stage": "tempered",
+    "runs": 2,
+    "online_seconds": 16.014435799894272,
+    "process_wall_seconds": 17.284175099994172,
+    "statuses": {
+      "time_budget": 2
+    }
+  },
+  {
+    "stage": "matrix_control",
+    "runs": 2,
+    "online_seconds": 30.012658199833822,
+    "process_wall_seconds": 31.469101500013494,
+    "statuses": {
+      "time_budget": 2
+    }
+  }
+]

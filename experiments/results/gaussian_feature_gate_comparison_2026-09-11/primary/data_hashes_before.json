@@ -1,0 +1,20 @@
+{
+  "experiments\\data\\signal_d100_B1000_T1000_s72001\\X.bin": "00f1e15970adc5b8ee73c4b766adb9eaaa47dc357a184beb2bd3698ddbaffaff",
+  "experiments\\data\\signal_d100_B1000_T1000_s72001\\data.json": "f57b42a8b74f702cc0c2ea65566907a4c440a863e4a62d23f97e7c760d9ae88c",
+  "experiments\\data\\signal_d100_B1000_T1000_s72001\\y.bin": "8fded2e90b7862db0f7c47c0dae9bb08118361b79464783301f0874e4beb8d09",
+  "experiments\\data\\signal_d100_B1000_T1000_s72002\\X.bin": "adac3312121b1df6d25804c013b74000c82c3a31cae9032bcee735de096b84d8",
+  "experiments\\data\\signal_d100_B1000_T1000_s72002\\data.json": "14a553078daf81f2dd79215d3bf074633f32a468e22907fbab8ac8977e77fcf4",
+  "experiments\\data\\signal_d100_B1000_T1000_s72002\\y.bin": "6098f00e436dbb01b8365433e5766b615a9f9dc6a6b79fb6a6d0b5ba20885793",
+  "experiments\\data\\signal_d100_B1000_T1000_s72003\\X.bin": "67d664fe043ce97d15a232b3bf8d5a33fa7ec840273ff78e17bb2c5dbb32f407",
+  "experiments\\data\\signal_d100_B1000_T1000_s72003\\data.json": "9f1080a60fa666d2744e9e8e188e294a123f30e89f1f04da9b8cc633b9ff0562",
+  "experiments\\data\\signal_d100_B1000_T1000_s72003\\y.bin": "1e2b744381178201274d1559d41b50f13a5cf84270105e953552ca307403252b",
+  "experiments\\data\\signal_d10_B100_T1000_s72001\\X.bin": "69728e2e83ac552148097cbf5a33fad7e6b59df44eac827ee325aaea0cab86d6",
+  "experiments\\data\\signal_d10_B100_T1000_s72001\\data.json": "bad0442d9d0eae879e5a25ac0acdcc85fc3f7759d6168e8c6bb55007a9a104c1",
+  "experiments\\data\\signal_d10_B100_T1000_s72001\\y.bin": "354fd1841a159d24d1ba7ea103cd5dbeb334517cf2058a86308793db186b63db",
+  "experiments\\data\\signal_d10_B100_T1000_s72002\\X.bin": "31b826b0afac2fba36d542c7d662f96893454acc6b75b157dd7247f612fb82ab",
+  "experiments\\data\\signal_d10_B100_T1000_s72002\\data.json": "1b9f4c07a36f4286d29cf1851d98b9111269bfedbcf57d9c5d6bae49d1d49329",
+  "experiments\\data\\signal_d10_B100_T1000_s72002\\y.bin": "a2e9d8fa29be77d9a5223131f8d572e980ffa1f58063e74c5259cc1ed96aa359",
+  "experiments\\data\\signal_d10_B100_T1000_s72003\\X.bin": "eeb23591d9a073662351809018a33f7f0e159f2d4443e10cf2435e491fb6fd50",
+  "experiments\\data\\signal_d10_B100_T1000_s72003\\data.json": "94c8f3dabd94b29fdc8411a109bdda674cb1b269b3fbdcc804cd3decd2f390a8",
+  "experiments\\data\\signal_d10_B100_T1000_s72003\\y.bin": "98e857d0900ddc231dc5c00f9e963995f59d1cbf376481f9fa81e816a219a869"
+}

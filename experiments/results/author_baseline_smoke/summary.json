@@ -1,0 +1,44 @@
+[
+  {
+    "status": "completed",
+    "actual_worker_pid": 24564,
+    "os_hard_limit_active": true,
+    "process_wall_seconds": 2.1192408000060823,
+    "algorithm": "author_aioli",
+    "rounds": 2,
+    "online_seconds": 1.1149928999948315,
+    "peak_private": 197926912,
+    "state_bytes": 8016000,
+    "loss": 1.386294289042098,
+    "author_loss": 1.386294289042098,
+    "error": null,
+    "job": {
+      "pid": 24564,
+      "job_member": true,
+      "process_memory_limit": 2147483648,
+      "limit_flags": 8448,
+      "verified_inside_actual_interpreter": true
+    }
+  },
+  {
+    "status": "completed",
+    "actual_worker_pid": 34920,
+    "os_hard_limit_active": true,
+    "process_wall_seconds": 2.617376799986232,
+    "algorithm": "author_sigmoid",
+    "rounds": 2,
+    "online_seconds": 1.3291054000146687,
+    "peak_private": 950652928,
+    "state_bytes": 800896000,
+    "loss": 1.2321436812926323,
+    "author_loss": 1.2321436812926323,
+    "error": null,
+    "job": {
+      "pid": 34920,
+      "job_member": true,
+      "process_memory_limit": 2147483648,
+      "limit_flags": 8448,
+      "verified_inside_actual_interpreter": true
+    }
+  }
+]

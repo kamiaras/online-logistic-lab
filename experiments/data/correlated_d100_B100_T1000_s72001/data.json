@@ -1,0 +1,20 @@
+{
+  "case": {
+    "id": "correlated_d100_B100_T1000_s72001",
+    "family": "correlated",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  "sha256_interleaved_blocks": "94fd65ec1970682f3ccecfa22b7ef668c6a18f06abb27d3d3143f73a2c99e6b3",
+  "block_size": 128,
+  "feature_norm_min": 0.9999999999999996,
+  "feature_norm_max": 1.0,
+  "generating_score_rms": 0.2232583789282836,
+  "positive_fraction": 0.505,
+  "disk_bytes": 801000,
+  "dtype_X": "little-endian float64",
+  "dtype_y": "int8"
+}

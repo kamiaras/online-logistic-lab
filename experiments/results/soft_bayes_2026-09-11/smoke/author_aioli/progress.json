@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "job_verification": {
+    "pid": 32280,
+    "job_member": true,
+    "process_memory_limit": 2147483648,
+    "limit_flags": 8448,
+    "verified_inside_actual_interpreter": true
+  },
+  "status": "completed",
+  "error": null,
+  "failure_phase": null,
+  "round": 3,
+  "committed_round": 3,
+  "recorded_rounds": 3,
+  "configured_horizon": 12,
+  "target_rounds": 3,
+  "algorithm": "author_aioli",
+  "algorithm_class": "AuthorAIOLI",
+  "native_algorithm_class": "AIOLI",
+  "d": 1,
+  "B": 1.0,
+  "seed": 0,
+  "config": {},
+  "author_commit": null,
+  "author_source": null,
+  "actual_population": null,
+  "cumulative_loss": 2.306208024295191,
+  "online_seconds": 0.004751999978907406,
+  "author_reported_cumulative_loss": 2.3062080242951906,
+  "completed_prefix_online_seconds": 0.004751999978907406,
+  "initialization_seconds": 0.00014849999570287764,
+  "prediction_seconds": 0.0027790999738499522,
+  "update_seconds": 0.0018244000093545765,
+  "native_prediction_seconds": 0.0026018000207841396,
+  "native_update_seconds": 0.001672499958658591,
+  "adapter_overhead_seconds": 0.00032920000376179814,
+  "input_seconds": 0.0004627000307664275,
+  "recording_seconds": 0.10462220007320866,
+  "elapsed_seconds": 1.5859985999995843,
+  "cpu_seconds": 1.453125,
+  "memory": {
+    "working_set": 142426112,
+    "peak_working_set": 142426112,
+    "private_commit": 181780480,
+    "peak_private_commit": 181780480
+  },
+  "baseline_memory": {
+    "working_set": 30089216,
+    "peak_working_set": 30089216,
+    "private_commit": 52957184,
+    "peak_private_commit": 52957184
+  },
+  "state_bytes": 24,
+  "metrics": {
+    "counters": {
+      "predictions": 3,
+      "observations": 3
+    },
+    "times": {
+      "native_initialization": 0.0001204000145662576,
+      "native_predict": 0.0026018000207841396,
+      "stable_prediction_diagnostic": 3.950003883801401e-05,
+      "native_update": 0.001672499958658591
+    }
+  },
+  "diagnostics": {
+    "algorithm": "author_aioli",
+    "native_class": "AIOLI",
+    "native_source": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\research\\author_code_comparison_2026-09-11\\a9a_experiment.py",
+    "pinned_commit": "22c6ec54cd45908c0a39cbfa931a60e55646308f",
+    "configuration": {
+      "R": 1.0,
+      "lam": 1.0,
+      "T_inner": 80,
+      "omega_solver": "lbfgs"
+    },
+    "observed_rounds": 3,
+    "last_probability": 0.49120779196784337,
+    "last_stable_logit": -0.03517245767260635,
+    "last_log_probability_positive": -0.7108880391483055,
+    "last_log_probability_negative": -0.6757155814756991,
+    "last_reported_loss": 0.7108880391483055,
+    "last_native_predict_seconds": 0.0009153999853879213,
+    "last_native_update_seconds": 0.0007747999916318804,
+    "state_bytes": 24,
+    "failed": false,
+    "native_prediction_and_update_unchanged": true,
+    "stable_loss_is_unsmoothed_native_score_diagnostic": true,
+    "author_reported_loss_clips_probability_at": 1e-12,
+    "native_timing_excludes_adapter_diagnostics_and_history_append": true,
+    "counters_scope": "Completed native updates only; interrupted update work is not counted. FLOPs are dense-kernel estimates.",
+    "finite_precision_certificate": false,
+    "metrics": {
+      "counters": {
+        "predictions": 3,
+        "observations": 3
+      },
+      "times": {
+        "native_initialization": 0.0001204000145662576,
+        "native_predict": 0.0026018000207841396,
+        "stable_prediction_diagnostic": 3.950003883801401e-05,
+        "native_update": 0.001672499958658591
+      }
+    }
+  },
+  "diagnostics_error": null,
+  "nonfinite_diagnostics_replaced_with_null": [],
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\Kamiar\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\research\\author_code_comparison_2026-09-11\\dependencies\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    }
+  ],
+  "trajectory": {
+    "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\smoke\\author_aioli\\trajectory.bin",
+    "columns": [
+      "raw_logit",
+      "output_logit",
+      "loss",
+      "online_seconds",
+      "state_bytes",
+      "author_clipped_loss"
+    ],
+    "dtype": "little-endian float64",
+    "record_bytes": 48,
+    "committed_bytes": 144,
+    "file_bytes": 144
+  },
+  "checkpoint_scope": "Only committed_round complete records are published. Later bytes are uncommitted. Error timing/diagnostics may include an unfinished next round.",
+  "checkpoint_flush_policy": "Flush trajectory before atomic progress every completed round and on termination",
+  "timing_scope": "Online time is algorithm construction plus predict/observe. Numerical-library/module imports, input streaming, and recording are excluded. Native author function times are separate subsets.",
+  "primary_prediction": "Actual returned output logit with stable logistic loss; raw_logit equals output_logit",
+  "author_clipped_loss_scope": "Unchanged author's separately probability-clipped loss; NaN binary sentinel for other methods",
+  "input_block_rows": 128,
+  "recorder_retains_per_round_history": false,
+  "prediction_diagnostics_change_native_updates": false,
+  "practical_caps_have_prescribed_regret_certificate": false,
+  "finite_precision_certificate": false
+}

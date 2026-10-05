@@ -1,0 +1,1004 @@
+[
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\aioli_dimension\\dimension_8000",
+    "specification": {
+      "algorithm": "aioli",
+      "config": {
+        "matrix_backend": "cholesky"
+      },
+      "d": 8000,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d8000_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d8000_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\aioli_dimension\\dimension_8000",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "dimension_8000",
+      "frontier": {
+        "axis": "aioli_dimension",
+        "parameter": "dimension",
+        "value": 8000,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": false,
+        "process_memory_limit_overridden": false,
+        "requested_particles": null
+      }
+    },
+    "raw_spec_sha256": "e8d74b290e82eeda07fd02a62561baf3a51d3a9d4cfbb3396b2bafc7b3c01fd2"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_131072",
+    "specification": {
+      "algorithm": "ours",
+      "config": {
+        "particles": 131072,
+        "transitions": 1,
+        "mode": "practical",
+        "particle_batch": 64,
+        "max_particles": 131072,
+        "max_state_bytes": 9223372036854775807
+      },
+      "d": 128,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d128_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d128_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_131072",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "particles_131072",
+      "frontier": {
+        "axis": "ours_particles",
+        "parameter": "particles",
+        "value": 131072,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": true,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 131072
+      }
+    },
+    "raw_spec_sha256": "fd5d18ffb28adc692fcae0fa7ea7a747f8fbeca1b2c80d652f937f68c37460df"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_131072",
+    "specification": {
+      "algorithm": "sigmoid",
+      "config": {
+        "particles": 131072,
+        "transitions": 1
+      },
+      "d": 128,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d128_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d128_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_131072",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "particles_131072",
+      "frontier": {
+        "axis": "sigmoid_particles",
+        "parameter": "particles",
+        "value": 131072,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": false,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 131072
+      }
+    },
+    "raw_spec_sha256": "0d88ae738f83b5312e1d3e2a55533580e971827a1e969f25fcbadeb110728f17"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_50000",
+    "specification": {
+      "algorithm": "ours",
+      "config": {
+        "particles": 256,
+        "transitions": 1,
+        "mode": "practical",
+        "particle_batch": 64,
+        "max_particles": 256,
+        "max_state_bytes": 9223372036854775807
+      },
+      "d": 50000,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d50000_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d50000_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_50000",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "dimension_50000",
+      "frontier": {
+        "axis": "ours_dimension",
+        "parameter": "dimension",
+        "value": 50000,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": true,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 256
+      }
+    },
+    "raw_spec_sha256": "9fab758c4bbb60fa78aa1b97d8035820055882484fbba6079e1174a88ee66ddc"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_50000",
+    "specification": {
+      "algorithm": "sigmoid",
+      "config": {
+        "particles": 16,
+        "transitions": 16
+      },
+      "d": 50000,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d50000_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d50000_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_50000",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "dimension_50000",
+      "frontier": {
+        "axis": "sigmoid_dimension",
+        "parameter": "dimension",
+        "value": 50000,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": false,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 16
+      }
+    },
+    "raw_spec_sha256": "4fec6fb39158a6322ae2d842d372f87c49c0d1313763133935c64a4066d09ea9"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\aioli_dimension\\dimension_16000",
+    "specification": {
+      "algorithm": "aioli",
+      "config": {
+        "matrix_backend": "cholesky"
+      },
+      "d": 16000,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d16000_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d16000_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\aioli_dimension\\dimension_16000",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "dimension_16000",
+      "frontier": {
+        "axis": "aioli_dimension",
+        "parameter": "dimension",
+        "value": 16000,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": false,
+        "process_memory_limit_overridden": false,
+        "requested_particles": null
+      }
+    },
+    "raw_spec_sha256": "c4203a0e3c0cd845bb4358173e3f76b9273b448beb381f5cf9a80a24e9eeb149"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_262144",
+    "specification": {
+      "algorithm": "ours",
+      "config": {
+        "particles": 262144,
+        "transitions": 1,
+        "mode": "practical",
+        "particle_batch": 64,
+        "max_particles": 262144,
+        "max_state_bytes": 9223372036854775807
+      },
+      "d": 128,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d128_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d128_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_262144",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "particles_262144",
+      "frontier": {
+        "axis": "ours_particles",
+        "parameter": "particles",
+        "value": 262144,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": true,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 262144
+      }
+    },
+    "raw_spec_sha256": "4565eb9ae060847ef2f8b1daa780e7e17842707802f218203addb2b16db71c6e"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_262144",
+    "specification": {
+      "algorithm": "sigmoid",
+      "config": {
+        "particles": 262144,
+        "transitions": 1
+      },
+      "d": 128,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d128_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d128_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_262144",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "particles_262144",
+      "frontier": {
+        "axis": "sigmoid_particles",
+        "parameter": "particles",
+        "value": 262144,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": false,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 262144
+      }
+    },
+    "raw_spec_sha256": "a66e25e634900892693658401271ab3616d3111ceaf4194363c0347713cd1a62"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_100000",
+    "specification": {
+      "algorithm": "ours",
+      "config": {
+        "particles": 256,
+        "transitions": 1,
+        "mode": "practical",
+        "particle_batch": 64,
+        "max_particles": 256,
+        "max_state_bytes": 9223372036854775807
+      },
+      "d": 100000,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d100000_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d100000_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_100000",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "dimension_100000",
+      "frontier": {
+        "axis": "ours_dimension",
+        "parameter": "dimension",
+        "value": 100000,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": true,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 256
+      }
+    },
+    "raw_spec_sha256": "6df9e28da065892eb60057e9484cf56d2ae107bad6552e3493a04ba560ce0a79"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_100000",
+    "specification": {
+      "algorithm": "sigmoid",
+      "config": {
+        "particles": 16,
+        "transitions": 16
+      },
+      "d": 100000,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d100000_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d100000_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_100000",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "dimension_100000",
+      "frontier": {
+        "axis": "sigmoid_dimension",
+        "parameter": "dimension",
+        "value": 100000,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": false,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 16
+      }
+    },
+    "raw_spec_sha256": "a021785d5a494220d97c9cac13667de88d74fe6304289bc9b1749b479db2301c"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_524288",
+    "specification": {
+      "algorithm": "ours",
+      "config": {
+        "particles": 524288,
+        "transitions": 1,
+        "mode": "practical",
+        "particle_batch": 64,
+        "max_particles": 524288,
+        "max_state_bytes": 9223372036854775807
+      },
+      "d": 128,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d128_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d128_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_524288",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "particles_524288",
+      "frontier": {
+        "axis": "ours_particles",
+        "parameter": "particles",
+        "value": 524288,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": true,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 524288
+      }
+    },
+    "raw_spec_sha256": "cfbf2a37fe5a97a28834d6dfdd9c30cf74ba77933275f78ad4f9b60bac4a1cc5"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_524288",
+    "specification": {
+      "algorithm": "sigmoid",
+      "config": {
+        "particles": 524288,
+        "transitions": 1
+      },
+      "d": 128,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d128_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d128_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_524288",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "particles_524288",
+      "frontier": {
+        "axis": "sigmoid_particles",
+        "parameter": "particles",
+        "value": 524288,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": false,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 524288
+      }
+    },
+    "raw_spec_sha256": "97a97b7e4a137d4df9975e2fde56825bca4878af737b6cca781160baec35aa5a"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_200000",
+    "specification": {
+      "algorithm": "ours",
+      "config": {
+        "particles": 256,
+        "transitions": 1,
+        "mode": "practical",
+        "particle_batch": 64,
+        "max_particles": 256,
+        "max_state_bytes": 9223372036854775807
+      },
+      "d": 200000,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d200000_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d200000_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_200000",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "dimension_200000",
+      "frontier": {
+        "axis": "ours_dimension",
+        "parameter": "dimension",
+        "value": 200000,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": true,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 256
+      }
+    },
+    "raw_spec_sha256": "b940e316fd24a53696b603e22a3c65a187b9bafdcd504e31f47797c1b470cd92"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_200000",
+    "specification": {
+      "algorithm": "sigmoid",
+      "config": {
+        "particles": 16,
+        "transitions": 16
+      },
+      "d": 200000,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d200000_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d200000_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_200000",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "dimension_200000",
+      "frontier": {
+        "axis": "sigmoid_dimension",
+        "parameter": "dimension",
+        "value": 200000,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": false,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 16
+      }
+    },
+    "raw_spec_sha256": "f9072cfa848d826441dcdca551b1ce959560885fe064733472276bfaaa975a31"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_1048576",
+    "specification": {
+      "algorithm": "ours",
+      "config": {
+        "particles": 1048576,
+        "transitions": 1,
+        "mode": "practical",
+        "particle_batch": 64,
+        "max_particles": 1048576,
+        "max_state_bytes": 9223372036854775807
+      },
+      "d": 128,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d128_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d128_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_1048576",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "particles_1048576",
+      "frontier": {
+        "axis": "ours_particles",
+        "parameter": "particles",
+        "value": 1048576,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": true,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 1048576
+      }
+    },
+    "raw_spec_sha256": "85c51eb8f805cae9b28532ebd957d623ef8959d85d1304f898869e98177d8778"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_393216",
+    "specification": {
+      "algorithm": "sigmoid",
+      "config": {
+        "particles": 393216,
+        "transitions": 1
+      },
+      "d": 128,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d128_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d128_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_393216",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "particles_393216",
+      "frontier": {
+        "axis": "sigmoid_particles",
+        "parameter": "particles",
+        "value": 393216,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": false,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 393216
+      }
+    },
+    "raw_spec_sha256": "905b86799f297c93d8f98f96fd9a0d761beccb53766f73f2ac51a5b1d326b3ef"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_150000",
+    "specification": {
+      "algorithm": "ours",
+      "config": {
+        "particles": 256,
+        "transitions": 1,
+        "mode": "practical",
+        "particle_batch": 64,
+        "max_particles": 256,
+        "max_state_bytes": 9223372036854775807
+      },
+      "d": 150000,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d150000_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d150000_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_150000",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "dimension_150000",
+      "frontier": {
+        "axis": "ours_dimension",
+        "parameter": "dimension",
+        "value": 150000,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": true,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 256
+      }
+    },
+    "raw_spec_sha256": "ca40b183efd0ab92a37397f75f5c6acb4d67a244e78e446d022054c9ecf04ec8"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_400000",
+    "specification": {
+      "algorithm": "sigmoid",
+      "config": {
+        "particles": 16,
+        "transitions": 16
+      },
+      "d": 400000,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d400000_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d400000_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_400000",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "dimension_400000",
+      "frontier": {
+        "axis": "sigmoid_dimension",
+        "parameter": "dimension",
+        "value": 400000,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": false,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 16
+      }
+    },
+    "raw_spec_sha256": "2c55d87ab96620c01f98fac0510800f1dbe6cab417605111ea845d54239b2d94"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_786432",
+    "specification": {
+      "algorithm": "ours",
+      "config": {
+        "particles": 786432,
+        "transitions": 1,
+        "mode": "practical",
+        "particle_batch": 64,
+        "max_particles": 786432,
+        "max_state_bytes": 9223372036854775807
+      },
+      "d": 128,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d128_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d128_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_786432",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "particles_786432",
+      "frontier": {
+        "axis": "ours_particles",
+        "parameter": "particles",
+        "value": 786432,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": true,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 786432
+      }
+    },
+    "raw_spec_sha256": "f810c03f7828645d01c622eebe9a2ceb333ca49299a9dfffc00b13b97543bcdb"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_327680",
+    "specification": {
+      "algorithm": "sigmoid",
+      "config": {
+        "particles": 327680,
+        "transitions": 1
+      },
+      "d": 128,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d128_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d128_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_327680",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "particles_327680",
+      "frontier": {
+        "axis": "sigmoid_particles",
+        "parameter": "particles",
+        "value": 327680,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": false,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 327680
+      }
+    },
+    "raw_spec_sha256": "22f6a537f319cbdc3403792a53072ce30507d3f14b367d1498da70eacacb42ba"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_125000",
+    "specification": {
+      "algorithm": "ours",
+      "config": {
+        "particles": 256,
+        "transitions": 1,
+        "mode": "practical",
+        "particle_batch": 64,
+        "max_particles": 256,
+        "max_state_bytes": 9223372036854775807
+      },
+      "d": 125000,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d125000_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d125000_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_125000",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "dimension_125000",
+      "frontier": {
+        "axis": "ours_dimension",
+        "parameter": "dimension",
+        "value": 125000,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": true,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 256
+      }
+    },
+    "raw_spec_sha256": "2a2f8333e79f229f742292183b2be870aa059de0b7c76060e5e5b028d04f2d7c"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_300000",
+    "specification": {
+      "algorithm": "sigmoid",
+      "config": {
+        "particles": 16,
+        "transitions": 16
+      },
+      "d": 300000,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d300000_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d300000_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_300000",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "dimension_300000",
+      "frontier": {
+        "axis": "sigmoid_dimension",
+        "parameter": "dimension",
+        "value": 300000,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": false,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 16
+      }
+    },
+    "raw_spec_sha256": "7b9f16248f5aedc0a1c956b431c23e11ac8c4de4d51fc0003f5d14f0a3a8a9b6"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_655360",
+    "specification": {
+      "algorithm": "ours",
+      "config": {
+        "particles": 655360,
+        "transitions": 1,
+        "mode": "practical",
+        "particle_batch": 64,
+        "max_particles": 655360,
+        "max_state_bytes": 9223372036854775807
+      },
+      "d": 128,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d128_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d128_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_655360",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "particles_655360",
+      "frontier": {
+        "axis": "ours_particles",
+        "parameter": "particles",
+        "value": 655360,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": true,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 655360
+      }
+    },
+    "raw_spec_sha256": "3a8e8357342ed05730b6f913ba865f200f66fcc3dfc01c95eb321f8e9c1d39b2"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_360448",
+    "specification": {
+      "algorithm": "sigmoid",
+      "config": {
+        "particles": 360448,
+        "transitions": 1
+      },
+      "d": 128,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d128_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d128_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_particles\\particles_360448",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "particles_360448",
+      "frontier": {
+        "axis": "sigmoid_particles",
+        "parameter": "particles",
+        "value": 360448,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": false,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 360448
+      }
+    },
+    "raw_spec_sha256": "7d0c7831cb7bd3d9df4b789e40708e6da9248c79130ee9d026a3d6b904bb9f12"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_137500",
+    "specification": {
+      "algorithm": "ours",
+      "config": {
+        "particles": 256,
+        "transitions": 1,
+        "mode": "practical",
+        "particle_batch": 64,
+        "max_particles": 256,
+        "max_state_bytes": 9223372036854775807
+      },
+      "d": 137500,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d137500_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d137500_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_dimension\\dimension_137500",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "dimension_137500",
+      "frontier": {
+        "axis": "ours_dimension",
+        "parameter": "dimension",
+        "value": 137500,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": true,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 256
+      }
+    },
+    "raw_spec_sha256": "03a1c0b4d57d16449c606a6f18bc306b5112f78b7cacee5271f3c49f3055b7f9"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_250000",
+    "specification": {
+      "algorithm": "sigmoid",
+      "config": {
+        "particles": 16,
+        "transitions": 16
+      },
+      "d": 250000,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d250000_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d250000_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_250000",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "dimension_250000",
+      "frontier": {
+        "axis": "sigmoid_dimension",
+        "parameter": "dimension",
+        "value": 250000,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": false,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 16
+      }
+    },
+    "raw_spec_sha256": "387b0e049587a6523d16d50976894ea454b76179fb1d4e49094259cd39af3af9"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_720896",
+    "specification": {
+      "algorithm": "ours",
+      "config": {
+        "particles": 720896,
+        "transitions": 1,
+        "mode": "practical",
+        "particle_batch": 64,
+        "max_particles": 720896,
+        "max_state_bytes": 9223372036854775807
+      },
+      "d": 128,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d128_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d128_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_720896",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "particles_720896",
+      "frontier": {
+        "axis": "ours_particles",
+        "parameter": "particles",
+        "value": 720896,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": true,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 720896
+      }
+    },
+    "raw_spec_sha256": "cfa93e5c345e9afc1f0920ba6ddfd9b07102b2db25bd254b8c013a162698bd54"
+  },
+  {
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_225000",
+    "specification": {
+      "algorithm": "sigmoid",
+      "config": {
+        "particles": 16,
+        "transitions": 16
+      },
+      "d": 225000,
+      "B": 1000.0,
+      "T": 4,
+      "stop_after_round": 2,
+      "sampler_seed": 878001,
+      "data_seed": 78001,
+      "case_id": "signal_d225000_B1000_T4_s78001",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d225000_B1000_T4_s78001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\sigmoid_dimension\\dimension_225000",
+      "seconds": 30.0,
+      "memory_bytes": 2147483648,
+      "stage": "memory_frontier_deep",
+      "label": "dimension_225000",
+      "frontier": {
+        "axis": "sigmoid_dimension",
+        "parameter": "dimension",
+        "value": 225000,
+        "purpose": "actual_constructor_and_short_online_memory_probe",
+        "not_a_regret_comparison": true,
+        "advisory_preflight_overridden": false,
+        "process_memory_limit_overridden": false,
+        "requested_particles": 16
+      }
+    },
+    "raw_spec_sha256": "771f2a7bc133ec4b5dc76416f060e97f03a031e4892e60df1c72db92971427b6"
+  }
+]

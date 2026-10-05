@@ -1,0 +1,12 @@
+{
+  "per_method_online_seconds": 43200,
+  "launched_utc": "2026-09-11T15:20:08.6556726Z",
+  "launcher_pid": 21664,
+  "target_rounds": 100000,
+  "output": "experiments/results/large_regret_d1000_B1000_T100000",
+  "algorithms": [
+    "aioli",
+    "sigmoid",
+    "ours"
+  ]
+}

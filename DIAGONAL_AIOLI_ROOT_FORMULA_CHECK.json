@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "scope": "Local algebra, high-precision root comparison, and formula constants; no learning benchmark or floating-point regret proof.",
+  "checked_assertions": 564,
+  "max_score_error_with_prescribed_half_root_tolerance": 0.0007783608534004394,
+  "max_half_potential_identity_error": 2.55351295663786e-15,
+  "max_diagonal_stability_identity_error": 7.244205235679146e-15,
+  "two_phase_exact_counterexample": {
+    "d": 2,
+    "B": 1,
+    "R": 1,
+    "lambda": 1,
+    "T": 41000,
+    "first_phase": 40000,
+    "second_phase": 1000,
+    "alpha_at_half": 0.058750928050398624,
+    "regret_lower_bound": 160.81529666188382,
+    "full_AIOLI_exact_upper_bound": 29.62548650507751,
+    "lower_bound_per_T": 0.0039223243088264345
+  }
+}

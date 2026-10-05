@@ -1,0 +1,20 @@
+{
+  "algorithm": "sigmoid",
+  "config": {
+    "particles": 16,
+    "transitions": 20,
+    "bridges": 20
+  },
+  "d": 10,
+  "B": 10.0,
+  "T": 1000,
+  "sampler_seed": 160174,
+  "data_seed": 71001,
+  "case_id": "signal_d10_B10_T1000_s71001",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B10_T1000_s71001",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\tempered\\signal_d10_B10_T1000_s71001__sigmoid__m16n20bridge20",
+  "seconds": 8,
+  "memory_bytes": 2147483648,
+  "stage": "tempered",
+  "label": "m16n20bridge20"
+}

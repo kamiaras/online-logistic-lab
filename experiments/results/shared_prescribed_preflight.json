@@ -1,0 +1,1263 @@
+{
+  "schema_version": 1,
+  "allocation_free": true,
+  "interpretation": "Parameter-only worst-case upper schedule estimates using gamma>=lambda, no skips and the maximum allowed feature energies. A default guard rejection is not a lower bound, proof of computational impossibility, or statement of actual data-dependent work. State estimates count the raw-plus-prefix block representation and spare arrays, excluding Python/transient allocations.",
+  "rows": [
+    {
+      "d": 1,
+      "B": 0.1,
+      "T": 10,
+      "R": 1.0,
+      "sources": [
+        "prescribed"
+      ],
+      "m": 1,
+      "N_max": 6,
+      "ell_max": 6,
+      "worst_case_total_transitions": 60,
+      "estimated_state_bytes": 26880,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": true,
+      "guard_reasons": [],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 1,
+        "B": 0.1,
+        "T": 10,
+        "R": 1.0,
+        "prescribed": {
+          "m": 1,
+          "log_m": 0.0,
+          "log_Gamma": -4.394276692416441,
+          "a": 0.24751657271185992,
+          "log_a": -1.3962777387631837,
+          "H": 7.049254841255838,
+          "lam": 99.99999999999999,
+          "kappa": 0.010000000000000002,
+          "score_bound": 0.2,
+          "N_max": 6,
+          "ell_max": 6,
+          "log_N_max": 1.6616717721796825,
+          "log_ell_max": 1.6448220296298994,
+          "global_curvature_underflow": false
+        },
+        "actual_tilts": 1,
+        "actual_max_burn_in": 6,
+        "actual_max_transitions": 6,
+        "history_block_size": 1024,
+        "estimated_total_moves": 60,
+        "estimated_state_bytes": 26880,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": true,
+        "budget_reasons": [],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 1,
+      "B": 1.0,
+      "T": 10,
+      "R": 1.0,
+      "sources": [
+        "prescribed"
+      ],
+      "m": 3,
+      "N_max": 42,
+      "ell_max": 23,
+      "worst_case_total_transitions": 880,
+      "estimated_state_bytes": 26880,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": true,
+      "guard_reasons": [],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 1,
+        "B": 1.0,
+        "T": 10,
+        "R": 1.0,
+        "prescribed": {
+          "m": 3,
+          "log_m": 1.0986122886681098,
+          "log_Gamma": -0.1571379754827495,
+          "a": 0.10499358540350652,
+          "log_a": -2.253856022085945,
+          "H": 12.803809641285461,
+          "lam": 1.0,
+          "kappa": 1.0,
+          "score_bound": 2.0,
+          "N_max": 42,
+          "ell_max": 23,
+          "log_N_max": 3.7264202888011626,
+          "log_ell_max": 3.1127497063450402,
+          "global_curvature_underflow": false
+        },
+        "actual_tilts": 3,
+        "actual_max_burn_in": 42,
+        "actual_max_transitions": 23,
+        "history_block_size": 1024,
+        "estimated_total_moves": 880,
+        "estimated_state_bytes": 26880,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": true,
+        "budget_reasons": [],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 2,
+      "B": 1.0,
+      "T": 10,
+      "R": 1.0,
+      "sources": [
+        "prescribed"
+      ],
+      "m": 4,
+      "N_max": 44,
+      "ell_max": 23,
+      "worst_case_total_transitions": 1130,
+      "estimated_state_bytes": 43520,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": true,
+      "guard_reasons": [],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 2,
+        "B": 1.0,
+        "T": 10,
+        "R": 1.0,
+        "prescribed": {
+          "m": 4,
+          "log_m": 1.3862943611198906,
+          "log_Gamma": 0.10393735046267691,
+          "a": 0.052692773491532625,
+          "log_a": -2.9432769582352303,
+          "H": 13.291493156856294,
+          "lam": 1.0,
+          "kappa": 1.0,
+          "score_bound": 2.8284271247461903,
+          "N_max": 44,
+          "ell_max": 23,
+          "log_N_max": 3.7638017522547322,
+          "log_ell_max": 3.1127497063450402,
+          "global_curvature_underflow": false
+        },
+        "actual_tilts": 4,
+        "actual_max_burn_in": 44,
+        "actual_max_transitions": 23,
+        "history_block_size": 1024,
+        "estimated_total_moves": 1130,
+        "estimated_state_bytes": 43520,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": true,
+        "budget_reasons": [],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 10,
+      "B": 10.0,
+      "T": 10000,
+      "R": 1.0,
+      "sources": [
+        "screen"
+      ],
+      "m": 375001,
+      "N_max": 63947853,
+      "ell_max": 8664345,
+      "worst_case_total_transitions": 32491933228530000,
+      "estimated_state_bytes": 1724928,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 32491933228530000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 10,
+        "B": 10.0,
+        "T": 10000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 375001,
+          "log_m": 12.834683971615659,
+          "log_Gamma": 11.73606901628444,
+          "a": 3.4103993656548254e-28,
+          "log_a": -63.24555320336759,
+          "H": 51.15825105618796,
+          "lam": 0.01,
+          "kappa": 100.0,
+          "score_bound": 63.24555320336759,
+          "N_max": 63947853,
+          "ell_max": 8664345,
+          "log_N_max": 17.973578499638126,
+          "log_ell_max": 15.974726881690671,
+          "global_curvature_underflow": false
+        },
+        "actual_tilts": 375001,
+        "actual_max_burn_in": 63947853,
+        "actual_max_transitions": 8664345,
+        "history_block_size": 1024,
+        "estimated_total_moves": 32491933228530000,
+        "estimated_state_bytes": 1724928,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 32491933228530000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 10,
+      "B": 10.0,
+      "T": 100000,
+      "R": 1.0,
+      "sources": [
+        "screen"
+      ],
+      "m": 3750000,
+      "N_max": 754607439,
+      "ell_max": 86643403,
+      "worst_case_total_transitions": 32491342921403600000,
+      "estimated_state_bytes": 16863744,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 32491342921403600000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 10,
+        "B": 10.0,
+        "T": 100000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 3750000,
+          "log_m": 15.137266397946593,
+          "log_Gamma": 14.038654109278484,
+          "a": 3.4103993656548254e-28,
+          "log_a": -63.24555320336759,
+          "H": 60.36859142806513,
+          "lam": 0.01,
+          "kappa": 100.0,
+          "score_bound": 63.24555320336759,
+          "N_max": 754607439,
+          "ell_max": 86643403,
+          "log_N_max": 20.44170822249236,
+          "log_ell_max": 18.277311434684908,
+          "global_curvature_underflow": false
+        },
+        "actual_tilts": 3750000,
+        "actual_max_burn_in": 754607439,
+        "actual_max_transitions": 86643403,
+        "history_block_size": 1024,
+        "estimated_total_moves": 32491342921403600000,
+        "estimated_state_bytes": 16863744,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 32491342921403600000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 10,
+      "B": 100.0,
+      "T": 1000,
+      "R": 1.0,
+      "sources": [
+        "confirmation",
+        "screen"
+      ],
+      "m": 3750000,
+      "N_max": 639125482,
+      "ell_max": 86643403,
+      "worst_case_total_transitions": 324913313732079000,
+      "estimated_state_bytes": 176640,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 324913313732079000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 10,
+        "B": 100.0,
+        "T": 1000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 3750000,
+          "log_m": 15.137266397946593,
+          "log_Gamma": 14.038654109278484,
+          "a": 2.128395777144855e-275,
+          "log_a": -632.4555320336759,
+          "H": 51.13003545550702,
+          "lam": 0.0001,
+          "kappa": 10000.0,
+          "score_bound": 632.4555320336759,
+          "N_max": 639125482,
+          "ell_max": 86643403,
+          "log_N_max": 20.275611364802625,
+          "log_ell_max": 18.277311434684908,
+          "global_curvature_underflow": false
+        },
+        "actual_tilts": 3750000,
+        "actual_max_burn_in": 639125482,
+        "actual_max_transitions": 86643403,
+        "history_block_size": 1024,
+        "estimated_total_moves": 324913313732079000,
+        "estimated_state_bytes": 176640,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 324913313732079000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 10,
+      "B": 100.0,
+      "T": 100000,
+      "R": 1.0,
+      "sources": [
+        "deep_scale"
+      ],
+      "m": 375000001,
+      "N_max": 86938395302,
+      "ell_max": 8664339763,
+      "worst_case_total_transitions": 324912749806339530200000,
+      "estimated_state_bytes": 16863744,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 324912749806339530200000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 10,
+        "B": 100.0,
+        "T": 100000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 375000001,
+          "log_m": 19.74243658660135,
+          "log_Gamma": 18.643824295266576,
+          "a": 2.128395777144855e-275,
+          "log_a": -632.4555320336759,
+          "H": 69.55071619935939,
+          "lam": 0.0001,
+          "kappa": 10000.0,
+          "score_bound": 632.4555320336759,
+          "N_max": 86938395302,
+          "ell_max": 8664339763,
+          "log_N_max": 25.188465604795446,
+          "log_ell_max": 22.882481561273003,
+          "global_curvature_underflow": false
+        },
+        "actual_tilts": 375000001,
+        "actual_max_burn_in": 86938395302,
+        "actual_max_transitions": 8664339763,
+        "history_block_size": 1024,
+        "estimated_total_moves": 324912749806339530200000,
+        "estimated_state_bytes": 16863744,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 324912749806339530200000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 10,
+      "B": 100.0,
+      "T": 1000000,
+      "R": 1.0,
+      "sources": [
+        "long_horizon",
+        "screen"
+      ],
+      "m": 3750000001,
+      "N_max": 984513207201,
+      "ell_max": 86643397576,
+      "worst_case_total_transitions": 324912741894513207201000000,
+      "estimated_state_bytes": 168079872,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 324912741894513207201000000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 10,
+        "B": 100.0,
+        "T": 1000000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 3750000001,
+          "log_m": 22.045021677195397,
+          "log_Gamma": 20.946409388260623,
+          "a": 2.128395777144855e-275,
+          "log_a": -632.4555320336759,
+          "H": 78.76105657133556,
+          "lam": 0.0001,
+          "kappa": 10000.0,
+          "score_bound": 632.4555320336759,
+          "N_max": 984513207201,
+          "ell_max": 86643397576,
+          "log_N_max": 27.615413150070975,
+          "log_ell_max": 25.185066653727052,
+          "global_curvature_underflow": false
+        },
+        "actual_tilts": 3750000001,
+        "actual_max_burn_in": 984513207201,
+        "actual_max_transitions": 86643397576,
+        "history_block_size": 1024,
+        "estimated_total_moves": 324912741894513207201000000,
+        "estimated_state_bytes": 168079872,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 324912741894513207201000000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 10,
+      "B": 1000.0,
+      "T": 10000000,
+      "R": 1.0,
+      "sources": [
+        "deep_long"
+      ],
+      "m": 3750000000001,
+      "N_max": 1214736171722125,
+      "ell_max": 86643397569999,
+      "worst_case_total_transitions": 3249127408887109861717221250000000,
+      "estimated_state_bytes": 1680069120,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 3249127408887109861717221250000000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 10,
+        "B": 1000.0,
+        "T": 10000000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 3750000000001,
+          "log_m": 28.952776955911133,
+          "log_Gamma": 27.85416466724276,
+          "a": 0.0,
+          "log_a": -6324.555320336759,
+          "H": 97.1788937377643,
+          "lam": 1e-06,
+          "kappa": 1000000.0,
+          "score_bound": 6324.555320336759,
+          "N_max": 1214736171722125,
+          "ell_max": 86643397569999,
+          "log_N_max": 34.73330330550879,
+          "log_ell_max": 32.092821932649244,
+          "global_curvature_underflow": true
+        },
+        "actual_tilts": 3750000000001,
+        "actual_max_burn_in": 1214736171722125,
+        "actual_max_transitions": 86643397569999,
+        "history_block_size": 1024,
+        "estimated_total_moves": 3249127408887109861717221250000000,
+        "estimated_state_bytes": 1680069120,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 3249127408887109861717221250000000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 10,
+      "B": 10000.0,
+      "T": 1000,
+      "R": 1.0,
+      "sources": [
+        "screen"
+      ],
+      "m": 37500000001,
+      "N_max": 8693448505252,
+      "ell_max": 866433975706,
+      "worst_case_total_transitions": 32491274097668448505252000,
+      "estimated_state_bytes": 176640,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 32491274097668448505252000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 10,
+        "B": 10000.0,
+        "T": 1000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 37500000001,
+          "log_m": 24.347606769949444,
+          "log_Gamma": 23.24899448125467,
+          "a": 0.0,
+          "log_a": -63245.55320336759,
+          "H": 69.54758804159371,
+          "lam": 1e-08,
+          "kappa": 100000000.0,
+          "score_bound": 63245.55320336759,
+          "N_max": 8693448505252,
+          "ell_max": 866433975706,
+          "log_N_max": 29.793590812534593,
+          "log_ell_max": 27.487651746667098,
+          "global_curvature_underflow": true
+        },
+        "actual_tilts": 37500000001,
+        "actual_max_burn_in": 8693448505252,
+        "actual_max_transitions": 866433975706,
+        "history_block_size": 1024,
+        "estimated_total_moves": 32491274097668448505252000,
+        "estimated_state_bytes": 176640,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 32491274097668448505252000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 10,
+      "B": 1000000.0,
+      "T": 10000,
+      "R": 1.0,
+      "sources": [
+        "deep_scale"
+      ],
+      "m": 3750000000000010,
+      "N_max": 1214732223140300544,
+      "ell_max": 86643397569993312,
+      "worst_case_total_transitions": 3249127408874769145228012702403520000,
+      "estimated_state_bytes": 1724928,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 3249127408874769145228012702403520000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 10,
+        "B": 1000000.0,
+        "T": 10000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 3750000000000010,
+          "log_m": 35.86053223489301,
+          "log_Gamma": 34.7619199462249,
+          "a": 0.0,
+          "log_a": -6324555.320336759,
+          "H": 97.1785778512234,
+          "lam": 1e-12,
+          "kappa": 1000000000000.0,
+          "score_bound": 6324555.320336759,
+          "N_max": 1214732223140300544,
+          "ell_max": 86643397569993312,
+          "log_N_max": 41.641055333918224,
+          "log_ell_max": 39.000577211631324,
+          "global_curvature_underflow": true
+        },
+        "actual_tilts": 3750000000000010,
+        "actual_max_burn_in": 1214732223140300544,
+        "actual_max_transitions": 86643397569993312,
+        "history_block_size": 1024,
+        "estimated_total_moves": 3249127408874769145228012702403520000,
+        "estimated_state_bytes": 1724928,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 3249127408874769145228012702403520000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 100,
+      "B": 1.0,
+      "T": 1000,
+      "R": 1.0,
+      "sources": [
+        "screen"
+      ],
+      "m": 375,
+      "N_max": 438856,
+      "ell_max": 86649,
+      "worst_case_total_transitions": 32845582000,
+      "estimated_state_bytes": 1674240,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 32845582000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 100,
+        "B": 1.0,
+        "T": 1000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 375,
+          "log_m": 5.926926025970411,
+          "log_Gamma": 4.828313726996533,
+          "a": 2.0611536139418517e-09,
+          "log_a": -20.000000004122306,
+          "H": 35.10636135249479,
+          "lam": 1.0,
+          "kappa": 1.0,
+          "score_bound": 20.0,
+          "N_max": 438856,
+          "ell_max": 86649,
+          "log_N_max": 12.991926270521681,
+          "log_ell_max": 11.36961609376953,
+          "global_curvature_underflow": false
+        },
+        "actual_tilts": 375,
+        "actual_max_burn_in": 438856,
+        "actual_max_transitions": 86649,
+        "history_block_size": 1024,
+        "estimated_total_moves": 32845582000,
+        "estimated_state_bytes": 1674240,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 32845582000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 100,
+      "B": 10.0,
+      "T": 1000,
+      "R": 1.0,
+      "sources": [
+        "screen"
+      ],
+      "m": 37500,
+      "N_max": 55286403,
+      "ell_max": 8664345,
+      "worst_case_total_transitions": 324959559558000,
+      "estimated_state_bytes": 1674240,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 324959559558000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 100,
+        "B": 10.0,
+        "T": 1000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 37500,
+          "log_m": 10.532096211958502,
+          "log_Gamma": 9.433483923290392,
+          "a": 1.3838965267367376e-87,
+          "log_a": -200.0,
+          "H": 44.22909548915469,
+          "lam": 0.01,
+          "kappa": 100.0,
+          "score_bound": 200.0,
+          "N_max": 55286403,
+          "ell_max": 8664345,
+          "log_N_max": 17.828037550783346,
+          "log_ell_max": 15.974726881690671,
+          "global_curvature_underflow": false
+        },
+        "actual_tilts": 37500,
+        "actual_max_burn_in": 55286403,
+        "actual_max_transitions": 8664345,
+        "history_block_size": 1024,
+        "estimated_total_moves": 324959559558000,
+        "estimated_state_bytes": 1674240,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 324959559558000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 100,
+      "B": 100.0,
+      "T": 1000,
+      "R": 1.0,
+      "sources": [
+        "screen"
+      ],
+      "m": 3750000,
+      "N_max": 6678807605,
+      "ell_max": 866433981,
+      "worst_case_total_transitions": 3249133241123624000,
+      "estimated_state_bytes": 1674240,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 3249133241123624000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 100,
+        "B": 100.0,
+        "T": 1000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 3750000,
+          "log_m": 15.137266397946593,
+          "log_Gamma": 14.038654109278484,
+          "a": 0.0,
+          "log_a": -2000.0,
+          "H": 53.43046051829209,
+          "lam": 0.0001,
+          "kappa": 10000.0,
+          "score_bound": 2000.0,
+          "N_max": 6678807605,
+          "ell_max": 866433981,
+          "log_N_max": 22.622205306294976,
+          "log_ell_max": 20.579896473678957,
+          "global_curvature_underflow": true
+        },
+        "actual_tilts": 3750000,
+        "actual_max_burn_in": 6678807605,
+        "actual_max_transitions": 866433981,
+        "history_block_size": 1024,
+        "estimated_total_moves": 3249133241123624000,
+        "estimated_state_bytes": 1674240,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 3249133241123624000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 100,
+      "B": 1000.0,
+      "T": 1000,
+      "R": 1.0,
+      "sources": [
+        "screen"
+      ],
+      "m": 375000001,
+      "N_max": 782998764267,
+      "ell_max": 86643397576,
+      "worst_case_total_transitions": 32491274873998764267000,
+      "estimated_state_bytes": 1674240,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 32491274873998764267000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 100,
+        "B": 1000.0,
+        "T": 1000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 375000001,
+          "log_m": 19.74243658660135,
+          "log_Gamma": 18.643824295266576,
+          "a": 0.0,
+          "log_a": -20000.0,
+          "H": 62.63990113758605,
+          "lam": 1e-06,
+          "kappa": 1000000.0,
+          "score_bound": 20000.0,
+          "N_max": 782998764267,
+          "ell_max": 86643397576,
+          "log_N_max": 27.38639695473266,
+          "log_ell_max": 25.185066653727052,
+          "global_curvature_underflow": true
+        },
+        "actual_tilts": 375000001,
+        "actual_max_burn_in": 782998764267,
+        "actual_max_transitions": 86643397576,
+        "history_block_size": 1024,
+        "estimated_total_moves": 32491274873998764267000,
+        "estimated_state_bytes": 1674240,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 32491274873998764267000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 100,
+      "B": 1000.0,
+      "T": 2000,
+      "R": 1.0,
+      "sources": [
+        "deep_budget"
+      ],
+      "m": 750000001,
+      "N_max": 1635312246545,
+      "ell_max": 173286795146,
+      "worst_case_total_transitions": 259930195989624493090000,
+      "estimated_state_bytes": 3320832,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 259930195989624493090000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 100,
+        "B": 1000.0,
+        "T": 2000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 750000001,
+          "log_m": 20.435583765827964,
+          "log_Gamma": 19.336971475826523,
+          "a": 0.0,
+          "log_a": -20000.0,
+          "H": 65.41248985982509,
+          "lam": 1e-06,
+          "kappa": 1000000.0,
+          "score_bound": 20000.0,
+          "N_max": 1635312246545,
+          "ell_max": 173286795146,
+          "log_N_max": 28.12285487852401,
+          "log_ell_max": 25.878213834256997,
+          "global_curvature_underflow": true
+        },
+        "actual_tilts": 750000001,
+        "actual_max_burn_in": 1635312246545,
+        "actual_max_transitions": 173286795146,
+        "history_block_size": 1024,
+        "estimated_total_moves": 259930195989624493090000,
+        "estimated_state_bytes": 3320832,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 259930195989624493090000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 100,
+      "B": 10000.0,
+      "T": 10000,
+      "R": 1.0,
+      "sources": [
+        "deep_scale"
+      ],
+      "m": 375000000001,
+      "N_max": 1013256148550218,
+      "ell_max": 86643397569999,
+      "worst_case_total_transitions": 324912740897628811485502180000,
+      "estimated_state_bytes": 16493568,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 324912740897628811485502180000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 100,
+        "B": 10000.0,
+        "T": 10000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 375000000001,
+          "log_m": 26.65019186291949,
+          "log_Gamma": 25.551579574248716,
+          "a": 0.0,
+          "log_a": -200000.0,
+          "H": 81.06049188401234,
+          "lam": 1e-08,
+          "kappa": 100000000.0,
+          "score_bound": 200000.0,
+          "N_max": 1013256148550218,
+          "ell_max": 86643397569999,
+          "log_N_max": 34.55194544956582,
+          "log_ell_max": 32.09282193264925,
+          "global_curvature_underflow": true
+        },
+        "actual_tilts": 375000000001,
+        "actual_max_burn_in": 1013256148550218,
+        "actual_max_transitions": 86643397569999,
+        "history_block_size": 1024,
+        "estimated_total_moves": 324912740897628811485502180000,
+        "estimated_state_bytes": 16493568,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 324912740897628811485502180000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 500,
+      "B": 100.0,
+      "T": 1000,
+      "R": 1.0,
+      "sources": [
+        "screen"
+      ],
+      "m": 3750000,
+      "N_max": 34399591194,
+      "ell_max": 4332169884,
+      "worst_case_total_transitions": 16245667132421310000,
+      "estimated_state_bytes": 8330240,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 16245667132421310000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 500,
+        "B": 100.0,
+        "T": 1000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 3750000,
+          "log_m": 15.137266397946593,
+          "log_Gamma": 14.038654109278484,
+          "a": 0.0,
+          "log_a": -4472.13595499958,
+          "H": 55.03934584424584,
+          "lam": 0.0001,
+          "kappa": 10000.0,
+          "score_bound": 4472.13595499958,
+          "N_max": 34399591194,
+          "ell_max": 4332169884,
+          "log_N_max": 24.261310517357856,
+          "log_ell_max": 22.189334381313056,
+          "global_curvature_underflow": true
+        },
+        "actual_tilts": 3750000,
+        "actual_max_burn_in": 34399591194,
+        "actual_max_transitions": 4332169884,
+        "history_block_size": 1024,
+        "estimated_total_moves": 16245667132421310000,
+        "estimated_state_bytes": 8330240,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 16245667132421310000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 1000,
+      "B": 100.0,
+      "T": 1000,
+      "R": 1.0,
+      "sources": [
+        "screen"
+      ],
+      "m": 3750000,
+      "N_max": 69665452622,
+      "ell_max": 8664339763,
+      "worst_case_total_transitions": 32491335112362859000,
+      "estimated_state_bytes": 16650240,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 32491335112362859000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 1000,
+        "B": 100.0,
+        "T": 1000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 3750000,
+          "log_m": 15.137266397946593,
+          "log_Gamma": 14.038654109278484,
+          "a": 0.0,
+          "log_a": -6324.555320336758,
+          "H": 55.73236206397148,
+          "lam": 0.0001,
+          "kappa": 10000.0,
+          "score_bound": 6324.555320336758,
+          "N_max": 69665452622,
+          "ell_max": 8664339763,
+          "log_N_max": 24.966970373609406,
+          "log_ell_max": 22.882481561273003,
+          "global_curvature_underflow": true
+        },
+        "actual_tilts": 3750000,
+        "actual_max_burn_in": 69665452622,
+        "actual_max_transitions": 8664339763,
+        "history_block_size": 1024,
+        "estimated_total_moves": 32491335112362859000,
+        "estimated_state_bytes": 16650240,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 32491335112362859000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 1000,
+      "B": 1000.0,
+      "T": 10000,
+      "R": 1.0,
+      "sources": [
+        "deep_scale",
+        "screen"
+      ],
+      "m": 3750000001,
+      "N_max": 92690947784533,
+      "ell_max": 8664339757005,
+      "worst_case_total_transitions": 324912741814596977845330000,
+      "estimated_state_bytes": 164179968,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 324912741814596977845330000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 1000,
+        "B": 1000.0,
+        "T": 10000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 3750000001,
+          "log_m": 22.045021677195397,
+          "log_Gamma": 20.946409388260623,
+          "a": 0.0,
+          "log_a": -63245.553203367585,
+          "H": 74.15275822758181,
+          "lam": 1e-06,
+          "kappa": 1000000.0,
+          "score_bound": 63245.553203367585,
+          "N_max": 92690947784533,
+          "ell_max": 8664339757005,
+          "log_N_max": 32.16029193307993,
+          "log_ell_max": 29.790236839655737,
+          "global_curvature_underflow": true
+        },
+        "actual_tilts": 3750000001,
+        "actual_max_burn_in": 92690947784533,
+        "actual_max_transitions": 8664339757005,
+        "history_block_size": 1024,
+        "estimated_total_moves": 324912741814596977845330000,
+        "estimated_state_bytes": 164179968,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 324912741814596977845330000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 5000,
+      "B": 100.0,
+      "T": 1000,
+      "R": 1.0,
+      "sources": [
+        "screen"
+      ],
+      "m": 3750000,
+      "N_max": 358385157481,
+      "ell_max": 43321698791,
+      "worst_case_total_transitions": 162456685529708690000,
+      "estimated_state_bytes": 83210240,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 162456685529708690000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 5000,
+        "B": 100.0,
+        "T": 1000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 3750000,
+          "log_m": 15.137266397946593,
+          "log_Gamma": 14.038654109278484,
+          "a": 0.0,
+          "log_a": -14142.135623730952,
+          "H": 57.34162518999341,
+          "lam": 0.0001,
+          "kappa": 10000.0,
+          "score_bound": 14142.135623730952,
+          "N_max": 358385157481,
+          "ell_max": 43321698791,
+          "log_N_max": 26.60487410390968,
+          "log_ell_max": 24.491919473227103,
+          "global_curvature_underflow": true
+        },
+        "actual_tilts": 3750000,
+        "actual_max_burn_in": 358385157481,
+        "actual_max_transitions": 43321698791,
+        "history_block_size": 128,
+        "estimated_total_moves": 162456685529708690000,
+        "estimated_state_bytes": 83210240,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 162456685529708690000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 10000,
+      "B": 1000.0,
+      "T": 2000,
+      "R": 1.0,
+      "sources": [
+        "deep_scale"
+      ],
+      "m": 750000001,
+      "N_max": 175043925120774,
+      "ell_max": 17328679514004,
+      "worst_case_total_transitions": 25993019621093850241548000,
+      "estimated_state_bytes": 330258432,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 25993019621093850241548000 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 10000,
+        "B": 1000.0,
+        "T": 2000,
+        "R": 1.0,
+        "prescribed": {
+          "m": 750000001,
+          "log_m": 20.435583765827964,
+          "log_Gamma": 19.336971475826523,
+          "a": 0.0,
+          "log_a": -200000.0,
+          "H": 70.01757004828809,
+          "lam": 1e-06,
+          "kappa": 1000000.0,
+          "score_bound": 200000.0,
+          "N_max": 175043925120774,
+          "ell_max": 17328679514004,
+          "log_N_max": 32.79605805904679,
+          "log_ell_max": 30.483384020215386,
+          "global_curvature_underflow": true
+        },
+        "actual_tilts": 750000001,
+        "actual_max_burn_in": 175043925120774,
+        "actual_max_transitions": 17328679514004,
+        "history_block_size": 64,
+        "estimated_total_moves": 25993019621093850241548000,
+        "estimated_state_bytes": 330258432,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 25993019621093850241548000 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    },
+    {
+      "d": 50000,
+      "B": 10000.0,
+      "T": 128,
+      "R": 1.0,
+      "sources": [
+        "deep_scale"
+      ],
+      "m": 4800000001,
+      "N_max": 5587347999795873,
+      "ell_max": 554517744447961,
+      "worst_case_total_transitions": 340695702904007782373871744,
+      "estimated_state_bytes": 115203072,
+      "state_estimate_exceeds_worker_cap": false,
+      "default_guard_feasible": false,
+      "guard_reasons": [
+        "worst-case transitions: 340695702904007782373871744 > 10000000"
+      ],
+      "full_preflight": {
+        "mode": "prescribed",
+        "d": 50000,
+        "B": 10000.0,
+        "T": 128,
+        "R": 1.0,
+        "prescribed": {
+          "m": 4800000001,
+          "log_m": 22.29188175506859,
+          "log_Gamma": 21.19326946619215,
+          "a": 0.0,
+          "log_a": -4472135.954999579,
+          "H": 69.84184999744743,
+          "lam": 1e-08,
+          "kappa": 100000000.0,
+          "score_bound": 4472135.954999579,
+          "N_max": 5587347999795873,
+          "ell_max": 554517744447961,
+          "log_N_max": 36.259281150864396,
+          "log_ell_max": 33.94911992301482,
+          "global_curvature_underflow": true
+        },
+        "actual_tilts": 4800000001,
+        "actual_max_burn_in": 5587347999795873,
+        "actual_max_transitions": 554517744447961,
+        "history_block_size": 16,
+        "estimated_total_moves": 340695702904007782373871744,
+        "estimated_state_bytes": 115203072,
+        "memory_representation": "raw features plus separate weighted prefix",
+        "max_total_moves": 10000000,
+        "feasible": false,
+        "budget_reasons": [
+          "worst-case transitions: 340695702904007782373871744 > 10000000"
+        ],
+        "floating_point_certificate": false
+      }
+    }
+  ]
+}

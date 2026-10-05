@@ -1,0 +1,10 @@
+{
+  "method": "exact Fraction arithmetic with 40th-order exponential Taylor remainder intervals",
+  "trapezoid_intervals": 16,
+  "m_lower_display": 0.21841461065727738,
+  "A_upper_display": 0.21238205401691457,
+  "weak_coefficient_upper_display": 1.957917675276957,
+  "strong_coefficient_upper_display": 4.853142491887306e-05,
+  "all_strict_inequalities_verified_exactly": true,
+  "scope": "scalar analytic constants only; no finite-n gap or learning benchmark"
+}

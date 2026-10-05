@@ -1,0 +1,55 @@
+{
+  "description": "Deterministic arithmetic and numerical integral sanity checks; proof is analytic and independently audited, these are not rigorous floating-point error certificates or learning benchmarks.",
+  "parameters": {
+    "d": 1000,
+    "T": 100000,
+    "B": 1000,
+    "R": 1,
+    "q": 202,
+    "lambda": 0.001
+  },
+  "exact_aggregation_regret_upper": 5563.33555152518,
+  "sampling_charge": 985.229644301163,
+  "regret_upper_with_one_error_unit": 6549.5651958263425,
+  "path_tv": 0.000001882084007366759,
+  "existing_common_call_tv_max": 5.99389811263299e-10,
+  "projection_common_call_tv_max": 2.996949056316495e-10,
+  "projection_z": 8.394421167163859,
+  "integral_identities": [
+    {
+      "x": 0.001,
+      "left": -0.5762159148459831,
+      "right": -0.5762159148459771,
+      "absolute_difference": 5.995204332975845e-15,
+      "E1": 6.33153936413616
+    },
+    {
+      "x": 0.1,
+      "left": -0.4796611345746504,
+      "right": -0.47966113457431026,
+      "absolute_difference": 3.4017233474514796e-13,
+      "E1": 1.8229239584197352
+    },
+    {
+      "x": 1,
+      "left": 0.2193839343955249,
+      "right": 0.21938393439564965,
+      "absolute_difference": 1.2476131239225197e-13,
+      "E1": 0.21938393439564965
+    },
+    {
+      "x": 10,
+      "left": 2.3025892499629785,
+      "right": 2.3025892499631113,
+      "absolute_difference": 1.3278267374516872e-13,
+      "E1": 0.000004156969065624271
+    },
+    {
+      "x": 20,
+      "left": 2.995732273652351,
+      "right": 2.995732273653979,
+      "absolute_difference": 1.6280310433103296e-12,
+      "E1": 9.99882209176429e-11
+    }
+  ]
+}

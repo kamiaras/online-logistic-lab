@@ -1,0 +1,20 @@
+{
+  "case": {
+    "id": "shift_d100_B100_T1000_s72003",
+    "family": "shift",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72003,
+    "B_generator": 3.0
+  },
+  "sha256_interleaved_blocks": "cf06b406d8c38454b4bf2350e614821c79cf388d530b539f02de42affd8d55c9",
+  "block_size": 128,
+  "feature_norm_min": 0.9999999999999997,
+  "feature_norm_max": 1.0,
+  "generating_score_rms": 1.0765473261453977,
+  "positive_fraction": 0.493,
+  "disk_bytes": 801000,
+  "dtype_X": "little-endian float64",
+  "dtype_y": "int8"
+}

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\worker.py", line 67, in run
+    score=float(a.predict(x))
+                ^^^^^^^^^^^^
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\sigmoid.py", line 216, in predict
+    self._mala_step(step_size, last_weight=weight)
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\sigmoid.py", line 158, in _mala_step
+    proposed = current - step_size * gradient_current + np.sqrt(2.0 * step_size) * noise
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 256. MiB for an array with shape (262104, 128) and data type float64

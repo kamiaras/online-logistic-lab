@@ -1,0 +1,16 @@
+{
+  "algorithm": "aioli",
+  "config": {},
+  "d": 100,
+  "B": 1000.0,
+  "T": 1000,
+  "sampler_seed": 161174,
+  "data_seed": 72001,
+  "case_id": "strong_signal_d100_B1000_T1000_s72001",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\strong_signal_d100_B1000_T1000_s72001",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\screen\\strong_signal_d100_B1000_T1000_s72001__aioli__default",
+  "seconds": 15,
+  "memory_bytes": 2147483648,
+  "stage": "screen",
+  "label": "default"
+}

@@ -1,0 +1,103 @@
+[
+  {
+    "case": "signal_d1000_B1000_T100000_s72001",
+    "d": 1000,
+    "B": 1000.0,
+    "T": 100000,
+    "rounds": 100000,
+    "seed": 910001,
+    "data_seed": 72001,
+    "config": {
+      "mode": "practical",
+      "lanes": 16,
+      "transitions": 1,
+      "particle_batch": 64,
+      "history_block_size": 128,
+      "max_state_bytes": 1610612736
+    },
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d1000_B1000_T100000_s72001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_overnight_d1000_B1000_T100000",
+    "seconds": 43200.0,
+    "memory_bytes": 2147483648,
+    "trajectory_columns": [
+      "raw_logit",
+      "output_logit",
+      "loss",
+      "online_seconds",
+      "state_bytes"
+    ],
+    "algorithm": "selected",
+    "reused_completed_run": true
+  },
+  {
+    "case": "signal_d1000_B1000_T100000_s72001",
+    "d": 1000,
+    "B": 1000.0,
+    "T": 100000,
+    "rounds": 100000,
+    "seed": 910001,
+    "data_seed": 72001,
+    "config": {
+      "R": 1.0,
+      "lam": 1e-06,
+      "T_inner": 80,
+      "omega_solver": "lbfgs"
+    },
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d1000_B1000_T100000_s72001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\author_baselines_d1000_B1000_T100000\\author_aioli",
+    "seconds": 43200.0,
+    "memory_bytes": 2147483648,
+    "trajectory_columns": [
+      "raw_logit",
+      "output_logit",
+      "loss",
+      "online_seconds",
+      "state_bytes"
+    ],
+    "algorithm": "author_aioli",
+    "reused_completed_run": false,
+    "author_commit": "22c6ec54cd45908c0a39cbfa931a60e55646308f",
+    "author_source": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\research\\author_code_comparison_2026-09-11\\a9a_experiment.py",
+    "stop_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\author_baselines_d1000_B1000_T100000\\STOP_REQUESTED",
+    "prediction_loss_scope": "unclipped score-based logistic loss; authors clipped-probability loss recorded separately"
+  },
+  {
+    "case": "signal_d1000_B1000_T100000_s72001",
+    "d": 1000,
+    "B": 1000.0,
+    "T": 100000,
+    "rounds": 100000,
+    "seed": 910001,
+    "data_seed": 72001,
+    "config": {
+      "n_particles": 12,
+      "step_size": 0.01,
+      "mala_steps_per_round": 300,
+      "grad_clip": 50.0,
+      "adapt_step": true,
+      "target_accept": 0.57,
+      "rm_gamma0": 0.5,
+      "rm_gamma_decay": 0.25,
+      "step_size_min": 0.0001,
+      "step_size_max": 1.0,
+      "mala_window": null
+    },
+    "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d1000_B1000_T100000_s72001",
+    "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\author_baselines_d1000_B1000_T100000\\author_sigmoid",
+    "seconds": 43200.0,
+    "memory_bytes": 2147483648,
+    "trajectory_columns": [
+      "raw_logit",
+      "output_logit",
+      "loss",
+      "online_seconds",
+      "state_bytes"
+    ],
+    "algorithm": "author_sigmoid",
+    "reused_completed_run": false,
+    "author_commit": "22c6ec54cd45908c0a39cbfa931a60e55646308f",
+    "author_source": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\research\\author_code_comparison_2026-09-11\\a9a_experiment.py",
+    "stop_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\author_baselines_d1000_B1000_T100000\\STOP_REQUESTED",
+    "prediction_loss_scope": "unclipped score-based logistic loss; authors clipped-probability loss recorded separately"
+  }
+]

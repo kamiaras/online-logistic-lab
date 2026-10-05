@@ -1,0 +1,255 @@
+{
+  "generated_utc": "2026-09-11T05:07:33.198533+00:00",
+  "attempted": [
+    {
+      "index": 1,
+      "method": "sigmoid",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910003,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\sigmoid__signal_d100_B1000_T1000_s72001__s910003",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 6.642414800007828
+    },
+    {
+      "index": 2,
+      "method": "ours",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910002,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\ours__signal_d100_B1000_T1000_s72001__s910002",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 10.767972300003748
+    },
+    {
+      "index": 3,
+      "method": "sigmoid",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910002,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\sigmoid__signal_d10_B100_T1000_s72001__s910002",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 3.229124599994975
+    },
+    {
+      "index": 4,
+      "method": "selected",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910003,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\selected__signal_d100_B1000_T1000_s72001__s910003",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 2.026101399998879
+    },
+    {
+      "index": 5,
+      "method": "ours",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910001,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\ours__signal_d100_B1000_T1000_s72001__s910001",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 11.162744000001112
+    },
+    {
+      "index": 6,
+      "method": "sigmoid",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910001,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\sigmoid__signal_d10_B100_T1000_s72001__s910001",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 3.3326662000035867
+    },
+    {
+      "index": 7,
+      "method": "aioli",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910001,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\aioli__signal_d10_B100_T1000_s72001__s910001",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 0.8284923000028357
+    },
+    {
+      "index": 8,
+      "method": "sigmoid",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910002,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\sigmoid__signal_d100_B1000_T1000_s72001__s910002",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 4.643665299998247
+    },
+    {
+      "index": 9,
+      "method": "selected",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910002,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\selected__signal_d100_B1000_T1000_s72001__s910002",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 2.0253590999927837
+    },
+    {
+      "index": 10,
+      "method": "aioli",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910002,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\aioli__signal_d10_B100_T1000_s72001__s910002",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 0.8173179000004893
+    },
+    {
+      "index": 11,
+      "method": "ours",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910001,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\ours__signal_d10_B100_T1000_s72001__s910001",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 6.65093090001028
+    },
+    {
+      "index": 12,
+      "method": "aioli",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910001,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\aioli__signal_d100_B1000_T1000_s72001__s910001",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 1.1225269999995362
+    },
+    {
+      "index": 13,
+      "method": "sigmoid",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910001,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\sigmoid__signal_d100_B1000_T1000_s72001__s910001",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 4.838033100008033
+    },
+    {
+      "index": 14,
+      "method": "sigmoid",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910003,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\sigmoid__signal_d10_B100_T1000_s72001__s910003",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 3.328966799992486
+    },
+    {
+      "index": 15,
+      "method": "ours",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910002,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\ours__signal_d10_B100_T1000_s72001__s910002",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 6.846015700008138
+    },
+    {
+      "index": 16,
+      "method": "selected",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910001,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\selected__signal_d100_B1000_T1000_s72001__s910001",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 2.02909890000592
+    },
+    {
+      "index": 17,
+      "method": "selected",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910002,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\selected__signal_d10_B100_T1000_s72001__s910002",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 1.8226713000040036
+    },
+    {
+      "index": 18,
+      "method": "aioli",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910003,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\aioli__signal_d10_B100_T1000_s72001__s910003",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 0.8282883999927435
+    },
+    {
+      "index": 19,
+      "method": "selected",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910001,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\selected__signal_d10_B100_T1000_s72001__s910001",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 1.824121700003161
+    },
+    {
+      "index": 20,
+      "method": "ours",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910003,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\ours__signal_d100_B1000_T1000_s72001__s910003",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 10.862187700011418
+    },
+    {
+      "index": 21,
+      "method": "selected",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910003,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\selected__signal_d10_B100_T1000_s72001__s910003",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 1.8223770999902626
+    },
+    {
+      "index": 22,
+      "method": "aioli",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910002,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\aioli__signal_d100_B1000_T1000_s72001__s910002",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 1.1202836000011303
+    },
+    {
+      "index": 23,
+      "method": "ours",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910003,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\ours__signal_d10_B100_T1000_s72001__s910003",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 6.742051099994569
+    },
+    {
+      "index": 24,
+      "method": "aioli",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910003,
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_direct\\aioli__signal_d100_B1000_T1000_s72001__s910003",
+      "status": "completed",
+      "round": 500,
+      "process_wall_seconds": 1.121820200001821
+    }
+  ],
+  "expected_runs": 24,
+  "terminal_attempts": 24,
+  "statuses": {
+    "completed": 24
+  },
+  "unstarted": [],
+  "wall_seconds": 96.5302468000009,
+  "sources_and_data_unchanged": true,
+  "unexpected_error": null,
+  "all_runs_terminal": true
+}

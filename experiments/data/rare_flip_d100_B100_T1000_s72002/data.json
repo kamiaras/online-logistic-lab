@@ -1,0 +1,20 @@
+{
+  "case": {
+    "id": "rare_flip_d100_B100_T1000_s72002",
+    "family": "rare_flip",
+    "d": 100,
+    "B": 100.0,
+    "T": 1000,
+    "data_seed": 72002,
+    "B_generator": 3.0
+  },
+  "sha256_interleaved_blocks": "fd07ce56444fc4c6ede3460a0d3fe28dcd0f1beb4abdc15c7fa35635694574c9",
+  "block_size": 128,
+  "feature_norm_min": 0.9999999999999997,
+  "feature_norm_max": 1.0,
+  "generating_score_rms": 1.4999999999999998,
+  "positive_fraction": 0.499,
+  "disk_bytes": 801000,
+  "dtype_X": "little-endian float64",
+  "dtype_y": "int8"
+}

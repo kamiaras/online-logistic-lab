@@ -1,0 +1,35 @@
+{
+  "lower_gap": 50.68503888092027,
+  "lower_slope": 132.14337340794805,
+  "J0": 0.007671730170356035,
+  "original_tail": 2.1123866254352997E-18,
+  "negative_label_bound": 92.85228982738525,
+  "b_perp_bound": 0.12198360545581526,
+  "source_mean": 123.02376609838554,
+  "norm_cap": 1405.3663535104656,
+  "fallback_probability": 2.5490125531749533E-17,
+  "zero_cap_proposals": 1.0000068415040497,
+  "zero_cap_rows": 0.004275954657983352,
+  "table": [
+    {
+      "a_star": 0.002,
+      "Q": 0.019101002210752265,
+      "K_uniform": 6.0885965508911735,
+      "moment_s": 0.019292012232859788,
+      "moment_offset": 0.011485692402955404,
+      "gaussian_denominator": 0.9938265560854849,
+      "proposals_with_cap_1e_minus_9": 44.32006207788311,
+      "rows_with_cap_1e_minus_9": 86396.8119317527
+    },
+    {
+      "a_star": 0.001004,
+      "Q": 0.0047114509473307154,
+      "K_uniform": 1.5018125054958038,
+      "moment_s": 0.004758565456804023,
+      "moment_offset": 0.002833059530362843,
+      "gaussian_denominator": 0.9984772590538227,
+      "proposals_with_cap_1e_minus_9": 9.803265898858484,
+      "rows_with_cap_1e_minus_9": 4691.46821674291
+    }
+  ]
+}

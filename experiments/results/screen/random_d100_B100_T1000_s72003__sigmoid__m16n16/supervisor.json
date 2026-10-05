@@ -1,0 +1,162 @@
+{
+  "process_wall_seconds": 10.75120450000395,
+  "returncode": 0,
+  "termination": null,
+  "monitored_peak_rss": 4288512,
+  "monitored_peak_private": 802816,
+  "hard_process_commit_limit": 2147483648,
+  "os_hard_limit_active": true,
+  "worker": {
+    "round": 1000,
+    "cumulative_loss": 717.3452984384993,
+    "online_seconds": 10.143741099745966,
+    "elapsed_seconds": 10.189738999994006,
+    "cpu_seconds": 10.15625,
+    "prediction_seconds": 10.12239509965002,
+    "update_seconds": 0.0210706000943901,
+    "initialization_seconds": 0.00027540000155568123,
+    "input_seconds": 0.001153900011559017,
+    "memory": {
+      "working_set": 61280256,
+      "peak_working_set": 61448192,
+      "private_commit": 79859712,
+      "peak_private_commit": 79859712
+    },
+    "state_bytes": 840192,
+    "metrics": {
+      "counters": {
+        "normal_draws": 12803300,
+        "prior_particles": 16,
+        "predictions": 1000,
+        "sigmoid_elements": 127761264,
+        "estimated_matmul_flops": 51094905600,
+        "observations": 1000,
+        "bridge_refreshes": 15984,
+        "mala_trials": 255744,
+        "uniform_draws": 383761,
+        "lazy_skips": 127727,
+        "mala_proposals": 128017,
+        "potential_calls": 31968,
+        "history_particle_pairs": 127729264,
+        "logistic_pairs": 127729264,
+        "softplus_elements": 127729264,
+        "gradient_particle_evaluations": 256034,
+        "accepted_zero_displacement": 0,
+        "accepted_nonzero_displacement": 128017,
+        "mala_accepted": 128017,
+        "mala_rejected": 0,
+        "refresh_rounds": 999
+      },
+      "times": {
+        "initialization": 0.00026760000037029386,
+        "refresh": 10.074514699896099,
+        "prediction": 0.04058110046025831,
+        "observe": 0.02024239976890385,
+        "potential": 8.225897600510507
+      }
+    },
+    "diagnostics": {
+      "algorithm": "expected_loss_sigmoid_mala",
+      "configuration": {
+        "particles": 16,
+        "transitions": 16,
+        "bridges": 1,
+        "step_multiplier": 0.5,
+        "lazy": true,
+        "history_block_size": 1024
+      },
+      "schedule_certified": false,
+      "schedule_note": "Empirical fixed budget; universal MALA theorem constants are unspecified.",
+      "step_size_rule": "step_multiplier / (sqrt(d) * (B^-2 + sum_past_norm2/4))",
+      "observed_rounds": 1000,
+      "pending_prediction": false,
+      "bridge_steps_per_trajectory": [
+        16
+      ],
+      "total_steps_per_trajectory_per_refresh": 16,
+      "last_step_size": 0.00020020012003999196,
+      "minimum_step_size": 0.00020020012003999196,
+      "maximum_step_size": 0.1999200319872051,
+      "last_logit": 0.41874382858276715,
+      "acceptance_rate": 1.0,
+      "accepted_zero_displacement": 0,
+      "mean_squared_displacement_per_trial": 0.15326894453243065,
+      "max_squared_displacement": 60.64855552582118,
+      "displacement_squares_finite": true,
+      "displacement_note": "Actual float64 moves; mean includes rejected and lazy zero moves. Acceptance is not a mixing diagnostic.",
+      "state_bytes": 840192,
+      "state_bytes_scope": "Persistent owned ndarray buffers; includes history allocation capacity.",
+      "potential_time_is_within_refresh": true,
+      "counters": {
+        "normal_draws": 12803300,
+        "prior_particles": 16,
+        "predictions": 1000,
+        "sigmoid_elements": 127761264,
+        "estimated_matmul_flops": 51094905600,
+        "observations": 1000,
+        "bridge_refreshes": 15984,
+        "mala_trials": 255744,
+        "uniform_draws": 383761,
+        "lazy_skips": 127727,
+        "mala_proposals": 128017,
+        "potential_calls": 31968,
+        "history_particle_pairs": 127729264,
+        "logistic_pairs": 127729264,
+        "softplus_elements": 127729264,
+        "gradient_particle_evaluations": 256034,
+        "accepted_zero_displacement": 0,
+        "accepted_nonzero_displacement": 128017,
+        "mala_accepted": 128017,
+        "mala_rejected": 0,
+        "refresh_rounds": 999
+      },
+      "times": {
+        "initialization": 0.00026760000037029386,
+        "refresh": 10.074514699896099,
+        "prediction": 0.04058110046025831,
+        "observe": 0.02024239976890385,
+        "potential": 8.225897600510507
+      }
+    },
+    "rng_state": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 322377899050993995086911000793655578393,
+        "inc": 231597674236168194228870996907726299811
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    "status": "completed",
+    "error": null,
+    "baseline_memory": {
+      "working_set": 56659968,
+      "peak_working_set": 59924480,
+      "private_commit": 75395072,
+      "peak_private_commit": 78991360
+    },
+    "configured_horizon": 1000,
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "C:\\Users\\Kamiar\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+        "version": "0.3.30",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+        "version": "0.3.31.dev",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      }
+    ]
+  }
+}

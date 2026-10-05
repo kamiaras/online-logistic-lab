@@ -1,0 +1,24 @@
+{
+  "all_identity_errors_below_1e-12": true,
+  "identity_errors": {
+    "raw_density_identity": 1.8388068845354155e-15,
+    "constant_free_density_identity": 1.842276331487369e-15,
+    "raw_gram_identity": 1.3877787807814457e-17,
+    "constant_free_gram_identity": 3.469446951953614e-18,
+    "mean_polynomial_identity": 3.469446951953614e-18
+  },
+  "raw_M4_two_constants": {
+    "Nbar": 5.520689735086102,
+    "cap": 123,
+    "zG": 8.846221475745324
+  },
+  "constant_free_D4_one_constants": {
+    "Nbar": 5.460486521073565,
+    "cap": 121,
+    "zG": 8.844368082479745
+  },
+  "constant_free_uniform_row_bound": 62239.35879528712,
+  "target_aggregation_reference": 5563.33555152518,
+  "target_complete_regret_bound": 6549.5651958263425,
+  "scope": "Small finite algebra checks and deterministic bound evaluation; no learning benchmark."
+}

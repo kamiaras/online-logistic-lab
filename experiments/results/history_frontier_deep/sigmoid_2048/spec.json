@@ -1,0 +1,24 @@
+{
+  "label": "history kernel probe, not online regret experiment",
+  "algorithm": "sigmoid",
+  "d": 1000,
+  "B": 1.0,
+  "history_rows": 267264,
+  "algorithm_config": {
+    "particles": 2,
+    "transitions": 1,
+    "bridges": 1,
+    "lazy": false,
+    "history_block_size": 1024
+  },
+  "advisory_constructor_overrides": {},
+  "requested_history_mib": 2048.0,
+  "particles": 2,
+  "seconds": 120.0,
+  "memory_bytes": 2147483648,
+  "data_seed": 20260910,
+  "sampler_seed": 93071,
+  "stream_rows": 32,
+  "input_buffer_bytes": 2097152,
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\history_frontier_deep\\sigmoid_2048"
+}

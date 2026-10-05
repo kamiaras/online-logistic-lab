@@ -1,0 +1,19 @@
+{
+  "algorithm": "ours",
+  "config": {
+    "particles": 16,
+    "transitions": 256
+  },
+  "d": 100,
+  "B": 1000.0,
+  "T": 2000,
+  "sampler_seed": 164174,
+  "data_seed": 75001,
+  "case_id": "budget_signal_d100_B1000_T2000_s75001",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\budget_signal_d100_B1000_T2000_s75001",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\deep_budget\\budget_signal_d100_B1000_T2000_s75001__ours__m16n256",
+  "seconds": 45,
+  "memory_bytes": 2147483648,
+  "stage": "deep_budget",
+  "label": "m16n256"
+}

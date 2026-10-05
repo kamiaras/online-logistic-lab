@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\worker.py", line 75, in run
+    a.observe(x, int(y))
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\sigmoid.py", line 248, in observe
+    self.history.append(x, int(y))
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\common.py", line 36, in append
+    self.blocks.append((np.empty((self.block_size, self.d)),
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 2.29 GiB for an array with shape (1024, 300000) and data type float64

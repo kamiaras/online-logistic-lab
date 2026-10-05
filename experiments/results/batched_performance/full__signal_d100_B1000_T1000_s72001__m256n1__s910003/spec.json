@@ -1,0 +1,20 @@
+{
+  "case": "signal_d100_B1000_T1000_s72001",
+  "d": 100,
+  "B": 1000.0,
+  "T": 1000,
+  "seed": 910003,
+  "rounds": 500,
+  "seconds": 90.0,
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72001",
+  "backend": "full",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\batched_performance\\full__signal_d100_B1000_T1000_s72001__m256n1__s910003",
+  "sequential_control": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_antithetic_ablation\\antithetic__signal_d100_B1000_T1000_s72001__B1000__lanes_warm_full_m16n4__s910003",
+  "config": {
+    "mode": "practical",
+    "lanes": 256,
+    "transitions": 1,
+    "particle_batch": 64,
+    "history_block_size": 128
+  }
+}

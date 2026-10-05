@@ -1,0 +1,28 @@
+{
+  "case": "signal_d3_B2_T8_s72001",
+  "d": 3,
+  "B": 2.0,
+  "T": 8,
+  "rounds": 8,
+  "seed": 910001,
+  "data_seed": 72001,
+  "config": {
+    "mode": "practical",
+    "lanes": 16,
+    "transitions": 1,
+    "particle_batch": 64,
+    "history_block_size": 128,
+    "max_state_bytes": 1610612736
+  },
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d3_B2_T8_s72001",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\computation_first_long_smoke",
+  "seconds": 30.0,
+  "memory_bytes": 2147483648,
+  "trajectory_columns": [
+    "raw_logit",
+    "output_logit",
+    "loss",
+    "online_seconds",
+    "state_bytes"
+  ]
+}

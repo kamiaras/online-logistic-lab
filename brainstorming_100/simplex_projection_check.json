@@ -1,0 +1,68 @@
+[
+  {
+    "d": 1,
+    "node_count": 21,
+    "mass_error": 0.0,
+    "min_weight": 0.00800861412888718,
+    "mean_error": 0.0,
+    "variance_error": 3.552713678800501e-15,
+    "sigmoid": 0.584331868106154,
+    "gradient_sum_error": 0.0,
+    "gradient_finite_difference_error": 2.1214890955079113e-11
+  },
+  {
+    "d": 2,
+    "node_count": 42,
+    "mass_error": 2.220446049250313e-16,
+    "min_weight": 2.0014581857770182e-05,
+    "mean_error": 5.551115123125783e-16,
+    "variance_error": 1.1102230246251565e-15,
+    "sigmoid": 0.5648139320027675,
+    "gradient_sum_error": 2.220446049250313e-16,
+    "gradient_finite_difference_error": 1.8561152614893217e-11
+  },
+  {
+    "d": 3,
+    "node_count": 22,
+    "mass_error": 1.5543122344752192e-15,
+    "min_weight": 0.00012483103991992741,
+    "mean_error": 1.5368565794982025e-17,
+    "variance_error": 8.326672684688674e-17,
+    "sigmoid": 0.4999999999999992,
+    "gradient_sum_error": 5.551115123125783e-17,
+    "gradient_finite_difference_error": 1.6998902285791928e-11
+  },
+  {
+    "d": 4,
+    "node_count": 88,
+    "mass_error": 1.7763568394002505e-15,
+    "min_weight": 7.314647867775872e-15,
+    "mean_error": 1.6789685868790738e-17,
+    "variance_error": 3.885780586188048e-16,
+    "sigmoid": 0.5000000000000009,
+    "gradient_sum_error": 8.881784197001252e-16,
+    "gradient_finite_difference_error": 1.8242476973462374e-11
+  },
+  {
+    "d": 20,
+    "node_count": 600,
+    "mass_error": 0.0,
+    "min_weight": 1.4088455519945846e-73,
+    "mean_error": 1.3444106938820255e-17,
+    "variance_error": 5.551115123125783e-17,
+    "sigmoid": 0.5,
+    "gradient_sum_error": 0.0,
+    "gradient_finite_difference_error": 1.9753566837810155e-11
+  },
+  {
+    "d": 7,
+    "node_count": 168,
+    "mass_error": 0.0,
+    "min_weight": 1.6641483305393954e-21,
+    "mean_error": 0.0,
+    "variance_error": 6.81884289508045e-33,
+    "sigmoid": 0.8807970779815572,
+    "gradient_sum_error": 1.1102230246251565e-16,
+    "gradient_finite_difference_error": null
+  }
+]

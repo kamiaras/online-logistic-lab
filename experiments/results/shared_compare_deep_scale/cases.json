@@ -1,0 +1,110 @@
+[
+  {
+    "id": "deep_signal_d10_B100_T100000_s74001",
+    "family": "signal",
+    "d": 10,
+    "B": 100.0,
+    "T": 100000,
+    "data_seed": 74001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "deep_signal_d1000_B1000_T10000_s74001",
+    "family": "signal",
+    "d": 1000,
+    "B": 1000.0,
+    "T": 10000,
+    "data_seed": 74001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "deep_signal_d10000_B1000_T2000_s74001",
+    "family": "signal",
+    "d": 10000,
+    "B": 1000.0,
+    "T": 2000,
+    "data_seed": 74001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "deep_signal_d50000_B10000_T128_s74001",
+    "family": "signal",
+    "d": 50000,
+    "B": 10000.0,
+    "T": 128,
+    "data_seed": 74001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "deep_signal_d10_B1e+06_T10000_s74001",
+    "family": "signal",
+    "d": 10,
+    "B": 1000000.0,
+    "T": 10000,
+    "data_seed": 74001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "deep_signal_d100_B10000_T10000_s74001",
+    "family": "signal",
+    "d": 100,
+    "B": 10000.0,
+    "T": 10000,
+    "data_seed": 74001,
+    "B_generator": 3.0
+  },
+  {
+    "id": "deep_signal_d10_B100_T100000_s74002",
+    "family": "signal",
+    "d": 10,
+    "B": 100.0,
+    "T": 100000,
+    "data_seed": 74002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "deep_signal_d1000_B1000_T10000_s74002",
+    "family": "signal",
+    "d": 1000,
+    "B": 1000.0,
+    "T": 10000,
+    "data_seed": 74002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "deep_signal_d10000_B1000_T2000_s74002",
+    "family": "signal",
+    "d": 10000,
+    "B": 1000.0,
+    "T": 2000,
+    "data_seed": 74002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "deep_signal_d50000_B10000_T128_s74002",
+    "family": "signal",
+    "d": 50000,
+    "B": 10000.0,
+    "T": 128,
+    "data_seed": 74002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "deep_signal_d10_B1e+06_T10000_s74002",
+    "family": "signal",
+    "d": 10,
+    "B": 1000000.0,
+    "T": 10000,
+    "data_seed": 74002,
+    "B_generator": 3.0
+  },
+  {
+    "id": "deep_signal_d100_B10000_T10000_s74002",
+    "family": "signal",
+    "d": 100,
+    "B": 10000.0,
+    "T": 10000,
+    "data_seed": 74002,
+    "B_generator": 3.0
+  }
+]

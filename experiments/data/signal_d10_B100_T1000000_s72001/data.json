@@ -1,0 +1,20 @@
+{
+  "case": {
+    "id": "signal_d10_B100_T1000000_s72001",
+    "family": "signal",
+    "d": 10,
+    "B": 100.0,
+    "T": 1000000,
+    "data_seed": 72001,
+    "B_generator": 3.0
+  },
+  "sha256_interleaved_blocks": "38b7ccc1bc3abc4b6c000e5cb4d439016406c529ee0da20d7f9b8013fb891b60",
+  "block_size": 128,
+  "feature_norm_min": 0.9999999999999994,
+  "feature_norm_max": 1.0000000000000002,
+  "generating_score_rms": 1.4999999999999998,
+  "positive_fraction": 0.499894,
+  "disk_bytes": 81000000,
+  "dtype_X": "little-endian float64",
+  "dtype_y": "int8"
+}

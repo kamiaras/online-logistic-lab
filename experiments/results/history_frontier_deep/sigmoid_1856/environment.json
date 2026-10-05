@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_sha256": {
+    "history_frontier.py": "01f6d097a6fe3be9bb01959c3525fe8739a776781c7d052c2cd93f12ea83eb67",
+    "common.py": "d176b1757823459eb8ec2383da67cbc4fed44a52f0dcad0c0815c1d05ee32ff7",
+    "proximal.py": "9188584f588cb589004fe21ae3fc9eb2f7dc5a0c021d1edd07d70e9b36afb7af",
+    "sigmoid.py": "de41cb603de2371c8ee1b65775c3cd9e0013ca8b0ab20fddf823c0bf4356a9d8",
+    "memory.py": "eb03ae55073b3f5c75a927d479304e395604fe55a5b7fe3ccd1f4e096c680eec"
+  },
+  "worker_blas_threads": 1,
+  "memory_available": 8371425280
+}

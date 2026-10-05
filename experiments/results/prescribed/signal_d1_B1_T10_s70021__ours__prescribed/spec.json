@@ -1,0 +1,18 @@
+{
+  "algorithm": "ours",
+  "config": {
+    "mode": "prescribed"
+  },
+  "d": 1,
+  "B": 1.0,
+  "T": 10,
+  "sampler_seed": 159194,
+  "data_seed": 70021,
+  "case_id": "signal_d1_B1_T10_s70021",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d1_B1_T10_s70021",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\prescribed\\signal_d1_B1_T10_s70021__ours__prescribed",
+  "seconds": 15,
+  "memory_bytes": 2147483648,
+  "stage": "prescribed",
+  "label": "prescribed"
+}

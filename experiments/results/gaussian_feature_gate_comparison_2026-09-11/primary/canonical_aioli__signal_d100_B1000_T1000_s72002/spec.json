@@ -1,0 +1,20 @@
+{
+  "stage": "primary",
+  "case": "signal_d100_B1000_T1000_s72002",
+  "d": 100,
+  "B": 1000.0,
+  "T": 1000,
+  "rounds": 500,
+  "data_seed": 72002,
+  "seed": 910001,
+  "algorithm": "canonical_aioli",
+  "config": {
+    "R": 1.0,
+    "matrix_backend": "inverse"
+  },
+  "seconds": 90.0,
+  "memory_bytes": 2147483648,
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d100_B1000_T1000_s72002",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\primary\\canonical_aioli__signal_d100_B1000_T1000_s72002",
+  "stop_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\STOP_REQUESTED"
+}

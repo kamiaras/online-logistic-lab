@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\worker.py", line 67, in run
+    score=float(a.predict(x))
+                ^^^^^^^^^^^^
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\proximal.py", line 424, in predict
+    th = self._conditional_draw(Y, x, .5+self.tilts[lo:hi], schedule)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\proximal.py", line 392, in _conditional_draw
+    env = self._conditional_center(Y, x, p, schedule)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\proximal.py", line 352, in _conditional_center
+    value, g = potential(v, self.B, self.history, self.metrics,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kamiar\Desktop\random ideas\ols2\experiments\common.py", line 67, in potential
+    values = .5 * np.sum((th / B) ** 2, axis=1) if want_value else None
+                         ~~~~~~~~~^~~~
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 73.2 MiB for an array with shape (64, 150000) and data type float64

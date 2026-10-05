@@ -1,0 +1,34 @@
+{
+  "algorithm": "ours",
+  "config": {
+    "particles": 786432,
+    "transitions": 1,
+    "mode": "practical",
+    "particle_batch": 64,
+    "max_particles": 786432,
+    "max_state_bytes": 9223372036854775807
+  },
+  "d": 128,
+  "B": 1000.0,
+  "T": 4,
+  "stop_after_round": 2,
+  "sampler_seed": 878001,
+  "data_seed": 78001,
+  "case_id": "signal_d128_B1000_T4_s78001",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\data\\signal_d128_B1000_T4_s78001",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\memory_frontier_deep\\ours_particles\\particles_786432",
+  "seconds": 30.0,
+  "memory_bytes": 2147483648,
+  "stage": "memory_frontier_deep",
+  "label": "particles_786432",
+  "frontier": {
+    "axis": "ours_particles",
+    "parameter": "particles",
+    "value": 786432,
+    "purpose": "actual_constructor_and_short_online_memory_probe",
+    "not_a_regret_comparison": true,
+    "advisory_preflight_overridden": true,
+    "process_memory_limit_overridden": false,
+    "requested_particles": 786432
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "generated_utc": "2026-09-11T20:14:10.693609+00:00",
+  "stage": "smoke",
+  "attempts": [
+    {
+      "algorithm": "gaussian_gate",
+      "case": "signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\smoke\\gaussian_gate__signal_d10_B100_T1000_s72001",
+      "status": "completed",
+      "round": 8,
+      "online_seconds": 0.003274800081271678,
+      "cumulative_loss": 5.40858767243735
+    },
+    {
+      "algorithm": "author_aioli",
+      "case": "signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\smoke\\author_aioli__signal_d10_B100_T1000_s72001",
+      "status": "completed",
+      "round": 8,
+      "online_seconds": 1.4931884999969043,
+      "cumulative_loss": 5.545135265959676
+    },
+    {
+      "algorithm": "author_sigmoid",
+      "case": "signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\smoke\\author_sigmoid__signal_d10_B100_T1000_s72001",
+      "status": "completed",
+      "round": 8,
+      "online_seconds": 1.5643901000439655,
+      "cumulative_loss": 5.1882714097855755
+    },
+    {
+      "algorithm": "canonical_aioli",
+      "case": "signal_d10_B100_T1000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\smoke\\canonical_aioli__signal_d10_B100_T1000_s72001",
+      "status": "completed",
+      "round": 8,
+      "online_seconds": 0.000872000033268705,
+      "cumulative_loss": 5.40858767243735
+    },
+    {
+      "algorithm": "gaussian_gate",
+      "case": "signal_d1000_B1000_T100000_s72001",
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\smoke\\gaussian_gate__signal_d1000_B1000_T100000_s72001",
+      "status": "completed",
+      "round": 8,
+      "online_seconds": 0.046480000019073486,
+      "cumulative_loss": 5.527713078813751
+    }
+  ],
+  "planned": 5,
+  "attempted": 5,
+  "terminal_counts": {
+    "completed": 5
+  },
+  "error": null,
+  "sources_unchanged": true,
+  "data_unchanged": true,
+  "elapsed_wall_seconds": 8.583436799992342,
+  "status": "terminal"
+}

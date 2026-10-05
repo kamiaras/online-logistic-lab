@@ -1,0 +1,94 @@
+[
+  {
+    "algorithm": "aioli",
+    "label": "default",
+    "case_id": "long_signal_d10_B1000_T10000000_s76001",
+    "d": 10,
+    "B": 1000.0,
+    "T": 10000000,
+    "data_seed": 76001,
+    "sampler_seed": 165174,
+    "stage": "deep_long",
+    "family": "signal",
+    "B_generator": 3.0,
+    "completed_rounds": 10000000,
+    "status": "completed",
+    "online_seconds": 1478.4436015645479,
+    "process_wall_seconds": 1557.1677381000045,
+    "cpu_seconds": 1553.125,
+    "state_bytes": 880,
+    "peak_working_set": 66752512,
+    "peak_private_commit": 119562240,
+    "interrupted_measurements_censored": false,
+    "baseline_memory": {
+      "working_set": 56979456,
+      "peak_working_set": 60739584,
+      "private_commit": 75792384,
+      "peak_private_commit": 80158720
+    },
+    "config": {},
+    "diagnostics": {
+      "matrix_backend": "cholesky",
+      "rounds_observed": 10000000,
+      "regularizer_lambda": 1e-06,
+      "feature_radius": 1.0,
+      "bisections": 62,
+      "prescribed_bisections": 62,
+      "uses_prescribed_bisection_budget": true,
+      "last_q": 0.013460814157788506,
+      "last_v": 1.5362457961951472,
+      "last_scalar_root_residual": 0.0,
+      "max_abs_logit": 1076.5578085641077,
+      "finite_precision_certified": false,
+      "flop_counts_are_estimates": true,
+      "state_bytes_scope": "owned persistent ndarray storage"
+    },
+    "metrics": {
+      "counters": {
+        "matrix_initializations": 1,
+        "estimated_scalar_flops": 9626325160,
+        "triangular_solves": 20000000,
+        "estimated_matmul_flops": 2000000000,
+        "dot_products": 20000000,
+        "root_iterations": 528632620,
+        "root_evaluations": 538632620,
+        "tanh_elements": 538632620,
+        "predictions": 10000000,
+        "cholesky_rank1_updates": 9999997,
+        "cholesky_rotations": 99999970,
+        "sufficient_statistic_updates": 10000000,
+        "sigmoid_elements": 20000000,
+        "observations": 10000000,
+        "root_rounding_stalls": 123313,
+        "curvature_underflows": 3
+      },
+      "times": {
+        "predict": 557.5007349459338,
+        "observe": 812.4800080593996
+      }
+    },
+    "common_round": 10000000,
+    "final": {
+      "round": 10000000,
+      "loss": 4779071.670198691,
+      "average_loss": 0.47790716701986913,
+      "comparator_loss": 4751926.525594651,
+      "comparator_gap": 2.0421535837640013e-08,
+      "comparator_first_order_gap": 2.0421535837640013e-08,
+      "regret_lower": 27145.14460404031,
+      "regret_upper": 27145.14460406073,
+      "online_seconds": 1478.4436015645479
+    },
+    "common": {
+      "round": 10000000,
+      "loss": 4779071.670198691,
+      "average_loss": 0.47790716701986913,
+      "comparator_loss": 4751926.525594651,
+      "comparator_gap": 2.0421535837640013e-08,
+      "comparator_first_order_gap": 2.0421535837640013e-08,
+      "regret_lower": 27145.14460404031,
+      "regret_upper": 27145.14460406073,
+      "online_seconds": 1478.4436015645479
+    }
+  }
+]

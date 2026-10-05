@@ -1,0 +1,19 @@
+{
+  "algorithm": "sigmoid",
+  "config": {
+    "particles": 16,
+    "transitions": 16
+  },
+  "d": 100,
+  "B": 100.0,
+  "T": 1000,
+  "sampler_seed": 161176,
+  "data_seed": 72003,
+  "case_id": "coordinate_d100_B100_T1000_s72003",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\coordinate_d100_B100_T1000_s72003",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\screen\\coordinate_d100_B100_T1000_s72003__sigmoid__m16n16",
+  "seconds": 15,
+  "memory_bytes": 2147483648,
+  "stage": "screen",
+  "label": "m16n16"
+}

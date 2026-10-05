@@ -1,0 +1,1781 @@
+{
+  "schema_version": 1,
+  "protocol": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\SOFT_BAYES_EXPERIMENT_PLAN.md",
+  "datasets": {
+    "signal_d1_B1_T12_s911201": {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1_B1_T12_s911201",
+      "metadata": {
+        "case": {
+          "d": 1,
+          "B": 1.0,
+          "T": 12,
+          "family": "signal",
+          "data_seed": 911201,
+          "B_generator": 1.0
+        },
+        "sha256_interleaved_blocks": "0a728d6c965b34b364861f7fac8202a09074b0a36991d624da49d3776848a188",
+        "block_size": 128,
+        "feature_norm_min": 1.0,
+        "feature_norm_max": 1.0,
+        "generating_score_rms": 1.0,
+        "positive_fraction": 0.6666666666666666,
+        "disk_bytes": 108,
+        "dtype_X": "little-endian float64",
+        "dtype_y": "int8"
+      },
+      "hashes": {
+        "X.bin": "303e137d01b7ea9650f51de93df54eac37e748ab50ffdf9f4da33d381a3261d0",
+        "y.bin": "c4dfb13b65fdddd08cc2cb8e3457c64298de62d4a46294bfdefb21a2b5f33c76",
+        "data.json": "cef500d741645922b38bd4d6b273f2eb1d1ab92cbb95f297e5e2db5acfe815f0"
+      }
+    },
+    "signal_d1_B1_T12_s911202": {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1_B1_T12_s911202",
+      "metadata": {
+        "case": {
+          "d": 1,
+          "B": 1.0,
+          "T": 12,
+          "family": "signal",
+          "data_seed": 911202,
+          "B_generator": 1.0
+        },
+        "sha256_interleaved_blocks": "59c6e092132460e3f08bfa89ab35879ee288b528684ab86a2c1e411de7e2fc21",
+        "block_size": 128,
+        "feature_norm_min": 1.0,
+        "feature_norm_max": 1.0,
+        "generating_score_rms": 1.0,
+        "positive_fraction": 0.5833333333333334,
+        "disk_bytes": 108,
+        "dtype_X": "little-endian float64",
+        "dtype_y": "int8"
+      },
+      "hashes": {
+        "X.bin": "fed0591b9ef68aca08e5aedff67a6f5bfb81ecb8adb762fa4db6ed491880e147",
+        "y.bin": "d1bd41ecb544ca505fb7d92c576502fcde7e3316c3721940a486f01d7ef67845",
+        "data.json": "38989c636d77d36f032da0670c7eb6ca96c7d9010f8427bf91ed44863b0ac709"
+      }
+    },
+    "signal_d10_B1_T20_s911201": {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B1_T20_s911201",
+      "metadata": {
+        "case": {
+          "d": 10,
+          "B": 1.0,
+          "T": 20,
+          "family": "signal",
+          "data_seed": 911201,
+          "B_generator": 1.0
+        },
+        "sha256_interleaved_blocks": "922fd1525e2ebe23c0060b1f62aeb860c16fe628d20dfb4c2c785bf99d562acf",
+        "block_size": 128,
+        "feature_norm_min": 0.9999999999999999,
+        "feature_norm_max": 1.0,
+        "generating_score_rms": 0.5,
+        "positive_fraction": 0.45,
+        "disk_bytes": 1620,
+        "dtype_X": "little-endian float64",
+        "dtype_y": "int8"
+      },
+      "hashes": {
+        "X.bin": "7a40aa02c73e0787b76ccbeda21008e13ef6542654fb0dfb9692b59a73d85e42",
+        "y.bin": "af8993f6b48aab86acb1e083fdee0d8000ed9e9c68f887be69bded714fdad82c",
+        "data.json": "2d7a1848a46248c2c6d30da274bc7c2bf44b6917ce84243b7afcd3d16c0ed707"
+      }
+    },
+    "signal_d10_B1_T20_s911202": {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B1_T20_s911202",
+      "metadata": {
+        "case": {
+          "d": 10,
+          "B": 1.0,
+          "T": 20,
+          "family": "signal",
+          "data_seed": 911202,
+          "B_generator": 1.0
+        },
+        "sha256_interleaved_blocks": "99fa4f8e604f6a7e2ff913bfea004966f9314ae8e8123dfbbaa4b565016f4802",
+        "block_size": 128,
+        "feature_norm_min": 0.9999999999999998,
+        "feature_norm_max": 1.0,
+        "generating_score_rms": 0.5,
+        "positive_fraction": 0.3,
+        "disk_bytes": 1620,
+        "dtype_X": "little-endian float64",
+        "dtype_y": "int8"
+      },
+      "hashes": {
+        "X.bin": "fc362d75c5c45142f15b992c55ac27b1577d16ac5ec9c857fa2746f2bbcfb501",
+        "y.bin": "38c4431ec786f2c760dfa307a5b429ed6e598acb89d14e7f7d99ac2885a95706",
+        "data.json": "a8c24c81b276cff780a5c11d7780cea855fe9bf721f7a7ef82b3ad0f0e560905"
+      }
+    },
+    "signal_d10_B10_T50_s911201": {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B10_T50_s911201",
+      "metadata": {
+        "case": {
+          "d": 10,
+          "B": 10.0,
+          "T": 50,
+          "family": "signal",
+          "data_seed": 911201,
+          "B_generator": 3.0
+        },
+        "sha256_interleaved_blocks": "fb120b3d0ca3a7256fc8215eae65d8d537d7bfccdbcd0d13f92268b9329d0967",
+        "block_size": 128,
+        "feature_norm_min": 0.9999999999999998,
+        "feature_norm_max": 1.0,
+        "generating_score_rms": 1.5,
+        "positive_fraction": 0.54,
+        "disk_bytes": 4050,
+        "dtype_X": "little-endian float64",
+        "dtype_y": "int8"
+      },
+      "hashes": {
+        "X.bin": "5a6865a889af4d77b1afe3aecb633cb8b8a36009e8e970169ac22e10dce611fc",
+        "y.bin": "c17661fafe645360a9355495ae4b3a6e55c3fbbc0eaac78ad96939a93715a496",
+        "data.json": "0552cd7d54a3e60305684d5b2fa81d303200ad06283b27d1504b9a52f7e721a2"
+      }
+    },
+    "signal_d10_B10_T50_s911202": {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B10_T50_s911202",
+      "metadata": {
+        "case": {
+          "d": 10,
+          "B": 10.0,
+          "T": 50,
+          "family": "signal",
+          "data_seed": 911202,
+          "B_generator": 3.0
+        },
+        "sha256_interleaved_blocks": "f820383dcb3c634b5cbb261385d917fdb61b7ee392324312a1b3850d9ac31ae2",
+        "block_size": 128,
+        "feature_norm_min": 0.9999999999999998,
+        "feature_norm_max": 1.0,
+        "generating_score_rms": 1.5,
+        "positive_fraction": 0.54,
+        "disk_bytes": 4050,
+        "dtype_X": "little-endian float64",
+        "dtype_y": "int8"
+      },
+      "hashes": {
+        "X.bin": "260116cfd758e0fd587756fb57a26fa3c3c3a3bc50d3e9376fa0d520decd8c0a",
+        "y.bin": "2790958f53c656c5a2e86ea31af6ad8cab9cf1fbed4a057870a999773fdd356f",
+        "data.json": "ab0043e52ab1158f0bfd09be83ad26386abe37ec9546b5b4b092c18a7112aedb"
+      }
+    },
+    "signal_d10_B100_T500_s911201": {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B100_T500_s911201",
+      "metadata": {
+        "case": {
+          "d": 10,
+          "B": 100.0,
+          "T": 500,
+          "family": "signal",
+          "data_seed": 911201,
+          "B_generator": 3.0
+        },
+        "sha256_interleaved_blocks": "dad7e384261e12ecb9c1d5758669d95a5d37a79ee4d9cec4eb58117a0c28da0e",
+        "block_size": 128,
+        "feature_norm_min": 0.9999999999999997,
+        "feature_norm_max": 1.0,
+        "generating_score_rms": 1.5,
+        "positive_fraction": 0.516,
+        "disk_bytes": 40500,
+        "dtype_X": "little-endian float64",
+        "dtype_y": "int8"
+      },
+      "hashes": {
+        "X.bin": "584041fa1892bba89ad3457ae2172a679abb4d29b6a07d3858e567bc6dd0e8a0",
+        "y.bin": "fd7b079cfb5a77d3bb8d36c0d5f9ed4a1c60096c2ff331720fe60497744b1913",
+        "data.json": "fae4f42681e3be4251e2386f34eab61bdc82f9da34b938a7348a149877918e47"
+      }
+    },
+    "signal_d10_B100_T500_s911202": {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B100_T500_s911202",
+      "metadata": {
+        "case": {
+          "d": 10,
+          "B": 100.0,
+          "T": 500,
+          "family": "signal",
+          "data_seed": 911202,
+          "B_generator": 3.0
+        },
+        "sha256_interleaved_blocks": "91df68af4c16fb2cb278f145854b802679c595e936b7942e6f5649b90cb4263d",
+        "block_size": 128,
+        "feature_norm_min": 0.9999999999999998,
+        "feature_norm_max": 1.0,
+        "generating_score_rms": 1.5,
+        "positive_fraction": 0.5,
+        "disk_bytes": 40500,
+        "dtype_X": "little-endian float64",
+        "dtype_y": "int8"
+      },
+      "hashes": {
+        "X.bin": "707229c4fbbedf32392c77df12d3e0c1443a2a67b2c07681b68544ed2d88d30e",
+        "y.bin": "64cedbcd1835c79a656dc7916ca40ad844212acfdd3ba79e73873c248dcd55c6",
+        "data.json": "9d2cbb9ea9aa5f708e7a672d6943853a4677002a3d0dc71cb82b13f375010942"
+      }
+    },
+    "signal_d100_B1000_T500_s911201": {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d100_B1000_T500_s911201",
+      "metadata": {
+        "case": {
+          "d": 100,
+          "B": 1000.0,
+          "T": 500,
+          "family": "signal",
+          "data_seed": 911201,
+          "B_generator": 3.0
+        },
+        "sha256_interleaved_blocks": "1498d3a6ea4c3d137eec65ec3905ae783ee23c940956d286b6f8f2cfdfd491e3",
+        "block_size": 128,
+        "feature_norm_min": 0.9999999999999998,
+        "feature_norm_max": 1.0,
+        "generating_score_rms": 1.5000000000000002,
+        "positive_fraction": 0.46,
+        "disk_bytes": 400500,
+        "dtype_X": "little-endian float64",
+        "dtype_y": "int8"
+      },
+      "hashes": {
+        "X.bin": "48321446d3643179d60ab727f0b2a472f80957b98176c1be9325ccceafa05d0b",
+        "y.bin": "3e791a04b54246aaeafeebd5f88e6b78bf4a493c8a86495acc3a4bf51460a38c",
+        "data.json": "d9c695aced0a54853943d0f75a14c214bdefc32feb58b54a8b69640996aa0a56"
+      }
+    },
+    "signal_d100_B1000_T500_s911202": {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d100_B1000_T500_s911202",
+      "metadata": {
+        "case": {
+          "d": 100,
+          "B": 1000.0,
+          "T": 500,
+          "family": "signal",
+          "data_seed": 911202,
+          "B_generator": 3.0
+        },
+        "sha256_interleaved_blocks": "483330cb5a88316a3c5a79ce8f5e549592d3bfd0047f1d98a31dd5a019db8c94",
+        "block_size": 128,
+        "feature_norm_min": 0.9999999999999998,
+        "feature_norm_max": 1.0,
+        "generating_score_rms": 1.5,
+        "positive_fraction": 0.492,
+        "disk_bytes": 400500,
+        "dtype_X": "little-endian float64",
+        "dtype_y": "int8"
+      },
+      "hashes": {
+        "X.bin": "4c003c1178578ab117a10d68b45d645593c60c783045d3ff7e3fb2a46f290ee9",
+        "y.bin": "24def09858548c419e45a18b820cc469477adca1367ae423462f5057bc8dcdf0",
+        "data.json": "fe809637d03051deb6180d940fe0fc87046c2fe7fc25a0f2c4a5c8f655135990"
+      }
+    },
+    "signal_d1000_B1000_T500_s911201": {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1000_B1000_T500_s911201",
+      "metadata": {
+        "case": {
+          "d": 1000,
+          "B": 1000.0,
+          "T": 500,
+          "family": "signal",
+          "data_seed": 911201,
+          "B_generator": 3.0
+        },
+        "sha256_interleaved_blocks": "16be12ef20c89209eeca01d3b6fe5aacf4b546a784439496aa1240f518443a82",
+        "block_size": 128,
+        "feature_norm_min": 0.9999999999999997,
+        "feature_norm_max": 1.0,
+        "generating_score_rms": 1.4999999999999998,
+        "positive_fraction": 0.534,
+        "disk_bytes": 4000500,
+        "dtype_X": "little-endian float64",
+        "dtype_y": "int8"
+      },
+      "hashes": {
+        "X.bin": "d619b93d7dad2d6b957f844bf9714729c0e56c19309b1903d5454a80503ca0cd",
+        "y.bin": "73bc802588c9f3c6d2678ab617457cbbc423f4ea9097aa5cb1fe3cf2d1113800",
+        "data.json": "6572678052c3447e68f08e6fe961a19b118c16d2b03e2a0ecab00e42899690a0"
+      }
+    },
+    "signal_d1000_B1000_T500_s911202": {
+      "path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1000_B1000_T500_s911202",
+      "metadata": {
+        "case": {
+          "d": 1000,
+          "B": 1000.0,
+          "T": 500,
+          "family": "signal",
+          "data_seed": 911202,
+          "B_generator": 3.0
+        },
+        "sha256_interleaved_blocks": "0380bf3daf69f2bbb365446427fd46019a321524717d50d2076f156625cafb30",
+        "block_size": 128,
+        "feature_norm_min": 0.9999999999999998,
+        "feature_norm_max": 1.0,
+        "generating_score_rms": 1.5,
+        "positive_fraction": 0.524,
+        "disk_bytes": 4000500,
+        "dtype_X": "little-endian float64",
+        "dtype_y": "int8"
+      },
+      "hashes": {
+        "X.bin": "b477f65d95082d8a32525a6f1e89a4ac9c728b7f299aec4808e886fc5391d8ef",
+        "y.bin": "757ade2297b4da92286c2455de71222f58d2f46caf8075aeeaf831133f4b6257",
+        "data.json": "f460f835a7ea9c4ecabc499f6056e55972d2c4c90bbbabbb1bb3e0b407ba8cd9"
+      }
+    }
+  },
+  "runs": [
+    {
+      "d": 10,
+      "B": 1.0,
+      "T": 20,
+      "rounds": 20,
+      "case_id": "signal_d10_B1_T20_s911201",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B1_T20_s911201",
+      "data_hashes": {
+        "X.bin": "7a40aa02c73e0787b76ccbeda21008e13ef6542654fb0dfb9692b59a73d85e42",
+        "y.bin": "af8993f6b48aab86acb1e083fdee0d8000ed9e9c68f887be69bded714fdad82c",
+        "data.json": "2d7a1848a46248c2c6d30da274bc7c2bf44b6917ce84243b7afcd3d16c0ed707"
+      },
+      "id": "signal_d10_B1_T20_s911201__prescribed__s912302",
+      "label": "prescribed",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "prescribed",
+        "max_total_moves": null
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B1_T20_s911201__prescribed__s912302"
+    },
+    {
+      "d": 10,
+      "B": 10.0,
+      "T": 50,
+      "rounds": 50,
+      "case_id": "signal_d10_B10_T50_s911202",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B10_T50_s911202",
+      "data_hashes": {
+        "X.bin": "260116cfd758e0fd587756fb57a26fa3c3c3a3bc50d3e9376fa0d520decd8c0a",
+        "y.bin": "2790958f53c656c5a2e86ea31af6ad8cab9cf1fbed4a057870a999773fdd356f",
+        "data.json": "ab0043e52ab1158f0bfd09be83ad26386abe37ec9546b5b4b092c18a7112aedb"
+      },
+      "id": "signal_d10_B10_T50_s911202__author_aioli__s0",
+      "label": "author_aioli",
+      "seed": 0,
+      "algorithm": "author_aioli",
+      "config": {},
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B10_T50_s911202__author_aioli__s0"
+    },
+    {
+      "d": 1,
+      "B": 1.0,
+      "T": 12,
+      "rounds": 12,
+      "case_id": "signal_d1_B1_T12_s911201",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1_B1_T12_s911201",
+      "data_hashes": {
+        "X.bin": "303e137d01b7ea9650f51de93df54eac37e748ab50ffdf9f4da33d381a3261d0",
+        "y.bin": "c4dfb13b65fdddd08cc2cb8e3457c64298de62d4a46294bfdefb21a2b5f33c76",
+        "data.json": "cef500d741645922b38bd4d6b273f2eb1d1ab92cbb95f297e5e2db5acfe815f0"
+      },
+      "id": "signal_d1_B1_T12_s911201__prescribed__s912302",
+      "label": "prescribed",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "prescribed",
+        "max_total_moves": null
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1_B1_T12_s911201__prescribed__s912302"
+    },
+    {
+      "d": 10,
+      "B": 10.0,
+      "T": 50,
+      "rounds": 50,
+      "case_id": "signal_d10_B10_T50_s911201",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B10_T50_s911201",
+      "data_hashes": {
+        "X.bin": "5a6865a889af4d77b1afe3aecb633cb8b8a36009e8e970169ac22e10dce611fc",
+        "y.bin": "c17661fafe645360a9355495ae4b3a6e55c3fbbc0eaac78ad96939a93715a496",
+        "data.json": "0552cd7d54a3e60305684d5b2fa81d303200ad06283b27d1504b9a52f7e721a2"
+      },
+      "id": "signal_d10_B10_T50_s911201__prescribed__s912301",
+      "label": "prescribed",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "prescribed",
+        "max_total_moves": null
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B10_T50_s911201__prescribed__s912301"
+    },
+    {
+      "d": 10,
+      "B": 1.0,
+      "T": 20,
+      "rounds": 20,
+      "case_id": "signal_d10_B1_T20_s911201",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B1_T20_s911201",
+      "data_hashes": {
+        "X.bin": "7a40aa02c73e0787b76ccbeda21008e13ef6542654fb0dfb9692b59a73d85e42",
+        "y.bin": "af8993f6b48aab86acb1e083fdee0d8000ed9e9c68f887be69bded714fdad82c",
+        "data.json": "2d7a1848a46248c2c6d30da274bc7c2bf44b6917ce84243b7afcd3d16c0ed707"
+      },
+      "id": "signal_d10_B1_T20_s911201__author_aioli__s0",
+      "label": "author_aioli",
+      "seed": 0,
+      "algorithm": "author_aioli",
+      "config": {},
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B1_T20_s911201__author_aioli__s0"
+    },
+    {
+      "d": 1,
+      "B": 1.0,
+      "T": 12,
+      "rounds": 12,
+      "case_id": "signal_d1_B1_T12_s911201",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1_B1_T12_s911201",
+      "data_hashes": {
+        "X.bin": "303e137d01b7ea9650f51de93df54eac37e748ab50ffdf9f4da33d381a3261d0",
+        "y.bin": "c4dfb13b65fdddd08cc2cb8e3457c64298de62d4a46294bfdefb21a2b5f33c76",
+        "data.json": "cef500d741645922b38bd4d6b273f2eb1d1ab92cbb95f297e5e2db5acfe815f0"
+      },
+      "id": "signal_d1_B1_T12_s911201__author_aioli__s0",
+      "label": "author_aioli",
+      "seed": 0,
+      "algorithm": "author_aioli",
+      "config": {},
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1_B1_T12_s911201__author_aioli__s0"
+    },
+    {
+      "d": 1,
+      "B": 1.0,
+      "T": 12,
+      "rounds": 12,
+      "case_id": "signal_d1_B1_T12_s911202",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1_B1_T12_s911202",
+      "data_hashes": {
+        "X.bin": "fed0591b9ef68aca08e5aedff67a6f5bfb81ecb8adb762fa4db6ed491880e147",
+        "y.bin": "d1bd41ecb544ca505fb7d92c576502fcde7e3316c3721940a486f01d7ef67845",
+        "data.json": "38989c636d77d36f032da0670c7eb6ca96c7d9010f8427bf91ed44863b0ac709"
+      },
+      "id": "signal_d1_B1_T12_s911202__prescribed__s912302",
+      "label": "prescribed",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "prescribed",
+        "max_total_moves": null
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1_B1_T12_s911202__prescribed__s912302"
+    },
+    {
+      "d": 10,
+      "B": 10.0,
+      "T": 50,
+      "rounds": 50,
+      "case_id": "signal_d10_B10_T50_s911201",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B10_T50_s911201",
+      "data_hashes": {
+        "X.bin": "5a6865a889af4d77b1afe3aecb633cb8b8a36009e8e970169ac22e10dce611fc",
+        "y.bin": "c17661fafe645360a9355495ae4b3a6e55c3fbbc0eaac78ad96939a93715a496",
+        "data.json": "0552cd7d54a3e60305684d5b2fa81d303200ad06283b27d1504b9a52f7e721a2"
+      },
+      "id": "signal_d10_B10_T50_s911201__prescribed__s912302",
+      "label": "prescribed",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "prescribed",
+        "max_total_moves": null
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B10_T50_s911201__prescribed__s912302"
+    },
+    {
+      "d": 10,
+      "B": 1.0,
+      "T": 20,
+      "rounds": 20,
+      "case_id": "signal_d10_B1_T20_s911201",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B1_T20_s911201",
+      "data_hashes": {
+        "X.bin": "7a40aa02c73e0787b76ccbeda21008e13ef6542654fb0dfb9692b59a73d85e42",
+        "y.bin": "af8993f6b48aab86acb1e083fdee0d8000ed9e9c68f887be69bded714fdad82c",
+        "data.json": "2d7a1848a46248c2c6d30da274bc7c2bf44b6917ce84243b7afcd3d16c0ed707"
+      },
+      "id": "signal_d10_B1_T20_s911201__prescribed__s912301",
+      "label": "prescribed",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "prescribed",
+        "max_total_moves": null
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B1_T20_s911201__prescribed__s912301"
+    },
+    {
+      "d": 10,
+      "B": 10.0,
+      "T": 50,
+      "rounds": 50,
+      "case_id": "signal_d10_B10_T50_s911201",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B10_T50_s911201",
+      "data_hashes": {
+        "X.bin": "5a6865a889af4d77b1afe3aecb633cb8b8a36009e8e970169ac22e10dce611fc",
+        "y.bin": "c17661fafe645360a9355495ae4b3a6e55c3fbbc0eaac78ad96939a93715a496",
+        "data.json": "0552cd7d54a3e60305684d5b2fa81d303200ad06283b27d1504b9a52f7e721a2"
+      },
+      "id": "signal_d10_B10_T50_s911201__author_aioli__s0",
+      "label": "author_aioli",
+      "seed": 0,
+      "algorithm": "author_aioli",
+      "config": {},
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B10_T50_s911201__author_aioli__s0"
+    },
+    {
+      "d": 10,
+      "B": 1.0,
+      "T": 20,
+      "rounds": 20,
+      "case_id": "signal_d10_B1_T20_s911202",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B1_T20_s911202",
+      "data_hashes": {
+        "X.bin": "fc362d75c5c45142f15b992c55ac27b1577d16ac5ec9c857fa2746f2bbcfb501",
+        "y.bin": "38c4431ec786f2c760dfa307a5b429ed6e598acb89d14e7f7d99ac2885a95706",
+        "data.json": "a8c24c81b276cff780a5c11d7780cea855fe9bf721f7a7ef82b3ad0f0e560905"
+      },
+      "id": "signal_d10_B1_T20_s911202__prescribed__s912301",
+      "label": "prescribed",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "prescribed",
+        "max_total_moves": null
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B1_T20_s911202__prescribed__s912301"
+    },
+    {
+      "d": 10,
+      "B": 1.0,
+      "T": 20,
+      "rounds": 20,
+      "case_id": "signal_d10_B1_T20_s911202",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B1_T20_s911202",
+      "data_hashes": {
+        "X.bin": "fc362d75c5c45142f15b992c55ac27b1577d16ac5ec9c857fa2746f2bbcfb501",
+        "y.bin": "38c4431ec786f2c760dfa307a5b429ed6e598acb89d14e7f7d99ac2885a95706",
+        "data.json": "a8c24c81b276cff780a5c11d7780cea855fe9bf721f7a7ef82b3ad0f0e560905"
+      },
+      "id": "signal_d10_B1_T20_s911202__prescribed__s912302",
+      "label": "prescribed",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "prescribed",
+        "max_total_moves": null
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B1_T20_s911202__prescribed__s912302"
+    },
+    {
+      "d": 10,
+      "B": 10.0,
+      "T": 50,
+      "rounds": 50,
+      "case_id": "signal_d10_B10_T50_s911202",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B10_T50_s911202",
+      "data_hashes": {
+        "X.bin": "260116cfd758e0fd587756fb57a26fa3c3c3a3bc50d3e9376fa0d520decd8c0a",
+        "y.bin": "2790958f53c656c5a2e86ea31af6ad8cab9cf1fbed4a057870a999773fdd356f",
+        "data.json": "ab0043e52ab1158f0bfd09be83ad26386abe37ec9546b5b4b092c18a7112aedb"
+      },
+      "id": "signal_d10_B10_T50_s911202__prescribed__s912301",
+      "label": "prescribed",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "prescribed",
+        "max_total_moves": null
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B10_T50_s911202__prescribed__s912301"
+    },
+    {
+      "d": 10,
+      "B": 1.0,
+      "T": 20,
+      "rounds": 20,
+      "case_id": "signal_d10_B1_T20_s911202",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B1_T20_s911202",
+      "data_hashes": {
+        "X.bin": "fc362d75c5c45142f15b992c55ac27b1577d16ac5ec9c857fa2746f2bbcfb501",
+        "y.bin": "38c4431ec786f2c760dfa307a5b429ed6e598acb89d14e7f7d99ac2885a95706",
+        "data.json": "a8c24c81b276cff780a5c11d7780cea855fe9bf721f7a7ef82b3ad0f0e560905"
+      },
+      "id": "signal_d10_B1_T20_s911202__author_aioli__s0",
+      "label": "author_aioli",
+      "seed": 0,
+      "algorithm": "author_aioli",
+      "config": {},
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B1_T20_s911202__author_aioli__s0"
+    },
+    {
+      "d": 1,
+      "B": 1.0,
+      "T": 12,
+      "rounds": 12,
+      "case_id": "signal_d1_B1_T12_s911202",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1_B1_T12_s911202",
+      "data_hashes": {
+        "X.bin": "fed0591b9ef68aca08e5aedff67a6f5bfb81ecb8adb762fa4db6ed491880e147",
+        "y.bin": "d1bd41ecb544ca505fb7d92c576502fcde7e3316c3721940a486f01d7ef67845",
+        "data.json": "38989c636d77d36f032da0670c7eb6ca96c7d9010f8427bf91ed44863b0ac709"
+      },
+      "id": "signal_d1_B1_T12_s911202__prescribed__s912301",
+      "label": "prescribed",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "prescribed",
+        "max_total_moves": null
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1_B1_T12_s911202__prescribed__s912301"
+    },
+    {
+      "d": 10,
+      "B": 10.0,
+      "T": 50,
+      "rounds": 50,
+      "case_id": "signal_d10_B10_T50_s911202",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B10_T50_s911202",
+      "data_hashes": {
+        "X.bin": "260116cfd758e0fd587756fb57a26fa3c3c3a3bc50d3e9376fa0d520decd8c0a",
+        "y.bin": "2790958f53c656c5a2e86ea31af6ad8cab9cf1fbed4a057870a999773fdd356f",
+        "data.json": "ab0043e52ab1158f0bfd09be83ad26386abe37ec9546b5b4b092c18a7112aedb"
+      },
+      "id": "signal_d10_B10_T50_s911202__prescribed__s912302",
+      "label": "prescribed",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "prescribed",
+        "max_total_moves": null
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B10_T50_s911202__prescribed__s912302"
+    },
+    {
+      "d": 1,
+      "B": 1.0,
+      "T": 12,
+      "rounds": 12,
+      "case_id": "signal_d1_B1_T12_s911201",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1_B1_T12_s911201",
+      "data_hashes": {
+        "X.bin": "303e137d01b7ea9650f51de93df54eac37e748ab50ffdf9f4da33d381a3261d0",
+        "y.bin": "c4dfb13b65fdddd08cc2cb8e3457c64298de62d4a46294bfdefb21a2b5f33c76",
+        "data.json": "cef500d741645922b38bd4d6b273f2eb1d1ab92cbb95f297e5e2db5acfe815f0"
+      },
+      "id": "signal_d1_B1_T12_s911201__prescribed__s912301",
+      "label": "prescribed",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "prescribed",
+        "max_total_moves": null
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1_B1_T12_s911201__prescribed__s912301"
+    },
+    {
+      "d": 1,
+      "B": 1.0,
+      "T": 12,
+      "rounds": 12,
+      "case_id": "signal_d1_B1_T12_s911202",
+      "stage": "prescribed",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1_B1_T12_s911202",
+      "data_hashes": {
+        "X.bin": "fed0591b9ef68aca08e5aedff67a6f5bfb81ecb8adb762fa4db6ed491880e147",
+        "y.bin": "d1bd41ecb544ca505fb7d92c576502fcde7e3316c3721940a486f01d7ef67845",
+        "data.json": "38989c636d77d36f032da0670c7eb6ca96c7d9010f8427bf91ed44863b0ac709"
+      },
+      "id": "signal_d1_B1_T12_s911202__author_aioli__s0",
+      "label": "author_aioli",
+      "seed": 0,
+      "algorithm": "author_aioli",
+      "config": {},
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1_B1_T12_s911202__author_aioli__s0"
+    },
+    {
+      "d": 100,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d100_B1000_T500_s911201",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d100_B1000_T500_s911201",
+      "data_hashes": {
+        "X.bin": "48321446d3643179d60ab727f0b2a472f80957b98176c1be9325ccceafa05d0b",
+        "y.bin": "3e791a04b54246aaeafeebd5f88e6b78bf4a493c8a86495acc3a4bf51460a38c",
+        "data.json": "d9c695aced0a54853943d0f75a14c214bdefc32feb58b54a8b69640996aa0a56"
+      },
+      "id": "signal_d100_B1000_T500_s911201__practical_m16n1__s912301",
+      "label": "practical_m16n1",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 16,
+        "transitions": 1
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d100_B1000_T500_s911201__practical_m16n1__s912301"
+    },
+    {
+      "d": 10,
+      "B": 100.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d10_B100_T500_s911202",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B100_T500_s911202",
+      "data_hashes": {
+        "X.bin": "707229c4fbbedf32392c77df12d3e0c1443a2a67b2c07681b68544ed2d88d30e",
+        "y.bin": "64cedbcd1835c79a656dc7916ca40ad844212acfdd3ba79e73873c248dcd55c6",
+        "data.json": "9d2cbb9ea9aa5f708e7a672d6943853a4677002a3d0dc71cb82b13f375010942"
+      },
+      "id": "signal_d10_B100_T500_s911202__practical_m16n1__s912302",
+      "label": "practical_m16n1",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 16,
+        "transitions": 1
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B100_T500_s911202__practical_m16n1__s912302"
+    },
+    {
+      "d": 1000,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d1000_B1000_T500_s911201",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1000_B1000_T500_s911201",
+      "data_hashes": {
+        "X.bin": "d619b93d7dad2d6b957f844bf9714729c0e56c19309b1903d5454a80503ca0cd",
+        "y.bin": "73bc802588c9f3c6d2678ab617457cbbc423f4ea9097aa5cb1fe3cf2d1113800",
+        "data.json": "6572678052c3447e68f08e6fe961a19b118c16d2b03e2a0ecab00e42899690a0"
+      },
+      "id": "signal_d1000_B1000_T500_s911201__practical_m64n4__s912301",
+      "label": "practical_m64n4",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 64,
+        "transitions": 4
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1000_B1000_T500_s911201__practical_m64n4__s912301"
+    },
+    {
+      "d": 100,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d100_B1000_T500_s911202",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d100_B1000_T500_s911202",
+      "data_hashes": {
+        "X.bin": "4c003c1178578ab117a10d68b45d645593c60c783045d3ff7e3fb2a46f290ee9",
+        "y.bin": "24def09858548c419e45a18b820cc469477adca1367ae423462f5057bc8dcdf0",
+        "data.json": "fe809637d03051deb6180d940fe0fc87046c2fe7fc25a0f2c4a5c8f655135990"
+      },
+      "id": "signal_d100_B1000_T500_s911202__author_aioli__s0",
+      "label": "author_aioli",
+      "seed": 0,
+      "algorithm": "author_aioli",
+      "config": {},
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d100_B1000_T500_s911202__author_aioli__s0"
+    },
+    {
+      "d": 100,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d100_B1000_T500_s911201",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d100_B1000_T500_s911201",
+      "data_hashes": {
+        "X.bin": "48321446d3643179d60ab727f0b2a472f80957b98176c1be9325ccceafa05d0b",
+        "y.bin": "3e791a04b54246aaeafeebd5f88e6b78bf4a493c8a86495acc3a4bf51460a38c",
+        "data.json": "d9c695aced0a54853943d0f75a14c214bdefc32feb58b54a8b69640996aa0a56"
+      },
+      "id": "signal_d100_B1000_T500_s911201__practical_m64n4__s912301",
+      "label": "practical_m64n4",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 64,
+        "transitions": 4
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d100_B1000_T500_s911201__practical_m64n4__s912301"
+    },
+    {
+      "d": 10,
+      "B": 100.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d10_B100_T500_s911201",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B100_T500_s911201",
+      "data_hashes": {
+        "X.bin": "584041fa1892bba89ad3457ae2172a679abb4d29b6a07d3858e567bc6dd0e8a0",
+        "y.bin": "fd7b079cfb5a77d3bb8d36c0d5f9ed4a1c60096c2ff331720fe60497744b1913",
+        "data.json": "fae4f42681e3be4251e2386f34eab61bdc82f9da34b938a7348a149877918e47"
+      },
+      "id": "signal_d10_B100_T500_s911201__practical_m64n4__s912302",
+      "label": "practical_m64n4",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 64,
+        "transitions": 4
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B100_T500_s911201__practical_m64n4__s912302"
+    },
+    {
+      "d": 10,
+      "B": 100.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d10_B100_T500_s911201",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B100_T500_s911201",
+      "data_hashes": {
+        "X.bin": "584041fa1892bba89ad3457ae2172a679abb4d29b6a07d3858e567bc6dd0e8a0",
+        "y.bin": "fd7b079cfb5a77d3bb8d36c0d5f9ed4a1c60096c2ff331720fe60497744b1913",
+        "data.json": "fae4f42681e3be4251e2386f34eab61bdc82f9da34b938a7348a149877918e47"
+      },
+      "id": "signal_d10_B100_T500_s911201__author_aioli__s0",
+      "label": "author_aioli",
+      "seed": 0,
+      "algorithm": "author_aioli",
+      "config": {},
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B100_T500_s911201__author_aioli__s0"
+    },
+    {
+      "d": 1000,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d1000_B1000_T500_s911201",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1000_B1000_T500_s911201",
+      "data_hashes": {
+        "X.bin": "d619b93d7dad2d6b957f844bf9714729c0e56c19309b1903d5454a80503ca0cd",
+        "y.bin": "73bc802588c9f3c6d2678ab617457cbbc423f4ea9097aa5cb1fe3cf2d1113800",
+        "data.json": "6572678052c3447e68f08e6fe961a19b118c16d2b03e2a0ecab00e42899690a0"
+      },
+      "id": "signal_d1000_B1000_T500_s911201__practical_m16n1__s912302",
+      "label": "practical_m16n1",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 16,
+        "transitions": 1
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1000_B1000_T500_s911201__practical_m16n1__s912302"
+    },
+    {
+      "d": 100,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d100_B1000_T500_s911201",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d100_B1000_T500_s911201",
+      "data_hashes": {
+        "X.bin": "48321446d3643179d60ab727f0b2a472f80957b98176c1be9325ccceafa05d0b",
+        "y.bin": "3e791a04b54246aaeafeebd5f88e6b78bf4a493c8a86495acc3a4bf51460a38c",
+        "data.json": "d9c695aced0a54853943d0f75a14c214bdefc32feb58b54a8b69640996aa0a56"
+      },
+      "id": "signal_d100_B1000_T500_s911201__author_aioli__s0",
+      "label": "author_aioli",
+      "seed": 0,
+      "algorithm": "author_aioli",
+      "config": {},
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d100_B1000_T500_s911201__author_aioli__s0"
+    },
+    {
+      "d": 100,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d100_B1000_T500_s911202",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d100_B1000_T500_s911202",
+      "data_hashes": {
+        "X.bin": "4c003c1178578ab117a10d68b45d645593c60c783045d3ff7e3fb2a46f290ee9",
+        "y.bin": "24def09858548c419e45a18b820cc469477adca1367ae423462f5057bc8dcdf0",
+        "data.json": "fe809637d03051deb6180d940fe0fc87046c2fe7fc25a0f2c4a5c8f655135990"
+      },
+      "id": "signal_d100_B1000_T500_s911202__practical_m16n1__s912301",
+      "label": "practical_m16n1",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 16,
+        "transitions": 1
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d100_B1000_T500_s911202__practical_m16n1__s912301"
+    },
+    {
+      "d": 100,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d100_B1000_T500_s911201",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d100_B1000_T500_s911201",
+      "data_hashes": {
+        "X.bin": "48321446d3643179d60ab727f0b2a472f80957b98176c1be9325ccceafa05d0b",
+        "y.bin": "3e791a04b54246aaeafeebd5f88e6b78bf4a493c8a86495acc3a4bf51460a38c",
+        "data.json": "d9c695aced0a54853943d0f75a14c214bdefc32feb58b54a8b69640996aa0a56"
+      },
+      "id": "signal_d100_B1000_T500_s911201__practical_m16n1__s912302",
+      "label": "practical_m16n1",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 16,
+        "transitions": 1
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d100_B1000_T500_s911201__practical_m16n1__s912302"
+    },
+    {
+      "d": 10,
+      "B": 100.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d10_B100_T500_s911202",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B100_T500_s911202",
+      "data_hashes": {
+        "X.bin": "707229c4fbbedf32392c77df12d3e0c1443a2a67b2c07681b68544ed2d88d30e",
+        "y.bin": "64cedbcd1835c79a656dc7916ca40ad844212acfdd3ba79e73873c248dcd55c6",
+        "data.json": "9d2cbb9ea9aa5f708e7a672d6943853a4677002a3d0dc71cb82b13f375010942"
+      },
+      "id": "signal_d10_B100_T500_s911202__practical_m16n1__s912301",
+      "label": "practical_m16n1",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 16,
+        "transitions": 1
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B100_T500_s911202__practical_m16n1__s912301"
+    },
+    {
+      "d": 1000,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d1000_B1000_T500_s911202",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1000_B1000_T500_s911202",
+      "data_hashes": {
+        "X.bin": "b477f65d95082d8a32525a6f1e89a4ac9c728b7f299aec4808e886fc5391d8ef",
+        "y.bin": "757ade2297b4da92286c2455de71222f58d2f46caf8075aeeaf831133f4b6257",
+        "data.json": "f460f835a7ea9c4ecabc499f6056e55972d2c4c90bbbabbb1bb3e0b407ba8cd9"
+      },
+      "id": "signal_d1000_B1000_T500_s911202__practical_m16n1__s912302",
+      "label": "practical_m16n1",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 16,
+        "transitions": 1
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1000_B1000_T500_s911202__practical_m16n1__s912302"
+    },
+    {
+      "d": 1000,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d1000_B1000_T500_s911202",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1000_B1000_T500_s911202",
+      "data_hashes": {
+        "X.bin": "b477f65d95082d8a32525a6f1e89a4ac9c728b7f299aec4808e886fc5391d8ef",
+        "y.bin": "757ade2297b4da92286c2455de71222f58d2f46caf8075aeeaf831133f4b6257",
+        "data.json": "f460f835a7ea9c4ecabc499f6056e55972d2c4c90bbbabbb1bb3e0b407ba8cd9"
+      },
+      "id": "signal_d1000_B1000_T500_s911202__author_aioli__s0",
+      "label": "author_aioli",
+      "seed": 0,
+      "algorithm": "author_aioli",
+      "config": {},
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1000_B1000_T500_s911202__author_aioli__s0"
+    },
+    {
+      "d": 100,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d100_B1000_T500_s911202",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d100_B1000_T500_s911202",
+      "data_hashes": {
+        "X.bin": "4c003c1178578ab117a10d68b45d645593c60c783045d3ff7e3fb2a46f290ee9",
+        "y.bin": "24def09858548c419e45a18b820cc469477adca1367ae423462f5057bc8dcdf0",
+        "data.json": "fe809637d03051deb6180d940fe0fc87046c2fe7fc25a0f2c4a5c8f655135990"
+      },
+      "id": "signal_d100_B1000_T500_s911202__practical_m64n4__s912302",
+      "label": "practical_m64n4",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 64,
+        "transitions": 4
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d100_B1000_T500_s911202__practical_m64n4__s912302"
+    },
+    {
+      "d": 10,
+      "B": 100.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d10_B100_T500_s911202",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B100_T500_s911202",
+      "data_hashes": {
+        "X.bin": "707229c4fbbedf32392c77df12d3e0c1443a2a67b2c07681b68544ed2d88d30e",
+        "y.bin": "64cedbcd1835c79a656dc7916ca40ad844212acfdd3ba79e73873c248dcd55c6",
+        "data.json": "9d2cbb9ea9aa5f708e7a672d6943853a4677002a3d0dc71cb82b13f375010942"
+      },
+      "id": "signal_d10_B100_T500_s911202__author_aioli__s0",
+      "label": "author_aioli",
+      "seed": 0,
+      "algorithm": "author_aioli",
+      "config": {},
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B100_T500_s911202__author_aioli__s0"
+    },
+    {
+      "d": 100,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d100_B1000_T500_s911202",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d100_B1000_T500_s911202",
+      "data_hashes": {
+        "X.bin": "4c003c1178578ab117a10d68b45d645593c60c783045d3ff7e3fb2a46f290ee9",
+        "y.bin": "24def09858548c419e45a18b820cc469477adca1367ae423462f5057bc8dcdf0",
+        "data.json": "fe809637d03051deb6180d940fe0fc87046c2fe7fc25a0f2c4a5c8f655135990"
+      },
+      "id": "signal_d100_B1000_T500_s911202__practical_m16n1__s912302",
+      "label": "practical_m16n1",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 16,
+        "transitions": 1
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d100_B1000_T500_s911202__practical_m16n1__s912302"
+    },
+    {
+      "d": 1000,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d1000_B1000_T500_s911202",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1000_B1000_T500_s911202",
+      "data_hashes": {
+        "X.bin": "b477f65d95082d8a32525a6f1e89a4ac9c728b7f299aec4808e886fc5391d8ef",
+        "y.bin": "757ade2297b4da92286c2455de71222f58d2f46caf8075aeeaf831133f4b6257",
+        "data.json": "f460f835a7ea9c4ecabc499f6056e55972d2c4c90bbbabbb1bb3e0b407ba8cd9"
+      },
+      "id": "signal_d1000_B1000_T500_s911202__practical_m64n4__s912301",
+      "label": "practical_m64n4",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 64,
+        "transitions": 4
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1000_B1000_T500_s911202__practical_m64n4__s912301"
+    },
+    {
+      "d": 10,
+      "B": 100.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d10_B100_T500_s911202",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B100_T500_s911202",
+      "data_hashes": {
+        "X.bin": "707229c4fbbedf32392c77df12d3e0c1443a2a67b2c07681b68544ed2d88d30e",
+        "y.bin": "64cedbcd1835c79a656dc7916ca40ad844212acfdd3ba79e73873c248dcd55c6",
+        "data.json": "9d2cbb9ea9aa5f708e7a672d6943853a4677002a3d0dc71cb82b13f375010942"
+      },
+      "id": "signal_d10_B100_T500_s911202__practical_m64n4__s912302",
+      "label": "practical_m64n4",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 64,
+        "transitions": 4
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B100_T500_s911202__practical_m64n4__s912302"
+    },
+    {
+      "d": 1000,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d1000_B1000_T500_s911201",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1000_B1000_T500_s911201",
+      "data_hashes": {
+        "X.bin": "d619b93d7dad2d6b957f844bf9714729c0e56c19309b1903d5454a80503ca0cd",
+        "y.bin": "73bc802588c9f3c6d2678ab617457cbbc423f4ea9097aa5cb1fe3cf2d1113800",
+        "data.json": "6572678052c3447e68f08e6fe961a19b118c16d2b03e2a0ecab00e42899690a0"
+      },
+      "id": "signal_d1000_B1000_T500_s911201__practical_m64n4__s912302",
+      "label": "practical_m64n4",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 64,
+        "transitions": 4
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1000_B1000_T500_s911201__practical_m64n4__s912302"
+    },
+    {
+      "d": 100,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d100_B1000_T500_s911201",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d100_B1000_T500_s911201",
+      "data_hashes": {
+        "X.bin": "48321446d3643179d60ab727f0b2a472f80957b98176c1be9325ccceafa05d0b",
+        "y.bin": "3e791a04b54246aaeafeebd5f88e6b78bf4a493c8a86495acc3a4bf51460a38c",
+        "data.json": "d9c695aced0a54853943d0f75a14c214bdefc32feb58b54a8b69640996aa0a56"
+      },
+      "id": "signal_d100_B1000_T500_s911201__practical_m64n4__s912302",
+      "label": "practical_m64n4",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 64,
+        "transitions": 4
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d100_B1000_T500_s911201__practical_m64n4__s912302"
+    },
+    {
+      "d": 1000,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d1000_B1000_T500_s911202",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1000_B1000_T500_s911202",
+      "data_hashes": {
+        "X.bin": "b477f65d95082d8a32525a6f1e89a4ac9c728b7f299aec4808e886fc5391d8ef",
+        "y.bin": "757ade2297b4da92286c2455de71222f58d2f46caf8075aeeaf831133f4b6257",
+        "data.json": "f460f835a7ea9c4ecabc499f6056e55972d2c4c90bbbabbb1bb3e0b407ba8cd9"
+      },
+      "id": "signal_d1000_B1000_T500_s911202__practical_m16n1__s912301",
+      "label": "practical_m16n1",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 16,
+        "transitions": 1
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1000_B1000_T500_s911202__practical_m16n1__s912301"
+    },
+    {
+      "d": 1000,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d1000_B1000_T500_s911201",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1000_B1000_T500_s911201",
+      "data_hashes": {
+        "X.bin": "d619b93d7dad2d6b957f844bf9714729c0e56c19309b1903d5454a80503ca0cd",
+        "y.bin": "73bc802588c9f3c6d2678ab617457cbbc423f4ea9097aa5cb1fe3cf2d1113800",
+        "data.json": "6572678052c3447e68f08e6fe961a19b118c16d2b03e2a0ecab00e42899690a0"
+      },
+      "id": "signal_d1000_B1000_T500_s911201__practical_m16n1__s912301",
+      "label": "practical_m16n1",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 16,
+        "transitions": 1
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1000_B1000_T500_s911201__practical_m16n1__s912301"
+    },
+    {
+      "d": 10,
+      "B": 100.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d10_B100_T500_s911201",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B100_T500_s911201",
+      "data_hashes": {
+        "X.bin": "584041fa1892bba89ad3457ae2172a679abb4d29b6a07d3858e567bc6dd0e8a0",
+        "y.bin": "fd7b079cfb5a77d3bb8d36c0d5f9ed4a1c60096c2ff331720fe60497744b1913",
+        "data.json": "fae4f42681e3be4251e2386f34eab61bdc82f9da34b938a7348a149877918e47"
+      },
+      "id": "signal_d10_B100_T500_s911201__practical_m16n1__s912302",
+      "label": "practical_m16n1",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 16,
+        "transitions": 1
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B100_T500_s911201__practical_m16n1__s912302"
+    },
+    {
+      "d": 100,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d100_B1000_T500_s911202",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d100_B1000_T500_s911202",
+      "data_hashes": {
+        "X.bin": "4c003c1178578ab117a10d68b45d645593c60c783045d3ff7e3fb2a46f290ee9",
+        "y.bin": "24def09858548c419e45a18b820cc469477adca1367ae423462f5057bc8dcdf0",
+        "data.json": "fe809637d03051deb6180d940fe0fc87046c2fe7fc25a0f2c4a5c8f655135990"
+      },
+      "id": "signal_d100_B1000_T500_s911202__practical_m64n4__s912301",
+      "label": "practical_m64n4",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 64,
+        "transitions": 4
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d100_B1000_T500_s911202__practical_m64n4__s912301"
+    },
+    {
+      "d": 10,
+      "B": 100.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d10_B100_T500_s911202",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B100_T500_s911202",
+      "data_hashes": {
+        "X.bin": "707229c4fbbedf32392c77df12d3e0c1443a2a67b2c07681b68544ed2d88d30e",
+        "y.bin": "64cedbcd1835c79a656dc7916ca40ad844212acfdd3ba79e73873c248dcd55c6",
+        "data.json": "9d2cbb9ea9aa5f708e7a672d6943853a4677002a3d0dc71cb82b13f375010942"
+      },
+      "id": "signal_d10_B100_T500_s911202__practical_m64n4__s912301",
+      "label": "practical_m64n4",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 64,
+        "transitions": 4
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B100_T500_s911202__practical_m64n4__s912301"
+    },
+    {
+      "d": 1000,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d1000_B1000_T500_s911202",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1000_B1000_T500_s911202",
+      "data_hashes": {
+        "X.bin": "b477f65d95082d8a32525a6f1e89a4ac9c728b7f299aec4808e886fc5391d8ef",
+        "y.bin": "757ade2297b4da92286c2455de71222f58d2f46caf8075aeeaf831133f4b6257",
+        "data.json": "f460f835a7ea9c4ecabc499f6056e55972d2c4c90bbbabbb1bb3e0b407ba8cd9"
+      },
+      "id": "signal_d1000_B1000_T500_s911202__practical_m64n4__s912302",
+      "label": "practical_m64n4",
+      "seed": 912302,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 64,
+        "transitions": 4
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1000_B1000_T500_s911202__practical_m64n4__s912302"
+    },
+    {
+      "d": 1000,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d1000_B1000_T500_s911201",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1000_B1000_T500_s911201",
+      "data_hashes": {
+        "X.bin": "d619b93d7dad2d6b957f844bf9714729c0e56c19309b1903d5454a80503ca0cd",
+        "y.bin": "73bc802588c9f3c6d2678ab617457cbbc423f4ea9097aa5cb1fe3cf2d1113800",
+        "data.json": "6572678052c3447e68f08e6fe961a19b118c16d2b03e2a0ecab00e42899690a0"
+      },
+      "id": "signal_d1000_B1000_T500_s911201__author_aioli__s0",
+      "label": "author_aioli",
+      "seed": 0,
+      "algorithm": "author_aioli",
+      "config": {},
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1000_B1000_T500_s911201__author_aioli__s0"
+    },
+    {
+      "d": 10,
+      "B": 100.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d10_B100_T500_s911201",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B100_T500_s911201",
+      "data_hashes": {
+        "X.bin": "584041fa1892bba89ad3457ae2172a679abb4d29b6a07d3858e567bc6dd0e8a0",
+        "y.bin": "fd7b079cfb5a77d3bb8d36c0d5f9ed4a1c60096c2ff331720fe60497744b1913",
+        "data.json": "fae4f42681e3be4251e2386f34eab61bdc82f9da34b938a7348a149877918e47"
+      },
+      "id": "signal_d10_B100_T500_s911201__practical_m16n1__s912301",
+      "label": "practical_m16n1",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 16,
+        "transitions": 1
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B100_T500_s911201__practical_m16n1__s912301"
+    },
+    {
+      "d": 10,
+      "B": 100.0,
+      "T": 500,
+      "rounds": 500,
+      "case_id": "signal_d10_B100_T500_s911201",
+      "stage": "practical",
+      "seconds": 20.0,
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B100_T500_s911201",
+      "data_hashes": {
+        "X.bin": "584041fa1892bba89ad3457ae2172a679abb4d29b6a07d3858e567bc6dd0e8a0",
+        "y.bin": "fd7b079cfb5a77d3bb8d36c0d5f9ed4a1c60096c2ff331720fe60497744b1913",
+        "data.json": "fae4f42681e3be4251e2386f34eab61bdc82f9da34b938a7348a149877918e47"
+      },
+      "id": "signal_d10_B100_T500_s911201__practical_m64n4__s912301",
+      "label": "practical_m64n4",
+      "seed": 912301,
+      "algorithm": "soft_bayes",
+      "config": {
+        "mode": "practical",
+        "samples": 64,
+        "transitions": 4
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B100_T500_s911201__practical_m64n4__s912301"
+    },
+    {
+      "id": "signal_d10_B100_T500_s911201__prescribed_resource__s912301",
+      "stage": "resource",
+      "label": "prescribed_resource",
+      "algorithm": "soft_bayes",
+      "d": 10,
+      "B": 100.0,
+      "T": 500,
+      "rounds": 500,
+      "seconds": 10.0,
+      "seed": 912301,
+      "case_id": "signal_d10_B100_T500_s911201",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d10_B100_T500_s911201",
+      "data_hashes": {
+        "X.bin": "584041fa1892bba89ad3457ae2172a679abb4d29b6a07d3858e567bc6dd0e8a0",
+        "y.bin": "fd7b079cfb5a77d3bb8d36c0d5f9ed4a1c60096c2ff331720fe60497744b1913",
+        "data.json": "fae4f42681e3be4251e2386f34eab61bdc82f9da34b938a7348a149877918e47"
+      },
+      "config": {
+        "mode": "prescribed",
+        "max_total_moves": null
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d10_B100_T500_s911201__prescribed_resource__s912301"
+    },
+    {
+      "id": "signal_d100_B1000_T500_s911201__prescribed_resource__s912301",
+      "stage": "resource",
+      "label": "prescribed_resource",
+      "algorithm": "soft_bayes",
+      "d": 100,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "seconds": 10.0,
+      "seed": 912301,
+      "case_id": "signal_d100_B1000_T500_s911201",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d100_B1000_T500_s911201",
+      "data_hashes": {
+        "X.bin": "48321446d3643179d60ab727f0b2a472f80957b98176c1be9325ccceafa05d0b",
+        "y.bin": "3e791a04b54246aaeafeebd5f88e6b78bf4a493c8a86495acc3a4bf51460a38c",
+        "data.json": "d9c695aced0a54853943d0f75a14c214bdefc32feb58b54a8b69640996aa0a56"
+      },
+      "config": {
+        "mode": "prescribed",
+        "max_total_moves": null
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d100_B1000_T500_s911201__prescribed_resource__s912301"
+    },
+    {
+      "id": "signal_d1000_B1000_T500_s911201__prescribed_resource__s912301",
+      "stage": "resource",
+      "label": "prescribed_resource",
+      "algorithm": "soft_bayes",
+      "d": 1000,
+      "B": 1000.0,
+      "T": 500,
+      "rounds": 500,
+      "seconds": 10.0,
+      "seed": 912301,
+      "case_id": "signal_d1000_B1000_T500_s911201",
+      "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\soft_bayes_2026-09-11\\signal_d1000_B1000_T500_s911201",
+      "data_hashes": {
+        "X.bin": "d619b93d7dad2d6b957f844bf9714729c0e56c19309b1903d5454a80503ca0cd",
+        "y.bin": "73bc802588c9f3c6d2678ab617457cbbc423f4ea9097aa5cb1fe3cf2d1113800",
+        "data.json": "6572678052c3447e68f08e6fe961a19b118c16d2b03e2a0ecab00e42899690a0"
+      },
+      "config": {
+        "mode": "prescribed",
+        "max_total_moves": null
+      },
+      "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\soft_bayes_2026-09-11\\runs\\signal_d1000_B1000_T500_s911201__prescribed_resource__s912301"
+    }
+  ],
+  "preflight": [
+    {
+      "d": 1,
+      "B": 1.0,
+      "T": 12,
+      "preflight": {
+        "d": 1,
+        "B": 1.0,
+        "T": 12,
+        "R": 1.0,
+        "mode": "prescribed",
+        "prescribed": {
+          "m": 12,
+          "lam": 1.0,
+          "kappa": 1.0,
+          "H": 6.755768921984255,
+          "A": 65.99999999999997,
+          "log_A": 4.189654742026425,
+          "J": 2,
+          "N_max": 48,
+          "log_N_max": 3.854602491958179,
+          "expected_charged_operations_bound": 37684310.945870675,
+          "log_expected_charged_operations_bound": 17.444754410519653,
+          "theoretical_cells": 156,
+          "neutral": false
+        },
+        "actual_samples": 12,
+        "actual_max_transitions": 48,
+        "estimated_total_moves": 6336,
+        "max_total_moves": null,
+        "estimated_state_bytes": 2432,
+        "history_block_size": 1,
+        "memory_representation": "raw feature history plus scalar/vector summaries",
+        "feasible": true,
+        "budget_reasons": [],
+        "floating_point_certificate": false,
+        "exact_primitive_operation_counter": false,
+        "section_10_global_operation_cap_implemented": false
+      }
+    },
+    {
+      "d": 10,
+      "B": 1.0,
+      "T": 20,
+      "preflight": {
+        "d": 10,
+        "B": 1.0,
+        "T": 20,
+        "R": 1.0,
+        "mode": "prescribed",
+        "prescribed": {
+          "m": 20,
+          "lam": 1.0,
+          "kappa": 1.0,
+          "H": 8.291797105048733,
+          "A": 189.99999999999983,
+          "log_A": 5.247024072160485,
+          "J": 2,
+          "N_max": 92,
+          "log_N_max": 4.512472675687788,
+          "expected_charged_operations_bound": 3279144089.516567,
+          "log_expected_charged_operations_bound": 21.910848276971407,
+          "theoretical_cells": 488,
+          "neutral": false
+        },
+        "actual_samples": 20,
+        "actual_max_transitions": 92,
+        "estimated_total_moves": 34960,
+        "max_total_moves": null,
+        "estimated_state_bytes": 6528,
+        "history_block_size": 10,
+        "memory_representation": "raw feature history plus scalar/vector summaries",
+        "feasible": true,
+        "budget_reasons": [],
+        "floating_point_certificate": false,
+        "exact_primitive_operation_counter": false,
+        "section_10_global_operation_cap_implemented": false
+      }
+    },
+    {
+      "d": 10,
+      "B": 10.0,
+      "T": 50,
+      "preflight": {
+        "d": 10,
+        "B": 10.0,
+        "T": 50,
+        "R": 1.0,
+        "mode": "prescribed",
+        "prescribed": {
+          "m": 50,
+          "lam": 0.01,
+          "kappa": 100.00000000000004,
+          "H": 15.64769210175526,
+          "A": 122500.00000000012,
+          "log_A": 11.71586630896692,
+          "J": 3,
+          "N_max": 38361,
+          "log_N_max": 10.554778783800224,
+          "expected_charged_operations_bound": 25326325235927.79,
+          "log_expected_charged_operations_bound": 30.86286549385223,
+          "theoretical_cells": 788,
+          "neutral": false
+        },
+        "actual_samples": 50,
+        "actual_max_transitions": 38361,
+        "estimated_total_moves": 93984450,
+        "max_total_moves": null,
+        "estimated_state_bytes": 8928,
+        "history_block_size": 10,
+        "memory_representation": "raw feature history plus scalar/vector summaries",
+        "feasible": true,
+        "budget_reasons": [],
+        "floating_point_certificate": false,
+        "exact_primitive_operation_counter": false,
+        "section_10_global_operation_cap_implemented": false
+      }
+    },
+    {
+      "d": 10,
+      "B": 100.0,
+      "T": 500,
+      "preflight": {
+        "d": 10,
+        "B": 100.0,
+        "T": 500,
+        "R": 1.0,
+        "mode": "prescribed",
+        "prescribed": {
+          "m": 500,
+          "lam": 0.0001,
+          "kappa": 10000.00000000001,
+          "H": 27.161013486676413,
+          "A": 1247500000.000004,
+          "log_A": 20.94440738558995,
+          "J": 4,
+          "N_max": 67766770,
+          "log_N_max": 18.031582505779443,
+          "expected_charged_operations_bound": 5.4159219528631165e+19,
+          "log_expected_charged_operations_bound": 45.43845989191722,
+          "theoretical_cells": 5288,
+          "neutral": false
+        },
+        "actual_samples": 500,
+        "actual_max_transitions": 67766770,
+        "estimated_total_moves": 16907809115000,
+        "max_total_moves": null,
+        "estimated_state_bytes": 44928,
+        "history_block_size": 10,
+        "memory_representation": "raw feature history plus scalar/vector summaries",
+        "feasible": true,
+        "budget_reasons": [],
+        "floating_point_certificate": false,
+        "exact_primitive_operation_counter": false,
+        "section_10_global_operation_cap_implemented": false
+      }
+    },
+    {
+      "d": 100,
+      "B": 1000.0,
+      "T": 500,
+      "preflight": {
+        "d": 100,
+        "B": 1000.0,
+        "T": 500,
+        "R": 1.0,
+        "mode": "prescribed",
+        "prescribed": {
+          "m": 500,
+          "lam": 1e-06,
+          "kappa": 999999.9999999995,
+          "H": 31.76618367266292,
+          "A": 124749999999.99979,
+          "log_A": 25.549577571578038,
+          "J": 4,
+          "N_max": 7925662874,
+          "log_N_max": 22.79337179661609,
+          "expected_charged_operations_bound": 6.334189789067303e+22,
+          "log_expected_charged_operations_bound": 52.502833957077335,
+          "theoretical_cells": 51728,
+          "neutral": false
+        },
+        "actual_samples": 500,
+        "actual_max_transitions": 7925662874,
+        "estimated_total_moves": 1977452887063000,
+        "max_total_moves": null,
+        "estimated_state_bytes": 430848,
+        "history_block_size": 100,
+        "memory_representation": "raw feature history plus scalar/vector summaries",
+        "feasible": true,
+        "budget_reasons": [],
+        "floating_point_certificate": false,
+        "exact_primitive_operation_counter": false,
+        "section_10_global_operation_cap_implemented": false
+      }
+    },
+    {
+      "d": 1000,
+      "B": 1000.0,
+      "T": 500,
+      "preflight": {
+        "d": 1000,
+        "B": 1000.0,
+        "T": 500,
+        "R": 1.0,
+        "mode": "prescribed",
+        "prescribed": {
+          "m": 500,
+          "lam": 1e-06,
+          "kappa": 999999.9999999995,
+          "H": 31.76618367266292,
+          "A": 124749999999.99979,
+          "log_A": 25.549577571578038,
+          "J": 4,
+          "N_max": 7925662874,
+          "log_N_max": 22.79337179661609,
+          "expected_charged_operations_bound": 6.334189789067286e+23,
+          "log_expected_charged_operations_bound": 54.80541905007138,
+          "theoretical_cells": 516128,
+          "neutral": false
+        },
+        "actual_samples": 500,
+        "actual_max_transitions": 7925662874,
+        "estimated_total_moves": 1977452887063000,
+        "max_total_moves": null,
+        "estimated_state_bytes": 4242048,
+        "history_block_size": 500,
+        "memory_representation": "raw feature history plus scalar/vector summaries",
+        "feasible": true,
+        "budget_reasons": [],
+        "floating_point_certificate": false,
+        "exact_primitive_operation_counter": false,
+        "section_10_global_operation_cap_implemented": false
+      }
+    }
+  ],
+  "expected_attempts": 51
+}

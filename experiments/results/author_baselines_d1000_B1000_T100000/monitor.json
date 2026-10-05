@@ -1,0 +1,13 @@
+{
+  "automation_id": "overnight-d1000-benchmark-result",
+  "status": "ACTIVE",
+  "interval_hours": 8,
+  "notify_only_meaningful_change": true,
+  "algorithms": [
+    "author_aioli",
+    "author_sigmoid"
+  ],
+  "reused_new16_not_rerun": true,
+  "report_command": "experiments/.venv/Scripts/python.exe -m experiments.author_baseline_report --folder experiments/results/author_baselines_d1000_B1000_T100000",
+  "no_analysis_while_measurements_active": true
+}

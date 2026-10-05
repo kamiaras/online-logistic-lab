@@ -1,0 +1,20 @@
+{
+  "algorithm": "shared",
+  "config": {
+    "mode": "prescribed"
+  },
+  "d": 2,
+  "B": 1.0,
+  "T": 10,
+  "sampler_seed": 159195,
+  "data_seed": 70022,
+  "case_id": "signal_d2_B1_T10_s70022",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d2_B1_T10_s70022",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_prescribed\\signal_d2_B1_T10_s70022__shared__prescribed",
+  "seconds": 15,
+  "memory_bytes": 2147483648,
+  "stage": "shared_prescribed",
+  "label": "prescribed",
+  "source_stage": "prescribed",
+  "source_manifest": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\prescribed\\manifest.json"
+}

@@ -1,0 +1,38 @@
+{
+  "weighted_centered_Gram_identity_error": 2.7755575615628914e-17,
+  "all_tree_mass_identity_errors": [
+    2.7755575615628914e-17,
+    2.7755575615628914e-17,
+    1.3877787807814457e-17,
+    5.551115123125783e-17
+  ],
+  "ANOVA_matrix_identity_error": 4.440892098500626e-16,
+  "row_weight_domination_min_slack": 0.040277131279931044,
+  "row_weight_inflation_max": 0.4042600834003993,
+  "permitted_inflation_2s": 0.4143018508518228,
+  "drift_ledger": {
+    "build_indices": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      18,
+      25,
+      32
+    ],
+    "charged_trace": 0.1296,
+    "actual_trace": 1.794022639432715,
+    "sum_build_sizes": 96,
+    "trace_bound": 922.9371058926988
+  },
+  "target_analytic_counts": {
+    "block_tree_nodes": 199,
+    "tree_cells": 796398,
+    "tree_bytes_at_8_bytes_per_cell": 6371184,
+    "naive_rebuilt_history_rows": 5000050000,
+    "trace_point1_rho_point0005_rebuilt_rows_bound": 500000.00000000006,
+    "matrix_gate_rho_point0005_rebuilt_rows_bound": 766666.6666666666
+  },
+  "scope": "Algebraic identities and analytic resource bounds; not an online prediction benchmark."
+}

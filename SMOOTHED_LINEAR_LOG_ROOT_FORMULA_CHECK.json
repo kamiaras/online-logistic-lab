@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "scope": "Scalar proof identities, exact one-step uniform-feature integrals, and reference update checks; no learning benchmark.",
+  "checked_assertions": 4612,
+  "max_local_loss_identity_error": 2.9176661087149114e-13,
+  "max_local_regret_inequality_slack": -2.6777609238845696e-09,
+  "max_one_step_feature_mgf": 0.9999990206470789,
+  "prior_numerical_setting_formula_only": {
+    "d": 1000,
+    "B": 1000,
+    "R": 1,
+    "delta": 0.001,
+    "epsilon": 0.001,
+    "T": 100000,
+    "q": 0.0004997500000000001,
+    "k": 6.243753123438282e-08,
+    "nu_normalized": 9.98003992015968e-10,
+    "bound_using_one_plus_log_T": 1.004039643146253e+17,
+    "note": "The polynomial coefficient is large at tiny noise/floor. This is an analytic bound, not a measured loss or runtime."
+  }
+}

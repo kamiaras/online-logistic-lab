@@ -1,0 +1,30 @@
+{
+  "case": "signal_d10_B100_T1000_s72001",
+  "d": 10,
+  "B": 100.0,
+  "T": 1000,
+  "seed": 910001,
+  "rounds": 500,
+  "seconds": 90.0,
+  "stage": "budget",
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\shared_ablation\\budget__signal_d10_B100_T1000_s72001__B100__lanes_warm_full_m64n1__s910001",
+  "config": {
+    "mode": "practical",
+    "tilts": 64,
+    "burn_in": 1,
+    "transitions": 1,
+    "history_block_size": 128,
+    "layout": "lanes",
+    "persistence": "warm",
+    "acceptance": "full",
+    "capture_checkpoints": [
+      10,
+      50,
+      100,
+      250,
+      500
+    ],
+    "capture_per_round": 2
+  }
+}

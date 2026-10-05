@@ -1,0 +1,187 @@
+{
+  "attempted": [
+    {
+      "index": 1,
+      "total": 18,
+      "method": "current16",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910003,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 1.612749600011739
+    },
+    {
+      "index": 2,
+      "total": 18,
+      "method": "original256",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910002,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 13.257136600004742
+    },
+    {
+      "index": 3,
+      "total": 18,
+      "method": "legacy16",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910002,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 1.6140406999911647
+    },
+    {
+      "index": 4,
+      "total": 18,
+      "method": "current16",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910001,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 1.6141361000045436
+    },
+    {
+      "index": 5,
+      "total": 18,
+      "method": "current16",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910001,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 1.4133451999950921
+    },
+    {
+      "index": 6,
+      "total": 18,
+      "method": "original256",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910003,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 12.051143000004231
+    },
+    {
+      "index": 7,
+      "total": 18,
+      "method": "original256",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910001,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 8.54852120000578
+    },
+    {
+      "index": 8,
+      "total": 18,
+      "method": "legacy16",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910001,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 1.313949599993066
+    },
+    {
+      "index": 9,
+      "total": 18,
+      "method": "legacy16",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910001,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 1.6134481000044616
+    },
+    {
+      "index": 10,
+      "total": 18,
+      "method": "legacy16",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910002,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 1.3143803999992087
+    },
+    {
+      "index": 11,
+      "total": 18,
+      "method": "current16",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910003,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 1.6148140000004787
+    },
+    {
+      "index": 12,
+      "total": 18,
+      "method": "legacy16",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910003,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 1.8201694000017596
+    },
+    {
+      "index": 13,
+      "total": 18,
+      "method": "legacy16",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910003,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 1.320258499996271
+    },
+    {
+      "index": 14,
+      "total": 18,
+      "method": "original256",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910001,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 13.258456199997454
+    },
+    {
+      "index": 15,
+      "total": 18,
+      "method": "original256",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910002,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 8.146192000000156
+    },
+    {
+      "index": 16,
+      "total": 18,
+      "method": "current16",
+      "case": "signal_d100_B1000_T1000_s72001",
+      "seed": 910002,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 1.615122800008976
+    },
+    {
+      "index": 17,
+      "total": 18,
+      "method": "current16",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910002,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 1.4130617000046186
+    },
+    {
+      "index": 18,
+      "total": 18,
+      "method": "original256",
+      "case": "signal_d10_B100_T1000_s72001",
+      "seed": 910003,
+      "status": "completed",
+      "round": 500,
+      "wall_seconds": 8.943326199994772
+    }
+  ],
+  "wall_seconds": 82.69779839999683,
+  "sources_and_data_unchanged": true,
+  "exploratory_after_initial_results": true
+}

@@ -1,0 +1,15 @@
+{
+  "experiments/shared_tangent.py": "5ad659add48535ca16ed429ef1df2647eb52c01140c79c0a85de43b1d3ce2393",
+  "experiments/shared_tangent_primitives.py": "b8853808be771fafbb526e84dd873832480d0095f0c1a3c4947559d16f4fc55a",
+  "experiments/proximal.py": "9188584f588cb589004fe21ae3fc9eb2f7dc5a0c021d1edd07d70e9b36afb7af",
+  "experiments/data.py": "8ecd2fecdf6a5e454e9240363321fa1e79d180a38d7bf998a45a053afadceaa1",
+  "experiments/sigmoid.py": "de41cb603de2371c8ee1b65775c3cd9e0013ca8b0ab20fddf823c0bf4356a9d8",
+  "experiments/aioli.py": "edc9bddc0198c2b0bdb13e536196eaaeead5a1559ad0ee3b7e0e27bf3668ae47",
+  "INTEGRATED_LOG_ODDS_COMPLETE.md": "ca183007c578da6185d6cdac9b5b863cfc580b38d82e2efdbdde9bce1bd47b39",
+  "experiments/persistent_log_odds.py": "1124247f1a1da5efc73e681b0202279b93da81579ba2a04ad95d6c963ea09920",
+  "experiments/batched_persistent_log_odds.py": "cee5568505b885222761b99fd13ef5f57c18d882eb31e03d976e1e5b1f13d1de",
+  "experiments/batched_performance_worker.py": "75c82a3c740373ba0b18de4f0c6869ed87440bf12702cb1c2e93f630ce3c532a",
+  "experiments/batched_performance_campaign.py": "a55933d981372b93219bda293ee9383798824babdd3656cfdbcaf7226a4025bd",
+  "experiments/common.py": "d176b1757823459eb8ec2383da67cbc4fed44a52f0dcad0c0815c1d05ee32ff7",
+  "BATCHED_PERFORMANCE_PLAN.md": "cf9c79b1e037c6296bba70f9864e5af6892105b47f3b0885dd4580cceecd24d0"
+}

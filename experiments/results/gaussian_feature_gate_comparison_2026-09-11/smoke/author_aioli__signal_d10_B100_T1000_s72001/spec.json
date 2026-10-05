@@ -1,0 +1,22 @@
+{
+  "stage": "smoke",
+  "case": "signal_d10_B100_T1000_s72001",
+  "d": 10,
+  "B": 100.0,
+  "T": 1000,
+  "rounds": 8,
+  "data_seed": 72001,
+  "seed": 910001,
+  "algorithm": "author_aioli",
+  "config": {
+    "R": 1.0,
+    "lam": 0.0001,
+    "T_inner": 80,
+    "omega_solver": "lbfgs"
+  },
+  "seconds": 30.0,
+  "memory_bytes": 2147483648,
+  "data_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\data\\signal_d10_B100_T1000_s72001",
+  "output": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\smoke\\author_aioli__signal_d10_B100_T1000_s72001",
+  "stop_path": "C:\\Users\\Kamiar\\Desktop\\random ideas\\ols2\\experiments\\results\\gaussian_feature_gate_comparison_2026-09-11\\STOP_REQUESTED"
+}
