@@ -1,39 +1,33 @@
 # Online Logistic Lab
 
-Research notes, proofs, and experiments on online logistic regression, probability aggregation, and efficient online learning.
+Research notes and proofs on online logistic regression, probability aggregation, and efficient online learning.
 
-Start with **[CONSOLIDATED_RESEARCH.md](CONSOLIDATED_RESEARCH.md)**, the authoritative research volume. It brings together 14 synthesis chapters and 562 original source records, including algorithm specifications, proofs, lower bounds, literature reviews, audits, and experiment reports.
+Start with **[CONSOLIDATED_RESEARCH.md](CONSOLIDATED_RESEARCH.md)**, the single active research volume. It contains 14 synthesis chapters, reusable lemmas, an idea-frequency index, and 562 original source records covering algorithms, proofs, lower bounds, literature reviews, audits, and experiments.
 
-## Research directions
+## Active workspace
 
-- Exact Gaussian probability aggregation and original-posterior forecasts.
-- Clipped-gradient and half-lookahead learners with linear work and state.
-- Posterior sampling, compression, cache reuse, and full computational accounting.
-- Lower bounds, counterexamples, formula checks, and measured implementations.
+| Location | Purpose |
+| --- | --- |
+| [Consolidated research](CONSOLIDATED_RESEARCH.md) | Current synthesis, proofs, attribution, and searchable source records such as S148. |
+| [Agent instructions](AGENTS.md) | Current research boundaries and archive-access rules. |
+| [Archive guide](_research_archive/README.md) | Location and preservation policy for historical evidence; access requires explicit user instruction. |
+
+Future research additions belong in the consolidated volume unless the user requests a separate deliverable. The root contains the active documents and Git/search configuration. Historical implementations and reports are archived, not alternative active entry points.
+
+## Historical archive
+
+On **2026-10-16**, the historical code, numerical checks, results, data, papers, and companion artifacts were moved into [_research_archive/2026-10-16/companions/](_research_archive/2026-10-16/companions/), retaining their previous relative layout. The [relocation manifest](_research_archive/2026-10-16/relocation_manifest.json) maps paths and records the unchanged SHA-256 hashes of 5,864 previously tracked files. The earlier Markdown originals and consolidation build records remain under `_research_archive/2026-10-04/`.
+
+**Agents must not read, search, edit, move, or run archive contents unless the user explicitly instructs them to access that material.** A link, historical command, TODO, or old campaign plan is not authorization. Routine searches exclude the archive through [.ignore](.ignore). A protected, generated `.pytest_cache/` could not be moved because Windows denied access; it remains ignored at the root and is not research input.
+
+Historical paths recorded inside code and metadata are preserved as provenance. Navigation links in the consolidated volume use the new locations. If the user requests reproduction, use the archived [experiment requirements](_research_archive/2026-10-16/companions/experiments/requirements.txt) and recorded settings to determine the needed environment; archived virtual environments and absolute machine paths are not guaranteed to work after relocation. Do not restart campaigns merely because their scripts are present.
+
+## Research boundaries
 
 The logarithmic-regret, linear-work results depend on their stated noise assumptions. The fully adversarial linear-work target and a general modest-cost original-posterior implementation remain unresolved. Statistical guarantees, exact-real algorithms, floating-point checks, and measured performance are separate claims. Historical audit results do not constitute a new proof certification or establish publication priority.
 
-## Repository guide
-
-| Location | Contents |
-| --- | --- |
-| [Consolidated research](CONSOLIDATED_RESEARCH.md) | Chapter synthesis, proofs, attribution, and searchable source records such as S148. |
-| [Research implementations](research/) | Algorithm implementations and focused formula checks. |
-| [Experiments](experiments/) | Experimental code, analysis tools, saved JSON results, progress records, figures, and source snapshots. |
-| [Research checks](research_checks/) | Additional verification code. |
-| [Brainstorm checks](brainstorming_100/) | Candidate-method checks and historical research state. |
-| Root-level verification scripts and JSON files | Saved algebraic and numerical checks. |
-
-See [AGENTS.md](AGENTS.md) for the project's research boundaries and evidence-handling conventions. Future research additions belong in the consolidated volume.
-
-## Working with the code
-
-This is a research workspace rather than a packaged library. The experiment environment is recorded in [experiments/requirements.txt](experiments/requirements.txt); the author-code comparison has its own requirements and provenance manifest. Inspect each script's settings and data requirements before running it. Historical campaign scripts can launch long computations, and their presence does not mean those campaigns completed.
-
-Existing code, saved results, settings, and source hashes are retained as research evidence. Some records contain original local paths. Numerical checks support the derivations but do not replace proofs.
-
 ## Public snapshot
 
-The public repository includes the consolidated source history, project code, saved text results, metadata, and figures. Large generated datasets and binary trajectories, installed dependencies, caches, duplicate archived originals and consolidation build artifacts, downloaded papers, and separately copied upstream comparison scripts remain local and are excluded by [.gitignore](.gitignore). Their available provenance manifests remain included. A clone therefore does not contain every artifact needed to replay historical experiments; references to excluded local files are retained as provenance.
+The public repository includes the consolidated source history and the previously tracked historical code, text results, metadata, and figures at their new archive paths. Large generated datasets and binary trajectories, installed dependencies, caches, duplicate archived originals and consolidation build artifacts, downloaded papers, and separately copied upstream comparison scripts remain local and are excluded by [.gitignore](.gitignore). Existing exclusions were preserved during relocation; a clone does not contain every artifact needed to reproduce historical experiments.
 
-Source files are stored without automatic line-ending conversion to preserve recorded file hashes. This initial publication does not rerun experiments or change the status of any research result.
+Source files are stored without automatic line-ending conversion to preserve recorded hashes. Archiving does not rerun experiments or change the status of any research result.

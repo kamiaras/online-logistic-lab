@@ -7,7 +7,7 @@ __pycache__/
 .venv/
 venv/
 .matplotlib/
-/research/author_code_comparison_2026-09-11/dependencies/
+/_research_archive/2026-10-16/companions/research/author_code_comparison_2026-09-11/dependencies/
 
 # Local credentials and machine settings
 .env
@@ -25,17 +25,18 @@ Thumbs.db
 *.npy
 *.npz
 
-# Source history is already preserved in CONSOLIDATED_RESEARCH.md
-/_research_archive/
+# Duplicate originals/build records and local relocation checks stay local; moved tracked evidence is retained
+/_research_archive/2026-10-04/
+/_research_archive/2026-10-16/local-verification/
 /consolidation/
 
 # Downloaded publications and extracted copies
-/research_sources/
-/paper-audit-*.pdf
-/paper-audit-*.txt
-/paper-audit-lemma11.png
+/_research_archive/2026-10-16/companions/research_sources/
+/_research_archive/2026-10-16/companions/paper-audit-*.pdf
+/_research_archive/2026-10-16/companions/paper-audit-*.txt
+/_research_archive/2026-10-16/companions/paper-audit-lemma11.png
 
 # Separately downloaded upstream comparison code; retain its source manifest
-/research/author_code_comparison_2026-09-11/a9a_experiment.py
-/research/author_code_comparison_2026-09-11/b_sweep_aioli_ew.py
-/research/author_code_comparison_2026-09-11/libsvm_datasets.py
+/_research_archive/2026-10-16/companions/research/author_code_comparison_2026-09-11/a9a_experiment.py
+/_research_archive/2026-10-16/companions/research/author_code_comparison_2026-09-11/b_sweep_aioli_ew.py
+/_research_archive/2026-10-16/companions/research/author_code_comparison_2026-09-11/libsvm_datasets.py

@@ -1,2 +1,4 @@
+# Historical evidence is opt-in only; see AGENTS.md.
 _research_archive/
 consolidation/
+.pytest_cache/
