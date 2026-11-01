@@ -4,6 +4,21 @@ Research notes and proofs on online logistic regression, probability aggregation
 
 Start with **[CONSOLIDATED_RESEARCH.md](CONSOLIDATED_RESEARCH.md)**, the single active research volume. It contains 14 synthesis chapters, reusable lemmas, an idea-frequency index, and 562 original source records covering algorithms, proofs, lower bounds, literature reviews, audits, and experiments.
 
+## Reader guide
+
+This is an active research collection. The logarithmic-regret, linear-work results rely on their stated noise assumptions; the fully adversarial linear-work target and a general modest-cost original-posterior implementation remain unresolved.
+
+| What you want to read | Start here |
+| --- | --- |
+| Problem setup, comparators, and reference methods | [Chapter 1](CONSOLIDATED_RESEARCH.md#chapter-1) |
+| A map of the research and its assumptions | [Chapter map](CONSOLIDATED_RESEARCH.md#chapter-map) and [results comparison](CONSOLIDATED_RESEARCH.md#main-results-and-the-limits-of-the-comparison) |
+| Linear-work learners under noise assumptions | [Chapter 11](CONSOLIDATED_RESEARCH.md#chapter-11) |
+| Counterexamples and limitations | [Chapter 12](CONSOLIDATED_RESEARCH.md#chapter-12) |
+| Partial results and open directions | [Chapter 13](CONSOLIDATED_RESEARCH.md#chapter-13) |
+| Historical implementations and measured evidence | [Chapter 14](CONSOLIDATED_RESEARCH.md#chapter-14) |
+
+The consolidated volume is large. Use its chapter links and stable source identifiers to navigate; a source's historical audit status is not a new certification. The [public snapshot](#public-snapshot) section explains which reproduction artifacts are absent from a clone. The archive-access rules below remain in force.
+
 ## Active workspace
 
 | Location | Purpose |
